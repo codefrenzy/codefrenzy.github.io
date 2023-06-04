@@ -2,9 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Annie Vella</title>
-    <link>http://example.org/categories/</link>
+    <link>http://annievella.com/categories/</link>
     <description>Recent content in Categories on Annie Vella</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>&amp;copy; Copyright 2023 Annie Vella</copyright><atom:link href="http://annievella.com/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

@@ -1,43 +1,21 @@
-<?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Annie Vella</title>
-    <link>http://example.org/</link>
+    <link>http://annievella.com/</link>
     <description>Recent content on Annie Vella</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jun 2023 09:03:20 -0800</lastBuildDate>
-    
-        <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    
-        <item>
-        <title>My Second Post</title>
-        <link>http://example.org/posts/my-second-post/</link>
-        <pubDate>Thu, 01 Jun 2023 09:03:20 -0800</pubDate>
-        
-        <guid>http://example.org/posts/my-second-post/</guid>
-        <description>Annie Vella http://example.org/posts/my-second-post/ -&lt;h2 id=&#34;hello&#34;&gt;Hello&lt;/h2&gt;
-&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;
-&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;
-- http://example.org/posts/my-second-post/ - </description>
-        </item>
-    
-    
-    
-        <item>
-        <title>My First Post</title>
-        <link>http://example.org/posts/my-first-post/</link>
-        <pubDate>Sun, 20 Nov 2022 09:03:20 -0800</pubDate>
-        
-        <guid>http://example.org/posts/my-first-post/</guid>
-        <description>Annie Vella http://example.org/posts/my-first-post/ -&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
-&lt;p&gt;This is &lt;strong&gt;bold&lt;/strong&gt; text, and this is &lt;em&gt;emphasized&lt;/em&gt; text.&lt;/p&gt;
-&lt;p&gt;Visit the &lt;a href=&#34;https://gohugo.io&#34;&gt;Hugo&lt;/a&gt; website!&lt;/p&gt;
-- http://example.org/posts/my-first-post/ - </description>
-        </item>
-    
+    <copyright>&amp;copy; Copyright 2023 Annie Vella</copyright>
+    <lastBuildDate>Thu, 01 Jun 2023 22:00:00 +1200</lastBuildDate><atom:link href="http://annievella.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Back to blogging</title>
+      <link>http://annievella.com/posts/my-first-post/</link>
+      <pubDate>Thu, 01 Jun 2023 22:00:00 +1200</pubDate>
+      
+      <guid>http://annievella.com/posts/my-first-post/</guid>
+      <description>Introduction After a long break from blogging, I&amp;rsquo;m back. Lately I&amp;rsquo;ve been feeling the urge to write down my thoughts, and I figured I may as well publish them in a way that maybe, just maybe, someone else might get something out of my musings as well.</description>
+    </item>
     
   </channel>
-</rss> 
+</rss>
