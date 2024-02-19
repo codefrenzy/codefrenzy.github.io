@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>System design is hard - Annie Vella</title>
+  <meta property="og:title" content="System design is hard - Annie Vella" />
+  <meta name="twitter:title" content="System design is hard - Annie Vella" />
+  <meta name="description" content="System design is both really important and really tricky to get right. Designing a system to satisfy the stated requirements - functional and non-functional - as well as be able to be built by the teams, within the timeframe required, with the tooling available, and last but not least, in a way that is easy to change and scale and maintain for the foreseeable future… it’s a lot to take into account!">
+  <meta property="og:description" content="System design is both really important and really tricky to get right. Designing a system to satisfy the stated requirements - functional and non-functional - as well as be able to be built by the teams, within the timeframe required, with the tooling available, and last but not least, in a way that is easy to change and scale and maintain for the foreseeable future… it’s a lot to take into account!">
+  <meta name="twitter:description" content="System design is both really important and really tricky to get right. Designing a system to satisfy the stated requirements - functional and non-functional - as well as be able to be built by the …">
+  <meta name="author" content="Annie Vella"/>
+  <meta property="og:site_name" content="Annie Vella" />
+  <meta property="og:url" content="http://annievella.com/posts/system-design-is-hard/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.112.3">
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+
+  <script src="/js/script.js"></script>
+  <script src="/js/custom.js"></script>
+  <script defer src="/js/fontawesome.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="/">Annie Vella</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-categories"><a href="/categories/" title="Categories">Categories</a></li>
+      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
+      <li class="site-navi-item-archives"><a href="/archives/" title="Archives">Archives</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      
+      
+      <h1 class="article-title">System design is hard</h1>
+      
+      <hr class="article-title-bottom">
+      <ul class="article-meta">
+        <li class="article-meta-date"><time>January 23, 2024</time></li>
+      </ul>
+      
+<aside class="toc">
+  <nav id="TableOfContents"></nav>
+</aside>
+      <p>System design is both really important and really tricky to get right. Designing a system to satisfy the stated requirements - functional and non-functional - as well as be able to be built by the teams, within the timeframe required, with the tooling available, and last but not least, in a way that is easy to change and scale and maintain for the foreseeable future… it’s a lot to take into account!</p>
+<p>Over the last decade, our industry has fallen in love with the idea of microservice architectures. There’s something really alluring about breaking larger solutions down into smaller components that can be built and deployed independently. And indeed there will be specific circumstances and situations where this type of architecture is the right one. But it’s designed to solve particular problems which not everyone has, and it introduces a bunch more that you may not even have thought of yet. It’s by no means a silver bullet.</p>
+<p>There’s also a lot of misinformation about what microservices really are. Most definitions will include the following:</p>
+<ul>
+<li>Independently deployable</li>
+<li>Loosely coupled</li>
+<li>Organised around business capabilities</li>
+<li>Owned by a small team</li>
+</ul>
+<p>Of these, the first two can be thought of in terms of physical and logical coupling. In his talk called “Don’t Build a Distributed Monolith - How to Avoid Doing Microservices Completely Wrong” (<a href="https://youtu.be/p2GlRToY5HI)">https://youtu.be/p2GlRToY5HI)</a>, Jonathan Tower represented this in a really clear way:</p>
+<figure class="center"><img src="/images/physical-logical-coupling-microservices-monoliths.jpg"
+         alt="Alt text"/><figcaption>
+            <p>Physical vs Logical Coupling</p>
+        </figcaption>
+</figure>
+
+<p>This is a great way to visualise and compare some common high-level system designs because it highlights the difference between physical and logical coupling. A physically distributed system is not necessarily loosely coupled in a logical sense and vice versa, a logically distributed system can be physically monolithic.</p>
+<p>When designing a system, ask yourself whether you really need a physically distributed system. It may not seem obvious from the outset, but a physically distributed system incurs a lot of additional overhead. More moving parts means more things that can go wrong. There will naturally be more pipelines and independently deployable components that you need to monitor and maintain, resulting in a higher run cost. Logging, testing, debugging and reasoning about a highly distributed system is much harder, and performance might not be what you expect it to be given the additional network latency between all the invocations. Oh and don’t forget about exponential backoff retries and circuit breakers.</p>
+<p>Perhaps the answer is yes, actually, you do need a physically distributed system - in which case you will have to find a way to manage all of the above. But do so deliberately, not by mistake. In many cases, a modular monolith may actually be better suited to your needs. Sure, it doesn’t sound as sexy as microservices, but be honest with yourself - what problem are you actually trying to solve?</p>
+<p>The most important thing is to avoid ending up with a ball of mud monolith or a distributed monolith, both of which are a world of pain!</p>
+
+    </article>
+
+    
+
+
+    <ul class="pager article-pager">
+      <li class="pager-newer">
+          <a href="/posts/embracing-the-unexpected/" data-toggle="tooltip" data-placement="top" title="Embracing the Unexpected">&lt; Newer</a>
+      </li>
+      <li class="pager-older">
+        <a href="/posts/2023-in-review/" data-toggle="tooltip" data-placement="top" title="2023 In Review: A Year of Rediscovery and Growth">Older &gt;</a>
+      </li>
+    </ul>
+  </div>
+
+
+<div class="site-footer">
+  <div class="copyright">&copy; Copyright 2024 Annie Vella</div>
+  <ul class="site-footer-items">
+    <li class="site-footer-item-about"><a href="/about/" title="About">About</a></li>
+  </ul>
+  <div class="powerdby">
+    Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-STYW83D479"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-STYW83D479', { 'anonymize_ip': false });
+}
+</script>
+
+
+</body>
+</html>

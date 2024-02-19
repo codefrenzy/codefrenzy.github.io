@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Copyright 2024 Annie Vella</copyright>
-    <lastBuildDate>Mon, 29 Jan 2024 09:00:00 +1200</lastBuildDate><atom:link href="http://annievella.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Feb 2024 00:00:00 +1200</lastBuildDate><atom:link href="http://annievella.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Early Exploration of AI-First Development</title>
+      <link>http://annievella.com/posts/an-early-exploration-of-ai-first-development/</link>
+      <pubDate>Mon, 19 Feb 2024 00:00:00 +1200</pubDate>
+      
+      <guid>http://annievella.com/posts/an-early-exploration-of-ai-first-development/</guid>
+      <description>For years, the core of software engineering has remained fairly stable despite the fast pace of technological advancement. We’ve had methodologies like Code-First and API-First, which reshaped our workflows a little but not fundamentally. With the advent of generative AI, we’re left wondering: what will AI-First development look like, and how will it change our familiar landscape? As a software engineer who has loved being one, I&amp;rsquo;m truly intrigued by what AI-First development might entail, how it will transform the process of building software, redefine the role of software engineers, and how we can best prepare for this new world.</description>
+    </item>
+    
     <item>
       <title>Embracing the Unexpected</title>
       <link>http://annievella.com/posts/embracing-the-unexpected/</link>
