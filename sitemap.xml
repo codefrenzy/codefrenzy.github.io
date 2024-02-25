@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://annievella.com/posts/an-early-exploration-of-ai-first-development/</loc>
-    <lastmod>2024-02-19T00:00:00+12:00</lastmod>
-  </url><url>
     <loc>http://annievella.com/</loc>
-    <lastmod>2024-02-19T00:00:00+12:00</lastmod>
+    <lastmod>2024-02-25T14:00:00+12:00</lastmod>
   </url><url>
     <loc>http://annievella.com/posts/</loc>
+    <lastmod>2024-02-25T14:00:00+12:00</lastmod>
+  </url><url>
+    <loc>http://annievella.com/posts/what-is-a-good-strategy/</loc>
+    <lastmod>2024-02-25T14:00:00+12:00</lastmod>
+  </url><url>
+    <loc>http://annievella.com/posts/an-early-exploration-of-ai-first-development/</loc>
     <lastmod>2024-02-19T00:00:00+12:00</lastmod>
   </url><url>
     <loc>http://annievella.com/posts/embracing-the-unexpected/</loc>
