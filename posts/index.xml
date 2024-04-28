@@ -7,63 +7,56 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Copyright 2024 Annie Vella</copyright>
-    <lastBuildDate>Sun, 25 Feb 2024 14:00:00 +1200</lastBuildDate><atom:link href="http://annievella.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Apr 2024 14:00:00 +1200</lastBuildDate>
+    <atom:link href="http://annievella.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Impressions of the Apple Vision Pro</title>
+      <link>http://annievella.com/posts/first-impressions-of-the-apple-vision-pro/</link>
+      <pubDate>Sun, 28 Apr 2024 14:00:00 +1200</pubDate>
+      <guid>http://annievella.com/posts/first-impressions-of-the-apple-vision-pro/</guid>
+      <description>It’s been about a month since I received my much-anticipated Apple Vision Pro. Truth be told, I ordered it as soon as it became available in the US in early February 2024. With the help of some truly wonderful friends, I figured it wouldn’t be too hard to get my hands on one. Unfortunately, that wasn’t the case, but after jumping through various hoops, I finally got my hands on it in late March.</description>
+    </item>
     <item>
       <title>What is a Good Strategy?</title>
       <link>http://annievella.com/posts/what-is-a-good-strategy/</link>
       <pubDate>Sun, 25 Feb 2024 14:00:00 +1200</pubDate>
-      
       <guid>http://annievella.com/posts/what-is-a-good-strategy/</guid>
-      <description>Strategies play a critical role in aligning teams towards a common goal, especially in large organisations. Being able to create, review and execute a good strategy is an important aspect of many leadership roles, yet it’s a hard one to nail. Even defining what makes a strategy truly effective can be surprisingly challenging - ask ten different leaders and you&amp;rsquo;re likely to get ten different interpretations.
-More often than not, what people describe as a strategy is actually an aspirational goal or vision.</description>
+      <description>Strategies play a critical role in aligning teams towards a common goal, especially in large organisations. Being able to create, review and execute a good strategy is an important aspect of many leadership roles, yet it’s a hard one to nail. Even defining what makes a strategy truly effective can be surprisingly challenging - ask ten different leaders and you&amp;rsquo;re likely to get ten different interpretations.&#xA;More often than not, what people describe as a strategy is actually an aspirational goal or vision.</description>
     </item>
-    
     <item>
       <title>An Early Exploration of AI-First Development</title>
       <link>http://annievella.com/posts/an-early-exploration-of-ai-first-development/</link>
       <pubDate>Mon, 19 Feb 2024 00:00:00 +1200</pubDate>
-      
       <guid>http://annievella.com/posts/an-early-exploration-of-ai-first-development/</guid>
       <description>For years, the core of software engineering has remained fairly stable despite the fast pace of technological advancement. We’ve had other &amp;ldquo;-First&amp;rdquo; methodologies like Code-First and API-First, which reshaped aspects of the SDLC, but not fundamentally so. However, with the advent of generative AI, we’re left wondering: what will AI-First development look like, and how will it change our familiar landscape? As a software engineer who has loved being one for many years, I&amp;rsquo;m truly intrigued by AI-First development - how it might transform software building processes, redefine software engineers&amp;rsquo; roles, and what we can do now to best prepare for this new world.</description>
     </item>
-    
     <item>
       <title>Embracing the Unexpected</title>
       <link>http://annievella.com/posts/embracing-the-unexpected/</link>
       <pubDate>Mon, 29 Jan 2024 09:00:00 +1200</pubDate>
-      
       <guid>http://annievella.com/posts/embracing-the-unexpected/</guid>
-      <description>Reflection is something I really enjoy and do rather frequently. There&amp;rsquo;s something about revisiting old memories with fresh eyes that I find fascinating and satisfying.
-One memory that frequently pops into my mind from my high school days is the time I received a Magritte art book as a prize for my achievements in mathematics. This really threw me. Had there been a mix-up? An art book for a science nerd like me seemed so out of place.</description>
+      <description>Reflection is something I really enjoy and do rather frequently. There&amp;rsquo;s something about revisiting old memories with fresh eyes that I find fascinating and satisfying.&#xA;One memory that frequently pops into my mind from my high school days is the time I received a Magritte art book as a prize for my achievements in mathematics. This really threw me. Had there been a mix-up? An art book for a science nerd like me seemed so out of place.</description>
     </item>
-    
     <item>
       <title>2023 In Review: A Year of Rediscovery and Growth</title>
       <link>http://annievella.com/posts/2023-in-review/</link>
       <pubDate>Sun, 14 Jan 2024 13:00:00 +1200</pubDate>
-      
       <guid>http://annievella.com/posts/2023-in-review/</guid>
       <description>Returning to work after the holiday season, I find myself reflecting on a rather remarkable 2023. It was a year where innovative technologies like generative AI and advancements in quantum computing moved beyond mere buzzwords, inspiring me to delve deeper into my curiosity and passions. This reawakening not only captured my attention but also reinforced my belief in the transformative power of technology. Discovering Deming and his philosophy was a turning point for me, providing clarity and reinforcing my principles in quality, continuous improvement and leadership.</description>
     </item>
-    
     <item>
       <title>Taking a Swing on the Engineer/Manager Pendulum</title>
       <link>http://annievella.com/posts/taking-a-swing-on-the-engineer-manager-pendulum/</link>
       <pubDate>Mon, 14 Aug 2023 08:30:00 +1200</pubDate>
-      
       <guid>http://annievella.com/posts/taking-a-swing-on-the-engineer-manager-pendulum/</guid>
-      <description>I felt that my first proper blog post after a 10+ year blogging hiatus should be one about something that I’m really passionate about and close to my heart, so let’s dive into a topic that’s been on my mind for years.
-Many of us who embark upon a career in tech do so because we love working with computers. We become engineers because we’re curious beings, who thrive on the challenge of solving tricky problems.</description>
+      <description>I felt that my first proper blog post after a 10+ year blogging hiatus should be one about something that I’m really passionate about and close to my heart, so let’s dive into a topic that’s been on my mind for years.&#xA;Many of us who embark upon a career in tech do so because we love working with computers. We become engineers because we’re curious beings, who thrive on the challenge of solving tricky problems.</description>
     </item>
-    
     <item>
       <title>Back to blogging</title>
       <link>http://annievella.com/posts/my-first-post/</link>
       <pubDate>Thu, 01 Jun 2023 22:00:00 +1200</pubDate>
-      
       <guid>http://annievella.com/posts/my-first-post/</guid>
       <description>After a long break from blogging, I&amp;rsquo;m back. Lately I&amp;rsquo;ve been feeling the urge to write down my thoughts, and I figured I may as well publish them in a way that maybe, just maybe, someone else might get something out of my musings as well.</description>
     </item>
-    
   </channel>
 </rss>
