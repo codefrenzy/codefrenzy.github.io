@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deming on Annie Vella</title>
+    <link>http://localhost:1313/deming/</link>
+    <description>Recent content in Deming on Annie Vella</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Copyright 2024 Annie Vella</copyright>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://localhost:1313/deming/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
