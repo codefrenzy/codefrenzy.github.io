@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Copyright 2024 Annie Vella</copyright>
-    <lastBuildDate>Sun, 25 Aug 2024 09:00:00 +1200</lastBuildDate>
+    <lastBuildDate>Sat, 31 Aug 2024 09:00:00 +1200</lastBuildDate>
     <atom:link href="http://annievella.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Is Agentic AI the Key to Automating Human Work?</title>
+      <link>http://annievella.com/posts/is-agentic-ai-the-key-to-automating-human-work/</link>
+      <pubDate>Sat, 31 Aug 2024 09:00:00 +1200</pubDate>
+      <guid>http://annievella.com/posts/is-agentic-ai-the-key-to-automating-human-work/</guid>
+      <description>I&amp;rsquo;ve been contemplating the concept of agentic AI for a while now. The idea that we could create specialised AI agents, each mastering a specific task, and have them work together iteratively struck me as a powerful way to tackle complex problems. As I delved deeper into this idea, Andrew Ng&amp;rsquo;s discussions on agentic AI resonated with my own thoughts and reinforced the potential I see in this approach to transform various industries.</description>
+    </item>
     <item>
       <title>Deming’s Wisdom for Staff&#43; Engineers: A Recap of My Talk at StaffPlus London 2024</title>
       <link>http://annievella.com/posts/demings-wisdom-for-staff-plus-engineers/</link>
