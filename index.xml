@@ -7,8 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Copyright 2024 Annie Vella</copyright>
-    <lastBuildDate>Sat, 31 Aug 2024 09:00:00 +1200</lastBuildDate>
+    <lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://annievella.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quantum Computing</title>
+      <link>http://annievella.com/quantum-computing/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://annievella.com/quantum-computing/</guid>
+      <description>Learning:&#xA;IBM Quantum Learning Learn quantum programming with PennyLane Programming:&#xA;IBM Qiskit Google Cirq Microsoft Q# YouTube:&#xA;Quantum Computing for Computer Scientists Understanding Quantum Information &amp;amp; Computation </description>
+    </item>
+    <item>
+      <title>Resources</title>
+      <link>http://annievella.com/resources/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://annievella.com/resources/</guid>
+      <description>This page contains links to curated collections of resources that I have found useful for learning about topics that I&amp;rsquo;m passionate about. I&amp;rsquo;ll keep adding to them so check back regularly for updates.&#xA;W. Edwards Deming Quantum Computing </description>
+    </item>
+    <item>
+      <title>Speaking</title>
+      <link>http://annievella.com/speaking/</link>
+      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://annievella.com/speaking/</guid>
+      <description>I&amp;rsquo;ve always loved sharing my knowledge and experiences with others, but I didn&amp;rsquo;t always have the courage to step onto a stage. In 2023, I decided to face my fear of public speaking head-on, embracing the mantra &amp;ldquo;practice makes better.&amp;rdquo; Since then, I&amp;rsquo;ve jumped at every opportunity to talk about topics I&amp;rsquo;m passionate about, and it&amp;rsquo;s been an incredibly rewarding journey. Engaging with diverse minds at conferences and meetups has been especially fulfilling.</description>
+    </item>
     <item>
       <title>Is Agentic AI the Key to Automating Human Work?</title>
       <link>http://annievella.com/posts/is-agentic-ai-the-key-to-automating-human-work/</link>
