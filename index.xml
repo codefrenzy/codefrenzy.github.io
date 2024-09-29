@@ -7,8 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Copyright 2024 Annie Vella</copyright>
-    <lastBuildDate>Fri, 20 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Sep 2024 00:00:00 +1200</lastBuildDate>
     <atom:link href="http://annievella.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Power of Defining the Problem</title>
+      <link>http://annievella.com/posts/the-power-of-defining-the-problem/</link>
+      <pubDate>Sun, 29 Sep 2024 00:00:00 +1200</pubDate>
+      <guid>http://annievella.com/posts/the-power-of-defining-the-problem/</guid>
+      <description>We live in an era where rapid solutions are celebrated. The quicker we solve a problem, the more productive we appear. But what if, in our rush to get to a resolution, we&amp;rsquo;re missing the mark entirely? Albert Einstein&amp;rsquo;s timeless quote, &amp;ldquo;If I were given one hour to save the planet, I would spend 59 minutes defining the problem and one minute resolving it&amp;rdquo;, resonates deeply in today’s fast-paced, technology-driven world.</description>
+    </item>
     <item>
       <title>Quantum Computing</title>
       <link>http://annievella.com/quantum-computing/</link>

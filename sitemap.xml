@@ -3,7 +3,13 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://annievella.com/</loc>
-    <lastmod>2024-09-20T00:00:00+00:00</lastmod>
+    <lastmod>2024-09-29T00:00:00+12:00</lastmod>
+  </url><url>
+    <loc>http://annievella.com/posts/</loc>
+    <lastmod>2024-09-29T00:00:00+12:00</lastmod>
+  </url><url>
+    <loc>http://annievella.com/posts/the-power-of-defining-the-problem/</loc>
+    <lastmod>2024-09-29T00:00:00+12:00</lastmod>
   </url><url>
     <loc>http://annievella.com/quantum-computing/</loc>
     <lastmod>2024-09-20T00:00:00+00:00</lastmod>
@@ -15,9 +21,6 @@
     <lastmod>2024-09-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://annievella.com/posts/is-agentic-ai-the-key-to-automating-human-work/</loc>
-    <lastmod>2024-08-31T09:00:00+12:00</lastmod>
-  </url><url>
-    <loc>http://annievella.com/posts/</loc>
     <lastmod>2024-08-31T09:00:00+12:00</lastmod>
   </url><url>
     <loc>http://annievella.com/posts/demings-wisdom-for-staff-plus-engineers/</loc>
