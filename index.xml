@@ -2,124 +2,131 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Annie Vella</title>
-    <link>http://annievella.com/</link>
+    <link>http://localhost:58556/</link>
     <description>Recent content on Annie Vella</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Copyright 2024 Annie Vella</copyright>
-    <lastBuildDate>Sun, 29 Sep 2024 00:00:00 +1200</lastBuildDate>
-    <atom:link href="http://annievella.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Dec 2024 00:00:00 +1300</lastBuildDate>
+    <atom:link href="http://localhost:58556/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dear Software Engineer: It&#39;s Time to Reclaim Your Role</title>
+      <link>http://localhost:58556/posts/dear-software-engineer/</link>
+      <pubDate>Thu, 26 Dec 2024 00:00:00 +1300</pubDate>
+      <guid>http://localhost:58556/posts/dear-software-engineer/</guid>
+      <description>&lt;p&gt;&lt;em&gt;Apologies, this is a long one - clearly I&amp;rsquo;ve got a lot to say on this subject!&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;It didn&amp;rsquo;t take long after ChatGPT was released for me to start seeing how fundamentally this technology could transform software engineering. Not just as another tool in our arsenal, but as something that could redefine what it means to be a software engineer entirely.&lt;/p&gt;&#xA;&lt;p&gt;The discourse around this has been fascinating. Jump on LinkedIn or X and you&amp;rsquo;ll see endless debates about whether AI will augment or replace software engineers, whether it&amp;rsquo;s just another productivity tool or a paradigm shift, whether it&amp;rsquo;s overhyped or understated. But I think many are missing the real story - it&amp;rsquo;s not about whether AI will take our jobs, it&amp;rsquo;s about how it&amp;rsquo;s already changing the very nature of our profession.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Power of Defining the Problem</title>
-      <link>http://annievella.com/posts/the-power-of-defining-the-problem/</link>
+      <link>http://localhost:58556/posts/the-power-of-defining-the-problem/</link>
       <pubDate>Sun, 29 Sep 2024 00:00:00 +1200</pubDate>
-      <guid>http://annievella.com/posts/the-power-of-defining-the-problem/</guid>
-      <description>We live in an era where rapid solutions are celebrated. The quicker we solve a problem, the more productive we appear. But what if, in our rush to get to a resolution, we&amp;rsquo;re missing the mark entirely? Albert Einstein&amp;rsquo;s timeless quote, &amp;ldquo;If I were given one hour to save the planet, I would spend 59 minutes defining the problem and one minute resolving it&amp;rdquo;, resonates deeply in today’s fast-paced, technology-driven world.</description>
+      <guid>http://localhost:58556/posts/the-power-of-defining-the-problem/</guid>
+      <description>&lt;p&gt;We live in an era where rapid solutions are celebrated. The quicker we solve a problem, the more productive we appear. But what if, in our rush to get to a resolution, we&amp;rsquo;re missing the mark entirely? Albert Einstein&amp;rsquo;s timeless quote, &lt;em&gt;&amp;ldquo;If I were given one hour to save the planet, I would spend 59 minutes defining the problem and one minute resolving it&amp;rdquo;&lt;/em&gt;, resonates deeply in today’s fast-paced, technology-driven world.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Quantum Computing</title>
-      <link>http://annievella.com/quantum-computing/</link>
+      <link>http://localhost:58556/quantum-computing/</link>
       <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://annievella.com/quantum-computing/</guid>
-      <description>Learning:&#xA;IBM Quantum Learning Learn quantum programming with PennyLane Programming:&#xA;IBM Qiskit Google Cirq Microsoft Q# YouTube:&#xA;Quantum Computing for Computer Scientists Understanding Quantum Information &amp;amp; Computation </description>
+      <guid>http://localhost:58556/quantum-computing/</guid>
+      <description>&lt;p&gt;Learning:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://learning.quantum.ibm.com/&#34;&gt;IBM Quantum Learning&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://pennylane.ai/qml/&#34;&gt;Learn quantum programming with PennyLane&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Programming:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.ibm.com/quantum/qiskit&#34;&gt;IBM Qiskit&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://quantumai.google/cirq&#34;&gt;Google Cirq&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://learn.microsoft.com/en-us/azure/quantum/&#34;&gt;Microsoft Q#&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;YouTube:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtu.be/F_Riqjdh2oM?si=XJWZtpvujF5qlWmD&#34;&gt;Quantum Computing for Computer Scientists&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtube.com/playlist?list=PLOFEBzvs-VvqKKMXX4vbi4EB1uaErFMSO&amp;amp;si=uiMvezeeswCaSerF&#34;&gt;Understanding Quantum Information &amp;amp; Computation&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Resources</title>
-      <link>http://annievella.com/resources/</link>
+      <link>http://localhost:58556/resources/</link>
       <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://annievella.com/resources/</guid>
-      <description>This page contains links to curated collections of resources that I have found useful for learning about topics that I&amp;rsquo;m passionate about. I&amp;rsquo;ll keep adding to them so check back regularly for updates.&#xA;W. Edwards Deming Quantum Computing </description>
+      <guid>http://localhost:58556/resources/</guid>
+      <description>&lt;p&gt;This page contains links to curated collections of resources that I have found useful for learning about topics that I&amp;rsquo;m passionate about. I&amp;rsquo;ll keep adding to them so check back regularly for updates.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://annievella.com/deming&#34;&gt;W. Edwards Deming&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://annievella.com/quantum-computing&#34;&gt;Quantum Computing&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Speaking</title>
-      <link>http://annievella.com/speaking/</link>
+      <link>http://localhost:58556/speaking/</link>
       <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://annievella.com/speaking/</guid>
-      <description>I&amp;rsquo;ve always loved sharing my knowledge and experiences with others, but I didn&amp;rsquo;t always have the courage to step onto a stage. In 2023, I decided to face my fear of public speaking head-on, embracing the mantra &amp;ldquo;practice makes better.&amp;rdquo; Since then, I&amp;rsquo;ve jumped at every opportunity to talk about topics I&amp;rsquo;m passionate about, and it&amp;rsquo;s been an incredibly rewarding journey. Engaging with diverse minds at conferences and meetups has been especially fulfilling.</description>
+      <guid>http://localhost:58556/speaking/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve always loved sharing my knowledge and experiences with others, but I didn&amp;rsquo;t always have the courage to step onto a stage. In 2023, I decided to face my fear of public speaking head-on, embracing the mantra &amp;ldquo;practice makes better.&amp;rdquo; Since then, I&amp;rsquo;ve jumped at every opportunity to talk about topics I&amp;rsquo;m passionate about, and it&amp;rsquo;s been an incredibly rewarding journey. Engaging with diverse minds at conferences and meetups has been especially fulfilling.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Is Agentic AI the Key to Automating Human Work?</title>
-      <link>http://annievella.com/posts/is-agentic-ai-the-key-to-automating-human-work/</link>
+      <link>http://localhost:58556/posts/is-agentic-ai-the-key-to-automating-human-work/</link>
       <pubDate>Sat, 31 Aug 2024 09:00:00 +1200</pubDate>
-      <guid>http://annievella.com/posts/is-agentic-ai-the-key-to-automating-human-work/</guid>
-      <description>I&amp;rsquo;ve been contemplating the concept of agentic AI for a while now. The idea that we can create specialised AI agents, each mastering a specific task, and have them work together iteratively struck me as a powerful way to really harness the power of AI to tackle complex problems. After all, that&amp;rsquo;s how teams of humans working together accomplish amazing outcomes, right?&#xA;I first encountered Auto-GPT over a year ago and was intrigued enough to join their Discord community.</description>
+      <guid>http://localhost:58556/posts/is-agentic-ai-the-key-to-automating-human-work/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve been contemplating the concept of &lt;em&gt;agentic AI&lt;/em&gt; for a while now. The idea that we can create specialised AI agents, each mastering a specific task, and have them work together iteratively struck me as a powerful way to really harness the power of AI to tackle complex problems. After all, that&amp;rsquo;s how teams of humans working together accomplish amazing outcomes, right?&lt;/p&gt;&#xA;&lt;p&gt;I first encountered &lt;em&gt;&lt;a href=&#34;https://news.agpt.co&#34;&gt;Auto-GPT&lt;/a&gt;&lt;/em&gt; over a year ago and was intrigued enough to join their Discord community. At that time, the concept of autonomous AI agents was still in its early stages, and Auto-GPT was pioneering an approach that allowed AI systems to autonomously generate and execute their own goals. This innovative idea resonated with me, reinforcing my belief in the transformative potential of specialised AI agents across various industries.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Deming’s Wisdom for Staff&#43; Engineers: A Recap of My Talk at StaffPlus London 2024</title>
-      <link>http://annievella.com/posts/demings-wisdom-for-staff-plus-engineers/</link>
+      <link>http://localhost:58556/posts/demings-wisdom-for-staff-plus-engineers/</link>
       <pubDate>Sun, 25 Aug 2024 09:00:00 +1200</pubDate>
-      <guid>http://annievella.com/posts/demings-wisdom-for-staff-plus-engineers/</guid>
-      <description>In June 2024, I had the privilege of travelling from Auckland, New Zealand, to speak at StaffPlus London - an unforgettable experience. Speaking at such a high-profile event, surrounded by so many talented Staff+ Engineers, was truly special. What made this event particularly memorable wasn&amp;rsquo;t just the prominence of the event but the opportunity to share something that has become deeply important to me: how the timeless teachings of W. Edwards Deming remain as relevant today as ever in the constantly evolving world of technology.</description>
+      <guid>http://localhost:58556/posts/demings-wisdom-for-staff-plus-engineers/</guid>
+      <description>&lt;p&gt;In June 2024, I had the privilege of travelling from Auckland, New Zealand, to speak at &lt;strong&gt;StaffPlus London&lt;/strong&gt; - an unforgettable experience. Speaking at such a high-profile event, surrounded by so many talented Staff+ Engineers, was truly special. What made this event particularly memorable wasn&amp;rsquo;t just the prominence of the event but the opportunity to share something that has become deeply important to me: how the timeless teachings of &lt;strong&gt;W. Edwards Deming&lt;/strong&gt; remain as relevant today as ever in the constantly evolving world of technology.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Exploring Systems Thinking Through Russell Ackoff</title>
-      <link>http://annievella.com/posts/exploring-systems-thinking-through-russell-ackoff/</link>
+      <link>http://localhost:58556/posts/exploring-systems-thinking-through-russell-ackoff/</link>
       <pubDate>Sat, 06 Jul 2024 09:00:00 +1200</pubDate>
-      <guid>http://annievella.com/posts/exploring-systems-thinking-through-russell-ackoff/</guid>
-      <description>Learning about Deming has led me to another incredible thinker - Russell Ackoff. Born in 1919, Ackoff is best known for his contributions to Systems Thinking.&#xA;In one of his lectures, From Mechanistic to Systemic Thinking, Ackoff discusses systems and the difference between analysis and synthesis. He explains that the essential properties of a system are unique to the system as a whole. These properties arise from the interactions between the parts of the system.</description>
+      <guid>http://localhost:58556/posts/exploring-systems-thinking-through-russell-ackoff/</guid>
+      <description>&lt;p&gt;Learning about Deming has led me to another incredible thinker - Russell Ackoff. Born in 1919, Ackoff is best known for his contributions to Systems Thinking.&lt;/p&gt;&#xA;&lt;p&gt;In one of his lectures, &lt;a href=&#34;https://youtu.be/yGN5DBpW93g&#34;&gt;From Mechanistic to Systemic Thinking&lt;/a&gt;, Ackoff discusses systems and the difference between analysis and synthesis. He explains that the essential properties of a system are unique to the system as a whole. These properties arise from the interactions between the parts of the system. In other words, a system is more than the sum of its parts; it is the product of their interactions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Are You a Transactional or Developmental Leader?</title>
-      <link>http://annievella.com/posts/are-you-a-transactional-or-developmental-leader/</link>
+      <link>http://localhost:58556/posts/are-you-a-transactional-or-developmental-leader/</link>
       <pubDate>Tue, 25 Jun 2024 19:00:00 +1200</pubDate>
-      <guid>http://annievella.com/posts/are-you-a-transactional-or-developmental-leader/</guid>
-      <description>In the fast-paced world of tech, leadership styles can make or break an organisation&amp;rsquo;s success. Are you driving growth with a developmental mindset or merely maintaining the status quo with a transactional approach?&#xA;One of the best books I’ve read recently is Gene Kim and Steven Spear’s Wiring the Winning Organisation. It distils many great leadership theories into clear, actionable concepts. At the very end of the book, in Appendices A and B, they talk about the differences between transactional and developmental leadership.</description>
+      <guid>http://localhost:58556/posts/are-you-a-transactional-or-developmental-leader/</guid>
+      <description>&lt;p&gt;In the fast-paced world of tech, leadership styles can make or break an organisation&amp;rsquo;s success. Are you driving growth with a developmental mindset or merely maintaining the status quo with a transactional approach?&lt;/p&gt;&#xA;&lt;p&gt;One of the best books I’ve read recently is Gene Kim and Steven Spear’s &lt;a href=&#34;https://itrevolution.com/product/wiring-the-winning-organization/&#34;&gt;Wiring the Winning Organisation&lt;/a&gt;. It distils many great leadership theories into clear, actionable concepts. At the very end of the book, in Appendices A and B, they talk about the differences between transactional and developmental leadership. This is something I think about a lot but didn’t know the precise terms for until reading these sections.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Deming</title>
-      <link>http://annievella.com/deming/</link>
+      <link>http://localhost:58556/deming/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate>
-      <guid>http://annievella.com/deming/</guid>
-      <description>General:&#xA;The W. Edwards Deming Institute Books:&#xA;Out of the Crisis - W. Edwards Deming (1982) The New Economics - W. Edwards Deming (1993) Deming&amp;rsquo;s Journey to Profound Knowledge - John Willis (2023) Podcasts:&#xA;Profound Podcast - John Willis Videos:&#xA;W. Edwards Deming - Rare Full-Length Interview - Feburary 1984 </description>
+      <guid>http://localhost:58556/deming/</guid>
+      <description>&lt;p&gt;General:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://deming.org/&#34;&gt;The W. Edwards Deming Institute&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Books:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/Out-Crisis-Press-Edwards-Deming/dp/0262535947&#34;&gt;Out of the Crisis - W. Edwards Deming (1982)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.amazon.com/exec/obidos/ISBN=0262535939/thewedwdemins-20&#34;&gt;The New Economics - W. Edwards Deming (1993)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://itrevolution.com/product/demings-journey-to-profound-knowledge/&#34;&gt;Deming&amp;rsquo;s Journey to Profound Knowledge - John Willis (2023)&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Podcasts:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.profound-deming.com/profound-podcast&#34;&gt;Profound Podcast - John Willis&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Videos:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://youtu.be/0yGhR1ybmN8&#34;&gt;W. Edwards Deming - Rare Full-Length Interview - Feburary 1984&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>First Impressions of the Apple Vision Pro</title>
-      <link>http://annievella.com/posts/first-impressions-of-the-apple-vision-pro/</link>
+      <link>http://localhost:58556/posts/first-impressions-of-the-apple-vision-pro/</link>
       <pubDate>Sun, 28 Apr 2024 14:00:00 +1200</pubDate>
-      <guid>http://annievella.com/posts/first-impressions-of-the-apple-vision-pro/</guid>
-      <description>It’s been about a month since I received my much-anticipated Apple Vision Pro. Truth be told, I ordered it as soon as it became available in the US in early February 2024. With the help of some truly wonderful friends, I figured it wouldn’t be too hard to get my hands on one. Unfortunately, that wasn’t the case, but after jumping through various hoops, I finally got my hands on it in late March.</description>
+      <guid>http://localhost:58556/posts/first-impressions-of-the-apple-vision-pro/</guid>
+      <description>&lt;p&gt;It’s been about a month since I received my much-anticipated Apple Vision Pro. Truth be told, I ordered it as soon as it became available in the US in early February 2024. With the help of some truly wonderful friends, I figured it wouldn’t be too hard to get my hands on one. Unfortunately, that wasn’t the case, but after jumping through various hoops, I finally got my hands on it in late March. I’m endlessly thankful to my friends for everything they had to go through - I hope to be able to repay the favour one day!&lt;/p&gt;</description>
     </item>
     <item>
       <title>What is a Good Strategy?</title>
-      <link>http://annievella.com/posts/what-is-a-good-strategy/</link>
+      <link>http://localhost:58556/posts/what-is-a-good-strategy/</link>
       <pubDate>Sun, 25 Feb 2024 14:00:00 +1200</pubDate>
-      <guid>http://annievella.com/posts/what-is-a-good-strategy/</guid>
-      <description>Strategies play a critical role in aligning teams towards a common goal, especially in large organisations. Being able to create, review and execute a good strategy is an important aspect of many leadership roles, yet it’s a hard one to nail. Even defining what makes a strategy truly effective can be surprisingly challenging - ask ten different leaders and you&amp;rsquo;re likely to get ten different interpretations.&#xA;More often than not, what people describe as a strategy is actually an aspirational goal or vision.</description>
+      <guid>http://localhost:58556/posts/what-is-a-good-strategy/</guid>
+      <description>&lt;p&gt;Strategies play a critical role in aligning teams towards a common goal, especially in large organisations. Being able to create, review and execute a good strategy is an important aspect of many leadership roles, yet it’s a hard one to nail. Even defining what makes a strategy truly effective can be surprisingly challenging - ask ten different leaders and you&amp;rsquo;re likely to get ten different interpretations.&lt;/p&gt;&#xA;&lt;p&gt;More often than not, what people describe as a strategy is actually an aspirational goal or vision. They articulate &lt;em&gt;where&lt;/em&gt; we want to go but not &lt;em&gt;how&lt;/em&gt; to get there.&lt;/p&gt;</description>
     </item>
     <item>
       <title>An Early Exploration of AI-First Development</title>
-      <link>http://annievella.com/posts/an-early-exploration-of-ai-first-development/</link>
+      <link>http://localhost:58556/posts/an-early-exploration-of-ai-first-development/</link>
       <pubDate>Mon, 19 Feb 2024 00:00:00 +1200</pubDate>
-      <guid>http://annievella.com/posts/an-early-exploration-of-ai-first-development/</guid>
-      <description>For years, the core of software engineering has remained fairly stable despite the fast pace of technological advancement. We’ve had other &amp;ldquo;-First&amp;rdquo; methodologies like Code-First and API-First, which reshaped aspects of the SDLC, but not fundamentally so. However, with the advent of generative AI, we’re left wondering: what will AI-First development look like, and how will it change our familiar landscape? As a software engineer who has loved being one for many years, I&amp;rsquo;m truly intrigued by AI-First development - how it might transform software building processes, redefine software engineers&amp;rsquo; roles, and what we can do now to best prepare for this new world.</description>
+      <guid>http://localhost:58556/posts/an-early-exploration-of-ai-first-development/</guid>
+      <description>&lt;p&gt;For years, the core of software engineering has remained fairly stable despite the fast pace of technological advancement. We’ve had other &amp;ldquo;-First&amp;rdquo; methodologies like Code-First and API-First, which reshaped aspects of the SDLC, but not fundamentally so. However, with the advent of generative AI, we’re left wondering: what will AI-First development look like, and how will it change our familiar landscape? As a software engineer who has loved being one for many years, I&amp;rsquo;m truly intrigued by AI-First development - how it might transform software building processes, redefine software engineers&amp;rsquo; roles, and what we can do now to best prepare for this new world.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Embracing the Unexpected</title>
-      <link>http://annievella.com/posts/embracing-the-unexpected/</link>
+      <link>http://localhost:58556/posts/embracing-the-unexpected/</link>
       <pubDate>Mon, 29 Jan 2024 09:00:00 +1200</pubDate>
-      <guid>http://annievella.com/posts/embracing-the-unexpected/</guid>
-      <description>Reflection is something I really enjoy and do rather frequently. There&amp;rsquo;s something about revisiting old memories with fresh eyes that I find fascinating and satisfying.&#xA;One memory that frequently pops into my mind from my high school days is the time I received a Magritte art book as a prize for my achievements in mathematics. This really threw me. Had there been a mix-up? An art book for a science nerd like me seemed so out of place.</description>
+      <guid>http://localhost:58556/posts/embracing-the-unexpected/</guid>
+      <description>&lt;p&gt;Reflection is something I really enjoy and do rather frequently. There&amp;rsquo;s something about revisiting old memories with fresh eyes that I find fascinating and satisfying.&lt;/p&gt;&#xA;&lt;p&gt;One memory that frequently pops into my mind from my high school days is the time I received a &lt;a href=&#34;https://en.wikipedia.org/wiki/Ren%C3%A9_Magritte&#34;&gt;Magritte&lt;/a&gt; art book as a prize for my achievements in mathematics. This really threw me. Had there been a mix-up? An art book for a science nerd like me seemed so out of place. But, as it turned out, that&amp;rsquo;s exactly where its magic lay.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2023 In Review: A Year of Rediscovery and Growth</title>
-      <link>http://annievella.com/posts/2023-in-review/</link>
+      <link>http://localhost:58556/posts/2023-in-review/</link>
       <pubDate>Sun, 14 Jan 2024 13:00:00 +1200</pubDate>
-      <guid>http://annievella.com/posts/2023-in-review/</guid>
-      <description>Returning to work after the holiday season, I find myself reflecting on a rather remarkable 2023. It was a year where innovative technologies like generative AI and advancements in quantum computing moved beyond mere buzzwords, inspiring me to delve deeper into my curiosity and passions. This reawakening not only captured my attention but also reinforced my belief in the transformative power of technology. Discovering Deming and his philosophy was a turning point for me, providing clarity and reinforcing my principles in quality, continuous improvement and leadership.</description>
+      <guid>http://localhost:58556/posts/2023-in-review/</guid>
+      <description>&lt;p&gt;Returning to work after the holiday season, I find myself reflecting on a rather remarkable 2023. It was a year where innovative technologies like generative AI and advancements in quantum computing moved beyond mere buzzwords, inspiring me to delve deeper into my curiosity and passions. This reawakening not only captured my attention but also reinforced my belief in the transformative power of technology. Discovering Deming and his philosophy was a turning point for me, providing clarity and reinforcing my principles in quality, continuous improvement and leadership.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Taking a Swing on the Engineer/Manager Pendulum</title>
-      <link>http://annievella.com/posts/taking-a-swing-on-the-engineer-manager-pendulum/</link>
+      <link>http://localhost:58556/posts/taking-a-swing-on-the-engineer-manager-pendulum/</link>
       <pubDate>Mon, 14 Aug 2023 08:30:00 +1200</pubDate>
-      <guid>http://annievella.com/posts/taking-a-swing-on-the-engineer-manager-pendulum/</guid>
-      <description>I felt that my first proper blog post after a 10+ year blogging hiatus should be one about something that I’m really passionate about and close to my heart, so let’s dive into a topic that’s been on my mind for years.&#xA;Many of us who embark upon a career in tech do so because we love working with computers. We become engineers because we’re curious beings, who thrive on the challenge of solving tricky problems.</description>
+      <guid>http://localhost:58556/posts/taking-a-swing-on-the-engineer-manager-pendulum/</guid>
+      <description>&lt;p&gt;I felt that my first proper blog post after a 10+ year blogging hiatus should be one about something that I’m really passionate about and close to my heart, so let’s dive into a topic that’s been on my mind for years.&lt;/p&gt;&#xA;&lt;p&gt;Many of us who embark upon a career in tech do so because we love working with computers. We become engineers because we’re curious beings, who thrive on the challenge of solving tricky problems. We like designing, building, debugging, and fixing systems, and thankfully, there’s no shortage of this type of work (at least not yet - I’m convinced the recent advancements in AI may change this, but that’s a topic for another day).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Back to blogging</title>
-      <link>http://annievella.com/posts/my-first-post/</link>
+      <link>http://localhost:58556/posts/my-first-post/</link>
       <pubDate>Thu, 01 Jun 2023 22:00:00 +1200</pubDate>
-      <guid>http://annievella.com/posts/my-first-post/</guid>
-      <description>After a long break from blogging, I&amp;rsquo;m back. Lately I&amp;rsquo;ve been feeling the urge to write down my thoughts, and I figured I may as well publish them in a way that maybe, just maybe, someone else might get something out of my musings as well.</description>
+      <guid>http://localhost:58556/posts/my-first-post/</guid>
+      <description>&lt;p&gt;After a long break from blogging, I&amp;rsquo;m back. Lately I&amp;rsquo;ve been feeling the urge to write down my thoughts, and I figured I may as well publish them in a way that maybe, just maybe, someone else might get something out of my musings as well.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
