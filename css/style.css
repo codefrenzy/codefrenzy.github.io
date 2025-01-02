@@ -639,6 +639,14 @@ blockquote blockquote blockquote blockquote {
   background-color: #2795e9
 }
 
+.resp-sharing-button--bluesky {
+  background-color: #1185FE
+}
+
+.resp-sharing-button--bluesky:hover {
+  background-color: #252b37
+}
+
 .resp-sharing-button--pinterest {
   background-color: #bd081c
 }
@@ -745,4 +753,27 @@ background-color: #FF6600
   background-color: #2795e9;
   border-color: #2795e9;
 }
+
+.resp-sharing-button--x {
+  background-color: #000000;
+  border-color: #000000;
+}
+
+.resp-sharing-button--x:hover,
+.resp-sharing-button--x:active {
+  background-color: #505050;
+  border-color: #505050;
+}
+
+.resp-sharing-button--bluesky {
+  background-color: #1185FE;
+  border-color: #1185FE;
+}
+
+.resp-sharing-button--bluesky:hover,
+.resp-sharing-button--bluesky:active {
+  background-color: #0675DE;
+  border-color: #0675DE;
+}
+
 /* === sharingbuttons.io end === */
