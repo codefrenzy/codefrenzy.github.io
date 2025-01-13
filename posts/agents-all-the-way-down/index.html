@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Agents All The Way Down - Annie Vella</title>
+  <meta property="og:title" content="Agents All The Way Down - Annie Vella" />
+  <meta name="twitter:title" content="Agents All The Way Down - Annie Vella" />
+  <meta name="description" content="The concept of agentic AI absolutely fascinates me. An LLM on its own is already mind-blowing, but building much larger systems where hundreds of specialised LLMs work together as components, with yet another LLM orchestrating how it all works, is a whole other world. The possibilities for automation are endless.
+At the end of the day, software systems are just components stitched together to perform seemingly complex tasks, but the logic behind it all is very deterministic. As software engineers, we write lines of code to tell computers to do very specific things, in very specific orders. The computer then executes those instructions in a deterministic way, and we&rsquo;re left with a very predictable system that can be hard to change or adapt to new requirements.">
+  <meta property="og:description" content="The concept of agentic AI absolutely fascinates me. An LLM on its own is already mind-blowing, but building much larger systems where hundreds of specialised LLMs work together as components, with yet another LLM orchestrating how it all works, is a whole other world. The possibilities for automation are endless.
+At the end of the day, software systems are just components stitched together to perform seemingly complex tasks, but the logic behind it all is very deterministic. As software engineers, we write lines of code to tell computers to do very specific things, in very specific orders. The computer then executes those instructions in a deterministic way, and we&rsquo;re left with a very predictable system that can be hard to change or adapt to new requirements.">
+  <meta name="twitter:description" content="The concept of agentic AI absolutely fascinates me. An LLM on its own is already mind-blowing, but building much larger systems where hundreds of specialised LLMs work together as components, with yet …">
+  <meta name="author" content="Annie Vella"/>
+  <meta property="og:site_name" content="Annie Vella" />
+  <meta property="og:url" content="http://annievella.com/posts/agents-all-the-way-down/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.140.1">
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+
+  <script src="/js/script.js"></script>
+  <script src="/js/custom.js"></script>
+  <script defer src="/fontawesome/all.min.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="/">Annie Vella</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-resources"><a href="/resources/" title="Resources">Resources</a></li>
+      <li class="site-navi-item-speaking"><a href="/speaking/" title="Speaking">Speaking</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      
+      
+      <h1 class="article-title">Agents All The Way Down</h1>
+      
+      <hr class="article-title-bottom">
+      <ul class="article-meta">
+        
+        <li class="article-meta-date"><time>January 13, 2025</time></li>
+        
+      </ul>
+      
+      <p>The concept of <strong>agentic AI</strong> absolutely fascinates me. An LLM on its own is already mind-blowing, but building much larger systems where hundreds of specialised LLMs work together as components, with yet another LLM orchestrating how it all works, is a whole other world. The possibilities for automation are endless.</p>
+<p>At the end of the day, software systems are just components stitched together to perform seemingly complex tasks, but the logic behind it all is very <em>deterministic</em>. As software engineers, we write lines of code to tell computers to do very specific things, in very specific orders. The computer then executes those instructions in a deterministic way, and we&rsquo;re left with a very predictable system that can be hard to change or adapt to new requirements.</p>
+<p>With agentic AI, we&rsquo;re no longer bound by the limitations of this deterministic approach. Agentic AI allows us to use LLMs to intelligently adapt and evolve these integrations. We simply equip agents with skills (tools) and memory to help them solve problems, and they work out the rest on their own. These agents can use various architectures to tackle problems - one popular approach is <a href="https://medium.com/@gauritr01/part-1-react-ai-agents-a-guide-to-smarter-ai-through-reasoning-and-action-d5841db39530">ReACT</a> (Reasoning + Acting, not the frontend framework we all know and love), which allows them to think through problems step by step, just like a human would - reasoning about what to do next, then taking action based on that reasoning.</p>
+<figure class="center"><img src="/images/ai-agent-overview.png"
+    alt="Diagram showing the components of an agentic AI system including tools, memory, planning, and reflection capabilities"><figcaption>
+      <p>The architecture of an agentic AI system showing how agents can use tools, maintain memory, and engage in complex reasoning. <br/> Credit: <a href="https://commons.wikimedia.org/wiki/File:AI_Agent_Overview.png">Lillian Weng</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</p>
+    </figcaption>
+</figure>
+
+<h2 id="the-rise-of-agentic-ai">The Rise of Agentic AI</h2>
+<p>I&rsquo;m certainly not alone in my enthusiasm for agentic AI.</p>
+<p>Just in the last week, Jensen Huang, CEO of NVIDIA, remarked that we&rsquo;re entering the era of agentic AI at the <a href="https://www.youtube.com/live/k82RwXqZHY8">CES 2025 event</a> and Sam Altman, CEO and co-founder of OpenAI, also said that &ldquo;AI agents will join the workforce&rdquo; in 2025 in his blog post, <a href="https://blog.samaltman.com/reflections">Reflections</a>:</p>
+<blockquote>
+<p>&ldquo;We believe that, in 2025, we may see the first AI agents “join the workforce” and materially change the output of companies.&rdquo;</p>
+</blockquote>
+<p>Microsoft <a href="https://techcommunity.microsoft.com/blog/microsoft365copilotblog/introducing-new-agents-in-microsoft-365/4296918">announced a set of new agents</a> for Microsoft 365 in November 2024, including:</p>
+<ul>
+<li>A Facilitator agent for Microsoft Teams, that will take notes and summarise meetings</li>
+<li>An Interpreter agent for Microsoft Teams, allowing users to speak to one another in their language of choice</li>
+<li>A Project Manager agent, which automates overseeing entire projects, including plan creation, task assignment, progress tracking and status reporting</li>
+<li>An Employee Self-Service agent, enabling employees to get real-time answers and take action on key HR and IT topics</li>
+</ul>
+<p>The research community has also recognised the potential of agentic AI, with researchers from Berkeley, Stanford, Google DeepMind, OpenAI, Anthropic, MetaAI and others running fantastic massive open online courses like <a href="https://llmagents-learning.org/f24">Large Language Model Agents</a>:</p>
+<blockquote>
+<p>&ldquo;With the continuous advancement of LLM techniques, LLM agents are set to be the upcoming breakthrough in AI, and they are going to transform the future of our daily life with the support of intelligent task automation and personalization.&rdquo;</p>
+</blockquote>
+<p>I thoroughly recommend watching the lectures which are available on their <a href="https://www.youtube.com/playlist?list=PLS01nW3RtgopsNLeM936V4TNSsvvVglLc">YouTube Channel</a>.</p>
+<p>It&rsquo;s impossible not to see the enormous potential in all this. The future of software lies in systems where LLMs drive the logic engine, dispatching instructions to invoke tools, which in turn can also be powered by LLMs. Erik Meijer captures this vision perfectly in his paper <a href="https://dl.acm.org/doi/pdf/10.1145/3676287">Virtual Machinations: Using Large Language Models as Neural Computers</a>, drawing parallels between conventional and neural computers:</p>
+<figure class="center"><img src="/images/erik-meijer-neural-computer-comparison.png"
+    alt="Comparison of Conventional and Neural Computers - [Virtual Machinations: Using Large Language Models as Neural Computers](https://dl.acm.org/doi/pdf/10.1145/3676287)"><figcaption>
+      <p>Comparison of Conventional and Neural Computers - <a href="https://dl.acm.org/doi/pdf/10.1145/3676287">Virtual Machinations: Using Large Language Models as Neural Computers</a></p>
+    </figcaption>
+</figure>
+
+<p>Through his comparison of conventional and neural computers, Erik builds towards his fascinating work on developing a natural language-based reasoning language for programming these neural systems. This work has the potential to introduce a whole new type of computing and I can&rsquo;t wait to see what they achieve.</p>
+<h2 id="from-theory-to-practice">From Theory to Practice</h2>
+<p>With a bit of time on our hands this Christmas, <a href="https://jasonvella.com">Jason Vella</a> and I decided to run our own mini-hackathon. We set ourselves a goal of building something using an agentic AI, mainly for learning purposes. Even though the concept is quite nascent, there are already quite a number of agentic AI frameworks out there:</p>
+<ul>
+<li><a href="https://www.langchain.com/">LangChain</a>: A framework for developing applications powered by language models, with composability and modularity.</li>
+<li><a href="https://python.langchain.com/docs/langgraph">LangGraph</a>: An extension of LangChain for creating stateful, multi-agent applications using a graph-based approach.</li>
+<li><a href="https://microsoft.github.io/autogen/">AutoGen</a>: An open-source framework for building AI agents that can collaborate to solve complex tasks.</li>
+<li><a href="https://www.crewai.io/">CrewAI</a>: A framework designed for rapid prototyping of multi-agent systems for ease of use and quick iteration.</li>
+<li><a href="https://www.llamaindex.ai/">LlamaIndex</a>: A data framework for building LLM applications, focusing on data ingestion and retrieval.</li>
+<li><a href="https://learn.microsoft.com/en-us/semantic-kernel/overview/">Semantic Kernel</a>: Microsoft&rsquo;s AI orchestration framework combining natural language processing with traditional programming.</li>
+</ul>
+<p>We chose to use <a href="https://www.crewai.com">CrewAI</a> as it seems to a good option for getting something up and running fairly quickly. They&rsquo;ve got some good <a href="https://github.com/crewAIInc/crewAI-examples?tab=readme-ov-file">examples</a> and loads of great <a href="https://docs.crewai.com/introduction">documentation</a>.</p>
+<h2 id="going-meta-the-recursive-developer">Going Meta: The Recursive Developer</h2>
+<p>CrewAI is a Python-based framework (it seems most are), and unfortunately I&rsquo;ve had very little experience writing Python. Luckily, I have become pretty good at using <a href="https://codeium.com/windsurf">Windsurf</a>. Its Cascade feature, powered by <a href="https://codeium.com/flows">AI Flows</a>, actively reasons about my intent and helps me write code in languages I&rsquo;m not familiar with - it&rsquo;s like having an AI collaborator that truly understands what I&rsquo;m trying to achieve. Although it&rsquo;s not entirely obvious, you can see when different agents within the flows are collaborating on a code change - sometimes it will make a change, recognise that it&rsquo;s made a mistake, and fix it - all without me having to say anything. So here I am, <em>using one agentic AI system to help me build another</em>, how delightfully meta and yet more proof that agentic AI is the future!</p>
+<p>This experience validates what <a href="https://www.linkedin.com/in/andrewyng/">Andrew Ng</a> recently discussed in <a href="https://www.deeplearning.ai/the-batch/new-opportunities-for-the-new-year/">The Batch</a> about AI-coding assistants being especially effective for prototyping. It also aligns perfectly with findings from my Master of Engineering research on the impact of AI coding assistants on software engineering. In analysing software engineers&rsquo; responses about workflow changes, I have found that those using AI coding assistants were not only more likely to explore unfamiliar technologies but also felt they could prototype faster. To me, it feels like having an endlessly patient pair programmer to work with!</p>
+<figure class="center full-width"><img src="/images/initial-thematic-analysis-results.jpeg"
+    alt="Initial thematic analysis of an open-ended question around software engineers&#39; perceived impact on their workflows" width="100%"><figcaption>
+      <p>Initial thematic analysis of an open-ended question around software engineers&rsquo; perceived impact on their workflows</p>
+    </figcaption>
+</figure>
+
+<h2 id="building-my-first-agentic-ai-system">Building My First Agentic AI System</h2>
+<p>Out of the box, setting up a CrewAI project creates a simple, default &ldquo;Research Assistant&rdquo; crew which was nearly exactly what we chose as the first example anyway! Since I need to find and read papers for my Master&rsquo;s study, an automated research assistant felt like a practical, achievable and useful system to build.</p>
+<p>At this point, Jason spun off to play with AutoGen while I designed my research assistant crew to find the five most relevant recent papers on a given topic, matching them against specific research questions, and then deliver a summary by email. I decided to give my &ldquo;research aggregator&rdquo; agent a custom tool using Google Scholar (via <a href="https://serpapi.com">SerpAPI</a>) and my &ldquo;research analyst&rdquo; agent another custom tool to send emails using the <a href="https://developers.google.com/gmail/api/quickstart/python">Gmail API</a>.</p>
+<p>To run it automatically, I used <code>launchd</code>, although I&rsquo;m sure cron would&rsquo;ve done the job nicely too. And for the last couple of weeks, I&rsquo;ve received a daily digest of interesting and relevant papers on the impact of AI coding assistants on software engineering, complete with links and insights! I love it!</p>
+<figure class="center"><img src="/images/daily-research-digest-agentic-ai.png"
+    alt="Daily Research Digest - delivered by my first agentic AI system built using CrewAI"><figcaption>
+      <p>Daily Research Digest - delivered by my first agentic AI system built using CrewAI</p>
+    </figcaption>
+</figure>
+
+<h2 id="the-challenges-of-non-deterministic-systems">The Challenges of Non-Deterministic Systems</h2>
+<p>The biggest head-scratcher came when trying to pass variables between tasks. My research analyst agent has two jobs: summarise papers into a markdown file, then email that summary. Simple, right? My programmer brain figured I could configure the filepath once and pass it into each task as an argument - which you kind of can, but the agent seems to be modifying it before using it.</p>
+<p>What I discovered is that working with agentic AI systems requires a different debugging mindset. When your system can think and adapt, tracking down why it&rsquo;s not behaving as expected becomes a lot more difficult. It&rsquo;s not just about finding logic errors anymore – it&rsquo;s about understanding how the agent is interpreting and executing its tasks.</p>
+<p>This and many other challenges will become the <strong>new software engineering problems</strong> to solve. I believe these are the sorts of problems that Computer Science and Software Engineering students will study in the future. This is something that I&rsquo;m particularly interested in and hope to continue to uncover further as I continue my research.</p>
+<p>Besides that quirk, I spent most of my time building the logic for the tools. There&rsquo;s for sure going to be a market for these &rsquo;tools&rsquo; which are basically just little client libraries built over APIs. CrewAI allows you to use tools built for both <a href="https://docs.crewai.com/concepts/langchain-tools">LangChain</a> and <a href="https://docs.crewai.com/concepts/llamaindex-tools">LlamaIndex</a>, as long as you wrap them in custom tools.</p>
+<h2 id="whats-next">What&rsquo;s Next</h2>
+<p>When I was much younger, I used to stay up way too late building side projects. I seemed to have boundless energy to tinker away with the latest and greatest at the time (AJAX, Google Maps, then later, Windows Phone, Objective-C - ahh, the good ol&rsquo; days). But life got in the way and nowadays I never seem to find the time to spend building all the ideas I have. However, AI tools like Windsurf and ChatGPT have given me such a boost that many of these ideas now seem within reach again, removing the friction that often stops us from turning ideas into reality.</p>
+<p>Then add the extended possibilities that agentic AI frameworks give us and well, it&rsquo;s not hard to see the massive opportunities that lie ahead. The only real constraint now is our imagination. If you can imagine it, you can probably build it - and fairly quickly, too.</p>
+<p>Of course now that I&rsquo;ve built one of these, I want to build more. I&rsquo;ve always loved the idea of having software &ldquo;do things for me&rdquo; in the background and now, with little effort, it can do so much more. The hardest thing might be to train my brain to not limit itself when dreaming up the next side project.</p>
+<p>If you&rsquo;re a software engineer reading this, please don&rsquo;t wait - dive in and start playing with these tools as soon as can. Like any new technology, they take time to master, but the learning curve is absolutely worth it. The sooner you start experimenting, the sooner you&rsquo;ll discover just how much they can amplify what you can build and how you build it. After all, it really is agents all the way down.</p>
+
+    </article>
+
+    
+
+
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer pager-noitem">&lt; Newer</li>
+      <li class="pager-older">
+        <a href="/posts/2024-in-review/" data-toggle="tooltip" data-placement="top" title="2024 In Review: Expanding Horizons">Older &gt;</a>
+      </li>
+    </ul>
+    
+  </div>
+
+
+<div class="site-footer">
+  <div class="copyright">&copy; Copyright 2025 Annie Vella</div>
+  <ul class="site-footer-items">
+    <li class="site-footer-item-about"><a href="/about/" title="About">About</a></li>
+  </ul>
+  <div class="powerdby">
+    Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-STYW83D479"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-STYW83D479');
+        }
+      </script>
+
+</body>
+</html>
