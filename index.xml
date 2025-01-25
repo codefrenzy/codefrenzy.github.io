@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Copyright 2025 Annie Vella</copyright>
-    <lastBuildDate>Mon, 13 Jan 2025 00:00:00 +1300</lastBuildDate>
+    <lastBuildDate>Sat, 25 Jan 2025 00:00:00 +1300</lastBuildDate>
     <atom:link href="http://annievella.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>What It&#39;s Really Like Using an AI Coding Assistant</title>
+      <link>http://annievella.com/posts/what-its-really-like-using-an-ai-coding-assistant/</link>
+      <pubDate>Sat, 25 Jan 2025 00:00:00 +1300</pubDate>
+      <guid>http://annievella.com/posts/what-its-really-like-using-an-ai-coding-assistant/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;ve now spent a couple of months using &lt;a href=&#34;https://codeium.com/windsurf&#34;&gt;Windsurf&lt;/a&gt; fairly regularly and I thought I&amp;rsquo;d share some of my experiences with it.&lt;/p&gt;&#xA;&lt;p&gt;To set the scene, I&amp;rsquo;m a software engineer with over 20 years experience. I have a degree in Computer Science and Math and spent the first half of my career in hands-on individual contributor roles across 7 industries and 4 countries. I would generally describe myself as a C# .NET backend dev but I&amp;rsquo;ve built my fair share of frontends and even some mobile apps. I&amp;rsquo;ve hopped back and forth between management and engineering roles over the last decade. I haven&amp;rsquo;t written code as part of my day job for about 5 years now. I still enjoy building software myself and have plenty of grand ideas that I&amp;rsquo;d love to bring to life, but sadly it just takes too long.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Agents All The Way Down</title>
       <link>http://annievella.com/posts/agents-all-the-way-down/</link>
