@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Copyright 2025 Annie Vella</copyright>
-    <lastBuildDate>Sat, 25 Jan 2025 00:00:00 +1300</lastBuildDate>
+    <lastBuildDate>Thu, 06 Feb 2025 00:00:00 +1300</lastBuildDate>
     <atom:link href="http://annievella.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pipeline Under Pressure: How AI is Forcing the SDLC to Evolve</title>
+      <link>http://annievella.com/posts/pipeline-under-pressure/</link>
+      <pubDate>Thu, 06 Feb 2025 00:00:00 +1300</pubDate>
+      <guid>http://annievella.com/posts/pipeline-under-pressure/</guid>
+      <description>&lt;p&gt;Earlier this year, &lt;a href=&#34;https://lovable.dev&#34;&gt;Lovable&lt;/a&gt; celebrated their biggest milestone yet - more than 12,000 (!) new projects created in a single day. The very next day, they went down. The irony? Their success became their downfall. Each new project required a new GitHub repository, and this surge - thousands per day - put such strain on GitHub&amp;rsquo;s infrastructure that it risked affecting GitHub&amp;rsquo;s entire platform. Their on-call engineer had to make the difficult decision to suspend Lovable&amp;rsquo;s account, effectively blocking all users from creating or editing their projects.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>What It&#39;s Really Like Using an AI Coding Assistant</title>
       <link>http://annievella.com/posts/what-its-really-like-using-an-ai-coding-assistant/</link>
