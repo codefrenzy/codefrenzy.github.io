@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>The SDLC Strikes Back: Adapting to AI-Driven Development - Annie Vella</title>
+  <meta property="og:title" content="The SDLC Strikes Back: Adapting to AI-Driven Development - Annie Vella" />
+  <meta name="twitter:title" content="The SDLC Strikes Back: Adapting to AI-Driven Development - Annie Vella" />
+  <meta name="description" content="Earlier this year, Lovable celebrated their biggest milestone yet - more than 12,000 (!) new projects created in a single day. The very next day, they went down. The irony? Their success became their downfall. Each new project in Lovable requires a new GitHub repository, and this surge - thousands per day - put such strain on GitHub&rsquo;s infrastructure that it risked affecting GitHub&rsquo;s entire platform. Their on-call engineer had to make the difficult decision to suspend Lovable&rsquo;s account, effectively blocking all users from creating or editing their projects.">
+  <meta property="og:description" content="Earlier this year, Lovable celebrated their biggest milestone yet - more than 12,000 (!) new projects created in a single day. The very next day, they went down. The irony? Their success became their downfall. Each new project in Lovable requires a new GitHub repository, and this surge - thousands per day - put such strain on GitHub&rsquo;s infrastructure that it risked affecting GitHub&rsquo;s entire platform. Their on-call engineer had to make the difficult decision to suspend Lovable&rsquo;s account, effectively blocking all users from creating or editing their projects.">
+  <meta name="twitter:description" content="Earlier this year, Lovable celebrated their biggest milestone yet - more than 12,000 (!) new projects created in a single day. The very next day, they went down. The irony? Their success became their …">
+  <meta name="author" content="Annie Vella"/>
+  <meta property="og:site_name" content="Annie Vella" />
+  <meta property="og:url" content="http://annievella.com/posts/the-sdlc-strikes-back/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.140.1">
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+
+  <script src="/js/script.js"></script>
+  <script src="/js/custom.js"></script>
+  <script defer src="/fontawesome/all.min.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="/">Annie Vella</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-resources"><a href="/resources/" title="Resources">Resources</a></li>
+      <li class="site-navi-item-speaking"><a href="/speaking/" title="Speaking">Speaking</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      
+      
+      <h1 class="article-title">The SDLC Strikes Back: Adapting to AI-Driven Development</h1>
+      
+      <hr class="article-title-bottom">
+      <ul class="article-meta">
+        
+        <li class="article-meta-date"><time>February 6, 2025</time></li>
+        
+      </ul>
+      
+      <p>Earlier this year, <a href="https://lovable.dev">Lovable</a> celebrated their biggest milestone yet - more than 12,000 (!) new projects created in a single day. The very next day, they went down. The irony? Their success became their downfall. Each new project in Lovable requires a new GitHub repository, and this surge - thousands per day - put such strain on GitHub&rsquo;s infrastructure that it risked affecting GitHub&rsquo;s entire platform. Their on-call engineer had to make the difficult decision to suspend Lovable&rsquo;s account, effectively blocking all users from creating or editing their projects.</p>
+<figure class="center"><img src="/images/lovable-github-incident.png"
+    alt="Lovable Dev GitHub Incident" width="75%"><figcaption>
+      <p><a href="https://x.com/antonosika/status/1876342499620667511">Anton Osika - Lovable Dev GitHub Incident</a></p>
+    </figcaption>
+</figure>
+
+<p>This incident perfectly illustrates a fundamental principle of systems thinking: when you push hard on one part of a complex system, it pushes back in unexpected ways. <a href="https://en.wikipedia.org/wiki/Peter_Senge">Peter Senge</a> captured this insight in <a href="https://en.wikipedia.org/wiki/The_Fifth_Discipline">The Fifth Discipline</a> as one of his laws of systems thinking: <strong>the harder you push, the harder the system pushes back</strong>.</p>
+<p>The Software Development Lifecycle (SDLC) is one such complex system, and right now, we&rsquo;re pushing on it harder than ever before. If you&rsquo;re working with AI tools, you&rsquo;ve probably experienced this yourself - code that used to take hours or days to write is now generated in seconds. &ldquo;The code just writes itself now!&rdquo; has become a common refrain in development circles. And while it&rsquo;s not entirely wrong, it&rsquo;s making us face some fascinating challenges.</p>
+<p>What happens when code generation is no longer the bottleneck? Here&rsquo;s what you&rsquo;ll start seeing: larger PRs piling up in review queues, test suites taking longer to run, and deployments struggling to keep up. As we accelerate one part of the development cycle, the system inevitably responds in ways that demand our attention - and you&rsquo;ll need to be ready.</p>
+<h2 id="pipeline-pressure-points">Pipeline Pressure Points</h2>
+<p>As we accelerate code generation with AI, we&rsquo;re seeing the system push back at both ends of our development pipeline - both before and after the actual build phase.</p>
+<h3 id="ux-the-pre-build-bottleneck">UX: The Pre-Build Bottleneck</h3>
+<p>Software development has always been constrained by implementation speed. Even at the 1968 conference where the term &ldquo;Software Engineering&rdquo; was coined, the word &ldquo;cost&rdquo; appears <strong>96 times</strong> <a href="https://www.scrummanager.com/files/nato1968e.pdf">throughout the report</a> - and they weren&rsquo;t just talking about hardware. Despite decades of new methodologies, frameworks, and automation tools, writing code has remained stubbornly time-consuming.</p>
+<p>But AI coding assistants are changing this equation dramatically. Tasks that used to take days - like scaffolding new APIs, building authentication systems or perfecting UI layouts - now take hours or minutes. The implementation speed that has bottlenecked our industry for decades is suddenly dramatically increasing.</p>
+<p>And that&rsquo;s when a new challenge emerges. I recently came across this <a href="https://www.reddit.com/r/ChatGPTCoding/comments/1h26x0k/team_transitioned_to_cursor_but_bottleneck_is_now/">Reddit post</a> that hints at what&rsquo;s coming:</p>
+<figure class="center"><img src="/images/cursor-speed-ux-bottleneck.png"
+    alt="Reddit post - Team transitioned to Cursor but bottleneck is now UX"><figcaption>
+      <p><a href="https://www.reddit.com/r/ChatGPTCoding/comments/1h26x0k/team_transitioned_to_cursor_but_bottleneck_is_now/">Reddit post - Team transitioned to Cursor but bottleneck is now UX</a></p>
+    </figcaption>
+</figure>
+
+<p>While most teams are still focused on adopting AI for faster code generation, some early adopters are already hitting a different wall: they can implement features faster than they can design them. The bottleneck is shifting from implementation to conception - from <em>how</em> to build it to <em>what</em> to build.</p>
+<p>This is systems thinking in action - as we optimise one part of the pipeline, we&rsquo;re exposing constraints elsewhere. Soon, our biggest challenge won&rsquo;t be writing code, but rather understanding user needs, designing intuitive interfaces, and crafting requirements that actually solve real problems. We&rsquo;re going to need new ways to accelerate these early stages of development to keep pace with our AI-enhanced implementation capabilities.</p>
+<h3 id="the-speed-wobbles-post-build-challenges">The Speed Wobbles: Post-Build Challenges</h3>
+<p>Remember learning to ride a bike? There&rsquo;s that terrifying moment when you&rsquo;re going so fast that the handlebars start to shake. You&rsquo;re not doing anything wrong - you&rsquo;ve just hit that speed where everything starts to wobble. That&rsquo;s exactly what&rsquo;s happening in our development pipelines.</p>
+<p>The ripple effects of accelerated code generation are showing up in unexpected places. As mentioned in a <a href="https://annievella.com/posts/what-its-really-like-using-an-ai-coding-assistant/">previous post</a>, the <a href="https://dora.dev/research/2024/dora-report/">2024 DORA Report</a> revealed a fascinating paradox: while AI tools are improving many of the things we typically associate with better delivery - documentation quality, code quality, code review speed, and reduced complexity - the industry is actually seeing a decline in overall delivery performance.</p>
+<p>This highlights another key principle of systems thinking: improving individual components doesn&rsquo;t necessarily improve the system as a whole. In fact, it can make things worse if those improvements aren&rsquo;t balanced across the entire pipeline. The DORA findings suggest that our development processes, built and optimised over decades for human-speed code generation, need fundamental rethinking to handle the velocity that AI enables.</p>
+<h2 id="adapting-to-ai-driven-development">Adapting to AI-Driven Development</h2>
+<p>As these pressure points emerge, we&rsquo;re seeing new tools and practices evolve to help us adapt. These adaptations focus on two key areas: how we provide context to our AI tools, and how we think about our source artifacts themselves.</p>
+<h3 id="the-importance-of-context">The Importance of Context</h3>
+<p>Here&rsquo;s a scenario every developer knows too well: you&rsquo;re working with a new teammate, and they ask you how to use the company&rsquo;s internal authentication library. You point them to the documentation, only to realise it&rsquo;s woefully outdated. So you spend the next hour walking them through the codebase, explaining the patterns, the gotchas, and trying to recall why certain decisions were made.</p>
+<p>Now imagine having this same conversation with an AI coding assistant. Without proper context, it&rsquo;s just as lost as that new teammate. Sure, it can write decent code from simple prompts, but ask it to work with your custom libraries or follow your team&rsquo;s patterns that it can&rsquo;t possibly know anything about, and it&rsquo;s flying blind.</p>
+<p>This is why we&rsquo;re seeing tools like <a href="https://llmcontext.com">LLMContext.com</a> and <a href="https://www.uithub.com">Uithub.com</a> emerge. These tools create rich, interpretable context files from your entire development ecosystem. Not just source code, but documentation in various formats - from Markdown files to PDFs, and even content from images and other media (thanks to Microsoft&rsquo;s <a href="https://github.com/microsoft/markitdown">MarkItDown</a> tool).</p>
+<p>It&rsquo;s like giving your AI assistant the equivalent of that hour-long walkthrough. Now when you ask it to add a feature using your authentication library, it understands the patterns, the constraints, and the team conventions. The code it generates isn&rsquo;t just syntactically correct - it feels like it was written by someone who actually knows your codebase.</p>
+<p>This emerging need for rich, well-structured context is yet another way the SDLC is pushing back. As our AI tools get better at writing code, we need better ways to help them understand <em>our</em> code.</p>
+<h3 id="are-specs-and-prompts-our-new-source-code">Are Specs and Prompts our New Source Code?</h3>
+<p>Perhaps the most fundamental adaptation is in how we think about source code itself. When we were writing code by hand (wow, that feels weird to say), the most important thing to store safely was the source code. It&rsquo;s in the name - <em>source</em>. From that, you should be able to derive everything else you need to know about how the system ought to operate.</p>
+<p>The reality is that we&rsquo;re not writing all the code by hand anymore. Instead, we&rsquo;re writing specifications and prompts for AI coding assistants to <em>generate</em> code for us. And this raises an important question: if all you&rsquo;re storing is the generated output of the LLMs, isn&rsquo;t that almost the equivalent of only storing compiled code (bytecode, IL, binaries) instead of the source code?</p>
+<p>We&rsquo;re not in entirely new territory here. Test-Driven Development (TDD) and Behaviour-Driven Development (BDD) have long emphasized the importance of capturing the <em>intent</em> behind our code - TDD through tests, BDD through behaviour specifications. Both approaches ensure we&rsquo;re clear about what we want before we build it. The same principle applies here - without capturing our intent, we&rsquo;re just hoping the implementation does what we think it was intended to do.</p>
+<p>The rise of AI-generated code raises interesting questions about code understanding. As AI generates more of our code, some worry we&rsquo;ll lose our grasp on how it all works. But maybe that&rsquo;s looking at it wrong - if we can capture and validate our intent clearly enough, debugging might become less about understanding the implementation and more about refining the specification. Think of it as hitting replay with a slightly modified script.</p>
+<p>Following this line of thinking to its natural conclusion - if prompts and specifications are becoming our new source code, shouldn&rsquo;t we treat them with the same care and organisation? Just as we&rsquo;ve developed sophisticated ways to store, manage and share code, we need new tools and practices for managing our AI interactions. Here are three ideas that are already starting to emerge:</p>
+<h3 id="1-prompt-libraries">1. Prompt Libraries</h3>
+<p>Remember when we used to stash away useful code snippets? Those bits of tried-and-tested code that we&rsquo;d copy-paste into new projects? For me it was SQL - I couldn&rsquo;t help but keep almost every piece of SQL I ever wrote in a folder because you just never knew when it was going to come in handy again!</p>
+<p>Well, welcome to the AI era&rsquo;s equivalent: <strong>Prompt Libraries</strong>. Instead of storing code in repos, we&rsquo;re now starting to store and share the prompts that consistently generate good outputs. We&rsquo;re already seeing this materialize in practice - a recent <a href="https://dev.to/portkey/three-prompt-libraries-you-should-know-as-a-ai-engineer-32m8">article on dev.to</a> highlights several emerging prompt libraries that are bringing engineering rigor to prompt creation and management.</p>
+<p>Imagine having a library of prompts that you know will generate a solid REST API endpoint, complete with error handling and input validation. Or prompts that reliably create accessible React components following your team&rsquo;s conventions. These proven prompts deliver predictable, high-quality results, just like the code libraries we&rsquo;ve always relied on. We&rsquo;re moving from sharing snippets on GitHub Gists to building entire ecosystems for testing, sharing, and versioning our most effective prompts.</p>
+<p>This shift isn&rsquo;t just about storing prompts - it&rsquo;s about the emergence of prompt engineering as a crucial skill. My recent research revealed that 56% of software engineers see prompt engineering as highly important for their future role, while only 21% consider it unimportant.</p>
+<figure class="center"><img src="/images/importance_of_prompt_engineering.png"
+    alt="Graph showing that over half of surveyed software engineers consider prompt engineering to be extremely or very important for their future role"><figcaption>
+      <p>Future of Prompt Engineering</br>Over half of surveyed software engineers consider prompt engineering to be extremely or very important for their future role</p>
+    </figcaption>
+</figure>
+
+<h3 id="2-intent-records-and-templates">2. Intent Records and Templates</h3>
+<p>Here&rsquo;s another idea worth exploring: as AI increasingly generates our code, we need better ways to capture the reasoning behind implementation choices. I&rsquo;m imagining something that I&rsquo;m calling  <strong>Intent Records</strong> - think of them like Architecture Decision Records (ADRs) but specifically designed for AI generation, capturing both what to build and why to build it that way.</p>
+<p>An Intent Record could specify something like: &ldquo;We need a caching layer that prioritises read speed over write speed because our analytics dashboard needs to handle 10,000 concurrent users viewing real-time data&rdquo;. To standardise these records, we could develop <strong>Intent Templates</strong> - similar to how Detailed Design Documents (DDDs) structure their content - ensuring teams capture all necessary requirements, constraints, assumptions and design decisions that guide AI code generation.</p>
+<h3 id="3-spec-modules">3. Spec Modules</h3>
+<p>Building on this concept of structured documentation, here&rsquo;s another idea to consider: what if we had reusable building blocks for creating AI-ready specifications? We could call them <strong>Spec Modules</strong> - pre-built specification components that describe in detail specific types of functionality. Need authentication? You&rsquo;d grab a spec module that defines the security requirements, API endpoints, and user flows. Want a shopping cart? There&rsquo;d be a module ready to customise with your specific business rules.</p>
+<p>By breaking down specifications into these AI-friendly modules, you wouldn&rsquo;t just be making your work more efficient - you&rsquo;d be creating a new kind of component library. One that exists at a higher level than traditional code libraries, providing AI systems with clear, consistent instructions for generating reliable, production-ready code.</p>
+<h2 id="rethinking-the-sdlc-ai-is-pushing-back">Rethinking the SDLC: AI is Pushing Back</h2>
+<p>For as long as software engineering has existed, we&rsquo;ve been searching for ways to build better software with less pain. Faster builds, simpler deployments, shorter feedback loops. Every new methodology, every new tool, every process improvement - it&rsquo;s all been about reducing friction and cognitive load in the development pipeline.</p>
+<p>And now, AI coding assistants have done something remarkable. They’ve removed one of our longest-standing bottlenecks: the speed of writing code. It’s no longer a question of how fast we can build something - it’s a question of whether we can keep up with what we’re creating.</p>
+<p>But software development isn’t just about writing code. It never was. The real work happens before the first line is written and long after the last commit. And now that we’ve uncapped code generation speed, we’re seeing pressure shift to everything around it - design, testing, review, deployment. The SDLC is pushing back.</p>
+<p>In <a href="https://dl.acm.org/doi/10.1145/3715003">The Future of AI-Driven Software Engineering (Terragni et al., 2025)</a>, we explored where this shift is leading us. AI isn&rsquo;t just accelerating development - it&rsquo;s reshaping the way we build software altogether. Requirements need to be clearer. Design decisions and intent need to be explicit and recorded. Testing and validation need to scale. Our workflows, our tools, even our mental models of software engineering are being rewritten in real time. Our research suggests that AI itself might help address these emerging needs - from requirements analysis through to testing and deployment - though with varying levels of maturity across different stages of the lifecycle.</p>
+<p>The implications are profound. <strong>The teams that understand and adapt to these system pressures now will be the ones that thrive in the AI era</strong>. As AI reshapes software development, it&rsquo;s not just changing our tools - it&rsquo;s transforming how we think about the entire discipline. The engineers who thrive in this new era will be those who excel at shaping intent, thinking in systems, and designing solutions that leverage both human insight and AI capabilities to build better software in ways we&rsquo;re only beginning to imagine.</p>
+
+    </article>
+
+    
+
+
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer pager-noitem">&lt; Newer</li>
+      <li class="pager-older">
+        <a href="/posts/what-its-really-like-using-an-ai-coding-assistant/" data-toggle="tooltip" data-placement="top" title="What It&#39;s Really Like Using an AI Coding Assistant">Older &gt;</a>
+      </li>
+    </ul>
+    
+  </div>
+
+
+<div class="site-footer">
+  <div class="copyright">&copy; Copyright 2025 Annie Vella</div>
+  <ul class="site-footer-items">
+    <li class="site-footer-item-about"><a href="/about/" title="About">About</a></li>
+  </ul>
+  <div class="powerdby">
+    Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-STYW83D479"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-STYW83D479');
+        }
+      </script>
+
+</body>
+</html>
