@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Copyright 2025 Annie Vella</copyright>
-    <lastBuildDate>Sat, 01 Mar 2025 00:00:00 +1300</lastBuildDate>
+    <lastBuildDate>Fri, 21 Mar 2025 00:00:00 +1300</lastBuildDate>
     <atom:link href="http://annievella.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Software Engineering Identity Crisis</title>
+      <link>http://annievella.com/posts/the-software-engineering-identity-crisis/</link>
+      <pubDate>Fri, 21 Mar 2025 00:00:00 +1300</pubDate>
+      <guid>http://annievella.com/posts/the-software-engineering-identity-crisis/</guid>
+      <description>&lt;p&gt;Many of us became software engineers because we found our identity in building things. Not managing things. Not overseeing things. &lt;em&gt;Building&lt;/em&gt; things. With our own hands, our own minds, our own code.&lt;/p&gt;&#xA;&lt;p&gt;But that identity is being challenged.&lt;/p&gt;&#xA;&lt;p&gt;AI coding assistants aren&amp;rsquo;t just changing how we write software - they&amp;rsquo;re fundamentally transforming &lt;em&gt;who we are&lt;/em&gt;. We&amp;rsquo;re shifting from creators to orchestrators, from builders to overseers. From engineers to something that looks suspiciously like&amp;hellip; managers.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Rediscover the Power of Simplicity</title>
       <link>http://annievella.com/posts/rediscover-the-power-of-simplicity/</link>
