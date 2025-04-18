@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Copyright 2025 Annie Vella</copyright>
-    <lastBuildDate>Fri, 21 Mar 2025 00:00:00 +1300</lastBuildDate>
+    <lastBuildDate>Fri, 18 Apr 2025 00:00:00 +1300</lastBuildDate>
     <atom:link href="http://annievella.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>You Can’t Prompt Your Way to Intuition</title>
+      <link>http://annievella.com/posts/you-cant-prompt-your-way-to-intuition/</link>
+      <pubDate>Fri, 18 Apr 2025 00:00:00 +1300</pubDate>
+      <guid>http://annievella.com/posts/you-cant-prompt-your-way-to-intuition/</guid>
+      <description>&lt;p&gt;We don’t talk enough about the &lt;em&gt;feeling&lt;/em&gt; of learning something deeply - the slow, sometimes frustrating and painful process that forges real intuition.&lt;/p&gt;&#xA;&lt;p&gt;As software engineers, we know this feeling intimately. The slow burn of mastering a new concept or language. The pressure and anxiety of resolving your first production issue. The endless hours spent debugging a complex system that just won&amp;rsquo;t work - until, at last, it does. And how that struggle itself is the point: it&amp;rsquo;s what transforms a beginner coder into a software engineer with real intuition.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>The Software Engineering Identity Crisis</title>
       <link>http://annievella.com/posts/the-software-engineering-identity-crisis/</link>
