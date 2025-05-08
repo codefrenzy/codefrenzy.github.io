@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=58747&amp;path=livereload" data-no-instant defer></script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <title>System design is hard - Annie Vella</title>
@@ -11,10 +11,10 @@
   <meta name="twitter:description" content="System design is both really important and really tricky to get right. Designing a system to satisfy the stated requirements - functional and non-functional - as well as be able to be built by the …">
   <meta name="author" content="Annie Vella"/>
   <meta property="og:site_name" content="Annie Vella" />
-  <meta property="og:url" content="http://annievella.com/posts/system-design-is-hard/" />
+  <meta property="og:url" content="http://localhost:58747/posts/system-design-is-hard/" />
   <meta property="og:type" content="article" />
   <meta name="twitter:card" content="summary" />
-  <meta name="generator" content="Hugo 0.112.3">
+  <meta name="generator" content="Hugo 0.140.1">
   <link rel="stylesheet" href="/css/style.css" media="all" />
 
   <link rel="stylesheet" href="/css/syntax.css" media="all" />
@@ -22,7 +22,7 @@
 
   <script src="/js/script.js"></script>
   <script src="/js/custom.js"></script>
-  <script defer src="/js/fontawesome.js"></script>
+  <script defer src="/fontawesome/all.min.js"></script>
 </head>
 
 <body>
@@ -31,9 +31,8 @@
   <nav class="site-navi">
     <h1 class="site-title"><a href="/">Annie Vella</a></h1>
     <ul class="site-navi-items">
-      <li class="site-navi-item-categories"><a href="/categories/" title="Categories">Categories</a></li>
-      <li class="site-navi-item-tags"><a href="/tags/" title="Tags">Tags</a></li>
-      <li class="site-navi-item-archives"><a href="/archives/" title="Archives">Archives</a></li>
+      <li class="site-navi-item-resources"><a href="/resources/" title="Resources">Resources</a></li>
+      <li class="site-navi-item-speaking"><a href="/speaking/" title="Speaking">Speaking</a></li>
       <li class="site-navi-item-about"><a href="/about/" title="About">About</a></li>
     </ul>
   </nav>
@@ -48,12 +47,11 @@
       
       <hr class="article-title-bottom">
       <ul class="article-meta">
+        
         <li class="article-meta-date"><time>January 23, 2024</time></li>
+        
       </ul>
       
-<aside class="toc">
-  <nav id="TableOfContents"></nav>
-</aside>
       <p>System design is both really important and really tricky to get right. Designing a system to satisfy the stated requirements - functional and non-functional - as well as be able to be built by the teams, within the timeframe required, with the tooling available, and last but not least, in a way that is easy to change and scale and maintain for the foreseeable future… it’s a lot to take into account!</p>
 <p>Over the last decade, our industry has fallen in love with the idea of microservice architectures. There’s something really alluring about breaking larger solutions down into smaller components that can be built and deployed independently. And indeed there will be specific circumstances and situations where this type of architecture is the right one. But it’s designed to solve particular problems which not everyone has, and it introduces a bunch more that you may not even have thought of yet. It’s by no means a silver bullet.</p>
 <p>There’s also a lot of misinformation about what microservices really are. Most definitions will include the following:</p>
@@ -65,9 +63,9 @@
 </ul>
 <p>Of these, the first two can be thought of in terms of physical and logical coupling. In his talk called “Don’t Build a Distributed Monolith - How to Avoid Doing Microservices Completely Wrong” (<a href="https://youtu.be/p2GlRToY5HI)">https://youtu.be/p2GlRToY5HI)</a>, Jonathan Tower represented this in a really clear way:</p>
 <figure class="center"><img src="/images/physical-logical-coupling-microservices-monoliths.jpg"
-         alt="Alt text"/><figcaption>
-            <p>Physical vs Logical Coupling</p>
-        </figcaption>
+    alt="Alt text"><figcaption>
+      <p>Physical vs Logical Coupling</p>
+    </figcaption>
 </figure>
 
 <p>This is a great way to visualise and compare some common high-level system designs because it highlights the difference between physical and logical coupling. A physically distributed system is not necessarily loosely coupled in a logical sense and vice versa, a logically distributed system can be physically monolithic.</p>
@@ -80,6 +78,7 @@
     
 
 
+    
     <ul class="pager article-pager">
       <li class="pager-newer">
           <a href="/posts/embracing-the-unexpected/" data-toggle="tooltip" data-placement="top" title="Embracing the Unexpected">&lt; Newer</a>
@@ -88,11 +87,12 @@
         <a href="/posts/2023-in-review/" data-toggle="tooltip" data-placement="top" title="2023 In Review: A Year of Rediscovery and Growth">Older &gt;</a>
       </li>
     </ul>
+    
   </div>
 
 
 <div class="site-footer">
-  <div class="copyright">&copy; Copyright 2024 Annie Vella</div>
+  <div class="copyright">&copy; Copyright 2025 Annie Vella</div>
   <ul class="site-footer-items">
     <li class="site-footer-item-about"><a href="/about/" title="About">About</a></li>
   </ul>
@@ -101,17 +101,20 @@
   </div>
 </div>
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-STYW83D479"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-STYW83D479', { 'anonymize_ip': false });
-}
-</script>
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-STYW83D479"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-STYW83D479');
+        }
+      </script>
 
 </body>
 </html>

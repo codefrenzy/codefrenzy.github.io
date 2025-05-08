@@ -7,8 +7,15 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Copyright 2025 Annie Vella</copyright>
-    <lastBuildDate>Fri, 18 Apr 2025 00:00:00 +1300</lastBuildDate>
+    <lastBuildDate>Fri, 09 May 2025 00:00:00 +1200</lastBuildDate>
     <atom:link href="http://annievella.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Next Evolutionary Step</title>
+      <link>http://annievella.com/posts/the-next-evolutionary-step/</link>
+      <pubDate>Fri, 09 May 2025 00:00:00 +1200</pubDate>
+      <guid>http://annievella.com/posts/the-next-evolutionary-step/</guid>
+      <description>&lt;p&gt;The recent releases of Claude Code and OpenAI Codex caught my attention, but not for the reasons you might expect. I was puzzled by the enthusiasm they&amp;rsquo;ve generated. These are, after all, terminal tools. In an era where graphical IDEs dominate, with tools like Cursor, Windsurf, and VSCode evolving toward ever-more seamless integrations, like &amp;lsquo;&lt;a href=&#34;https://www.linkedin.com/posts/tomkrcha_introducing-design-mode-for-cursor-activity-7325527044459524096-tqy7&#34;&gt;Design Mode&lt;/a&gt;&amp;rsquo;, why are we getting excited about terminal-based AI coding tools that feel like a step backwards?&lt;/p&gt;</description>
+    </item>
     <item>
       <title>You Can’t Prompt Your Way to Intuition</title>
       <link>http://annievella.com/posts/you-cant-prompt-your-way-to-intuition/</link>
