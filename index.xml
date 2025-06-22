@@ -16,8 +16,11 @@
       <link>http://annievella.com/posts/the-next-evolutionary-step/</link>
       <pubDate>Fri, 09 May 2025 00:00:00 +1200</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
       <guid>http://annievella.com/posts/the-next-evolutionary-step/</guid>
-      <description><![CDATA[<p>The recent releases of Claude Code and OpenAI Codex caught my attention, but not for the reasons you might expect. I was puzzled by the enthusiasm they&rsquo;ve generated. These are, after all, terminal tools. In an era where graphical IDEs dominate, with tools like Cursor, Windsurf, and VSCode evolving toward ever-more seamless integrations, like &lsquo;<a href="https://www.linkedin.com/posts/tomkrcha_introducing-design-mode-for-cursor-activity-7325527044459524096-tqy7">Design Mode</a>&rsquo;, why are we getting excited about terminal-based AI coding tools that feel like a step backwards?</p>
-<figure class="center"><img src="/images/questprobe-featuring-spider-man.png"
+      <description>
+      
+      
+      <![CDATA[<p>The recent releases of Claude Code and OpenAI Codex caught my attention, but not for the reasons you might expect. I was puzzled by the enthusiasm they&rsquo;ve generated. These are, after all, terminal tools. In an era where graphical IDEs dominate, with tools like Cursor, Windsurf, and VSCode evolving toward ever-more seamless integrations, like &lsquo;<a href="https://www.linkedin.com/posts/tomkrcha_introducing-design-mode-for-cursor-activity-7325527044459524096-tqy7">Design Mode</a>&rsquo;, why are we getting excited about terminal-based AI coding tools that feel like a step backwards?</p>
+<figure class="center"><img src="http://annievella.com/images/questprobe-featuring-spider-man.png"
     alt="Questprobe Featuring Spider-Man (1984)"><figcaption>
       <p><a href="https://youtu.be/bw6KY5XaF9M?si=Sbw74N5UA71Ad27K">Questprobe Featuring Spider-Man (1984)</a></p>
     </figcaption>
@@ -29,14 +32,14 @@
 <p>Setting it up was a breeze. Just follow the instructions <a href="https://docs.anthropic.com/en/docs/claude-code/overview">here</a> and you&rsquo;ll be up and running in no time.</p>
 <p>You&rsquo;ll need an Anthropic account because you need some money on your account before you can use Claude Code. I gave mine $5 USD and it was enough to build a couple of simple apps.</p>
 <p>In a weird way, it feels like I&rsquo;m <em>playing</em> Questprobe Featuring Spider-Man but instead of asking it to go north, I&rsquo;m asking it to write me an app.</p>
-<figure class="center"><img src="/images/building-spider-man-2025.png"
+<figure class="center"><img src="http://annievella.com/images/building-spider-man-2025.png"
     alt="Claude Code - Building Spider-Man"><figcaption>
       <p>Claude Code - Building Spider-Man</p>
     </figcaption>
 </figure>
 
 <p>From the simple prompt, <em>&ldquo;Can you create a web-based version of the text adventure game called Questprobe Featuring Spider-Man from 1984 - <a href="https://www.squakenet.com/game/questprobe-featuring-spider-man/">https://www.squakenet.com/game/questprobe-featuring-spider-man/</a> ?&rdquo;</em>, Claude Code generated a basic but functional web-based version of Questprobe Featuring Spider-Man in less than a minute.</p>
-<figure class="center"><img src="/images/spider-man-2025.png"
+<figure class="center"><img src="http://annievella.com/images/spider-man-2025.png"
     alt="Claude Code Spider-Man"><figcaption>
       <p>Claude Code Spider-Man</p>
     </figcaption>
@@ -48,7 +51,7 @@
 <h2 id="openai-codex">OpenAI Codex</h2>
 <p>Setting it up is straightforward - just follow the instructions <a href="https://github.com/openai/codex">here</a>. As with Claude Code, you&rsquo;ll need an OpenAI account with some credit before you can use it.</p>
 <p>I asked Codex to analyse a really old side project of mine - an iPad game called <em>Easter Egg Hunt</em> written in Objective-C back in 2013 or so. The prompt was simple: <em>&ldquo;Can you describe the purpose of the app?&rdquo;</em></p>
-<figure class="center"><img src="/images/openai-codex-easterhunt.png"
+<figure class="center"><img src="http://annievella.com/images/openai-codex-easterhunt.png"
     alt="OpenAI Codex Easter Egg Hunt Description"><figcaption>
       <p>OpenAI Codex Easter Egg Hunt Description</p>
     </figcaption>
@@ -57,13 +60,13 @@
 <p>Within seconds, it produced a remarkably accurate description of the app - from the three themed environments (Garden, Beach, or Snow) to the core gameplay of eggs periodically &ldquo;popping&rdquo; up in random locations. It even caught implementation details like the particle effects and chimes every five eggs, the in-app purchase system for unlocking scenes, and the use of Localytics for analytics. All this without ever seeing the app running or having any screenshots - just pure code comprehension.</p>
 <p>Encouraged, I pushed a little further. <em>&ldquo;Draw some high-value diagrams using Mermaid that would help a new engineer understand this codebase.&rdquo;</em></p>
 <p>The results were genuinely impressive. Codex generated a series of clear, thoughtful visuals - from class relationship diagrams showing the core game structure to sequence diagrams illustrating the gameplay flow. These diagrams captured relationships that would take hours for a human to extract from unfamiliar code.</p>
-<figure class="center"><img src="/images/openai-codex-easterhunt-class-diagram.png"
+<figure class="center"><img src="http://annievella.com/images/openai-codex-easterhunt-class-diagram.png"
     alt="OpenAI Codex Easter Egg Hunt Class Diagram"><figcaption>
       <p>OpenAI Codex Easter Egg Hunt Class Diagram</p>
     </figcaption>
 </figure>
 
-<figure class="center"><img src="/images/openai-codex-easterhunt-sequence-diagram.png"
+<figure class="center"><img src="http://annievella.com/images/openai-codex-easterhunt-sequence-diagram.png"
     alt="OpenAI Codex Easter Egg Hunt Sequence Diagram"><figcaption>
       <p>OpenAI Codex Easter Egg Hunt Sequence Diagram</p>
     </figcaption>
@@ -75,7 +78,7 @@
 <p>For developers used to modern IDEs, returning to the terminal might feel like a blast from the past. But focusing on the interface misses something crucial.</p>
 <p>These tools aren&rsquo;t here to replace our IDEs - they represent the next natural evolutionary step in development. A step where AI intelligence can be embedded throughout our entire workflow.</p>
 <p>Both OpenAI Codex and Claude Code can run in <em>headless mode</em>, allowing them to be integrated into pipelines, scheduled tasks, and automated testing suites. Claude Code offers a <a href="https://docs.anthropic.com/en/docs/claude-code/cli-usage#print-mode-details">non-interactive mode</a> designed for programmatic use. OpenAI Codex similarly supports a <a href="https://github.com/openai/codex#non-interactive--ci-mode">non-interactive / CI mode</a> for use in pipelines.</p>
-<figure class="center"><img src="/images/openai-codex-non-interactive-mode.png"
+<figure class="center"><img src="http://annievella.com/images/openai-codex-non-interactive-mode.png"
     alt="OpenAI Codex Non-Interactive Mode"><figcaption>
       <p>OpenAI Codex Non-Interactive Mode</p>
     </figcaption>
@@ -104,7 +107,10 @@
       <link>http://annievella.com/posts/you-cant-prompt-your-way-to-intuition/</link>
       <pubDate>Fri, 18 Apr 2025 00:00:00 +1300</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
       <guid>http://annievella.com/posts/you-cant-prompt-your-way-to-intuition/</guid>
-      <description><![CDATA[<p>We don’t talk enough about the <em>feeling</em> of learning something deeply - the slow, sometimes frustrating and painful process that forges real intuition.</p>
+      <description>
+      
+      
+      <![CDATA[<p>We don’t talk enough about the <em>feeling</em> of learning something deeply - the slow, sometimes frustrating and painful process that forges real intuition.</p>
 <p>As software engineers, we know this feeling intimately. The slow burn of mastering a new concept or language. The pressure and anxiety of resolving your first production issue. The endless hours spent debugging a complex system that just won&rsquo;t work - until, at last, it does. And how that struggle itself is the point: it&rsquo;s what transforms a beginner coder into a software engineer with real intuition.</p>
 <p>And yet, in the age of AI, that friction is exactly what we&rsquo;re designing away.</p>
 <p>GitHub Copilot, ChatGPT, Cursor, Windsurf - they&rsquo;re extraordinary tools. They&rsquo;ve changed the way we work. They accelerate us. They enable us to solve problems we previously would&rsquo;ve struggled with. They&rsquo;re becoming the new normal.</p>
@@ -119,7 +125,7 @@
 <p>There’s something disorienting about how good these tools are at helping you <em>sound</em> like an expert. They give you the answers - but they don&rsquo;t teach you how to <em>notice the problem</em> in the first place. And they certainly don&rsquo;t teach you how to trust your instincts.</p>
 <p>That’s the real danger of shortcuts: they make you feel powerful and productive, but can lull you into a false sense of security. Without the intuition and habits forged by experience - knowing when to be wary, when to back up, when to double-check - you&rsquo;re at risk of costly mistakes. These lessons aren&rsquo;t learned by skipping to the answer; they&rsquo;re earned by wrestling with real problems.</p>
 <p>Cautionary tales like the one below are popping up everywhere - not necessarily because people lack technical skill, but because they haven&rsquo;t yet built the judgement to anticipate, prevent, or recover from disaster.</p>
-<figure class="center"><img src="/images/ai-destroys-months-of-work.png"
+<figure class="center"><img src="http://annievella.com/images/ai-destroys-months-of-work.png"
     alt="AI Destroys Months of Work"><figcaption>
       <p><a href="https://www.reddit.com/r/cursor/comments/1inoryp/cursor_fck_up_my_4_months_of_works/">AI Destroys Months of Work</a></p>
     </figcaption>
@@ -130,7 +136,7 @@
 <p>What ties all these higher-order skills together is a kind of engineering intuition - a sense for what matters, what will work, and what might go wrong in different contexts. But intuition isn&rsquo;t something you can prompt for or download; it&rsquo;s earned by moving through the gradual stages of real skill acquisition.</p>
 <h2 id="the-dreyfus-model-why-intuition-cant-be-prompted">The Dreyfus Model: Why Intuition Can&rsquo;t Be Prompted</h2>
 <p>The Dreyfus Model is one of the best tools I’ve found to help make sense of this journey, both for myself and for others I’ve coached. If you&rsquo;ve never heard of it or how it can be applied to software engineering careers, <a href="https://hackernoon.com/software-engineer-qualification-levels-junior-middle-and-senior-f2229591df1c">this article provides a good overview</a>.</p>
-<figure class="center"><img src="/images/dreyfus-model.png"
+<figure class="center"><img src="http://annievella.com/images/dreyfus-model.png"
     alt="Dreyfus Model of Skill Acquisition"><figcaption>
       <p>The Dreyfus Model of Skill Acquisition</p>
     </figcaption>
@@ -181,7 +187,10 @@
       <link>http://annievella.com/posts/the-software-engineering-identity-crisis/</link>
       <pubDate>Fri, 21 Mar 2025 00:00:00 +1300</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
       <guid>http://annievella.com/posts/the-software-engineering-identity-crisis/</guid>
-      <description><![CDATA[<p>Many of us became software engineers because we found our identity in building things. Not managing things. Not overseeing things. <em>Building</em> things. With our own hands, our own minds, our own code.</p>
+      <description>
+      
+      
+      <![CDATA[<p>Many of us became software engineers because we found our identity in building things. Not managing things. Not overseeing things. <em>Building</em> things. With our own hands, our own minds, our own code.</p>
 <p>But that identity is being challenged.</p>
 <p>AI coding assistants aren&rsquo;t just changing how we write software - they&rsquo;re fundamentally transforming <em>who we are</em>. We&rsquo;re shifting from creators to orchestrators, from builders to overseers. From engineers to something that looks suspiciously like&hellip; managers.</p>
 <p>The irony cuts deep: for years, we&rsquo;ve said that software engineering transcends mere coding. Requirements, design, testing, operations - these were all supposedly part of our craft. Yet the industry pushed us in the opposite direction. We handed these responsibilities to specialists - Product Owners, Architects, Quality Engineers, Platform Engineers - while we doubled down on our coding expertise. We became masters of our code, proud wielders of a modern magic.</p>
@@ -190,7 +199,7 @@
 <p>Let&rsquo;s be honest about what&rsquo;s at stake here. Many of us don&rsquo;t just write code - we <em>love</em> writing code. Our identity is woven into every elegant solution we craft, every test we make pass, every problem we solve through pure logic and creativity. It&rsquo;s not just work, not just a craft - it&rsquo;s who we are.</p>
 <p>Think about those moments of deep satisfaction: when you finally track down that elusive bug that&rsquo;s been haunting production, when you work out how to optimise that slow algorithm and watch response times drop from seconds to milliseconds, when you transform a maze of legacy code into something clean and maintainable. These aren&rsquo;t just achievements - they&rsquo;re expressions of who we are as engineers. They&rsquo;re the moments that remind us why we chose this path.</p>
 <p>Now imagine AI taking over these moments of craftsmanship. The creators of these tools paint an optimistic picture - they say we&rsquo;ll spend more time on <strong>defining intent</strong>, <strong>high-level architecture</strong>, and <strong>systems thinking</strong>. But listen carefully to what they&rsquo;re really saying: we&rsquo;ll become overseers rather than creators, managers rather than builders.</p>
-<figure class="center"><img src="/images/thomas-dohmke-high-level-architects.png"
+<figure class="center"><img src="http://annievella.com/images/thomas-dohmke-high-level-architects.png"
     alt="Are software engineers evolving into system thinkers and high-level architects?" width="70%"><figcaption>
       <p><a href="https://www.linkedin.com/posts/ashtom_how-ai-tools-are-reshaping-the-coding-workforce-activity-7303108929264275456-O5v2">Are software engineers evolving into system thinkers and high-level architects?</a></p>
     </figcaption>
@@ -199,7 +208,7 @@
 <p>This shift raises important questions about our identity as builders: Is oversight what drives us? Is it what makes us leap out of bed in the morning, eager to solve the next puzzle?</p>
 <h2 id="the-identity-shift-its-already-here">The Identity Shift: It&rsquo;s Already Here</h2>
 <p>This isn&rsquo;t some theoretical future we&rsquo;re debating - it&rsquo;s the reality we&rsquo;re living right now. When Google recently revealed that AI <a href="https://arstechnica.com/ai/2024/10/google-ceo-says-over-25-of-new-google-code-is-generated-by-ai/">generates more than a quarter of their new code</a>, it was just the beginning. Y Combinator CEO Garry Tan reveals that for about a quarter of their startups, <a href="https://www.cnbc.com/2025/03/15/y-combinator-startups-are-fastest-growing-in-fund-history-because-of-ai.html">95% of their code is now written by AI</a> - marking a truly significant shift. My own Master&rsquo;s research revealed a similar picture: 77% of us are spending less time writing code, and almost half believe our core skill might become secondary to prompt engineering. Think about that transition: from crafting solutions to crafting prompts.</p>
-<figure class="center"><img src="/images/prompt-engineering-replace-coding-skills.png"
+<figure class="center"><img src="http://annievella.com/images/prompt-engineering-replace-coding-skills.png"
     alt="Will Prompt Engineering Replace Traditional Coding Skills?"><figcaption>
       <p>Will Prompt Engineering Replace Traditional Coding Skills?</p>
     </figcaption>
@@ -212,7 +221,7 @@
 <p>That last part gives us pause - are we still engineers if we forget all about the code?</p>
 <p>In a recent <a href="https://www.youtube.com/watch?v=HtqxI53h7zM">pairing session</a>, engineering thought leaders <a href="https://itrevolution.com/author/gene-kim/">Gene Kim</a> and <a href="https://steve-yegge.medium.com">Steve Yegge</a> demonstrated what this looks like in practice. Using an AI coding assistant, they ported a 3,500-line legacy Ruby script to Kotlin - a task that would normally take a week - in just one hour. The AI didn&rsquo;t just translate the code; it improved it, adding the modular architecture and unit tests they&rsquo;d wanted for years but couldn&rsquo;t justify the time for.</p>
 <p>Even <a href="https://www.jedi.be">Patrick Debois</a>, the godfather of DevOps, sees this transformation reshaping our identity. In his <a href="https://ainativedev.io/news/the-4-patterns-of-ai-native-dev-overview">recent analysis of AI Native Development patterns</a>, he outlines four fundamental shifts in how we work:</p>
-<figure class="center"><img src="/images/patrick-debois-four-AI-native-patterns.png"
+<figure class="center"><img src="http://annievella.com/images/patrick-debois-four-AI-native-patterns.png"
     alt="Patrick Debois: The 4 Patterns of AI Native Dev"><figcaption>
       <p><a href="https://ainativedev.io/news/the-4-patterns-of-ai-native-dev-overview">Patrick Debois: The 4 Patterns of AI Native Dev</a></p>
     </figcaption>
@@ -239,7 +248,7 @@
 <p>This is where a glimmer of hope emerges. Remember that irony - how we gave away the broader aspects of our craft to specialists? AI is pushing us to reclaim what we once knew: that software engineering transcends mere coding. That core truth remains - ultimately, software engineering is about solving problems, creating solutions, building things that matter.</p>
 <p>These broader skills - what Addy Osmani calls &ldquo;durable engineering skills&rdquo; in his article on the <a href="https://addyo.substack.com/p/beyond-the-70-maximizing-the-human">human 30% of AI-assisted coding</a> - have always separated great engineers from good ones. Communication, big-picture thinking, handling ambiguity - these become even more crucial in an AI-driven world.</p>
 <p>Yet this emphasis on broader skills has sparked debate in our community. For some, it sounds suspiciously like management repackaged. And they&rsquo;re not entirely wrong - a recent <a href="https://www.cio.com/article/3509174/ai-coding-assistants-wave-goodbye-to-junior-developers.html">CIO article</a> confirms that development teams are already being restructured to focus on oversight rather than creation. The article envisions future teams consisting of a product manager, a UX designer, and a software architect who primarily uses AI to generate prototypes. These architects, or senior developers, must &ldquo;understand the content&hellip; who the customer is and what we&rsquo;re trying to achieve&rdquo; - classic management responsibilities repackaged as technical work.</p>
-<figure class="center"><img src="/images/addy-osmani-durable-engineering-skills.png"
+<figure class="center"><img src="http://annievella.com/images/addy-osmani-durable-engineering-skills.png"
     alt="Management in a Cloak"><figcaption>
       <p>Management in a Cloak</p>
     </figcaption>
@@ -268,7 +277,7 @@
 <li>An 8-fold rise in duplicated code blocks, with 6.66% of commits now containing repeated code sections.</li>
 <li>A 26% increase in code churn, with 5.7% of all code changes being revised or deleted within two weeks.</li>
 </ul>
-<figure class="center"><img src="/images/gitclear-2025-trends-in-code-changes.png"
+<figure class="center"><img src="http://annievella.com/images/gitclear-2025-trends-in-code-changes.png"
     alt="GitClear: Trends in Code Changes"><figcaption>
       <p><a href="https://arc.dev/talent-blog/impact-of-ai-on-code/">GitClear: Trends in Code Changes</a></p>
     </figcaption>
@@ -312,7 +321,7 @@
 <li>Creative problem-solving that combines both approaches</li>
 </ul>
 <p>This balanced approach resonates deeply with what I&rsquo;m hearing from fellow engineers. My research shows a clear message: maintaining strong engineering fundamentals is more crucial than ever. We need deep technical knowledge to effectively review, verify, and adjust AI-generated code - because it&rsquo;s often not quite right. When asked about their concerns with AI coding assistants, software engineers ranked code quality and security well above job security.</p>
-<figure class="center"><img src="/images/ai-concerns.png"
+<figure class="center"><img src="http://annievella.com/images/ai-concerns.png"
     alt="Top Concerns About AI Coding Assistants"><figcaption>
       <p>Top Concerns About AI Coding Assistants Among Software Engineers</p>
     </figcaption>
@@ -333,10 +342,13 @@
       <link>http://annievella.com/posts/rediscover-the-power-of-simplicity/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +1300</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
       <guid>http://annievella.com/posts/rediscover-the-power-of-simplicity/</guid>
-      <description><![CDATA[<p>In an era where tech stacks grow ever more complex and teams become increasingly specialised, there&rsquo;s profound wisdom to be found in looking back at simpler, more effective approaches.</p>
+      <description>
+      
+      
+      <![CDATA[<p>In an era where tech stacks grow ever more complex and teams become increasingly specialised, there&rsquo;s profound wisdom to be found in looking back at simpler, more effective approaches.</p>
 <p>I&rsquo;ve been meaning to write about my experience at <a href="https://www.trademe.co.nz/">Trade Me</a> for years. Earlier this week, I attended the launch of <a href="https://rowansimpson.com">Rowan Simpson</a>&rsquo;s new book, <a href="https://howtobewrongbook.com">How to Be Wrong</a>. Rowan hired me into his team at Trade Me back in 2006, and to my delight, I even earned a mention in his book! That unexpected recognition, along with recently reading <a href="https://teamtopologies.com/industry-examples/trade-me-journey-towards-a-thinnest-viable-platform">this article</a> about Trade Me&rsquo;s journey toward a &ldquo;thinnest viable platform&rdquo;, finally motivated me to reflect on what remains one of my best professional experiences to this day.</p>
 <p>For those unfamiliar, Trade Me is an online marketplace - New Zealand&rsquo;s version of eBay. In the early 2000s, it was the go-to online marketplace for Kiwis, long before global platforms like Facebook Marketplace or AliExpress were established. Trade Me isn&rsquo;t just an auction site - it&rsquo;s a cornerstone of Kiwi internet culture, connecting buyers and sellers across the country and becoming an essential part of daily life for millions.</p>
-<figure class="center"><img src="/images/trademe-2007.png"
+<figure class="center"><img src="http://annievella.com/images/trademe-2007.png"
     alt="Trade Me in 2007 (courtesy of the [Internet Archive](https://archive.org))"><figcaption>
       <p>Trade Me in 2007 (courtesy of the <a href="https://archive.org">Internet Archive</a>)</p>
     </figcaption>
@@ -407,8 +419,11 @@
       <link>http://annievella.com/posts/the-sdlc-strikes-back/</link>
       <pubDate>Fri, 07 Feb 2025 00:00:00 +1300</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
       <guid>http://annievella.com/posts/the-sdlc-strikes-back/</guid>
-      <description><![CDATA[<p>Earlier this year, <a href="https://lovable.dev">Lovable</a> celebrated their biggest milestone yet - more than 12,000 (!) new projects created in a single day. The very next day, they went down. The irony? Their success became their downfall. Each new project in Lovable requires a new GitHub repository, and this surge - thousands per day - put such strain on GitHub&rsquo;s infrastructure that it risked affecting GitHub&rsquo;s entire platform. Their on-call engineer had to make the difficult decision to suspend Lovable&rsquo;s account, effectively blocking all users from creating or editing their projects.</p>
-<figure class="center"><img src="/images/lovable-github-incident.png"
+      <description>
+      
+      
+      <![CDATA[<p>Earlier this year, <a href="https://lovable.dev">Lovable</a> celebrated their biggest milestone yet - more than 12,000 (!) new projects created in a single day. The very next day, they went down. The irony? Their success became their downfall. Each new project in Lovable requires a new GitHub repository, and this surge - thousands per day - put such strain on GitHub&rsquo;s infrastructure that it risked affecting GitHub&rsquo;s entire platform. Their on-call engineer had to make the difficult decision to suspend Lovable&rsquo;s account, effectively blocking all users from creating or editing their projects.</p>
+<figure class="center"><img src="http://annievella.com/images/lovable-github-incident.png"
     alt="Lovable Dev GitHub Incident" width="75%"><figcaption>
       <p><a href="https://x.com/antonosika/status/1876342499620667511">Anton Osika - Lovable Dev GitHub Incident</a></p>
     </figcaption>
@@ -423,7 +438,7 @@
 <p>Software development has always been constrained by implementation speed. Even at the 1968 conference where the term &ldquo;Software Engineering&rdquo; was coined, the word &ldquo;cost&rdquo; appears <strong>96 times</strong> <a href="https://www.scrummanager.com/files/nato1968e.pdf">throughout the report</a> - and they weren&rsquo;t just talking about hardware. Despite decades of new methodologies, frameworks, and automation tools, writing code has remained stubbornly time-consuming.</p>
 <p>But AI coding assistants are changing this equation dramatically. Tasks that used to take days - like scaffolding new APIs, building authentication systems or perfecting UI layouts - now take hours or minutes. The implementation speed that has bottlenecked our industry for decades is suddenly dramatically increasing.</p>
 <p>And that&rsquo;s when a new challenge emerges. I recently came across this <a href="https://www.reddit.com/r/ChatGPTCoding/comments/1h26x0k/team_transitioned_to_cursor_but_bottleneck_is_now/">Reddit post</a> that hints at what&rsquo;s coming:</p>
-<figure class="center"><img src="/images/cursor-speed-ux-bottleneck.png"
+<figure class="center"><img src="http://annievella.com/images/cursor-speed-ux-bottleneck.png"
     alt="Reddit post - Team transitioned to Cursor but bottleneck is now UX"><figcaption>
       <p><a href="https://www.reddit.com/r/ChatGPTCoding/comments/1h26x0k/team_transitioned_to_cursor_but_bottleneck_is_now/">Reddit post - Team transitioned to Cursor but bottleneck is now UX</a></p>
     </figcaption>
@@ -454,7 +469,7 @@
 <p>Well, welcome to the AI era&rsquo;s equivalent: <strong>Prompt Libraries</strong>. Instead of storing code in repos, we&rsquo;re now starting to store and share the prompts that consistently generate good outputs. We&rsquo;re already seeing this materialize in practice - a recent <a href="https://dev.to/portkey/three-prompt-libraries-you-should-know-as-a-ai-engineer-32m8">article on dev.to</a> highlights several emerging prompt libraries that are bringing engineering rigor to prompt creation and management.</p>
 <p>Imagine having a library of prompts that you know will generate a solid REST API endpoint, complete with error handling and input validation. Or prompts that reliably create accessible React components following your team&rsquo;s conventions. These proven prompts deliver predictable, high-quality results, just like the code libraries we&rsquo;ve always relied on. We&rsquo;re moving from sharing snippets on GitHub Gists to building entire ecosystems for testing, sharing, and versioning our most effective prompts.</p>
 <p>This shift isn&rsquo;t just about storing prompts - it&rsquo;s about the emergence of prompt engineering as a crucial skill. My recent research revealed that 56% of software engineers see prompt engineering as highly important for their future role, while only 21% consider it unimportant.</p>
-<figure class="center"><img src="/images/importance_of_prompt_engineering.png"
+<figure class="center"><img src="http://annievella.com/images/importance_of_prompt_engineering.png"
     alt="Graph showing that over half of surveyed software engineers consider prompt engineering to be extremely or very important for their future role"><figcaption>
       <p>Future of Prompt Engineering</br>Over half of surveyed software engineers consider prompt engineering to be extremely or very important for their future role</p>
     </figcaption>
@@ -479,11 +494,14 @@
       <link>http://annievella.com/posts/what-its-really-like-using-an-ai-coding-assistant/</link>
       <pubDate>Sat, 25 Jan 2025 00:00:00 +1300</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
       <guid>http://annievella.com/posts/what-its-really-like-using-an-ai-coding-assistant/</guid>
-      <description><![CDATA[<p>I&rsquo;ve now spent a couple of months using <a href="https://codeium.com/windsurf">Windsurf</a> fairly regularly and I thought I&rsquo;d share some of my experiences with it.</p>
+      <description>
+      
+      
+      <![CDATA[<p>I&rsquo;ve now spent a couple of months using <a href="https://codeium.com/windsurf">Windsurf</a> fairly regularly and I thought I&rsquo;d share some of my experiences with it.</p>
 <p>To set the scene, I&rsquo;m a software engineer with over 20 years experience. I have a degree in Computer Science and Math and spent the first half of my career in hands-on individual contributor roles across 7 industries and 4 countries. I would generally describe myself as a C# .NET backend dev but I&rsquo;ve built my fair share of frontends and even some mobile apps. I&rsquo;ve hopped back and forth between management and engineering roles over the last decade. I haven&rsquo;t written code as part of my day job for about 5 years now. I still enjoy building software myself and have plenty of grand ideas that I&rsquo;d love to bring to life, but sadly it just takes too long.</p>
 <p>I&rsquo;ve been using Windsurf to help me write R and Python scripts for my research. Besides that, I&rsquo;ve been tinkering with agentic AI frameworks like <a href="https://crew.ai/">CrewAI</a> (more Python), a couple of small web-based games (JavaScript) and experimented building mobile apps (React Native). These experiences have taught me a lot about working with AI coding assistants.</p>
 <p>Before I dive into my specific experiences, it&rsquo;s worth noting that as with any new technology, it takes time to learn how to use it well. There&rsquo;s simply nothing as effective as real hands-on experience and deliberate practice to build skills. Learning how to collaborate with an AI coding assistant is no different. In fact, initial insights from my Master&rsquo;s research shows that there is a strong correlation between frequency of use and developer productivity, with daily users reporting significantly higher productivity than infrequent users.</p>
-<figure class="center"><img src="/images/productivity_by_frequency.png"
+<figure class="center"><img src="http://annievella.com/images/productivity_by_frequency.png"
     alt="Graph showing the relationship between AI coding assistant usage frequency and developer productivity. Daily users report significantly higher productivity gains compared to occasional users."><figcaption>
       <p>Productivity by Frequency of Use</br>Daily users report significantly higher productivity gains compared to occasional users.</p>
     </figcaption>
@@ -525,7 +543,7 @@
 <h4 id="keep-changesets-small-and-commit-often---source-control-is-your-friend">Keep changesets small and commit often - source control is your friend</h4>
 <p>Keeping changes small and focused is a fundamental best practice in software development, regardless of your tools. However, it becomes even more critical when using AI coding assistants because they can generate code so quickly that you&rsquo;ll have hundreds of changes before you realize it. The larger the changeset, the harder it is to spot mistakes and the more time-consuming the review process becomes.</p>
 <p>I&rsquo;m not alone in noticing this challenge. The <a href="https://dora.dev/research/2024/dora-report/">2024 DORA Report</a> found that AI adoption is actually negatively impacting software delivery performance, contrary to what many expected. Their research suggests that the dramatic increase in productivity and code generation speed is leading to larger changesets, contradicting DORA&rsquo;s principle of small batch sizes which are essential for stability.</p>
-<figure class="center"><img src="/images/dora-negative-impact-on-delivery-throughput-and-stability.png"
+<figure class="center"><img src="http://annievella.com/images/dora-negative-impact-on-delivery-throughput-and-stability.png"
     alt="Graph from the 2024 DORA Report showing how AI adoption is correlating with decreased software delivery throughput and stability metrics"><figcaption>
       <p><a href="https://dora.dev/research/2024/dora-report/">2024 DORA Report Finding</a></br>AI adoption appears to be negatively impacting software delivery throughput and stability</p>
     </figcaption>
@@ -533,7 +551,7 @@
 
 <h3 id="so-what-does-the-future-hold">So what does the future hold?</h3>
 <p>Research clearly shows that AI coding assistants boost developer productivity, but their impact goes far beyond simple efficiency gains. These tools are enabling a renaissance in personal software development. By handling routine tasks and reducing the cognitive load of working with unfamiliar technologies, they free us up to focus on what truly matters - creating innovative software that delights users and makes us proud.</p>
-<figure class="center"><img src="/images/windsurf-public-profile-jan-2025.png"
+<figure class="center"><img src="http://annievella.com/images/windsurf-public-profile-jan-2025.png"
     alt="Screenshot of my public Windsurf profile showing statistics about my coding activity and language usage over the past two months"><figcaption>
       <p><a href="https://codeium.com/profile/codefrenzy">My Windsurf Profile</a></br>Statistics from two months of AI-assisted development</p>
     </figcaption>
@@ -550,10 +568,13 @@
       <link>http://annievella.com/posts/agents-all-the-way-down/</link>
       <pubDate>Mon, 13 Jan 2025 00:00:00 +1300</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
       <guid>http://annievella.com/posts/agents-all-the-way-down/</guid>
-      <description><![CDATA[<p>The concept of <strong>agentic AI</strong> absolutely fascinates me. An LLM on its own is already mind-blowing, but building much larger systems where hundreds of specialised LLMs work together as components, with yet another LLM orchestrating how it all works, is a whole other world. The possibilities for automation are endless.</p>
+      <description>
+      
+      
+      <![CDATA[<p>The concept of <strong>agentic AI</strong> absolutely fascinates me. An LLM on its own is already mind-blowing, but building much larger systems where hundreds of specialised LLMs work together as components, with yet another LLM orchestrating how it all works, is a whole other world. The possibilities for automation are endless.</p>
 <p>At the end of the day, software systems are just components stitched together to perform seemingly complex tasks, but the logic behind it all is very <em>deterministic</em>. As software engineers, we write lines of code to tell computers to do very specific things, in very specific orders. The computer then executes those instructions in a deterministic way, and we&rsquo;re left with a very predictable system that can be hard to change or adapt to new requirements.</p>
 <p>With agentic AI, we&rsquo;re no longer bound by the limitations of this deterministic approach. Agentic AI allows us to use LLMs to intelligently adapt and evolve these integrations. We simply equip agents with skills (tools) and memory to help them solve problems, and they work out the rest on their own. These agents can use various architectures to tackle problems - one popular approach is <a href="https://medium.com/@gauritr01/part-1-react-ai-agents-a-guide-to-smarter-ai-through-reasoning-and-action-d5841db39530">ReACT</a> (Reasoning + Acting, not the frontend framework we all know and love), which allows them to think through problems step by step, just like a human would - reasoning about what to do next, then taking action based on that reasoning.</p>
-<figure class="center"><img src="/images/ai-agent-overview.png"
+<figure class="center"><img src="http://annievella.com/images/ai-agent-overview.png"
     alt="Diagram showing the components of an agentic AI system including tools, memory, planning, and reflection capabilities"><figcaption>
       <p>The architecture of an agentic AI system showing how agents can use tools, maintain memory, and engage in complex reasoning. <br/> Credit: <a href="https://commons.wikimedia.org/wiki/File:AI_Agent_Overview.png">Lillian Weng</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</p>
     </figcaption>
@@ -578,7 +599,7 @@
 </blockquote>
 <p>I thoroughly recommend watching the lectures which are available on their <a href="https://www.youtube.com/playlist?list=PLS01nW3RtgopsNLeM936V4TNSsvvVglLc">YouTube Channel</a>.</p>
 <p>It&rsquo;s impossible not to see the enormous potential in all this. The future of software lies in systems where LLMs drive the logic engine, dispatching instructions to invoke tools, which in turn can also be powered by LLMs. Erik Meijer captures this vision perfectly in his paper <a href="https://dl.acm.org/doi/pdf/10.1145/3676287">Virtual Machinations: Using Large Language Models as Neural Computers</a>, drawing parallels between conventional and neural computers:</p>
-<figure class="center"><img src="/images/erik-meijer-neural-computer-comparison.png"
+<figure class="center"><img src="http://annievella.com/images/erik-meijer-neural-computer-comparison.png"
     alt="Comparison of Conventional and Neural Computers - [Virtual Machinations: Using Large Language Models as Neural Computers](https://dl.acm.org/doi/pdf/10.1145/3676287)"><figcaption>
       <p>Comparison of Conventional and Neural Computers - <a href="https://dl.acm.org/doi/pdf/10.1145/3676287">Virtual Machinations: Using Large Language Models as Neural Computers</a></p>
     </figcaption>
@@ -599,7 +620,7 @@
 <h2 id="going-meta-the-recursive-developer">Going Meta: The Recursive Developer</h2>
 <p>CrewAI is a Python-based framework (it seems most are), and unfortunately I&rsquo;ve had very little experience writing Python. Luckily, I have become pretty good at using <a href="https://codeium.com/windsurf">Windsurf</a>. Its Cascade feature, powered by <a href="https://codeium.com/flows">AI Flows</a>, actively reasons about my intent and helps me write code in languages I&rsquo;m not familiar with - it&rsquo;s like having an AI collaborator that truly understands what I&rsquo;m trying to achieve. Although it&rsquo;s not entirely obvious, you can see when different agents within the flows are collaborating on a code change - sometimes it will make a change, recognise that it&rsquo;s made a mistake, and fix it - all without me having to say anything. So here I am, <em>using one agentic AI system to help me build another</em>, how delightfully meta and yet more proof that agentic AI is the future!</p>
 <p>This experience validates what <a href="https://www.linkedin.com/in/andrewyng/">Andrew Ng</a> recently discussed in <a href="https://www.deeplearning.ai/the-batch/new-opportunities-for-the-new-year/">The Batch</a> about AI-coding assistants being especially effective for prototyping. It also aligns perfectly with findings from my Master of Engineering research on the impact of AI coding assistants on software engineering. In analysing software engineers&rsquo; responses about workflow changes, I have found that those using AI coding assistants were not only more likely to explore unfamiliar technologies but also felt they could prototype faster. To me, it feels like having an endlessly patient pair programmer to work with!</p>
-<figure class="center full-width"><img src="/images/initial-thematic-analysis-results.jpeg"
+<figure class="center full-width"><img src="http://annievella.com/images/initial-thematic-analysis-results.jpeg"
     alt="Initial thematic analysis of an open-ended question around software engineers&#39; perceived impact on their workflows" width="100%"><figcaption>
       <p>Initial thematic analysis of an open-ended question around software engineers&rsquo; perceived impact on their workflows</p>
     </figcaption>
@@ -609,7 +630,7 @@
 <p>Out of the box, setting up a CrewAI project creates a simple, default &ldquo;Research Assistant&rdquo; crew which was nearly exactly what we chose as the first example anyway! Since I need to find and read papers for my Master&rsquo;s study, an automated research assistant felt like a practical, achievable and useful system to build.</p>
 <p>At this point, Jason spun off to play with AutoGen while I designed my research assistant crew to find the five most relevant recent papers on a given topic, matching them against specific research questions, and then deliver a summary by email. I decided to give my &ldquo;research aggregator&rdquo; agent a custom tool using Google Scholar (via <a href="https://serpapi.com">SerpAPI</a>) and my &ldquo;research analyst&rdquo; agent another custom tool to send emails using the <a href="https://developers.google.com/gmail/api/quickstart/python">Gmail API</a>.</p>
 <p>To run it automatically, I used <code>launchd</code>, although I&rsquo;m sure cron would&rsquo;ve done the job nicely too. And for the last couple of weeks, I&rsquo;ve received a daily digest of interesting and relevant papers on the impact of AI coding assistants on software engineering, complete with links and insights! I love it!</p>
-<figure class="center"><img src="/images/daily-research-digest-agentic-ai.png"
+<figure class="center"><img src="http://annievella.com/images/daily-research-digest-agentic-ai.png"
     alt="Daily Research Digest - delivered by my first agentic AI system built using CrewAI"><figcaption>
       <p>Daily Research Digest - delivered by my first agentic AI system built using CrewAI</p>
     </figcaption>
@@ -632,7 +653,10 @@
       <link>http://annievella.com/posts/2024-in-review/</link>
       <pubDate>Thu, 02 Jan 2025 00:00:00 +1300</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
       <guid>http://annievella.com/posts/2024-in-review/</guid>
-      <description><![CDATA[<p>2024 was a massive year for me, and even that feels like an understatement. I pushed myself to my limits in many ways, but have enjoyed every second of it. After all, if you&rsquo;re comfortable, you&rsquo;re not growing, right?</p>
+      <description>
+      
+      
+      <![CDATA[<p>2024 was a massive year for me, and even that feels like an understatement. I pushed myself to my limits in many ways, but have enjoyed every second of it. After all, if you&rsquo;re comfortable, you&rsquo;re not growing, right?</p>
 <p>My passion for continuous learning kicked into overdrive these past couple of years, leading me down fascinating intellectual paths. Could it be that AI has helped make information more accessible? Or is it that I&rsquo;ve finally found my calling? I can&rsquo;t really say for sure, but I&rsquo;ve found myself deeply immersed in several interconnected domains:</p>
 <ul>
 <li><a href="https://annievella.com/deming/">W Edwards Deming</a>, <a href="https://annievella.com/posts/exploring-systems-thinking-through-russell-ackoff/">Russell Ackoff</a> and <a href="https://www.linkedin.com/posts/annievella_leadership-systemsthinking-activity-7264717823875137537-Joda">Peter Scholtes</a>
@@ -678,7 +702,7 @@
 <li>I kept the momentum going by speaking at several other events and even <a href="https://annievella.com/files/ada-lovelace-day-auckland-october-2024-quantum-computing-101.pdf">gave a talk on Quantum Computing</a>.</li>
 </ul>
 <p>Perhaps the most unexpected development was rediscovering my love for coding. After years focused on leadership and management, analysing my research data in R and Python reignited that old spark. With the help of AI coding assistants, I&rsquo;m now enjoying getting things to work again. I even built an Agentic AI Research Assistant that curates and delivers personalised research paper digests daily for my Master&rsquo;s study - the kind of project that combines my love for coding with my passion for learning.</p>
-<figure class="centre"><img src="/images/github-contributions-2024.png"
+<figure class="centre"><img src="http://annievella.com/images/github-contributions-2024.png"
     alt="My GitHub Contributions in 2024"><figcaption>
       <p>My GitHub Contributions in 2024</p>
     </figcaption>
@@ -723,10 +747,13 @@
       <link>http://annievella.com/posts/dear-software-engineer/</link>
       <pubDate>Thu, 26 Dec 2024 00:00:00 +1300</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
       <guid>http://annievella.com/posts/dear-software-engineer/</guid>
-      <description><![CDATA[<p><em>Apologies, this is a long one - clearly I&rsquo;ve got a lot to say on this subject!</em></p>
+      <description>
+      
+      
+      <![CDATA[<p><em>Apologies, this is a long one - clearly I&rsquo;ve got a lot to say on this subject!</em></p>
 <p>It didn&rsquo;t take long after ChatGPT was released for me to start seeing how fundamentally this technology could transform software engineering. Not just as another tool in our arsenal, but as something that could redefine what it means to be a software engineer entirely.</p>
 <p>The discourse around this has been fascinating. Jump on LinkedIn or X and you&rsquo;ll see endless debates about whether AI will augment or replace software engineers, whether it&rsquo;s just another productivity tool or a paradigm shift, whether it&rsquo;s overhyped or understated. But I think many are missing the real story - it&rsquo;s not about whether AI will take our jobs, it&rsquo;s about how it&rsquo;s already changing the very nature of our profession.</p>
-<figure class="center"><img src="/images/software-engineering-is-dead.png"
+<figure class="center"><img src="http://annievella.com/images/software-engineering-is-dead.png"
     alt="Software Engineering is Dead"><figcaption>
       <p><a href="https://x.com/KevinNaughtonJr/status/1796241418484334722">Software Engineering is Dead</a></p>
     </figcaption>
@@ -760,14 +787,14 @@
 <p>Sure, if you&rsquo;re one of the rare &ldquo;product engineers&rdquo; who actually work on the full spectrum of software engineering, perhaps you&rsquo;re fine. But remember, we just established that this has become the exception rather than the rule.</p>
 <h3 id="what-the-data-says">What the Data Says</h3>
 <p>AI&rsquo;s impact on coding isn&rsquo;t just speculation. My Master&rsquo;s research so far has confirmed that AI coding assistants are already reducing the time professional software engineers spend on writing code, with a staggering 78% of 165 respondents across 28 countries feeling they&rsquo;re spending less time writing code.</p>
-<figure class="center"><img src="/images/impact-on-time-spent-on-software-engineering-tasks-with-AI-assistance.png"
+<figure class="center"><img src="http://annievella.com/images/impact-on-time-spent-on-software-engineering-tasks-with-AI-assistance.png"
     alt="Time Spent on Software Engineering Tasks with AI Assistance"><figcaption>
       <p>Time Spent on Software Engineering Tasks with AI Assistance</p>
     </figcaption>
 </figure>
 
 <p>I wrote about the potential impacts of AI on software engineering back in February 2024 - <a href="https://annievella.com/posts/an-early-exploration-of-ai-first-development/">An Early Exploration of AI-First Development</a> - and boy has this landscape changed since then. It feels like there are new tools that do more, better and faster being released every single day. My research survey ran for a month in October / November 2024, and I was stunned to see how many AI tools software engineers are already playing with. Windsurf didn&rsquo;t get a mention but it hadn&rsquo;t even been released yet!</p>
-<figure class="center"><img src="/images/most-used-AI-coding-assistants.png"
+<figure class="center"><img src="http://annievella.com/images/most-used-AI-coding-assistants.png"
     alt="Most Used AI Coding Assistants"><figcaption>
       <p>Most Used AI Coding Assistants</p>
     </figcaption>
@@ -803,7 +830,10 @@
       <link>http://annievella.com/posts/the-power-of-defining-the-problem/</link>
       <pubDate>Sun, 29 Sep 2024 00:00:00 +1200</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
       <guid>http://annievella.com/posts/the-power-of-defining-the-problem/</guid>
-      <description><![CDATA[<p>We live in an era where rapid solutions are celebrated. The quicker we solve a problem, the more productive we appear. But what if, in our rush to get to a resolution, we&rsquo;re missing the mark entirely? Albert Einstein&rsquo;s timeless quote, <em>&ldquo;If I were given one hour to save the planet, I would spend 59 minutes defining the problem and one minute resolving it&rdquo;</em>, resonates deeply in today’s fast-paced, technology-driven world.</p>
+      <description>
+      
+      
+      <![CDATA[<p>We live in an era where rapid solutions are celebrated. The quicker we solve a problem, the more productive we appear. But what if, in our rush to get to a resolution, we&rsquo;re missing the mark entirely? Albert Einstein&rsquo;s timeless quote, <em>&ldquo;If I were given one hour to save the planet, I would spend 59 minutes defining the problem and one minute resolving it&rdquo;</em>, resonates deeply in today’s fast-paced, technology-driven world.</p>
 <blockquote class="large-quote" style="font-size: 1.5em; margin: 40px; margin-bottom: 0"> "If I were given one hour to save the planet, I would spend 59 minutes defining the problem and one minute resolving it."</blockquote>
 <p style="margin: 40px; margin-top: 10px; font-size: 0.8em;"><em>— Albert Einstein</em></p>
 <p>In my role, both as a software engineer and technical leader, I&rsquo;ve witnessed firsthand the tendency to dive into problem-solving without fully grasping the problem itself. We chase after solutions, applying our experience and tools without considering if we’re aiming at the right target. This often leads to wasted effort, frustration, and missed opportunities.</p>
@@ -830,7 +860,10 @@
       <link>http://annievella.com/quantum-computing/</link>
       <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
       <guid>http://annievella.com/quantum-computing/</guid>
-      <description><![CDATA[<p>Learning:</p>
+      <description>
+      
+      
+      <![CDATA[<p>Learning:</p>
 <ul>
 <li><a href="https://learning.quantum.ibm.com/">IBM Quantum Learning</a></li>
 <li><a href="https://pennylane.ai/qml/">Learn quantum programming with PennyLane</a></li>
@@ -853,7 +886,10 @@
       <link>http://annievella.com/resources/</link>
       <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
       <guid>http://annievella.com/resources/</guid>
-      <description><![CDATA[<p>This page contains links to curated collections of resources that I have found useful for learning about topics that I&rsquo;m passionate about. I&rsquo;ll keep adding to them so check back regularly for updates.</p>
+      <description>
+      
+      
+      <![CDATA[<p>This page contains links to curated collections of resources that I have found useful for learning about topics that I&rsquo;m passionate about. I&rsquo;ll keep adding to them so check back regularly for updates.</p>
 <ul>
 <li><a href="https://annievella.com/deming">W. Edwards Deming</a></li>
 <li><a href="https://annievella.com/quantum-computing">Quantum Computing</a></li>
@@ -865,7 +901,10 @@
       <link>http://annievella.com/speaking/</link>
       <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
       <guid>http://annievella.com/speaking/</guid>
-      <description><![CDATA[<p>I&rsquo;ve always loved sharing my knowledge and experiences with others, but I didn&rsquo;t always have the courage to step onto a stage. In 2023, I decided to face my fear of public speaking head-on, embracing the mantra &ldquo;practice makes better&rdquo;. Since then, I&rsquo;ve jumped at every opportunity to talk about topics I&rsquo;m passionate about, and it&rsquo;s been an incredibly rewarding journey. Engaging with diverse minds at conferences and meetups has been especially fulfilling.</p>
+      <description>
+      
+      
+      <![CDATA[<p>I&rsquo;ve always loved sharing my knowledge and experiences with others, but I didn&rsquo;t always have the courage to step onto a stage. In 2023, I decided to face my fear of public speaking head-on, embracing the mantra &ldquo;practice makes better&rdquo;. Since then, I&rsquo;ve jumped at every opportunity to talk about topics I&rsquo;m passionate about, and it&rsquo;s been an incredibly rewarding journey. Engaging with diverse minds at conferences and meetups has been especially fulfilling.</p>
 <p>Below is a list of the talks, panels, and podcasts I&rsquo;ve participated in.</p>
 <p>If you&rsquo;d like me to speak at your event, please feel free to <a href="mailto:annie.luxton@gmail.com">get in touch</a>. I&rsquo;d love to connect!</p>
 <h2 id="2025">2025</h2>
@@ -971,7 +1010,10 @@
       <link>http://annievella.com/posts/is-agentic-ai-the-key-to-automating-human-work/</link>
       <pubDate>Sat, 31 Aug 2024 09:00:00 +1200</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
       <guid>http://annievella.com/posts/is-agentic-ai-the-key-to-automating-human-work/</guid>
-      <description><![CDATA[<p>I&rsquo;ve been contemplating the concept of <em>agentic AI</em> for a while now. The idea that we can create specialised AI agents, each mastering a specific task, and have them work together iteratively struck me as a powerful way to really harness the power of AI to tackle complex problems. After all, that&rsquo;s how teams of humans working together accomplish amazing outcomes, right?</p>
+      <description>
+      
+      
+      <![CDATA[<p>I&rsquo;ve been contemplating the concept of <em>agentic AI</em> for a while now. The idea that we can create specialised AI agents, each mastering a specific task, and have them work together iteratively struck me as a powerful way to really harness the power of AI to tackle complex problems. After all, that&rsquo;s how teams of humans working together accomplish amazing outcomes, right?</p>
 <p>I first encountered <em><a href="https://news.agpt.co">Auto-GPT</a></em> over a year ago and was intrigued enough to join their Discord community. At that time, the concept of autonomous AI agents was still in its early stages, and Auto-GPT was pioneering an approach that allowed AI systems to autonomously generate and execute their own goals. This innovative idea resonated with me, reinforcing my belief in the transformative potential of specialised AI agents across various industries.</p>
 <p>As I continued to explore this concept, <a href="https://www.andrewng.org">Andrew Ng</a>&rsquo;s discussions on agentic AI further deepened my understanding, highlighting how these specialised agents could revolutionise the way we approach complex problems.</p>
 <p>While the broad potential of agentic AI to automate and optimise a wide range of jobs is exciting, my focus naturally sharpens when I consider its application to software engineering. This focus ties back to my ongoing Master&rsquo;s research, where I’m exploring the broader impact of AI on software engineering practices. In this context, agentic AI stands out as particularly powerful, offering the possibility to fundamentally change how we develop, test, and maintain software.</p>
@@ -1002,9 +1044,12 @@
       <link>http://annievella.com/posts/demings-wisdom-for-staff-plus-engineers/</link>
       <pubDate>Sun, 25 Aug 2024 09:00:00 +1200</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
       <guid>http://annievella.com/posts/demings-wisdom-for-staff-plus-engineers/</guid>
-      <description><![CDATA[<p>In June 2024, I had the privilege of travelling from Auckland, New Zealand, to speak at <strong>StaffPlus London</strong> - an unforgettable experience. Speaking at such a high-profile event, surrounded by so many talented Staff+ Engineers, was truly special. What made this event particularly memorable wasn&rsquo;t just the prominence of the event but the opportunity to share something that has become deeply important to me: how the timeless teachings of <strong>W. Edwards Deming</strong> remain as relevant today as ever in the constantly evolving world of technology.</p>
+      <description>
+      
+      
+      <![CDATA[<p>In June 2024, I had the privilege of travelling from Auckland, New Zealand, to speak at <strong>StaffPlus London</strong> - an unforgettable experience. Speaking at such a high-profile event, surrounded by so many talented Staff+ Engineers, was truly special. What made this event particularly memorable wasn&rsquo;t just the prominence of the event but the opportunity to share something that has become deeply important to me: how the timeless teachings of <strong>W. Edwards Deming</strong> remain as relevant today as ever in the constantly evolving world of technology.</p>
 <p>Stepping into a Distinguished Engineer role last year pushed me to explore leadership in new ways. It was during this time that I discovered Deming’s work, which provided me with clarity and direction. His insights have shaped how I think about creating environments where engineers can thrive and continually improve.</p>
-<figure class="center"><img src="/images/staffplus-london-2024-deming.jpeg"
+<figure class="center"><img src="http://annievella.com/images/staffplus-london-2024-deming.jpeg"
     alt="StaffPlus London 2024 - Deming&#39;s Wisdom for Staff&#43; Engineers"><figcaption>
       <p>StaffPlus London 2024 - Deming&rsquo;s Wisdom for Staff+ Engineers</p>
     </figcaption>
@@ -1051,11 +1096,14 @@
       <link>http://annievella.com/posts/exploring-systems-thinking-through-russell-ackoff/</link>
       <pubDate>Sat, 06 Jul 2024 09:00:00 +1200</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
       <guid>http://annievella.com/posts/exploring-systems-thinking-through-russell-ackoff/</guid>
-      <description><![CDATA[<p>Learning about Deming has led me to another incredible thinker - Russell Ackoff. Born in 1919, Ackoff is best known for his contributions to Systems Thinking.</p>
+      <description>
+      
+      
+      <![CDATA[<p>Learning about Deming has led me to another incredible thinker - Russell Ackoff. Born in 1919, Ackoff is best known for his contributions to Systems Thinking.</p>
 <p>In one of his lectures, <a href="https://youtu.be/yGN5DBpW93g">From Mechanistic to Systemic Thinking</a>, Ackoff discusses systems and the difference between analysis and synthesis. He explains that the essential properties of a system are unique to the system as a whole. These properties arise from the interactions between the parts of the system. In other words, a system is more than the sum of its parts; it is the product of their interactions.</p>
 <p>At first glance, it might seem logical to understand a system by breaking it down into its individual parts and studying each part separately. This approach is called ‘analysis’ - basically, divide and conquer. But when you take a system apart, it loses its essential properties - just like a steering wheel on its own can’t ‘steer’.</p>
 <p>In the 1950s, it became clear that analysis alone couldn&rsquo;t fully explain a system. This led to the development of another method of thinking - synthesis. Instead of breaking a system down into parts, synthesis looks at the system within the context of the larger system it operates in and tries to understand its role within that larger system.</p>
-<figure class="center"><img src="/images/systems-thinking-analysis-vs-synthesis.png"
+<figure class="center"><img src="http://annievella.com/images/systems-thinking-analysis-vs-synthesis.png"
     alt="Analysis vs Synthesis"><figcaption>
       <p>Analysis vs Synthesis</p>
     </figcaption>
@@ -1080,7 +1128,10 @@
       <link>http://annievella.com/posts/are-you-a-transactional-or-developmental-leader/</link>
       <pubDate>Tue, 25 Jun 2024 19:00:00 +1200</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
       <guid>http://annievella.com/posts/are-you-a-transactional-or-developmental-leader/</guid>
-      <description><![CDATA[<p>In the fast-paced world of tech, leadership styles can make or break an organisation&rsquo;s success. Are you driving growth with a developmental mindset or merely maintaining the status quo with a transactional approach?</p>
+      <description>
+      
+      
+      <![CDATA[<p>In the fast-paced world of tech, leadership styles can make or break an organisation&rsquo;s success. Are you driving growth with a developmental mindset or merely maintaining the status quo with a transactional approach?</p>
 <p>One of the best books I’ve read recently is Gene Kim and Steven Spear’s <a href="https://itrevolution.com/product/wiring-the-winning-organization/">Wiring the Winning Organisation</a>. It distils many great leadership theories into clear, actionable concepts. At the very end of the book, in Appendices A and B, they talk about the differences between transactional and developmental leadership. This is something I think about a lot but didn’t know the precise terms for until reading these sections.</p>
 <h3 id="transactional-vs-developmental-leadership">Transactional vs. Developmental Leadership</h3>
 <p>Transactional leaders focus on managing existing processes and resources (both people and tools) to maintain stability. They often rely on established procedures and immediate problem-solving. In contrast, developmental leaders emphasise continuous improvement and innovation. They design and enhance the &ldquo;social circuitry&rdquo; that allows teams to apply their creative energies toward new and better ways of working.</p>
@@ -1107,7 +1158,10 @@
       <link>http://annievella.com/deming/</link>
       <pubDate>Sat, 01 Jun 2024 00:00:00 +0000</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
       <guid>http://annievella.com/deming/</guid>
-      <description><![CDATA[<p>General:</p>
+      <description>
+      
+      
+      <![CDATA[<p>General:</p>
 <ul>
 <li><a href="https://deming.org/">The W. Edwards Deming Institute</a></li>
 </ul>
@@ -1132,10 +1186,13 @@
       <link>http://annievella.com/posts/first-impressions-of-the-apple-vision-pro/</link>
       <pubDate>Sun, 28 Apr 2024 14:00:00 +1200</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
       <guid>http://annievella.com/posts/first-impressions-of-the-apple-vision-pro/</guid>
-      <description><![CDATA[<p>It’s been about a month since I received my much-anticipated Apple Vision Pro. Truth be told, I ordered it as soon as it became available in the US in early February 2024. With the help of some truly wonderful friends, I figured it wouldn’t be too hard to get my hands on one. Unfortunately, that wasn’t the case, but after jumping through various hoops, I finally got my hands on it in late March. I’m endlessly thankful to my friends for everything they had to go through - I hope to be able to repay the favour one day!</p>
+      <description>
+      
+      
+      <![CDATA[<p>It’s been about a month since I received my much-anticipated Apple Vision Pro. Truth be told, I ordered it as soon as it became available in the US in early February 2024. With the help of some truly wonderful friends, I figured it wouldn’t be too hard to get my hands on one. Unfortunately, that wasn’t the case, but after jumping through various hoops, I finally got my hands on it in late March. I’m endlessly thankful to my friends for everything they had to go through - I hope to be able to repay the favour one day!</p>
 <p>I’ve said it before and I’ll say it again - I’m a self-proclaimed computer nerd. I literally still have the Commodore 64 that caused me to fall in love with computers in the first place. I also still have my old Game Boy, Nintendo Entertainment System, and even Super Nintendo! There was no way I wasn’t going to do whatever it took to get my hands on a first-gen Apple Vision Pro!</p>
 <h3 id="first-impressions">First Impressions</h3>
-<figure class="center"><img src="/images/apple-vision-pro.jpeg"
+<figure class="center"><img src="http://annievella.com/images/apple-vision-pro.jpeg"
     alt="Apple Vision Pro"><figcaption>
       <p>Apple Vision Pro</p>
     </figcaption>
@@ -1143,7 +1200,7 @@
 
 <p>As with every Apple product, the Apple Vision Pro is a beautiful piece of technology and comes meticulously packaged. Even the ordering experience was seamless; since it has to fit your face, the process includes using the front-facing camera of your phone to measure your head and select the right size headband and light seal.</p>
 <p>Setting it up was a cake-walk. After putting it on and starting it up, it guides you through various steps like logging in with your Apple ID and essential things for an AR/VR device like this - eye and hand setup. Before you know it, you’re staring at what looks like a standard Apple home screen, except it’s floating in air. And that’s when you start to understand the potential of this thing.</p>
-<figure class="center"><img src="/images/apple-vision-pro-screenshot-of-home-screen.jpeg"
+<figure class="center"><img src="http://annievella.com/images/apple-vision-pro-screenshot-of-home-screen.jpeg"
     alt="Apple Vision Pro - Home Screen"><figcaption>
       <p>Apple Vision Pro - Home Screen</p>
     </figcaption>
@@ -1156,7 +1213,7 @@
 <ul>
 <li><strong>Encounter Dinosaurs</strong>: Showcases the incredible possibilities of this technology. The butterfly can land on your hand and the dinosaurs appear to come out of the screen and try to sniff you—it is so realistic that it makes you take a step back!</li>
 </ul>
-<figure class="center"><img src="/images/apple-vision-pro-screenshot-of-encounter-dinosaurs.jpeg"
+<figure class="center"><img src="http://annievella.com/images/apple-vision-pro-screenshot-of-encounter-dinosaurs.jpeg"
     alt="Apple Vision Pro - Encounter Dinosaurs"><figcaption>
       <p>Apple Vision Pro - Encounter Dinosaurs</p>
     </figcaption>
@@ -1165,7 +1222,7 @@
 <ul>
 <li><strong>Insight Heart</strong>: Renders a realistic human heart beating in thin air. It allows you to turn it around, zoom in and out, and look at what the heart is doing under different circumstances. This gives us a small taste of how the Apple Vision Pro could be used for educational purposes.</li>
 </ul>
-<figure class="center"><img src="/images/apple-vision-pro-screenshot-of-insight-heart.jpeg"
+<figure class="center"><img src="http://annievella.com/images/apple-vision-pro-screenshot-of-insight-heart.jpeg"
     alt="Apple Vision Pro - Insight Heart"><figcaption>
       <p>Apple Vision Pro - Insight Heart</p>
     </figcaption>
@@ -1174,7 +1231,7 @@
 <ul>
 <li><strong>Mindfulness</strong>: A simple app that guides you through a short meditation. I like to use it together with one of the immersive environments. It’s a nice way to take a break and relax.</li>
 </ul>
-<figure class="center"><img src="/images/apple-vision-pro-screenshot-of-mindfulness.jpeg"
+<figure class="center"><img src="http://annievella.com/images/apple-vision-pro-screenshot-of-mindfulness.jpeg"
     alt="Apple Vision Pro - Mindfulness"><figcaption>
       <p>Apple Vision Pro - Mindfulness</p>
     </figcaption>
@@ -1183,7 +1240,7 @@
 <ul>
 <li><strong>Air Draw</strong>: Allows you to draw in the air using your fingers. A bit of lighthearted fun.</li>
 </ul>
-<figure class="center"><img src="/images/apple-vision-pro-screenshot-of-air-draw.jpeg"
+<figure class="center"><img src="http://annievella.com/images/apple-vision-pro-screenshot-of-air-draw.jpeg"
     alt="Apple Vision Pro - Air Draw"><figcaption>
       <p>Apple Vision Pro - Air Draw</p>
     </figcaption>
@@ -1205,7 +1262,10 @@
       <link>http://annievella.com/posts/what-is-a-good-strategy/</link>
       <pubDate>Sun, 25 Feb 2024 14:00:00 +1200</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
       <guid>http://annievella.com/posts/what-is-a-good-strategy/</guid>
-      <description><![CDATA[<p>Strategies play a critical role in aligning teams towards a common goal, especially in large organisations. Being able to create, review and execute a good strategy is an important aspect of many leadership roles, yet it’s a hard one to nail. Even defining what makes a strategy truly effective can be surprisingly challenging - ask ten different leaders and you&rsquo;re likely to get ten different interpretations.</p>
+      <description>
+      
+      
+      <![CDATA[<p>Strategies play a critical role in aligning teams towards a common goal, especially in large organisations. Being able to create, review and execute a good strategy is an important aspect of many leadership roles, yet it’s a hard one to nail. Even defining what makes a strategy truly effective can be surprisingly challenging - ask ten different leaders and you&rsquo;re likely to get ten different interpretations.</p>
 <p>More often than not, what people describe as a strategy is actually an aspirational goal or vision. They articulate <em>where</em> we want to go but not <em>how</em> to get there.</p>
 <p>So, what <em>is</em> a good strategy? Richard Rumelt answers this question succinctly in his book, <a href="https://www.amazon.com/Good-Strategy-Bad-difference-matters/dp/1781256179">Good Strategy/Bad Strategy</a>. He proposes that a good strategy must have what he calls a <em>kernel</em>, making it significantly easier to create, describe, and evaluate strategies once you grasp this concept. This was probably the most eye-opening part of this book for me and I&rsquo;ve used it as a mental model to evaluate strategies ever since.</p>
 <h3 id="the-kernel-of-a-good-strategy">The Kernel of a Good Strategy</h3>
