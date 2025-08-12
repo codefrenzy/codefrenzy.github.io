@@ -9,8 +9,41 @@
     <managingEditor>annie.luxton@gmail.com (Annie Vella)</managingEditor>
     <webMaster>annie.luxton@gmail.com (Annie Vella)</webMaster>
     <copyright>© Copyright 2025 Annie Vella</copyright>
-    <lastBuildDate>Fri, 27 Jun 2025 00:00:00 +1300</lastBuildDate>
+    <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +1300</lastBuildDate>
     <atom:link href="http://annievella.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Extra Load We Carry</title>
+      <link>http://annievella.com/posts/the-extra-load-we-carry/</link>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +1300</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
+      <guid>http://annievella.com/posts/the-extra-load-we-carry/</guid>
+      <description>
+      
+      
+      <![CDATA[<p>When I came across a recent Harvard Business Review <a href="https://hbr.org/2025/08/research-the-hidden-penalty-of-using-ai-at-work">article</a> on the hidden penalty of using AI at work, it wasn&rsquo;t the AI part that stood out to me, even though I&rsquo;m studying this very topic as part of my Master&rsquo;s of Engineering. Yes, the AI findings were interesting, but what stopped me in my tracks was something else: the &ldquo;competence penalty&rdquo; women pay.</p>
+<p>The research put numbers to it:</p>
+<blockquote class="large-quote" style="font-size: 1.5em; margin: 30px 40px 30px 40px">The competence penalty was more than twice as severe for female engineers, who faced a 13% reduction compared to 6% for male engineers.</blockquote>
+<p>The experiment was simple: engineers reviewed the exact same piece of Python code, with the only difference being whether they were told it had been written with the assistance of AI. Turns out women are essentially carrying a heavier burden of doubt for the same contributions.</p>
+<p>Even worse, the harshest critics were men who didn&rsquo;t use AI themselves - they judged women <em>26% more severely than men</em> for <em>identical AI-assisted work</em>.</p>
+<p>Let that sink in for a moment.</p>
+<p>It&rsquo;s worth noting that all the engineers in the study were from the same company, so the results may say as much about that company&rsquo;s culture as the industry at large.</p>
+<p>But unfortunately they line up all too well with the lived experiences of many women in tech. Reading those numbers brought that familiar sting of recognition - here was research finally putting concrete data to something that&rsquo;s hard to put your finger on, but quietly feeds imposter syndrome throughout our careers.</p>
+<p>For some of us, it starts even earlier than the first critical code review. Like when I told my computer studies teacher I wanted to learn how to code and they said I&rsquo;d have to transfer to the local boys&rsquo; school. Or at my high school graduation, after being awarded Dux of my college, the school&rsquo;s computer teacher asked what I was planning next. I told her I was off to study computer science at university. Her response? <em>&ldquo;Worst decision you&rsquo;ll ever make. The boys will run circles around you, and you&rsquo;ll be the worst in the class.&rdquo;</em></p>
+<p>She didn&rsquo;t believe I could. She didn&rsquo;t believe I should even <em>try</em>.</p>
+<p>Thankfully, years of navigating new countries and school systems mid-year (my father was a diplomat) had helped me build a fair amount of resilience, so I didn&rsquo;t let that sway me. But it did stick with me. I still marvel at how someone could so flippantly squash someone else&rsquo;s dreams like that. A child&rsquo;s dreams, none the less.</p>
+<p>I&rsquo;ve always said, and still believe, there&rsquo;s nothing else I could imagine doing. This was my passion, and no one was going to talk me out of pursuing it. Her doubt became my fuel.</p>
+<p>That resilience has been tested several times throughout my career. Like that time I asked for access to logs to debug a memory leak and was brushed off for weeks, until my husband, <a href="https://jasonvella.com">Jason Vella</a>, (who&rsquo;s also a software engineer and worked at the same company) asked for the same logs and got them immediately. He passed them onto me, and I used them to teach myself WinDbg, found the leak, and fixed it. One of my proudest moments, actually, but also one I&rsquo;d annoyingly had to fight for.</p>
+<p>Over the years, I&rsquo;ve worked in four countries and nearly a dozen companies, and the pattern is remarkably consistent. I&rsquo;ve often had to prove myself just a little more, and for a little longer, than it seems to take for my male colleagues.</p>
+<p>However, for all those subtle extra challenges, I&rsquo;ve also had enormous support from many - mostly men, in fact - who have taught me, challenged me, and pushed me to be and do my best every single day. Their encouragement has been just as real as the obstacles, and I&rsquo;m deeply grateful for it.</p>
+<p>This mix of obstacles and support has taught me something important: the difference often comes down to who believes in you from the start. For all the talk about getting more women into tech, here&rsquo;s a thought: maybe stop discouraging them in the first place? Support them early. <em>Show</em> them what&rsquo;s possible - because too often, the gap exists only because they&rsquo;ve been told it&rsquo;s there.</p>
+<p>That&rsquo;s why programmes like <a href="https://shadowtech.nz">ShadowTech</a> matter so much. This year, ShadowTech25 is giving more than 1,200 girls from 80+ schools across New Zealand the chance to spend a real day in tech - meeting mentors, touring workplaces, and seeing firsthand just how diverse and exciting a career in technology can be. Contributing to their panel discussions at <a href="https://westpac.co.nz">Westpac</a> over the past few years has been a chance for me to reflect on my own pathway, and to turn my obstacles into stepping stones for the next generation.</p>
+<p>Exposure leads to possibility, and possibility changes everything.</p>
+<p>But there&rsquo;s another side to this work. Just as we need to give girls opportunities to play with computers and learn to code early, we also need to teach boys that women can, and do, excel in these roles. Avoid baking in bias from the start. And when we get to the workplace, leadership needs to set the tone. Leaders cast a long shadow, and when they lead by example - offering fair opportunities, recognising contributions evenly, and calling out unfair behaviour - it sends a signal that bias isn&rsquo;t tolerated here. Culture is contagious, and every time someone, regardless of gender or background, challenges an unfair assumption, it chips away at the barrier for the next person.</p>
+<p>Maybe then, just maybe, we&rsquo;ll get a little closer to letting everyone play on a level field, where identical work gets identical judgment, regardless of <em>who</em> wrote it. Where the next generation can start their journey without the weight of someone else&rsquo;s low expectations on their back.</p>
+<p>I should add that despite all this - the extra proving, the subtle barriers, the competence penalties that research now validates - I have absolutely <em>loved</em> this career. The joy of solving complex problems, creating systems that matter, and working alongside brilliant minds has definitely outweighed every obstacle. The quiet satisfaction of knowing I could do it all along adds a certain sweetness to the journey.</p>
+<p>Would I choose this path again, knowing what I know now about the extra load we carry?</p>
+<p>Without hesitation. Because someone has to prove that teacher wrong.</p>
+]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=The Extra Load We Carry">Reply to this post by email</a>]]></description>
+    </item>
     <item>
       <title>The Heart of Software Engineering Still Beats</title>
       <link>http://annievella.com/posts/the-heart-of-software-engineering-still-beats/</link>
@@ -1298,82 +1331,6 @@
 <li><a href="https://youtu.be/0yGhR1ybmN8">W. Edwards Deming - Rare Full-Length Interview - Feburary 1984</a></li>
 </ul>
 ]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=Deming">Reply to this post by email</a>]]></description>
-    </item>
-    <item>
-      <title>First Impressions of the Apple Vision Pro</title>
-      <link>http://annievella.com/posts/first-impressions-of-the-apple-vision-pro/</link>
-      <pubDate>Sun, 28 Apr 2024 14:00:00 +1200</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
-      <guid>http://annievella.com/posts/first-impressions-of-the-apple-vision-pro/</guid>
-      <description>
-      
-      
-      <![CDATA[<p>It’s been about a month since I received my much-anticipated Apple Vision Pro. Truth be told, I ordered it as soon as it became available in the US in early February 2024. With the help of some truly wonderful friends, I figured it wouldn’t be too hard to get my hands on one. Unfortunately, that wasn’t the case, but after jumping through various hoops, I finally got my hands on it in late March. I’m endlessly thankful to my friends for everything they had to go through - I hope to be able to repay the favour one day!</p>
-<p>I’ve said it before and I’ll say it again - I’m a self-proclaimed computer nerd. I literally still have the Commodore 64 that caused me to fall in love with computers in the first place. I also still have my old Game Boy, Nintendo Entertainment System, and even Super Nintendo! There was no way I wasn’t going to do whatever it took to get my hands on a first-gen Apple Vision Pro!</p>
-<h3 id="first-impressions">First Impressions</h3>
-<figure class="center"><img src="http://annievella.com/images/apple-vision-pro.jpeg"
-    alt="Apple Vision Pro"><figcaption>
-      <p>Apple Vision Pro</p>
-    </figcaption>
-</figure>
-
-<p>As with every Apple product, the Apple Vision Pro is a beautiful piece of technology and comes meticulously packaged. Even the ordering experience was seamless; since it has to fit your face, the process includes using the front-facing camera of your phone to measure your head and select the right size headband and light seal.</p>
-<p>Setting it up was a cake-walk. After putting it on and starting it up, it guides you through various steps like logging in with your Apple ID and essential things for an AR/VR device like this - eye and hand setup. Before you know it, you’re staring at what looks like a standard Apple home screen, except it’s floating in air. And that’s when you start to understand the potential of this thing.</p>
-<figure class="center"><img src="http://annievella.com/images/apple-vision-pro-screenshot-of-home-screen.jpeg"
-    alt="Apple Vision Pro - Home Screen"><figcaption>
-      <p>Apple Vision Pro - Home Screen</p>
-    </figcaption>
-</figure>
-
-<p>It didn’t take much to get used to using my eyes to navigate around - it really does feel quite natural and ridiculously cool. Just look at an icon and it highlights. Then tap your thumb and forefinger together and voilà, that app now opens.</p>
-<p>Interestingly, when my father (who’s well into his 70s) tried it out, it took a while for him to get through the eye setup (we wondered if it’s due to his imperfect eyesight), but once he was done with that, he was able to use it quite naturally. Conversely, when the daughter of a good friend gave it a go, she took to it like a duck to water and was navigating her way around it like a pro in a matter of seconds.</p>
-<p>In order to download any apps, I had to set up a secondary Apple ID with the region set to the USA. That’s because theoretically, the Apple Vision Pro is only available in the US at this stage. Thankfully there’s an option to only use this secondary Apple ID for the App Store, that way you can keep using your usual Apple ID for everything else.</p>
-<p>There aren’t that many (free) apps built with native VisionOS support yet, but there are a few fun ones:</p>
-<ul>
-<li><strong>Encounter Dinosaurs</strong>: Showcases the incredible possibilities of this technology. The butterfly can land on your hand and the dinosaurs appear to come out of the screen and try to sniff you—it is so realistic that it makes you take a step back!</li>
-</ul>
-<figure class="center"><img src="http://annievella.com/images/apple-vision-pro-screenshot-of-encounter-dinosaurs.jpeg"
-    alt="Apple Vision Pro - Encounter Dinosaurs"><figcaption>
-      <p>Apple Vision Pro - Encounter Dinosaurs</p>
-    </figcaption>
-</figure>
-
-<ul>
-<li><strong>Insight Heart</strong>: Renders a realistic human heart beating in thin air. It allows you to turn it around, zoom in and out, and look at what the heart is doing under different circumstances. This gives us a small taste of how the Apple Vision Pro could be used for educational purposes.</li>
-</ul>
-<figure class="center"><img src="http://annievella.com/images/apple-vision-pro-screenshot-of-insight-heart.jpeg"
-    alt="Apple Vision Pro - Insight Heart"><figcaption>
-      <p>Apple Vision Pro - Insight Heart</p>
-    </figcaption>
-</figure>
-
-<ul>
-<li><strong>Mindfulness</strong>: A simple app that guides you through a short meditation. I like to use it together with one of the immersive environments. It’s a nice way to take a break and relax.</li>
-</ul>
-<figure class="center"><img src="http://annievella.com/images/apple-vision-pro-screenshot-of-mindfulness.jpeg"
-    alt="Apple Vision Pro - Mindfulness"><figcaption>
-      <p>Apple Vision Pro - Mindfulness</p>
-    </figcaption>
-</figure>
-
-<ul>
-<li><strong>Air Draw</strong>: Allows you to draw in the air using your fingers. A bit of lighthearted fun.</li>
-</ul>
-<figure class="center"><img src="http://annievella.com/images/apple-vision-pro-screenshot-of-air-draw.jpeg"
-    alt="Apple Vision Pro - Air Draw"><figcaption>
-      <p>Apple Vision Pro - Air Draw</p>
-    </figcaption>
-</figure>
-
-<p>I haven’t been able to download the native Netflix or YouTube apps, but I can watch videos on both of these in Safari and that works quite well. There are small speakers on the side arms that the head bands clip on to and they work really well.</p>
-<p>All of the usual apps are available, like messages, email, notes, etc. You can even use Excel and Word!</p>
-<p>There are probably many others that aren’t free but I’d have to jump through even more hoops to purchase those so I might just wait until I can download them through my standard Apple ID!</p>
-<h3 id="what-i-dislike-about-it">What I dislike about it</h3>
-<p>My major complaint is that the Apple Vision Pro is quite heavy and somewhat uncomfortable to wear. I don’t know if it’s because I’m quite a small person with a small face, but I find that I can’t wear it for more than maybe an hour before my face starts to get quite sore. I might not have it positioned right, or perhaps I need to keep trying different light seals and headbands, but I find it hard to believe that any combination of those will ever make this a comfortable thing to wear.</p>
-<h3 id="am-i-happy-with-it">Am I happy with it?</h3>
-<p>Hell yeah. Even though it’s quite uncomfortable to wear for long periods of time, there&rsquo;s no denying it - this technology is incredible. Navigating using your eyes and selecting things with tiny hand gestures is a whole new way of interacting with a computer. Windows floating in the air, pinned to their physical location such that you can walk around (or through) them, even casting shadows behind them, turns all your surroundings into a giant screen. The AR/VR experiences that interact with you and the adjustable immersion controls are fascinating.</p>
-<h3 id="in-summary">In summary</h3>
-<p>The Apple Vision Pro is a whole new paradigm of computing. This is the first version and the worst it’ll ever be - I’m sure it’ll get lighter and more comfortable to wear as future versions are released. For me, it’s a bit more of a toy than a ‘computer’ at this stage, but I’m super happy to have one to play with. The amount of technology packed into this device is hugely impressive, and VisionOS makes interacting with it feel like a dream. Perhaps if I find some spare time, I’ll have a go at writing an app for it!</p>
-]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=First Impressions of the Apple Vision Pro">Reply to this post by email</a>]]></description>
     </item>
   </channel>
 </rss>

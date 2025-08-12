@@ -9,8 +9,41 @@
     <managingEditor>annie.luxton@gmail.com (Annie Vella)</managingEditor>
     <webMaster>annie.luxton@gmail.com (Annie Vella)</webMaster>
     <copyright>© Copyright 2025 Annie Vella</copyright>
-    <lastBuildDate>Fri, 27 Jun 2025 00:00:00 +1300</lastBuildDate>
+    <lastBuildDate>Tue, 12 Aug 2025 00:00:00 +1300</lastBuildDate>
     <atom:link href="http://annievella.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Extra Load We Carry</title>
+      <link>http://annievella.com/posts/the-extra-load-we-carry/</link>
+      <pubDate>Tue, 12 Aug 2025 00:00:00 +1300</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
+      <guid>http://annievella.com/posts/the-extra-load-we-carry/</guid>
+      <description>
+      
+      
+      <![CDATA[<p>When I came across a recent Harvard Business Review <a href="https://hbr.org/2025/08/research-the-hidden-penalty-of-using-ai-at-work">article</a> on the hidden penalty of using AI at work, it wasn&rsquo;t the AI part that stood out to me, even though I&rsquo;m studying this very topic as part of my Master&rsquo;s of Engineering. Yes, the AI findings were interesting, but what stopped me in my tracks was something else: the &ldquo;competence penalty&rdquo; women pay.</p>
+<p>The research put numbers to it:</p>
+<blockquote class="large-quote" style="font-size: 1.5em; margin: 30px 40px 30px 40px">The competence penalty was more than twice as severe for female engineers, who faced a 13% reduction compared to 6% for male engineers.</blockquote>
+<p>The experiment was simple: engineers reviewed the exact same piece of Python code, with the only difference being whether they were told it had been written with the assistance of AI. Turns out women are essentially carrying a heavier burden of doubt for the same contributions.</p>
+<p>Even worse, the harshest critics were men who didn&rsquo;t use AI themselves - they judged women <em>26% more severely than men</em> for <em>identical AI-assisted work</em>.</p>
+<p>Let that sink in for a moment.</p>
+<p>It&rsquo;s worth noting that all the engineers in the study were from the same company, so the results may say as much about that company&rsquo;s culture as the industry at large.</p>
+<p>But unfortunately they line up all too well with the lived experiences of many women in tech. Reading those numbers brought that familiar sting of recognition - here was research finally putting concrete data to something that&rsquo;s hard to put your finger on, but quietly feeds imposter syndrome throughout our careers.</p>
+<p>For some of us, it starts even earlier than the first critical code review. Like when I told my computer studies teacher I wanted to learn how to code and they said I&rsquo;d have to transfer to the local boys&rsquo; school. Or at my high school graduation, after being awarded Dux of my college, the school&rsquo;s computer teacher asked what I was planning next. I told her I was off to study computer science at university. Her response? <em>&ldquo;Worst decision you&rsquo;ll ever make. The boys will run circles around you, and you&rsquo;ll be the worst in the class.&rdquo;</em></p>
+<p>She didn&rsquo;t believe I could. She didn&rsquo;t believe I should even <em>try</em>.</p>
+<p>Thankfully, years of navigating new countries and school systems mid-year (my father was a diplomat) had helped me build a fair amount of resilience, so I didn&rsquo;t let that sway me. But it did stick with me. I still marvel at how someone could so flippantly squash someone else&rsquo;s dreams like that. A child&rsquo;s dreams, none the less.</p>
+<p>I&rsquo;ve always said, and still believe, there&rsquo;s nothing else I could imagine doing. This was my passion, and no one was going to talk me out of pursuing it. Her doubt became my fuel.</p>
+<p>That resilience has been tested several times throughout my career. Like that time I asked for access to logs to debug a memory leak and was brushed off for weeks, until my husband, <a href="https://jasonvella.com">Jason Vella</a>, (who&rsquo;s also a software engineer and worked at the same company) asked for the same logs and got them immediately. He passed them onto me, and I used them to teach myself WinDbg, found the leak, and fixed it. One of my proudest moments, actually, but also one I&rsquo;d annoyingly had to fight for.</p>
+<p>Over the years, I&rsquo;ve worked in four countries and nearly a dozen companies, and the pattern is remarkably consistent. I&rsquo;ve often had to prove myself just a little more, and for a little longer, than it seems to take for my male colleagues.</p>
+<p>However, for all those subtle extra challenges, I&rsquo;ve also had enormous support from many - mostly men, in fact - who have taught me, challenged me, and pushed me to be and do my best every single day. Their encouragement has been just as real as the obstacles, and I&rsquo;m deeply grateful for it.</p>
+<p>This mix of obstacles and support has taught me something important: the difference often comes down to who believes in you from the start. For all the talk about getting more women into tech, here&rsquo;s a thought: maybe stop discouraging them in the first place? Support them early. <em>Show</em> them what&rsquo;s possible - because too often, the gap exists only because they&rsquo;ve been told it&rsquo;s there.</p>
+<p>That&rsquo;s why programmes like <a href="https://shadowtech.nz">ShadowTech</a> matter so much. This year, ShadowTech25 is giving more than 1,200 girls from 80+ schools across New Zealand the chance to spend a real day in tech - meeting mentors, touring workplaces, and seeing firsthand just how diverse and exciting a career in technology can be. Contributing to their panel discussions at <a href="https://westpac.co.nz">Westpac</a> over the past few years has been a chance for me to reflect on my own pathway, and to turn my obstacles into stepping stones for the next generation.</p>
+<p>Exposure leads to possibility, and possibility changes everything.</p>
+<p>But there&rsquo;s another side to this work. Just as we need to give girls opportunities to play with computers and learn to code early, we also need to teach boys that women can, and do, excel in these roles. Avoid baking in bias from the start. And when we get to the workplace, leadership needs to set the tone. Leaders cast a long shadow, and when they lead by example - offering fair opportunities, recognising contributions evenly, and calling out unfair behaviour - it sends a signal that bias isn&rsquo;t tolerated here. Culture is contagious, and every time someone, regardless of gender or background, challenges an unfair assumption, it chips away at the barrier for the next person.</p>
+<p>Maybe then, just maybe, we&rsquo;ll get a little closer to letting everyone play on a level field, where identical work gets identical judgment, regardless of <em>who</em> wrote it. Where the next generation can start their journey without the weight of someone else&rsquo;s low expectations on their back.</p>
+<p>I should add that despite all this - the extra proving, the subtle barriers, the competence penalties that research now validates - I have absolutely <em>loved</em> this career. The joy of solving complex problems, creating systems that matter, and working alongside brilliant minds has definitely outweighed every obstacle. The quiet satisfaction of knowing I could do it all along adds a certain sweetness to the journey.</p>
+<p>Would I choose this path again, knowing what I know now about the extra load we carry?</p>
+<p>Without hesitation. Because someone has to prove that teacher wrong.</p>
+]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=The Extra Load We Carry">Reply to this post by email</a>]]></description>
+    </item>
     <item>
       <title>The Heart of Software Engineering Still Beats</title>
       <link>http://annievella.com/posts/the-heart-of-software-engineering-still-beats/</link>
@@ -1273,59 +1306,6 @@
 <p>I&rsquo;m super thankful for that teacher who, with a gift that seemed so odd at the time, opened my eyes to a whole new way of thinking. It&rsquo;s a lesson that&rsquo;s truly stuck with me, shaping how I see the world and tackle problems.</p>
 <p>How about you? Have you ever received a thoughtful gift that ended up changing your perspective way more than you&rsquo;d have thought?</p>
 ]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=Embracing the Unexpected">Reply to this post by email</a>]]></description>
-    </item>
-    <item>
-      <title>2023 In Review: A Year of Rediscovery and Growth</title>
-      <link>http://annievella.com/posts/2023-in-review/</link>
-      <pubDate>Sun, 14 Jan 2024 13:00:00 +1200</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
-      <guid>http://annievella.com/posts/2023-in-review/</guid>
-      <description>
-      
-      
-      <![CDATA[<p>Returning to work after the holiday season, I find myself reflecting on a rather remarkable 2023. It was a year where innovative technologies like generative AI and advancements in quantum computing moved beyond mere buzzwords, inspiring me to delve deeper into my curiosity and passions. This reawakening not only captured my attention but also reinforced my belief in the transformative power of technology. Discovering Deming and his philosophy was a turning point for me, providing clarity and reinforcing my principles in quality, continuous improvement and leadership.</p>
-<p>Transitioning into a role that allows me to prioritize deep thinking and learning was a highlight of my year. This change is more closely aligned with my passions, paving a path for personal growth and development.</p>
-<p>In 2023, I also tackled my intense apprehension of public speaking head-on. I seized every opportunity to speak on subjects that I feel strongly about, enriching my experience and expanding my network. Engaging with diverse minds at conferences, meetups, and online platforms like Rands Leadership Slack was particularly fulfilling. The &lsquo;donut&rsquo; sessions in RLS, connecting me with someone new each month, were a source of inspiration and fresh perspectives.</p>
-<p>Mentorship continued to play a significant role in my life. While guiding others, I found myself learning and growing alongside them. And for the first time, I experienced the other side of mentorship, gaining invaluable insights from my own mentor.</p>
-<p>As I look ahead, I&rsquo;m excited to build on these experiences. I aim to deepen my learning, hopefully embarking on a journey of post-graduate study. I plan to continue improving my public speaking skills, with the goal of presenting at an international conference. Reading more, writing across various platforms and maintaining a healthy lifestyle through exercise and travel are all part of my 2024 agenda as well.</p>
-<p>Here&rsquo;s to a year filled with curiosity and learning!</p>
-<p><strong>Key Accomplishments of 2023:</strong></p>
-<p><em>Conference Talks:</em></p>
-<ul>
-<li>Code Camp Wellington, 15 Apr</li>
-<li>DevFest Auckland, 12 Nov</li>
-</ul>
-<p><em>Panels:</em></p>
-<ul>
-<li>Infosys International Women’s Day Panel, 8 Mar</li>
-<li>DevOps Summit Panel on discussing the capabilities of a world class DevOps strategy, 14 June</li>
-<li>Movac Panel on building diverse and high-performance engineering cultures, 21 June</li>
-<li>Shadowtech Panel on a day in the life of an Engineer at Westpac, 14 Sept</li>
-<li>DevFest Career Panel, 12 Nov</li>
-<li>TechWomen NZ and CyberCX Celebration Panel, 5 Dec</li>
-</ul>
-<p><em>Conferences Attended:</em></p>
-<ul>
-<li>Dev Day Aotearoa, 13 Sept</li>
-<li>Cyber Resilience Summit Auckland, 11 Oct</li>
-<li>DevOps Talks Conference, 21 Nov</li>
-</ul>
-<p><em>Luncheons:</em></p>
-<ul>
-<li>The IT and Cybersecurity Leaders&rsquo; Roundtable, 31 May</li>
-</ul>
-<p><em>Award Nominations:</em></p>
-<ul>
-<li>Finalist, New Zealand Women in Security Awards - Best Secure Coder Category</li>
-</ul>
-<p><em>Books Read:</em></p>
-<ul>
-<li>&ldquo;Staff Engineer&rdquo; by Will Larson</li>
-<li>&ldquo;The Staff Engineer’s Path&rdquo; by Tanya Reilly</li>
-<li>&ldquo;Deming’s Journey to Profound Knowledge&rdquo; by John Willis</li>
-<li>&ldquo;Out of the Crisis&rdquo; by W. Edwards Deming</li>
-<li>&ldquo;Wiring the Winning Organisation&rdquo; by Gene Kim &amp; Dr. Steve Spear</li>
-</ul>
-]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=2023 In Review: A Year of Rediscovery and Growth">Reply to this post by email</a>]]></description>
     </item>
   </channel>
 </rss>
