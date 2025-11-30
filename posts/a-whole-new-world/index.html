@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>A Whole New World - Annie Vella</title>
+  <meta property="og:title" content="A Whole New World - Annie Vella" />
+  <meta name="twitter:title" content="A Whole New World - Annie Vella" />
+  <meta name="description" content="In the years I&rsquo;ve been building software, I&rsquo;ve lived through more than a few waves. My first taste of code was in the mid‑80s, typing BASIC into a Commodore 64 where you couldn&rsquo;t even save your work to a hard drive. In the mid‑90s, scripting in mIRC and hand‑rolling simple HTML sites felt cutting edge. The early 2000s were all about desktop apps, then web apps that suddenly got a lot more dynamic - yet for a while, Flash was still the only way to refresh part of a page without the user hammering the browser&rsquo;s refresh button. Then AJAX arrived and changed that.">
+  <meta property="og:description" content="In the years I&rsquo;ve been building software, I&rsquo;ve lived through more than a few waves. My first taste of code was in the mid‑80s, typing BASIC into a Commodore 64 where you couldn&rsquo;t even save your work to a hard drive. In the mid‑90s, scripting in mIRC and hand‑rolling simple HTML sites felt cutting edge. The early 2000s were all about desktop apps, then web apps that suddenly got a lot more dynamic - yet for a while, Flash was still the only way to refresh part of a page without the user hammering the browser&rsquo;s refresh button. Then AJAX arrived and changed that.">
+  <meta name="twitter:description" content="In the years I&rsquo;ve been building software, I&rsquo;ve lived through more than a few waves. My first taste of code was in the mid‑80s, typing BASIC into a Commodore 64 where you couldn&rsquo;t …">
+  <meta name="author" content="Annie Vella"/>
+  <meta property="og:site_name" content="Annie Vella" />
+  <meta property="og:url" content="http://annievella.com/posts/a-whole-new-world/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.140.1">
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+
+  <script src="/js/script.js"></script>
+  <script src="/js/custom.js"></script>
+  <script defer src="/fontawesome/all.min.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="/">Annie Vella</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-resources"><a href="/resources/" title="Resources">Resources</a></li>
+      <li class="site-navi-item-speaking"><a href="/speaking/" title="Speaking">Speaking</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      
+      
+      <h1 class="article-title">A Whole New World</h1>
+      
+      <hr class="article-title-bottom">
+      <ul class="article-meta">
+        
+        <li class="article-meta-date"><time>November 30, 2025</time></li>
+        
+      </ul>
+      
+      <p>In the years I&rsquo;ve been building software, I&rsquo;ve lived through more than a few waves. My first taste of code was in the mid‑80s, typing BASIC into a Commodore 64 where you couldn&rsquo;t even save your work to a hard drive. In the mid‑90s, scripting in mIRC and hand‑rolling simple HTML sites felt cutting edge. The early 2000s were all about desktop apps, then web apps that suddenly got a lot more dynamic - yet for a while, Flash was still the only way to refresh part of a page without the user hammering the browser&rsquo;s refresh button. Then AJAX arrived and changed that.</p>
+<p>After that came an explosion of tools and technologies. On the application side, we reached for caches, queues, NoSQL databases, and event streams to make distributed systems possible and keep them performing under load. On the delivery and infrastructure side, DevOps pipelines and automated static analysis tools helped us ship faster, automated testing gave us confidence in what we were releasing, and cloud and infrastructure‑as‑code let us scale in a far more programmatic way. Mobile in the 2010s brought a whole new set of tools and constraints with it - you had to really think about payloads, because pushing huge amounts of data over mobile networks just wasn&rsquo;t a great idea.</p>
+<p>These are the kinds of shifts we point to when we talk about why software engineering is a career where there&rsquo;s <em>always</em> more to learn. New technologies arrive constantly, and if you want to build the right solutions with the tools available today, you have to keep up, experiment, and learn how to put those tools to work in meaningful ways.</p>
+<p>What&rsquo;s exciting now is that with Gen AI, we&rsquo;ve added a whole new kind of component to that toolkit: the LLM. We can weave it into our systems in all sorts of ways - as a helper inside a feature, as the thing that orchestrates tools and workflows, or as the layer that sits in front of everything and talks to users. By its very nature, though, it&rsquo;s non-deterministic and often unpredictable. That forces us to rethink how we design software end-to-end, from architecture and implementation through to testing, deployment and the way we run these systems in production.</p>
+<h2 id="from-deterministic-to-nondeterministic-systems">From deterministic to non‑deterministic systems</h2>
+<p>In a recent <a href="https://www.youtube.com/watch?v=CQmI4XKTa0U">conversation</a> between <a href="https://martinfowler.com/">Martin Fowler</a> and <a href="https://blog.pragmaticengineer.com/">Gergely Orosz</a>, Martin puts his finger on this very point: the importance of the introduction of non-determinism into our systems. He leans on his wife&rsquo;s world of structural engineering, where one must think in terms of <em>tolerances</em> and deliberately build extra capacity into a bridge or a building because materials like wood, concrete and steel all vary. You can never assume two pieces of timber will behave identically. Instead, you learn as much as you can about the materials and then design around that uncertainty. I think he&rsquo;s right that we&rsquo;ll need a similar mindset when we work with non‑deterministic AI components, understanding the &ldquo;tolerances&rdquo; of that uncertainty and resisting the temptation to skate too close to the edge, especially on the security side.</p>
+<p>In my AI Native DevCon talk six months ago, <a href="https://youtu.be/53yziql9h-U?si=2RJpT5Ve05fhHVdt"><em>Am I Still a Software Engineer If I Don&rsquo;t Write the Code?</em></a>, I shared a slide titled &ldquo;New tools, new problems, new solutions&rdquo; to illustrate some of the new problem spaces opening up for us as engineers. Basically, this post zooms in on just one of those boxes: <strong>designing non-deterministic systems</strong>.</p>
+<figure class="center"><img src="/images/new-tools-new-problems-new-solutions.png"
+    alt="New tools, new problems, new solutions"><figcaption>
+      <p>From my AI Native DevCon talk <a href="https://youtu.be/53yziql9h-U?si=2RJpT5Ve05fhHVdt"><em>Am I Still a Software Engineer If I Don&rsquo;t Write the Code?</em></a> This post focuses on one of these areas: designing non-deterministic systems.</p>
+    </figcaption>
+</figure>
+
+<h2 id="the-rise-of-the-ai-application-layer">The rise of the AI application layer</h2>
+<p>Up until recently, most of my research has focused on what AI is doing to software engineering as a discipline: how it changes the process of building software, what it does to our day‑to‑day experience as engineers, and how it shifts where we spend our time when we have an AI assistant sitting beside us in the IDE. But I&rsquo;m just as intrigued by what it means for the <em>software itself</em>. The kinds of systems we can now build. The architectures we reach for. The new constraints we run into and the new classes of problems we have to solve when a non‑deterministic component sits in the middle of everything.</p>
+<p>That curiosity has led me to focus more on the <strong>AI application layer</strong> - the part of the stack where models, tools and products actually meet real users. And there are strong signals that this focus is well‑placed. <a href="https://www.andrewng.org/">Andrew Ng</a>, in a recent <a href="https://www.deeplearning.ai/the-batch/issue-329/">Batch</a> editorial, pointed out that while huge amounts of money and attention are flowing into infrastructure and foundation models, the AI application layer is comparatively under‑invested. There&rsquo;s a lot of value still to be created there, and that value will come from people who know how to design, build and operate these new kinds of systems.z</p>
+<p>We&rsquo;re already starting to attach more specific labels to those people - titles like <strong>AI Engineer</strong>, <strong>AI Application Developer</strong>, or <strong>AI Application Architect</strong> - folks who live closer to that layer. But I don&rsquo;t think of that as a separate profession. Just as we once had to learn our way around caches, queues, mobile constraints and cloud tooling, this is simply the next set of tools and patterns we need to get fluent in. We&rsquo;re still software engineers, and these are tools, patterns, and ways of thinking that we&rsquo;ll be better off knowing, whether or not we ever put &ldquo;AI&rdquo; in our job titles.</p>
+<p>This post is my working map of the skills and concepts I think matter for software engineers who want to build in this new LLM / agentic paradigm.</p>
+<h2 id="how-the-work-shifts">How the work shifts</h2>
+<p>Before diving into the detail, it helps to name the kinds of work that shift when you bring LLMs and agents into the mix. There is still solution design and architecture, but instead of just deciding where your service boundaries lie, you&rsquo;re deciding what belongs in deterministic code vs a model, where to introduce retrieval or agents, and how to build in safety and human oversight from the start.</p>
+<p>There is still engineering, but more and more it means stitching together models, tools, data stores, workflows and observability into something coherent and operable. A lot of the hard work now is in learning the new tooling and patterns well enough that you can keep systems explainable and debuggable, even when some core components are probabilistic.</p>
+<p>And there is still validation, but it looks very different from traditional unit and integration testing. You need new ways to evaluate behaviour over time, catch regressions when models or prompts change, and decide what &ldquo;good enough&rdquo; means for systems that will never be perfectly predictable.</p>
+<h2 id="ai-engineering-competency-map">AI Engineering Competency Map</h2>
+<p>What follows is a set of skill areas and capabilities you can explore if you want to get serious about building systems with LLMs and agents at their core. This is simply my current view, shaped by what I&rsquo;m reading, what I&rsquo;m building, and what I&rsquo;m seeing across the industry, not a set of hard rules or a checklist to complete. It&rsquo;s deliberately broad, not exhaustive, and almost certain to evolve as the tools, patterns and best practices do.</p>
+<h3 id="1-models-providers--core-stack">1. Models, Providers &amp; Core Stack</h3>
+<p>Understanding which models exist, what they can do, and the core stack used to work with them.</p>
+<h4 id="11-model-providers">1.1 Model providers</h4>
+<p>Knowing the major commercial and open model providers and how to integrate their APIs.</p>
+<ul>
+<li><a href="https://openai.com/">OpenAI</a></li>
+<li><a href="https://www.anthropic.com/">Anthropic</a></li>
+<li><a href="https://ai.google/">Google</a></li>
+<li><a href="https://mistral.ai/">Mistral</a></li>
+<li><a href="https://ai.meta.com/">Meta</a></li>
+<li><a href="https://groq.com/">Groq</a></li>
+</ul>
+<h4 id="12-model-capabilities--selection">1.2 Model capabilities &amp; selection</h4>
+<p>Choosing appropriate models based on capability, risk and constraints.</p>
+<ul>
+<li>Reasoning depth vs latency</li>
+<li>Text-only vs multimodal</li>
+<li>Context length and token limits</li>
+<li>Cost profiles and rate limits</li>
+<li>Fine-tuned vs general-purpose models</li>
+</ul>
+<h4 id="13-core-implementation-stack">1.3 Core implementation stack</h4>
+<p>Using programming languages and runtimes suitable for AI-enabled backends and agents.</p>
+<ul>
+<li>Python</li>
+<li>TypeScript / JavaScript</li>
+<li>Go</li>
+<li>C# / .NET</li>
+<li>Basic familiarity with async patterns and HTTP APIs</li>
+</ul>
+<p>⸻</p>
+<h3 id="2-knowledge-preparation--retrieval-rag">2. Knowledge Preparation &amp; Retrieval (RAG)</h3>
+<p>Preparing data and retrieving it so agents can ground their answers in real information.</p>
+<h4 id="21-knowledge-preprocessing">2.1 Knowledge preprocessing</h4>
+<p>Transforming messy input into clean, LLM-ready text.</p>
+<ul>
+<li>PDF to HTML or markdown</li>
+<li>OCR and image-to-text</li>
+<li>Normalising and cleaning documents</li>
+<li>Splitting large files into logical sections</li>
+</ul>
+<h4 id="22-chunking-strategies">2.2 Chunking strategies</h4>
+<p>Breaking documents into useful pieces for retrieval.</p>
+<ul>
+<li>Fixed-size vs semantic chunking</li>
+<li>Sliding windows and overlap</li>
+<li>Section- and heading-aware splits</li>
+<li>Trade-offs between granularity and context</li>
+</ul>
+<h4 id="23-embeddings--vector-search">2.3 Embeddings &amp; vector search</h4>
+<p>Representing text as vectors and searching semantically.</p>
+<ul>
+<li>Embedding models and dimensions</li>
+<li>Similarity metrics (cosine, dot-product, etc.)</li>
+<li>Indexing strategies</li>
+<li>Handling updates and re-indexing</li>
+</ul>
+<h4 id="24-hybrid-retrieval--reranking">2.4 Hybrid retrieval &amp; reranking</h4>
+<p>Combining different retrieval techniques to get better results.</p>
+<ul>
+<li>Keyword search (BM25 or equivalent)</li>
+<li>Hybrid search (keyword + vector)</li>
+<li>Reranking candidate documents</li>
+<li>Balancing recall vs precision</li>
+</ul>
+<h4 id="25-knowledge-graphs--structured-stores">2.5 Knowledge graphs &amp; structured stores</h4>
+<p>Using structured knowledge to support reasoning and answering.</p>
+<ul>
+<li>Entity and relationship modelling</li>
+<li>Graph databases</li>
+<li>Joining graph lookups with LLM answers</li>
+<li>When to use graphs vs plain RAG</li>
+</ul>
+<h4 id="26-common-vector-and-search-backends">2.6 Common vector and search backends</h4>
+<p>Using production-ready services for retrieval.</p>
+<ul>
+<li><a href="https://www.pinecone.io/">Pinecone</a></li>
+<li><a href="https://weaviate.io/">Weaviate</a></li>
+<li><a href="https://azure.microsoft.com/en-us/products/ai-services/ai-search">Azure AI Search / Cognitive Search</a></li>
+<li><a href="https://www.elastic.co/enterprise-search/vector-search">Elastic</a> with vector capabilities</li>
+<li><a href="https://www.trychroma.com/">Chroma</a> or similar developer-oriented stores</li>
+</ul>
+<p>⸻</p>
+<h3 id="3-context--conversation-management">3. Context &amp; Conversation Management</h3>
+<p>Deciding what the model sees, how it sees it, and how to cope with context limits.</p>
+<h4 id="31-context-engineering">3.1 Context engineering</h4>
+<p>Designing prompts and context to give the model what it needs and nothing it does not.</p>
+<ul>
+<li>System / user / tool message structure</li>
+<li>Injecting retrieved knowledge and constraints</li>
+<li>Representing user state and persona</li>
+<li>Avoiding irrelevant or distracting information</li>
+</ul>
+<h4 id="32-context-window-architecture">3.2 Context window architecture</h4>
+<p>Managing the limited context window as a resource.</p>
+<ul>
+<li>Token budgeting across instructions, history and retrieved chunks</li>
+<li>Policies for what to keep vs drop</li>
+<li>Per-turn context templates</li>
+<li>Handling very long workflows or conversations</li>
+</ul>
+<h4 id="33-compaction-and-summarisation">3.3 Compaction and summarisation</h4>
+<p>Compressing history while preserving what matters.</p>
+<ul>
+<li>Conversation summarisation</li>
+<li>State distillation into notes or facts</li>
+<li>Periodic “snapshot” summaries</li>
+<li>Trade-offs between fidelity and brevity</li>
+</ul>
+<h4 id="34-structured-outputs--schemas">3.4 Structured outputs &amp; schemas</h4>
+<p>Ensuring outputs are machine-friendly and predictable.</p>
+<ul>
+<li>JSON and typed schemas</li>
+<li>Function / tool call definitions</li>
+<li>Validation and error handling</li>
+<li>Strategies for recovering from malformed output</li>
+</ul>
+<p>⸻</p>
+<h3 id="4-agent-reasoning--orchestration-patterns">4. Agent Reasoning &amp; Orchestration Patterns</h3>
+<p>How agents think, break down work and orchestrate multiple steps or tools.</p>
+<h4 id="41-prompt-chaining">4.1 Prompt chaining</h4>
+<p>Breaking complex tasks into explicit, ordered LLM calls.</p>
+<ul>
+<li>Multi-step workflows</li>
+<li>Passing intermediate outputs between steps</li>
+<li>Designing reusable chains</li>
+<li>Handling failure at intermediate steps</li>
+</ul>
+<h4 id="42-routing">4.2 Routing</h4>
+<p>Selecting the right model, tool, or agent for a given request.</p>
+<ul>
+<li>Heuristic routing rules</li>
+<li>LLM-based router prompts</li>
+<li>Routing by complexity, sensitivity or domain</li>
+<li>Combining cost and quality constraints</li>
+</ul>
+<h4 id="43-parallelisation">4.3 Parallelisation</h4>
+<p>Running independent tasks concurrently to improve throughput.</p>
+<ul>
+<li>Fan-out calls to tools or models</li>
+<li>Aggregating and merging results</li>
+<li>Handling partial failures</li>
+<li>Timeouts and cancellation strategies</li>
+</ul>
+<h4 id="44-planning--goal-management">4.4 Planning &amp; goal management</h4>
+<p>Creating and adjusting plans to meet explicit goals.</p>
+<ul>
+<li>Turning user goals into sub-tasks</li>
+<li>Ordered and dependency-aware task lists</li>
+<li>Replanning when state changes</li>
+<li>Tracking progress against a goal</li>
+</ul>
+<h4 id="45-goal-setting--monitoring">4.5 Goal setting &amp; monitoring</h4>
+<p>Defining success criteria and checking whether they are met.</p>
+<ul>
+<li>Clear definitions of “done”</li>
+<li>Agent-visible metrics or checkpoints</li>
+<li>Self-assessment cycles (“did I achieve the goal?”)</li>
+<li>Triggering escalation if goals cannot be met</li>
+</ul>
+<h4 id="46-advanced-reasoning-techniques">4.6 Advanced reasoning techniques</h4>
+<p>Using structured reasoning styles to improve accuracy.</p>
+<ul>
+<li>Chain-of-Thought (step-by-step reasoning)</li>
+<li>Tree-of-Thought and exploring multiple paths</li>
+<li><a href="https://arxiv.org/abs/2210.03629">ReAct</a> (reasoning plus acting with tools)</li>
+<li>Self-correction and iterative refinement</li>
+</ul>
+<p>⸻</p>
+<h3 id="5-tools-skills--external-systems">5. Tools, Skills &amp; External Systems</h3>
+<p>Connecting agents to external capabilities and designing those capabilities well.</p>
+<h4 id="51-tool-and-function-calling">5.1 Tool and function calling</h4>
+<p>Letting the model invoke deterministic operations.</p>
+<ul>
+<li>Tool interface design and arguments</li>
+<li>Idempotent and side-effecting tools</li>
+<li>Handling tool failures and retries</li>
+<li>Limiting what tools are available when</li>
+</ul>
+<h4 id="52-tool-ecosystems-and-mcp">5.2 Tool ecosystems and MCP</h4>
+<p>Organising tools into discoverable, reusable ecosystems.</p>
+<ul>
+<li><a href="https://modelcontextprotocol.io/">Model Context Protocol (MCP)</a> servers and tool definitions</li>
+<li>Describing resources and prompts</li>
+<li>Versioning and compatibility</li>
+<li>Discoverability and documentation</li>
+</ul>
+<h4 id="53-enterprise-and-saas-integration">5.3 Enterprise and SaaS integration</h4>
+<p>Connecting agents to real systems to actually do work.</p>
+<ul>
+<li>REST and GraphQL APIs</li>
+<li>Databases and data warehouses</li>
+<li>Enterprise services (CRM, ticketing, HR, core systems, etc.)</li>
+<li>Handling authentication, rate limits and quotas</li>
+</ul>
+<p>⸻</p>
+<h3 id="6-multi-agent-systems--inter-agent-communication">6. Multi-Agent Systems &amp; Inter-Agent Communication</h3>
+<p>Using multiple specialised agents that collaborate over well-defined protocols.</p>
+<h4 id="61-role-based-multi-agent-design">6.1 Role-based multi-agent design</h4>
+<p>Assigning clear responsibilities to different agents.</p>
+<ul>
+<li>Specialist vs generalist agents</li>
+<li>Manager–worker patterns</li>
+<li>Critic/reviewer agents</li>
+<li>Domain vs workflow roles</li>
+</ul>
+<h4 id="62-collaboration-patterns">6.2 Collaboration patterns</h4>
+<p>Structuring how multiple agents work together.</p>
+<ul>
+<li>Sequential hand-off</li>
+<li>Parallel teams aggregating results</li>
+<li>Debate or &ldquo;argue then agree&rdquo; patterns</li>
+<li>Escalation to higher-authority agents</li>
+</ul>
+<h4 id="63-inter-agent-communication-standards">6.3 Inter-agent communication standards</h4>
+<p>Using standard protocols so agents from different frameworks can talk.</p>
+<ul>
+<li>Agent cards describing capabilities</li>
+<li>Task and message formats</li>
+<li>Artifacts and streaming results</li>
+<li>HTTP / JSON-RPC based interaction</li>
+</ul>
+<h4 id="64-a2a-style-discovery--interaction">6.4 A2A-style discovery &amp; interaction</h4>
+<p>Finding and calling remote agents reliably.</p>
+<ul>
+<li>Well-known URIs and registries</li>
+<li>Context identifiers for long-running tasks</li>
+<li>Polling vs streaming updates</li>
+<li>Security boundaries between agents</li>
+</ul>
+<p>⸻</p>
+<h3 id="7-memory--learning">7. Memory &amp; Learning</h3>
+<p>Giving agents continuity over time and allowing them to improve.</p>
+<h4 id="71-short-term-memory">7.1 Short-term memory</h4>
+<p>Tracking state within a session or workflow.</p>
+<ul>
+<li>Conversation buffers</li>
+<li>Current plan and sub-task state</li>
+<li>Local scratchpads for reasoning</li>
+<li>Limits and reset strategies</li>
+</ul>
+<h4 id="72-long-term-memory">7.2 Long-term memory</h4>
+<p>Persisting information across sessions and tasks.</p>
+<ul>
+<li>User preferences and profiles</li>
+<li>Project or case histories</li>
+<li>Vector memories and knowledge bases</li>
+<li>Expiry, pruning and privacy controls</li>
+</ul>
+<h4 id="73-learning-and-adaptation">7.3 Learning and adaptation</h4>
+<p>Letting systems improve from feedback and data.</p>
+<ul>
+<li>Reinforcement learning and preference learning</li>
+<li>Updating retrieval corpora and memories</li>
+<li>Policy updates from evaluation results</li>
+<li>Guarded finetuning where appropriate</li>
+</ul>
+<p>⸻</p>
+<h3 id="8-safety-robustness--human-partnership">8. Safety, Robustness &amp; Human Partnership</h3>
+<p>Keeping systems safe, resilient and aligned with people.</p>
+<h4 id="81-guardrails-and-content-safety">8.1 Guardrails and content safety</h4>
+<p>Preventing harmful, non-compliant or out-of-scope behaviour.</p>
+<ul>
+<li>Input validation and sanitisation</li>
+<li>Output filtering and safety checks</li>
+<li>Behavioural constraints in prompts</li>
+<li>Dedicated safety models or agents</li>
+</ul>
+<h4 id="82-exception-handling--recovery">8.2 Exception handling &amp; recovery</h4>
+<p>Dealing gracefully with errors and degraded conditions.</p>
+<ul>
+<li>Error detection and logging</li>
+<li>Retries and fallbacks</li>
+<li>Graceful degradation of features</li>
+<li>State rollback and escalation</li>
+</ul>
+<h4 id="83-human-in-the-loop-collaboration">8.3 Human-in-the-loop collaboration</h4>
+<p>Designing for human oversight and joint work.</p>
+<ul>
+<li>Human review for sensitive actions</li>
+<li>Escalation policies and thresholds</li>
+<li>Feedback loops to improve agents</li>
+<li>Interfaces for humans to correct or override</li>
+</ul>
+<h4 id="84-security--access-control">8.4 Security &amp; access control</h4>
+<p>Keeping data and capabilities properly protected.</p>
+<ul>
+<li>Authentication and authorisation</li>
+<li>Least-privilege tool and data access</li>
+<li>Secrets management</li>
+<li>Network and tenant isolation</li>
+</ul>
+<p>⸻</p>
+<h3 id="9-resource--priority-management">9. Resource &amp; Priority Management</h3>
+<p>Using time, money and compute wisely while choosing what to do first.</p>
+<h4 id="91-resource-aware-optimisation">9.1 Resource-aware optimisation</h4>
+<p>Balancing quality against time and cost.</p>
+<ul>
+<li>Choosing between cheap vs expensive models</li>
+<li>Latency-sensitive vs offline workflows</li>
+<li>Bandwidth and storage-aware strategies</li>
+<li>Fallback models and graceful degradation</li>
+</ul>
+<h4 id="92-task-and-goal-prioritisation">9.2 Task and goal prioritisation</h4>
+<p>Deciding which task or goal the agent should work on next.</p>
+<ul>
+<li>Scoring by urgency, impact and dependencies</li>
+<li>Scheduling and queues</li>
+<li>Dynamic reprioritisation as conditions change</li>
+<li>Aligning agent priorities with business objectives</li>
+</ul>
+<p>⸻</p>
+<h3 id="10-evaluation-monitoring--operations">10. Evaluation, Monitoring &amp; Operations</h3>
+<p>Making sure systems work, stay healthy and improve over time.</p>
+<h4 id="101-evaluation-and-metrics">10.1 Evaluation and metrics</h4>
+<p>Measuring whether the system is actually good.</p>
+<ul>
+<li>Accuracy, relevance and helpfulness metrics</li>
+<li>RAG-specific metrics (faithfulness, grounding)</li>
+<li>Human rating workflows</li>
+<li>Benchmark and regression suites</li>
+</ul>
+<h4 id="102-monitoring--observability">10.2 Monitoring &amp; observability</h4>
+<p>Watching live systems and catching problems early.</p>
+<ul>
+<li>Latency and error tracking</li>
+<li>Token and cost usage monitoring</li>
+<li>Concept drift and behaviour drift detection</li>
+<li>Logs and traces for auditability</li>
+</ul>
+<h4 id="103-llmops--agentops">10.3 LLMOps / AgentOps</h4>
+<p>Running AI systems as first-class production services.</p>
+<ul>
+<li>CI/CD pipelines for prompts, tools and configs</li>
+<li>Versioning of prompts, models and policies</li>
+<li>Canary and shadow deployments</li>
+<li>Rollbacks and kill switches</li>
+</ul>
+<p>⸻</p>
+<h3 id="11-frameworks-platforms--tooling">11. Frameworks, Platforms &amp; Tooling</h3>
+<p>Using the ecosystems that make all of the above practical.</p>
+<h4 id="111-orchestration-and-agent-frameworks">11.1 Orchestration and agent frameworks</h4>
+<p>Building complex workflows without reinventing the wheel.</p>
+<ul>
+<li><a href="https://www.langchain.com/">LangChain</a>, <a href="https://www.llamaindex.ai/">LlamaIndex</a>, <a href="https://learn.microsoft.com/semantic-kernel/">Semantic Kernel</a></li>
+<li><a href="https://www.crewai.com/">CrewAI</a>, <a href="https://microsoft.github.io/autogen/">AutoGen</a>, Swarm-style frameworks</li>
+<li><a href="https://google.github.io/adk-docs/">Google ADK</a> and similar agent toolkits</li>
+<li><a href="https://huggingface.co/">Hugging Face</a> ecosystems (model hub, Inference, Spaces)</li>
+<li>Local model tooling and runtimes (for example <a href="https://lmstudio.ai/">LM Studio</a>)</li>
+<li>Workflow engines and state machines</li>
+</ul>
+<h4 id="112-cloud-ai-platforms">11.2 Cloud AI platforms</h4>
+<p>Using managed services for models and agents.</p>
+<ul>
+<li><a href="https://ai.azure.com/">Azure AI Foundry</a></li>
+<li><a href="https://www.microsoft.com/en-us/microsoft-copilot/microsoft-copilot-studio">Copilot Studio</a></li>
+<li><a href="https://aws.amazon.com/bedrock/">AWS Bedrock</a></li>
+<li><a href="https://cloud.google.com/vertex-ai">Vertex AI</a> and similar</li>
+</ul>
+<h4 id="113-evaluation--monitoring-tools">11.3 Evaluation &amp; monitoring tools</h4>
+<p>Leveraging specialised tools for analysing behaviour.</p>
+<ul>
+<li><a href="https://langfuse.com/">LangFuse</a></li>
+<li><a href="https://www.helicone.ai/">Helicone</a></li>
+<li><a href="https://wandb.ai/">Weights &amp; Biases</a></li>
+<li>General observability stacks (<a href="https://prometheus.io/">Prometheus</a>, <a href="https://grafana.com/">Grafana</a>, <a href="https://www.datadoghq.com/">Datadog</a>, <a href="https://www.honeycomb.io/">Honeycomb</a>, etc.)</li>
+</ul>
+<h4 id="114-document-and-data-tooling">11.4 Document and data tooling</h4>
+<p>Supporting ingestion and preprocessing at scale.</p>
+<ul>
+<li><a href="https://unstructured.io/">Unstructured.io</a> and PDF parsers</li>
+<li>ETL and data pipelines</li>
+<li>Storage backends for datasets and document collections</li>
+<li>Connectors into enterprise systems</li>
+</ul>
+<h2 id="where-this-leaves-us">Where this leaves us</h2>
+<p>This list is intentionally dense and a little overwhelming, because the space itself is. You don&rsquo;t need to become an expert in every item in this list; getting comfortable with even a handful of them will open up new kinds of systems to design and new questions to wrestle with, in a space where many of the patterns and &ldquo;best practices&rdquo; are still being written. In a world where more and more of our stacks include components that are, by design, non-deterministic, we have a rare opportunity: to get curious early, experiment while things are still fluid, and help redefine what good engineering looks like - especially around inference, orchestration and agents - bringing the discipline, judgement and curiosity that make these systems something people can trust.</p>
+
+    </article>
+
+    
+
+
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer pager-noitem">&lt; Newer</li>
+      <li class="pager-older">
+        <a href="/posts/the-extra-load-we-carry/" data-toggle="tooltip" data-placement="top" title="The Extra Load We Carry">Older &gt;</a>
+      </li>
+    </ul>
+    
+  </div>
+
+
+<div class="site-footer">
+  <div class="copyright">© Copyright 2025 Annie Vella</div>
+  <ul class="site-footer-items">
+    <li class="site-footer-item-about"><a href="/about/" title="About">About</a></li>
+  </ul>
+  <div class="powerdby">
+    Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-STYW83D479"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-STYW83D479');
+        }
+      </script>
+
+</body>
+</html>
