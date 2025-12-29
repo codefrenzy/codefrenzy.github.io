@@ -8,9 +8,40 @@
     <language>en-us</language>
     <managingEditor>annie.luxton@gmail.com (Annie Vella)</managingEditor>
     <webMaster>annie.luxton@gmail.com (Annie Vella)</webMaster>
-    <copyright>© Copyright 2025 Annie Vella</copyright>
-    <lastBuildDate>Sun, 30 Nov 2025 00:00:00 +1300</lastBuildDate>
+    <copyright>© 2023-2026 Annie Vella</copyright>
+    <lastBuildDate>Mon, 29 Dec 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://annievella.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publications</title>
+      <link>http://annievella.com/publications/</link>
+      <pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
+      <guid>http://annievella.com/publications/</guid>
+      <description>
+      
+      
+      <![CDATA[<p>Writing has never come naturally to me - I was always a science and maths kid through and through. But many moons ago, my dad convinced me to take English in my final year of high school with words that have stuck with me ever since: <em>&ldquo;There&rsquo;s no point having all that knowledge if you can&rsquo;t communicate it&rdquo;</em>. Through blogging and speaking, I&rsquo;ve been working on that, and slowly but surely, I&rsquo;m being asked to contribute to publications beyond my own site.</p>
+<p>Below is a list of publications I&rsquo;ve contributed to.</p>
+<p>If you&rsquo;d like me to write for or collaborate on your publication, please feel free to <a href="mailto:annie.luxton@gmail.com">get in touch</a>. I&rsquo;d love to connect!</p>
+<h2 id="2025">2025</h2>
+<h3 id="papers">Papers</h3>
+<ul>
+<li><a href="https://dl.acm.org/doi/10.1145/3715003">The Future of AI-Driven Software Engineering</a> (<a href="https://annievella.com/files/acm-transactions-on-software-engineering-and-methodology-2025-the-future-of-ai-driven-software-engineering.pdf">PDF</a>) co-authored with <a href="https://orcid.org/0000-0001-5885-9297">Valerio Terragni</a>, <a href="https://orcid.org/0000-0001-9654-5678">Partha Roop</a> and <a href="https://orcid.org/0000-0003-4092-9706">Kelly Blincoe</a>, published in <a href="https://dl.acm.org/toc/tosem/2025/34/5">ACM Transactions on Software Engineering and Methodology</a> on May 26</li>
+</ul>
+<h3 id="articles">Articles</h3>
+<ul>
+<li><a href="https://techwomen.nz/2025/11/10/ai-and-the-new-boundaries-of-technical-work/">AI and the New Boundaries of Technical Work</a> published on <a href="https://techwomen.nz">TechWomen NZ</a> on November 10</li>
+</ul>
+<h3 id="contributions">Contributions</h3>
+<ul>
+<li><a href="https://arxiv.org/abs/2511.16092v1">The Future of Development Environments with AI Foundation Models: NII Shonan Meeting 222 Report</a> (<a href="https://annievella.com/files/nii-shonan-meeting-222-2025-the-future-of-development-environments-with-ai-foundation-models.pdf">PDF</a>) - participated as one of 33 experts in this Shonan Meeting discussion in Shonan, Japan, on October 6-9</li>
+</ul>
+<h2 id="2003">2003</h2>
+<h3 id="papers-1">Papers</h3>
+<ul>
+<li><a href="https://ieeexplore.ieee.org/abstract/document/1260249">Ubiquitous Web-based Programming</a> (<a href="https://annievella.com/files/ieee-symposium-on-hcc-languages-and-environments-2003-ubiquitous-web-based-programming.pdf">PDF</a>) presented at the <a href="https://ieeexplore.ieee.org/servlet/opac?punumber=8908">IEEE Symposium on Human Centric Computing Languages and Environments</a> in Auckland, New Zealand, on October 31</li>
+</ul>
+]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=Publications">Reply to this post by email</a>]]></description>
+    </item>
     <item>
       <title>A Whole New World</title>
       <link>http://annievella.com/posts/a-whole-new-world/</link>
@@ -1704,36 +1735,6 @@
 </ul>
 <p>Almost everything can be thought of as a system, making it fascinating to learn about different approaches to understanding them. I’m thoroughly enjoying this learning journey, inspired by pioneering thinkers like Russell Ackoff and W. Edwards Deming.</p>
 ]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=Exploring Systems Thinking Through Russell Ackoff">Reply to this post by email</a>]]></description>
-    </item>
-    <item>
-      <title>Are You a Transactional or Developmental Leader?</title>
-      <link>http://annievella.com/posts/are-you-a-transactional-or-developmental-leader/</link>
-      <pubDate>Tue, 25 Jun 2024 19:00:00 +1200</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
-      <guid>http://annievella.com/posts/are-you-a-transactional-or-developmental-leader/</guid>
-      <description>
-      
-      
-      <![CDATA[<p>In the fast-paced world of tech, leadership styles can make or break an organisation&rsquo;s success. Are you driving growth with a developmental mindset or merely maintaining the status quo with a transactional approach?</p>
-<p>One of the best books I’ve read recently is Gene Kim and Steven Spear’s <a href="https://itrevolution.com/product/wiring-the-winning-organization/">Wiring the Winning Organisation</a>. It distils many great leadership theories into clear, actionable concepts. At the very end of the book, in Appendices A and B, they talk about the differences between transactional and developmental leadership. This is something I think about a lot but didn’t know the precise terms for until reading these sections.</p>
-<h3 id="transactional-vs-developmental-leadership">Transactional vs. Developmental Leadership</h3>
-<p>Transactional leaders focus on managing existing processes and resources (both people and tools) to maintain stability. They often rely on established procedures and immediate problem-solving. In contrast, developmental leaders emphasise continuous improvement and innovation. They design and enhance the &ldquo;social circuitry&rdquo; that allows teams to apply their creative energies toward new and better ways of working.</p>
-<blockquote>
-<p>While the transactions may be many, the mindset is not sufficiently dynamic. Rather, the developmental approach requires designing and improving the social circuitry by which people can best apply their creative energies to find new and better things to do with their time and the resources they have, and by developing new and better ways to do so.</p>
-</blockquote>
-<p style="margin-left: 40px; font-size: 0.8em;"><em>— Wiring the Winning Organization: Liberating Our Collective Greatness through Slowification, Simplification, and Amplification by Gene Kim, Steven J. Spear</em></p>
-<p>This resonates strongly with me. I’m an avid believer in finding new and creative ways to achieve more by working smarter, not harder. I&rsquo;m convinced that it doesn’t take much effort to identify areas for improvement in most organisations, especially those that build software. Code review processes, build pipelines, and test runs are common areas that can and should be optimised. But it doesn&rsquo;t stop there - just take a look at the processes before and after these areas as well - requirements gathering, UI/UX design, system design, content sign-off, release processes, patching, vulnerability management, and incident management. There are countless areas where small tweaks can yield significant improvements.</p>
-<p>Identifying areas for improvement is just the beginning though. To truly benefit, you also need to be willing to make changes — whether it&rsquo;s your thinking, your processes, or your structure.</p>
-<h3 id="practical-examples-of-developmental-leadership">Practical Examples of Developmental Leadership</h3>
-<p>This is where being a developmental leader comes in handy. Having the belief that what you’re lacking is knowledge, not additional people or tools, allows you to optimise processes so that existing individuals and teams in your organisation can work smarter. This is how developmental leaders can reach for “new frontiers,” as Gene and Steven put it.</p>
-<p>Instead of always looking to add more people or tools, developmental leadership focuses on enhancing the creativity and problem-solving skills of the current team first. By doing so, any new hires brought on board will integrate into a more dynamic and effective environment, rather than just continuing the same old patterns.</p>
-<p>For example, in a previous job, our unit tests were starting to take too long. Granted, we had about 1000 unit tests, but 20 minutes was too long to wait. We refactored our tests to remove any dependencies between them (which shouldn’t have been there to start with) and were able to run them in parallel, cutting the time to run them down to under 5 minutes, which was far more manageable.</p>
-<p>In another instance, we discovered that development wasn’t starting until UI/UX designs were fully complete. After some negotiation with our design team, we decided to start with some simpler wireframe designs that allowed some boilerplate development to start earlier while the finer, pixel-perfect details were being finalised. This allowed development to start earlier and even allowed for better quality outcomes as developers were able to provide useful feedback to the design team about how the feature felt once it was being developed.</p>
-<p>Transactional leaders are more likely to reach for more resources, in whatever form they feel is lacking, to continue to work in the same manner as the existing setup. In some cases, it may require trading off one demand for another, but in many cases, it just means adding more to the equation.</p>
-<p>There will also be cases where adding more people or tools is really the only option, but this should be the exception, not the norm. Consider the fact that adding more tools or people comes at a big cost - not just the initial financial outlay, but the costs of onboarding new people or incorporating new tools into your processes, not to mention the ongoing increased costs like salaries and maintenance.</p>
-<p>For me, there is something incredibly satisfying about optimisation and improved efficiency. It’s a bit like solving a puzzle. It starts with acknowledging that things aren’t perfect and then mapping out your processes so that you can break them up into smaller parts that are easier to understand. You need to engage with the people involved at each step, and truly listen to what they have to say. Perhaps you can do more in parallel, or perhaps you can remove some redundant steps. Maybe you discover that information is missing at key points in a process, causing delays downstream. Experiment a little and be open to failing and trying again. You often learn more from your failures than from your successes anyway!</p>
-<p>Reading <em>Wiring the Winning Organisation</em> has reinforced my commitment to leading with a developmental mindset. It’s not just about optimising processes and boosting efficiency; it’s about cultivating an environment where creativity and problem-solving thrive. This approach is now something I deliberately look for in companies I choose to work with, as it aligns perfectly with my own leadership philosophy.</p>
-<p>So, would you say you have a developmental mindset, and are you applying that mindset at work? If not, what would need to be true for you to give it a go?</p>
-]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=Are You a Transactional or Developmental Leader?">Reply to this post by email</a>]]></description>
     </item>
   </channel>
 </rss>
