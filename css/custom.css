@@ -21,3 +21,18 @@ figcaption {
     width: 100% !important;
     max-width: 100% !important;
 }
+
+/* Mobile nav fix */
+@media screen and (max-width: 768px) {
+    .site-navi-items {
+        font-size: 0.85em;
+        justify-content: flex-start;
+        width: 100%;
+    }
+    .site-navi-items li {
+        padding-left: 12px;
+    }
+    .site-navi-items li:first-child {
+        padding-left: 0;
+    }
+}
