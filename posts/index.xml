@@ -9,8 +9,101 @@
     <managingEditor>annie.luxton@gmail.com (Annie Vella)</managingEditor>
     <webMaster>annie.luxton@gmail.com (Annie Vella)</webMaster>
     <copyright>© 2023-2026 Annie Vella</copyright>
-    <lastBuildDate>Sun, 30 Nov 2025 00:00:00 +1300</lastBuildDate>
+    <lastBuildDate>Fri, 02 Jan 2026 00:00:00 +1300</lastBuildDate>
     <atom:link href="http://annievella.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025 In Review: A Year of Immersion</title>
+      <link>http://annievella.com/posts/2025-in-review/</link>
+      <pubDate>Fri, 02 Jan 2026 00:00:00 +1300</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
+      <guid>http://annievella.com/posts/2025-in-review/</guid>
+      <description>
+      
+      
+      <![CDATA[<p>Last year I wrote that 2024 was a &ldquo;massive year&rdquo; and that &ldquo;even that feels like an understatement&rdquo;. I had no idea what was coming.</p>
+<p>2025 was bigger. It challenged me in ways I hadn&rsquo;t expected, opened doors I didn&rsquo;t know existed, and at times left me wondering how I was going to fit it all in. I felt constantly busy, rushing from one thought to another, building on momentum, but at a pace that sometimes caught me off guard.</p>
+<p>More than anything, it was a year <em>dominated by thinking</em>. Not the casual kind that floats in and out between meetings, but deep, sustained, sometimes overwhelming thinking. The impact of AI was a central theme throughout, not least because of my master&rsquo;s research. My role at Westpac NZ evolved too - I pivoted to focus on enabling safe and responsible AI, spending a lot of time on risk and governance frameworks. But I also spent a lot of time thinking about the more human impacts of AI and what it&rsquo;s doing to the value of knowledge work. What started as curiosity tipped into immersion. And immersion, at times, tipped into saturation.</p>
+<figure class="center"><img src="http://annievella.com/images/ai-saturation.jpeg"
+    alt="AI Saturation" width="60%"><figcaption>
+      <p>Source unknown - if you know the creator, please let me know!</p>
+    </figcaption>
+</figure>
+
+<h3 id="the-thinking-spilled-into-the-world">The Thinking Spilled Into the World</h3>
+<p>That thinking didn&rsquo;t stay private for long. I was invited to speak at several events throughout the year, some of which I had to turn down (a full-time job and a master&rsquo;s degree don&rsquo;t leave much room for extras). Looking back, I delivered a talk, joined a panel or recorded a podcast every month except a couple - no wonder I felt so busy! Public speaking is getting easier with practice, but it&rsquo;s still time-consuming. Worth it, though, for the moments when something lands - when you see a lens shift or a new thought take hold.</p>
+<p>The highlights were delivering my first closing keynote at the <a href="https://forefrontevents.co/event/devops-summit-vic/">DevOps Summit Victoria</a> in Melbourne, Australia and my first opening keynotes at the <a href="https://yowcon.com/tech-leaders-melbourne-2025/sessions/3662/the-duality-of-ai-in-software-engineering">YOW! Tech Leaders Summit</a> across three cities: Brisbane, Sydney, and Melbourne.</p>
+<p>Something new this year was being asked to write. I&rsquo;ve always found writing a challenge. Words flow so fluidly in my mind, but when I come to write them down they don&rsquo;t hold the same weight. Keeping a blog has been a way for me to practice converting my endless thoughts into something structured that others might find value in, but it&rsquo;s not without effort. Being asked to contribute to <a href="https://dl.acm.org/doi/10.1145/3715003">academic papers</a>, <a href="https://techwomen.nz/2025/11/10/ai-and-the-new-boundaries-of-technical-work/">thought-pieces</a> and a chapter for an upcoming academic book (more on that later) was new - and honestly, a bit surreal.</p>
+<h3 id="naming-the-identity-crisis">Naming the Identity Crisis</h3>
+<p>Speaking of writing, shortly after the DevOps Summit in March, I wrote a blog post that had a much larger effect than I could&rsquo;ve imagined - <a href="https://annievella.com/posts/the-software-engineering-identity-crisis/">The Software Engineering Identity Crisis</a>. It was the culmination of months of thoughts, conversations, and a <em>feeling</em> that things were changing in deeper ways that weren&rsquo;t being spoken about clearly enough.</p>
+<p>The response truly surprised me. Not just the scale of it, but the nature. Dozens of people reached out to say it resonated with them. To thank me for putting into words something they&rsquo;d been struggling to articulate. To tell me they felt less alone. Others invited me to speak about it at events and on podcasts. The reach was significant - almost 65k views and growing daily. I&rsquo;m still processing the impact this somewhat personal piece had on the wider tech community. It also helped me to see that the discomfort I&rsquo;d been feeling wasn&rsquo;t personal - it was collective.</p>
+<p>More recently, <a href="https://www.linkedin.com/in/eirini-kalliamvakou-1016865/">Eirini Kalliamvakou</a>&rsquo;s GitHub Octoverse report on <a href="https://github.blog/news-insights/octoverse/the-new-identity-of-a-developer-what-changes-and-what-doesnt-in-the-ai-era/">the new identity of a developer</a> actually referenced my writing and research as aligning with their own findings. Seeing my work cited alongside their interviews with advanced AI users was surprising and exciting, a quiet but meaningful validation that my thoughts weren&rsquo;t just resonating, they were part of a much larger pattern being observed across the industry.</p>
+<h3 id="why-ai-consumed-so-much-of-the-year">Why AI Consumed So Much of the Year</h3>
+<p>The underlying technology is incredible, advancing at ridiculous speeds. But what really drew me in was the pace of adoption. ChatGPT landed in late 2022 and became a household name almost overnight. Three years later, it has over 900 million active weekly users. And that&rsquo;s just one of many. This kind of diffusion is unlike anything I&rsquo;ve seen before.</p>
+<p>What&rsquo;s been harder to watch is how many businesses are tripping over themselves to adopt these tools without really understanding them. Interest in MCP servers kicked off around March 2025, with agentic AI following close behind.</p>
+<figure class="center"><img src="http://annievella.com/images/mcp-agentic-ai-google-trends.png"
+    alt="Google Trends: MCP vs Agentic AI"><figcaption>
+      <p><a href="https://trends.google.com/trends/explore/TIMESERIES/1767332400?hl=en-US&amp;tz=-780&amp;date=2024-08-01+2026-01-02&amp;hl=en&amp;q=MCP,agent+ai&amp;sni=3">Google Trends</a>: Interest in MCP and Agentic AI over time</p>
+    </figcaption>
+</figure>
+
+<p>Old mental models of cyber security, risk and governance are breaking down. They simply can&rsquo;t scale to handle the new dynamics. The big promises of productivity depend on autonomy - which in practice means the gradual outsourcing of decision-making to AI. Think about that for a moment. We&rsquo;re handing over decisions, not just tasks. That has real implications for responsibility and accountability - and I&rsquo;m not sure we&rsquo;re thinking about it carefully enough.</p>
+<p>But there&rsquo;s also something genuinely exciting here. A lot of people still don&rsquo;t realise that LLMs are essentially read-only - they don&rsquo;t &ldquo;learn&rdquo; the way many assume. What feels like learning is actually clever engineering: conversational history, context management, tool calling, agent orchestration. This emerging &ldquo;AI Application Layer&rdquo; presents entirely new problems to discover and solve. I <a href="https://annievella.com/posts/a-whole-new-world/">wrote about this recently</a> and hope to spend more time on it in 2026. It feels like a sort of renaissance is happening in tech, and I&rsquo;m here for it.</p>
+<h3 id="finding-my-tribe">Finding My Tribe</h3>
+<p>Besides speaking at conferences, I also attended a few. For many years, conferences felt stagnant. Most talks circled around the same old topics: microservices, cloud, devops, team topologies. Now all anyone wants to talk about is AI - which funnily enough, many find quite frustrating. There&rsquo;s just a lot to cover, and I for one am happy to listen!</p>
+<p>In a way, AI has created a strange sort of gift: shared uncertainty. Many of us have similar questions but nobody has all the answers. This makes the conversations more honest and more exploratory. Two highlights for me were attending <a href="https://itrevolution.com/articles/2025-enterprise-tech-leadership-summit/">ETLS</a> in Las Vegas, and my first Dagstuhl-style academic <a href="https://shonan.nii.ac.jp/seminars/222/">meeting</a> in Shonan, Japan. Two very different worlds - industry and academia - but both felt like finding my people.</p>
+<p>ETLS was energising and expansive. Three full days of thought-provoking talks and conversations with hugely influential industry leaders like <a href="https://www.linkedin.com/in/realgenekim/">Gene Kim</a>, <a href="https://www.linkedin.com/in/johnwillisatlanta/">John Willis</a>, <a href="https://www.linkedin.com/in/kentbeck/">Kent Beck</a>, and many others. What struck me the most was how willing they were to share their concerns around securing AI. When <a href="https://www.linkedin.com/in/jason-d-clinton/">Jason Clinton</a>, CISO of Anthropic, states unashamedly that we&rsquo;re being <em>asked to deploy this technology faster than they can secure it</em>, you know we&rsquo;re dealing with something pretty serious. A recurring thread was that AI amplifies existing engineering capability - it doesn&rsquo;t replace foundations. Teams with mature practices see the largest gains; those without them struggle. Kent Beck captured the tension well: AI can accelerate feature delivery, but without care, it consumes optionality - the ability to adapt and evolve systems over time. It certainly reaffirmed that the right questions are being asked and that I&rsquo;m not alone in asking them.</p>
+<p>Shonan was something else entirely. I&rsquo;d been invited because of my master&rsquo;s research topic - one of 33 attendees, and the only one without &ldquo;Dr.&rdquo; or &ldquo;Professor&rdquo; in front of my name. That gap felt wide at first. At the welcome banquet on the night before the meeting started, I awkwardly introduced myself too lightly - &ldquo;part-time master&rsquo;s student&rdquo;. I suspect I was pegged as a bit of a novice in my field. I didn&rsquo;t correct it.</p>
+<p>The turning point came on day one. While others sketched future architectures on whiteboards, I walked to another board and drew the present: the agentic tools already in use in industry, what they can and cannot do, and how fast things are moving. I described my own workflow and the tools I use daily - <a href="https://claude.com/product/claude-code">Claude Code</a> running in <a href="https://windsurf.com">Windsurf</a>, that I talk to using <a href="https://wisprflow.ai">Wispr Flow</a>. That drew some attention. When we reconvened, I was asked to share more. By day two, I was being referred to as an &ldquo;oracle&rdquo; and being asked to lead breakout group conversations. That reversal had a certain narrative symmetry to it.</p>
+<p>What emerged from the week was bigger than any single conversation. The room started by debating &ldquo;IDEs with AI&rdquo; and ended by renegotiating what counts as programming, what counts as the artefact, and what role humans keep when systems can build themselves. My contribution was to anchor the discussion in reality: agentic workflows already exist in practice, the bottlenecks are shifting, and our tools and definitions are behind the frontier.</p>
+<p>Shonan gave me a lot more than new ideas. It recalibrated how I see my place in the research world. Not outside it. Not fully inside it. But legitimately between. It also introduced me to some genuinely brilliant and thoughtful people - ones I hope to stay connected with. And I&rsquo;ll have good reason to: an invitation to contribute a chapter to an academic book emerging from the meeting - <em>From Integrated to Smarter Development Environments</em>. This chapter sits at the hinge between the technical evolution of IDEs and what that evolution means for the people who work inside them. It&rsquo;s about how smarter environments are reshaping the role, responsibilities, and identity of the software engineer - a thread that runs through almost everything I&rsquo;ve been thinking about this year. First draft is due in March, so that&rsquo;s another challenge for the first few months of 2026.</p>
+<h3 id="the-long-quiet-work">The Long, Quiet Work</h3>
+<p>Running alongside everything else was the master&rsquo;s. The second survey. Endless analysis. Writing and rewriting. Doubt. Iteration. I won&rsquo;t lie - it&rsquo;s been a slog. Switching gears into &ldquo;researcher mode&rdquo; after a full day at work is exhausting in a way I hadn&rsquo;t anticipated. None of the leave I&rsquo;ve taken over the past couple of years has really been a break. I&rsquo;m on the home stretch now though, with just some final refinements to go.</p>
+<p>And yet - it&rsquo;s also been a privilege to finally do this degree I&rsquo;ve been promising myself I&rsquo;d come back to for over 20 years. I&rsquo;m glad I waited. I don&rsquo;t think I could&rsquo;ve picked a better topic or moment to study it. The research has become a genuine fascination, one that&rsquo;s woven itself into my work, my talks, my conversations, and my thinking. I wouldn&rsquo;t change a thing.</p>
+<h3 id="the-reckoning">The Reckoning</h3>
+<p>Zooming out, some patterns emerge, and not all of them are comfortable to acknowledge. I read fewer books than I&rsquo;d hoped (though no shortage of papers, articles, and blog posts). I exercised far less than I&rsquo;d intended. For a while there, I convinced myself that walks and the occasional yoga session counted. They don&rsquo;t. Not really. There were also some personal things this year that took more out of me than I expected. I won&rsquo;t go into detail, but let&rsquo;s just say that life doesn&rsquo;t pause just because everything else is busy.</p>
+<p>Towards the end of the year, I did something different: a fitness retreat. It was hard, humbling, and unexpectedly fun. It was also a stark reminder of just how much I&rsquo;d been neglecting the physical side of things while the mental side ran at full speed. The mind got a lot of attention this year. The body did not. The irony isn&rsquo;t lost on me - a few years ago, all I wanted was more time to think. Now, I sometimes crave time <em>not</em> to. Be careful what you wish for, I suppose.</p>
+<h3 id="looking-ahead-to-2026">Looking Ahead to 2026</h3>
+<p>If 2025 was a year of immersion, I want 2026 to be a year of <em>intent</em>. Finishing the master&rsquo;s should free up space - not just time, but cognitive bandwidth. I&rsquo;m looking forward to having my evenings and weekends back again. But more than that, I want to be far more intentional about how and where I spend my time. This year I absorbed a lot - I read, I watched, I listened, I spoke, I wrote, I thought, constantly. But much of it was reactive, riding the wave wherever it took me, driven by curiosity and opportunity rather than any deliberate structure. That&rsquo;s not a bad thing, but it&rsquo;s not sustainable either. In 2026, I want to organise what I&rsquo;ve learned. To turn a year of intense thinking into clearer mental models and frameworks that I can share with others. To help people navigate AI-driven change more deliberately. There&rsquo;s a lot in my head, and it needs tidying up.</p>
+<p>I also want to be more intentional about which topics I go deeper on. Active Inference is one - it underpins so much of what I&rsquo;ve been grappling with around how systems reason, adapt, and act under uncertainty, and I want to understand it better. Further out, there&rsquo;s a pull back towards quantum computing, which feels closer to practical relevance than it has in some time. And honestly? Exercise needs to become part of the system, not the wish list. I&rsquo;ve said this before, but this time I mean it. (Famous last words&hellip;)</p>
+<h3 id="surfacing">Surfacing</h3>
+<p>2025 wasn&rsquo;t tidy. It wasn&rsquo;t balanced. And I&rsquo;m not going to pretend otherwise. It was demanding, expansive, and formative - a year of deep immersion that challenged me, surprised me, and changed how I think about where I belong and what feels worth building next.</p>
+<p>Now it&rsquo;s time to come up for air. Here&rsquo;s to a year of intent.</p>
+<hr>
+<p><strong>Key Accomplishments of 2025:</strong></p>
+<p><em>Talks:</em></p>
+<ul>
+<li>Closing keynote: <a href="https://annievella.com/files/devops-summit-melbourne-march-2025-the-future-engineer.pdf">The Future Engineer: Redefining Software Engineering in the Age of AI</a> at <a href="https://forefrontevents.co/event/devops-summit-vic/">DevOps Summit Victoria</a> in Melbourne, Australia, on March 13</li>
+<li><a href="https://annievella.com/files/ai-native-devcon-webinar-may-2025-am-i-still-a-software-engineer-if-i-don't-write-the-code.pdf">Am I Still a Software Engineer If I Don&rsquo;t Write the Code?</a> at <a href="https://ainativedev.io/devcon">AI Native DevCon</a> remotely, on May 13</li>
+<li>Opening keynote: <a href="https://annievella.com/files/yow-tech-leaders-summit-australia-june-2025-duality-of-ai-in-software-engineering.pdf">The Duality of AI in Software Engineering</a> at <a href="https://yowcon.com/tech-leaders-melbourne-2025/sessions/3662/the-duality-of-ai-in-software-engineering">YOW! Tech Leaders Summit</a> in Brisbane, Sydney, and Melbourne, Australia, on June 17-19</li>
+<li>Joint talk with <a href="https://www.linkedin.com/in/jvella/">Jason Vella</a>: <a href="https://annievella.com/files/junior-dev-auckland-meet-august-2025-software-engineering-the-ai-reboot.pdf">Software Engineering: The AI Reboot</a> at <a href="https://www.meetup.com/juniordev-auckland/events/310074767/">JuniorDev Auckland Meet</a> in Auckland, NZ, on August 6</li>
+</ul>
+<p><em>Podcasts:</em></p>
+<ul>
+<li><a href="https://ainativedev.io/podcast/annie-vella">From Builder to Orchestrator - Confronting the Software Engineer&rsquo;s Identity Crisis</a> with <a href="https://www.linkedin.com/in/simonmaple/">Simon Maple</a> for <a href="https://ainativedev.io/podcast">AI Native Dev Podcast</a>, April 22</li>
+<li><a href="https://techleadjournal.dev/episodes/223/">#223 - The Software Engineer Identity Crisis in the AI-Driven Future</a> with <a href="https://www.linkedin.com/in/henry-suryawirawan/">Henry Suryawirawan</a> for <a href="https://techleadjournal.dev">Tech Lead Journal</a>, July 7</li>
+<li><a href="https://www.aviator.co/podcast/from-software-engineers-to-agent-managers">From Software Engineers to Agent Managers</a> with <a href="https://www.linkedin.com/in/ankitjaindce/">Ankit Jain</a> for <a href="https://www.aviator.co/podcast">The Hangar DX Podcast</a>, November 13</li>
+</ul>
+<p><em>Panels:</em></p>
+<ul>
+<li><a href="https://www.meetup.com/ba-career-meetup-group/events/310627929/">Auckland Panel Event: Tech Hiring, Behind-the-Scenes Insights</a> in Auckland, NZ, on September 11</li>
+<li>Microsoft Executive Breakfast Panel on The Impact of AI on Work in Auckland, NZ, on November 24</li>
+</ul>
+<p><em>Roundtables:</em></p>
+<ul>
+<li>Co-hosting: <a href="https://annievella.com/files/lead-dev-march-2025-assessing-the-impact-of-ai-coding-assistants-roundtable.pdf">Assessing the Impact of AI Coding Assistants</a> with <a href="https://leaddev.com/community/scott-carey">Scott Carey</a> at <a href="https://www.leaddev.com">LeadDev</a>, March 5</li>
+</ul>
+<p><em>Conferences Attended:</em></p>
+<ul>
+<li><a href="https://itrevolution.com/articles/2025-enterprise-tech-leadership-summit/">Enterprise Technology Leadership Summit</a> in Las Vegas, USA, on September 23-25</li>
+<li><a href="https://shonan.nii.ac.jp/seminars/222/">NII Shonan Meeting 222</a> in Shonan, Japan, on October 6-9</li>
+</ul>
+<p><em>Publications:</em></p>
+<ul>
+<li><a href="https://dl.acm.org/doi/10.1145/3715003">The Future of AI-Driven Software Engineering</a> co-authored with Valerio Terragni, Partha Roop, and Kelly Blincoe, published in ACM Transactions on Software Engineering and Methodology, May 26</li>
+<li><a href="https://techwomen.nz/2025/11/10/ai-and-the-new-boundaries-of-technical-work/">AI and the New Boundaries of Technical Work</a> published on TechWomen NZ, November 10</li>
+<li>Contributor to <a href="https://arxiv.org/abs/2511.16092v1">The Future of Development Environments with AI Foundation Models: NII Shonan Meeting 222 Report</a></li>
+</ul>
+]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=2025 In Review: A Year of Immersion">Reply to this post by email</a>]]></description>
+    </item>
     <item>
       <title>A Whole New World</title>
       <link>http://annievella.com/posts/a-whole-new-world/</link>
@@ -1670,37 +1763,6 @@
 </ul>
 <p>This is an overly-simplified example but hopefully it serves to highlight the three important elements that are at the core of a good strategy. So, next time you’re asked to write or review a strategy, ask yourself whether it describes not just what it’s trying to accomplish, but also why and how.</p>
 ]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=What is a Good Strategy?">Reply to this post by email</a>]]></description>
-    </item>
-    <item>
-      <title>An Early Exploration of AI-First Development</title>
-      <link>http://annievella.com/posts/an-early-exploration-of-ai-first-development/</link>
-      <pubDate>Mon, 19 Feb 2024 00:00:00 +1200</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
-      <guid>http://annievella.com/posts/an-early-exploration-of-ai-first-development/</guid>
-      <description>
-      
-      
-      <![CDATA[<p>For years, the core of software engineering has remained fairly stable despite the fast pace of technological advancement. We’ve had other &ldquo;-First&rdquo; methodologies like Code-First and API-First, which reshaped aspects of the SDLC, but not fundamentally so. However, with the advent of generative AI, we’re left wondering: what will AI-First development look like, and how will it change our familiar landscape? As a software engineer who has loved being one for many years, I&rsquo;m truly intrigued by AI-First development - how it might transform software building processes, redefine software engineers&rsquo; roles, and what we can do now to best prepare for this new world.</p>
-<p>The buzz around &ldquo;AI-First&rdquo; development is already sparking lively discussions among engineers.
-<figure class="center"><img src="http://annievella.com/images/AI-First-Tweet-1.png"
-    alt="Alt text"><figcaption>
-      <p><a href="https://x.com/Austen/status/1755283313034695068?s=20">https://x.com/Austen/status/1755283313034695068?s=20</a></p>
-    </figcaption>
-</figure>
-</p>
-<p>It&rsquo;s clear from these conversations that adopting an AI-First approach isn&rsquo;t a distant future; it&rsquo;s happening now, shaping the way we think about coding from the ground up.
-<figure class="center"><img src="http://annievella.com/images/AI-First-Tweet-2.png"
-    alt="Alt text"><figcaption>
-      <p><a href="https://x.com/LowerLeftPE/status/1755305312481870042?s=20">https://x.com/LowerLeftPE/status/1755305312481870042?s=20</a></p>
-    </figcaption>
-</figure>
-</p>
-<p>I&rsquo;m convinced that the rollout of tools like GitHub Copilot represents a pivotal moment, both signifying and facilitating a shift to AI-First development. The often-tedious task of crafting large quantities of boilerplate code or scouring Stack Overflow for snippets to solve your specific problem is now replaced by a helpful AI coding assistant - a “copilot” - right there in your IDE. This shift promises not only a new way of working but a revitalisation of our roles, beckoning us back to the broader, perhaps more impactful responsibilities that have gradually been outsourced to other more specialised roles, especially since the invention of Scrum.</p>
-<p>This era of AI-assisted coding not only promises to streamline the coding process but also stands to significantly enhance Developer Experience (DX) and Developer Productivity. The immediate helpful assistance and feedback provided by AI coding assistants can dramatically reduce the time spent on debugging and searching for solutions, allowing developers to focus more on creative problem-solving and high-level system design. It will be fascinating to see how AI-First Development might further impact Developer Experience and Productivity.</p>
-<p>The shift towards AI-First development is poised to reshape not only the technical landscape of software engineering but also the very fabric of collaboration and education within the field. For example, as we increasingly rely on AI coding assistants, we may find that traditional collaboration might erode, with engineers choosing to lean more on AI assistance than on the expertise of their peers. Recent conversations with Software Engineering PhD candidates at Auckland University revealed that this is already happening with first-year software engineering students. How will beginners gain that fundamental knowledge in the future? Our strategies for teaching and learning need to adapt quickly, ensuring that engineers are not only technically proficient but also adept at collaborating in an AI-enhanced future.</p>
-<p>Another potential side-effect of AI-First development might be to make the tech industry more inclusive and diverse. By democratising access to learning and development tools, AI has the potential to level the playing field for all, breaking down barriers that have historically limited participation from diverse groups.</p>
-<p>The future of software engineering in an AI-First world is both exciting and uncertain. Like the lessons learned from past technological shifts, this new era invites us to question our assumptions, explore the unknown, and embrace the possibilities that lie beyond the conventional. As software engineers, we are at the forefront of this exploration, navigating the balance between leveraging AI&rsquo;s potential and preserving the core values that define our craft.</p>
-<p>I, for one, am increasingly fascinated by this topic and plan to delve much deeper into it, aiming to share my findings and thoughts through more in-depth articles in the future.</p>
-]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=An Early Exploration of AI-First Development">Reply to this post by email</a>]]></description>
     </item>
   </channel>
 </rss>
