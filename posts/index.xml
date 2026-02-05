@@ -9,8 +9,83 @@
     <managingEditor>annie.luxton@gmail.com (Annie Vella)</managingEditor>
     <webMaster>annie.luxton@gmail.com (Annie Vella)</webMaster>
     <copyright>© 2023-2026 Annie Vella</copyright>
-    <lastBuildDate>Fri, 02 Jan 2026 00:00:00 +1300</lastBuildDate>
+    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +1300</lastBuildDate>
     <atom:link href="http://annievella.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Finding Comfort in the Uncertainty</title>
+      <link>http://annievella.com/posts/finding-comfort-in-the-uncertainty/</link>
+      <pubDate>Fri, 06 Feb 2026 00:00:00 +1300</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
+      <guid>http://annievella.com/posts/finding-comfort-in-the-uncertainty/</guid>
+      <description>
+      
+      
+      <![CDATA[<p>I&rsquo;m writing this having just landed back in New Zealand after a very long journey home from Utah. On the final leg from Houston to Auckland, I found myself wedged between a retired industrial chemist and a theoretical physicist who was reading a C++ book. I couldn&rsquo;t not say anything.</p>
+<p>We ended up in a brief conversation about the future of software engineers. He was learning memory management for a trading firm. He thought AI-generated code was &ldquo;pretty crap&rdquo;. He&rsquo;d also noticed, though, that engineers around him were losing their jobs.</p>
+<p>The same questions I&rsquo;d just spent two days exploring at the retreat, surfacing unprompted between strangers somewhere over the Pacific.</p>
+<p>About 40 of us - practitioners, researchers, technical leaders from around the world - gathered in Deer Valley, Utah, for an invite-only retreat on <a href="https://www.thoughtworks.com/about-us/events/the-future-of-software-development">the future of software development</a>. The event was hosted by <a href="https://martinfowler.com">Martin Fowler</a> and <a href="https://www.thoughtworks.com">Thoughtworks</a>, and held in the same mountains where the <a href="https://agilemanifesto.org">Agile Manifesto</a> was written 25 years ago - with some of the original signatories in the room. Not an attempt to reproduce that moment, but an acknowledgement that the ground has shifted enough to warrant the same kind of conversation.</p>
+<figure class="center"><img src="http://annievella.com/images/the-future-of-software-development-retreat.jpeg"
+    alt="The Future of Software Development Retreat"><figcaption>
+      <p><a href="https://www.thoughtworks.com/about-us/events/the-future-of-software-development">The Future of Software Development Retreat</a></p>
+    </figcaption>
+</figure>
+
+<p>The format was an unconference. No presentations. No agenda handed down from above. Participants proposed sessions, voted with their feet, and talked. Over 30 sessions ran in parallel - far more than any one person could attend. The ones I was in were fascinating, and comparing notes with others afterwards revealed just how much convergence there was across sessions I&rsquo;d missed. A long way to go for two days - but worth every hour.</p>
+<p>Here&rsquo;s what I took away.</p>
+<h2 id="nobody-has-this-figured-out">Nobody Has This Figured Out</h2>
+<p>This was, for me, the single most important realisation.</p>
+<p>I walked into that room expecting to learn from people who were further ahead. People who&rsquo;d cracked the code on how to adopt AI at scale, how to restructure teams around it, how to make it work. Some of the sharpest minds in the software industry were sitting around those tables.</p>
+<p>And nobody has it all figured out.</p>
+<p>There is more uncertainty than certainty. About how to use AI well, what it&rsquo;s really doing to productivity, how roles are shifting, what the impact will be, how things will evolve. Everyone is working it out as they go.</p>
+<p>I actually found that to be quite comforting, in many ways. Yes, we walked away with more questions than answers, but at least we now have a shared understanding of the sorts of questions we should be asking. That might be the most valuable outcome of all.</p>
+<h2 id="the-increasing-cognitive-load-to-be-aware-of">The Increasing Cognitive Load to Be Aware Of</h2>
+<p>Something that came through in conversation, not just in the sessions, was that several people who are going hardest on AI openly admitted that it&rsquo;s exhausting them.</p>
+<p>There&rsquo;s a pattern emerging. You spin up one AI coding agent, give it a plan, and while it loops you spin up another. Then another. It&rsquo;s genuinely <em>addictive</em> - in fact, several people used that exact word. The problem comes when they all start returning at once with pages and pages of output for you to review. The cognitive load is immense, and it&rsquo;s not being talked about enough.</p>
+<p>We&rsquo;re burning out on the very thing that excites us. The very technology that promises to make us more productive is, for some, creating an unsustainable pace. Because the people experiencing this most acutely are often the most senior and most enthusiastic, it&rsquo;s easy to miss the warning signs.</p>
+<p>I found this one of the most honest and human moments of the retreat - the quiet admission, between sessions, that this is <em>hard</em> in ways we didn&rsquo;t expect.</p>
+<h2 id="what-i-brought-to-the-table">What I Brought to the Table</h2>
+<p>I proposed two topics of my own, drawing on findings from my Masters research into the impact of AI on software engineering. The first explored what I&rsquo;m calling <em>supervisory engineering work</em> - a new category of work emerging as we delegate more of the coding to agents. The second examined whether productivity and developer experience, long assumed to move together, might be starting to diverge. Both sparked discussions that carried well beyond the sessions themselves.</p>
+<h2 id="eight-themes-that-kept-emerging">Eight Themes That Kept Emerging</h2>
+<p>Across those 30+ sessions, certain threads kept surfacing independently. Different people, different contexts, converging on the same questions.</p>
+<h3 id="1-the-bottleneck-has-moved">1. The Bottleneck Has Moved</h3>
+<p>For some, the constraint is no longer engineering capacity. Agents can burn through backlogs at extraordinary speed - but then they hit what one group called &rsquo;the network of blocks&rsquo;. Slow decisions. Organisational dependencies. Human-speed discovery. Market absorption.</p>
+<p>One of the most striking comments from the retreat: &lsquo;Humanity is not ready for this much software&rsquo;. The customer doesn&rsquo;t want a new version of the app every day. We can produce more than the system around us - and the world beyond it - can absorb. Decision fatigue is becoming the real bottleneck, not engineering throughput.</p>
+<h3 id="2-whats-the-artifact-if-not-code">2. What&rsquo;s the Artifact if Not Code?</h3>
+<p>Multiple sessions questioned the primacy of source code. If agents can regenerate code from a specification, is the code the durable artifact - or is it the domain model, the test suite, the intent?</p>
+<p>Ideas that surfaced: code as &lsquo;just another projection&rsquo; of intended behaviour. Tests as an alternative projection. Domain models as the thing that endures. One group posed the provocative question: what would have to be true for us to &lsquo;check English into the repository&rsquo; instead of code?</p>
+<p>The implications are significant. If code is disposable and regenerable, then what we review, what we version-control, and what we protect all need rethinking.</p>
+<h3 id="3-trust-care-and-whats-lost-in-abstraction">3. Trust, Care, and What&rsquo;s Lost in Abstraction</h3>
+<p>This was the emotional thread that the room kept circling without quite naming it directly. Several sessions touched on what happens when we lose intimacy with the systems we build.</p>
+<p>Concepts that surfaced across these discussions:</p>
+<ul>
+<li><em>Cognitive debt</em> - we skim everything because AI unlocks such volume, but now knowledge is losing its stickiness. An extension of technical debt into the mind.</li>
+<li><em>Trust debt</em> - the gap between what we produce and what we deeply understand about what we&rsquo;ve produced.</li>
+<li><em>Active knowledge decay</em> - skills atrophying when you stop doing the work hands-on.</li>
+<li><em>Care</em> - humans and LLMs have fundamentally different levels of long-term care about a system. The work to keep code habitable and clean isn&rsquo;t well understood by those paying salaries.</li>
+</ul>
+<p>These aren&rsquo;t just process problems. They&rsquo;re about identity, meaning, and what it feels like to be responsible and accountable for something you didn&rsquo;t fully build and don&rsquo;t fully understand.</p>
+<h3 id="4-platform-engineering-as-the-enabling-layer">4. Platform Engineering as the Enabling Layer</h3>
+<p>Across security, governance, and adoption discussions, platforms kept emerging as the thing that makes everything else possible. The pattern: create safe defaults (the &lsquo;pit of success&rsquo;), embed guardrails, and give teams a <em>fast but safe path</em>.</p>
+<p>The argument isn&rsquo;t for more controls. It&rsquo;s for better defaults - so that speed and safety aren&rsquo;t in tension. One group observed that the things that make agents effective (clear standards, good documentation, well-structured code) are the same things that made <em>developers</em> effective. We spent years advocating for Developer Experience and often struggled to get investment. Now organisations are keen to invest in the same things - but for agents. Is &lsquo;Agent Experience&rsquo; the new DevEx? And if so, might humans quietly benefit too?</p>
+<h3 id="5-how-do-you-conceptualise-agents">5. How Do You Conceptualise Agents?</h3>
+<p>We don&rsquo;t have a good taxonomy for agents yet. Are they more like APIs or more like humans? They&rsquo;re not deterministic enough for the first framing, but anthropomorphising them is risky too. One participant offered a third option: they&rsquo;re more like chemical vats - non-deterministic processes best managed through engineering constraints. Some companies are starting to add agents to their organisational chart. Others are talking about &lsquo;Agent HR&rsquo; - performance management and cost management for non-human workers.</p>
+<p>This might seem like a semantic debate, but it shapes everything downstream. If you see agents as tools, you govern them with technical guardrails. If you see them as team members, you invest in onboarding and culture. The industry hasn&rsquo;t settled on a mental model yet, and that ambiguity is slowing down coherent governance and investment decisions.</p>
+<h3 id="6-organisational-readiness-gates-everything">6. Organisational Readiness Gates Everything</h3>
+<p>This echoes something we learned the hard way with microservices: without a certain level of organisational maturity, the technology makes things worse, not better. The same is true with AI.</p>
+<p>AI amplifies existing conditions. Organisations that already had strong teams, good platforms, and clear governance got faster. Organisations without those foundations got messier. Several groups converged on the idea that the first year of AI adoption should focus on preparing the system - platform foundations, governance, AI fluency uplift - rather than expecting broad productivity gains immediately.</p>
+<h3 id="7-the-human-role-is-being-redefined---but-not-yet-designed">7. The Human Role is Being Redefined - But Not Yet Designed</h3>
+<p>Everyone agrees the role of the software engineer is shifting. Nobody has a clear design for what it shifts <em>to</em>.</p>
+<p>Sessions explored this from multiple angles: what should a staff engineer spend their time on now? How does education need to change? What happens to juniors, or mid-career engineers, whose primary value was in implementation detail? There&rsquo;s a category of work emerging around supervising, orchestrating, and evaluating AI output - a &lsquo;middle loop&rsquo; between the increasingly automated inner loop of coding and the outer loop of delivery. But the skills, pathways, and even the <em>dignity</em> of this new work haven&rsquo;t been designed. We&rsquo;re stumbling into it rather than shaping it.</p>
+<h3 id="8-the-ledger-as-a-convergent-insight">8. The Ledger as a Convergent Insight</h3>
+<p>In at least four separate conversations - spanning agentic operating systems, production operations, enterprise adoption, and hallway chats - people independently arrived at the same idea: we need a complete, verifiable record of everything agents do. Every step taken, every change made, with the ability to roll back.</p>
+<p>The framing varied. Some described it as a work ledger analogous to a financial blockchain. Others as an audit trail for verification and accountability. Others as a unified log aggregating across infrastructure, software, and network layers. But the core insight was the same: if we&rsquo;re going to trust agents with real work, we need a ledger that tells us exactly what they did and why. When this many people reach the same conclusion independently, it&rsquo;s worth paying attention to.</p>
+<h2 id="why-it-mattered">Why It Mattered</h2>
+<p>I care deeply about this profession and the people in it. It&rsquo;s why I&rsquo;m researching this for a Masters degree, and it&rsquo;s why being there mattered to me.</p>
+<p>Being invited to this retreat - and getting to spend two days in conversation with some of the most respected technical leaders in the world - was a genuine privilege. The hallway conversations, the dinners, the breakfast debates. The moments where someone you&rsquo;ve read and admired for years turns to you and says, &lsquo;That&rsquo;s a really interesting idea&rsquo;. There were some familiar faces, but I came away with new many friendships and a lot to think about.</p>
+<p>The organisers weren&rsquo;t trying to create a new Agile Manifesto. But there was an unspoken sense that the ground has shifted enough that we need new shared language, new principles, new ways of thinking about how we build software together. We didn&rsquo;t leave with those. Not yet. But I&rsquo;m grateful to everyone in that group for their openness, their honesty, and their willingness to keep working on it together.</p>
+<p>At the close, when the organisers offered the mic to anyone who wanted to share a takeaway, I took my chance. I challenged the group - all of us with platforms and voices - to help the current and next generation of engineers find their way. Not by reassuring them that everything will be fine, but by <em>getting better at describing the new problems they get to solve</em> now that writing code isn&rsquo;t the main one anymore. There are many engineers out there who were hired to write code and are now being told to outsource that to AI. They deserve more than platitudes. They deserve us doing the hard work of defining what comes next.</p>
+<p>But we also left with something that might matter more right now: the shared recognition that nobody has this figured out, and the commitment to keep the discourse open. Because this wasn&rsquo;t the end of an event. It was the beginning of a much longer conversation.</p>
+]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=Finding Comfort in the Uncertainty">Reply to this post by email</a>]]></description>
+    </item>
     <item>
       <title>2025 In Review: A Year of Immersion</title>
       <link>http://annievella.com/posts/2025-in-review/</link>
@@ -1733,36 +1808,6 @@
 <h3 id="in-summary">In summary</h3>
 <p>The Apple Vision Pro is a whole new paradigm of computing. This is the first version and the worst it’ll ever be - I’m sure it’ll get lighter and more comfortable to wear as future versions are released. For me, it’s a bit more of a toy than a ‘computer’ at this stage, but I’m super happy to have one to play with. The amount of technology packed into this device is hugely impressive, and VisionOS makes interacting with it feel like a dream. Perhaps if I find some spare time, I’ll have a go at writing an app for it!</p>
 ]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=First Impressions of the Apple Vision Pro">Reply to this post by email</a>]]></description>
-    </item>
-    <item>
-      <title>What is a Good Strategy?</title>
-      <link>http://annievella.com/posts/what-is-a-good-strategy/</link>
-      <pubDate>Sun, 25 Feb 2024 14:00:00 +1200</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
-      <guid>http://annievella.com/posts/what-is-a-good-strategy/</guid>
-      <description>
-      
-      
-      <![CDATA[<p>Strategies play a critical role in aligning teams towards a common goal, especially in large organisations. Being able to create, review and execute a good strategy is an important aspect of many leadership roles, yet it’s a hard one to nail. Even defining what makes a strategy truly effective can be surprisingly challenging - ask ten different leaders and you&rsquo;re likely to get ten different interpretations.</p>
-<p>More often than not, what people describe as a strategy is actually an aspirational goal or vision. They articulate <em>where</em> we want to go but not <em>how</em> to get there.</p>
-<p>So, what <em>is</em> a good strategy? Richard Rumelt answers this question succinctly in his book, <a href="https://www.amazon.com/Good-Strategy-Bad-difference-matters/dp/1781256179">Good Strategy/Bad Strategy</a>. He proposes that a good strategy must have what he calls a <em>kernel</em>, making it significantly easier to create, describe, and evaluate strategies once you grasp this concept. This was probably the most eye-opening part of this book for me and I&rsquo;ve used it as a mental model to evaluate strategies ever since.</p>
-<h3 id="the-kernel-of-a-good-strategy">The Kernel of a Good Strategy</h3>
-<p>Rumelt describes the “kernel” of a strategy as having three simple components:</p>
-<p><strong>Diagnosis</strong>: The diagnosis clarifies the nature of the challenge, cutting through the complexity to highlight the critical elements that need attention. It simplifies the situation by isolating key issues to focus on.</p>
-<p><strong>Guiding Policy</strong>: The guiding policy outlines the approach to address the identified challenges. It involves selecting a path that includes necessary trade-offs, recognising that not all objectives can be pursued simultaneously and prioritising where efforts should be concentrated.</p>
-<p><strong>Coherent Actions</strong>: Coherent actions are the specific, aligned steps designed to execute the guiding policy. These actions are coordinated to ensure they collectively contribute to overcoming the identified challenge, following the strategic direction set by the diagnosis and guiding policy.</p>
-<h3 id="example-engineering-strategy-boosting-developer-productivity">Example Engineering Strategy: Boosting Developer Productivity</h3>
-<p>Over the last couple of years, there’s been increasing pressure to do more with less. A tougher economic climate demands that we be more efficient. In engineering teams, this often translates to enhancing developer productivity. Let&rsquo;s work through this as an example of how to use Rumelt&rsquo;s kernel to craft a simple but effective strategy.</p>
-<p><strong>Diagnosis</strong>: We see that our developers are spending too much time on tasks that don&rsquo;t directly contribute to product development. This slows down our release cycles and dampens morale.</p>
-<p><strong>Guiding Policy</strong>: The approach chosen is to modernise our systems and streamline development processes, recognising the trade-offs involved. We may need to pause other projects or redirect resources, but this focus is essential for tangible improvements.</p>
-<p><strong>Coherent Actions</strong>:</p>
-<ul>
-<li>Adopt new development tools suited to our current needs (e.g. AI coding assistants)</li>
-<li>Reduce technical debt and variation by refactoring and simplifying our codebase</li>
-<li>Implement required quality and security gates in your pipelines (e.g. automated tests)</li>
-<li>Educate the team on these new methodologies and tools</li>
-</ul>
-<p>This is an overly-simplified example but hopefully it serves to highlight the three important elements that are at the core of a good strategy. So, next time you’re asked to write or review a strategy, ask yourself whether it describes not just what it’s trying to accomplish, but also why and how.</p>
-]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=What is a Good Strategy?">Reply to this post by email</a>]]></description>
     </item>
   </channel>
 </rss>
