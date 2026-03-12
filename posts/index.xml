@@ -9,8 +9,78 @@
     <managingEditor>annie.luxton@gmail.com (Annie Vella)</managingEditor>
     <webMaster>annie.luxton@gmail.com (Annie Vella)</webMaster>
     <copyright>© 2023-2026 Annie Vella</copyright>
-    <lastBuildDate>Fri, 06 Feb 2026 00:00:00 +1300</lastBuildDate>
+    <lastBuildDate>Fri, 13 Mar 2026 00:00:00 +1300</lastBuildDate>
     <atom:link href="http://annievella.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Middle Loop</title>
+      <link>http://annievella.com/posts/the-middle-loop/</link>
+      <pubDate>Fri, 13 Mar 2026 00:00:00 +1300</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
+      <guid>http://annievella.com/posts/the-middle-loop/</guid>
+      <description>
+      
+      
+      <![CDATA[<p>Early in my career, I took a job as a software developer at a large consultancy. Turns out the work mostly involved fixing other people&rsquo;s Access databases by right-clicking and hitting &ldquo;repair&rdquo;. I lasted about a month before I thanked them for the opportunity, handed in my resignation, and moved on.</p>
+<p>The point is: what you spend your time on defines what you think about. What you think about is what you practice. And what you practice is what you build skill on. The title said &ldquo;software developer&rdquo; but the daily work said something else entirely.</p>
+<p>That&rsquo;s why the first research question I wanted to answer as part of my Masters of Engineering at the University of Auckland, supervised by <a href="https://kblincoe.github.io">Kelly Blincoe</a>, was about task focus. Are AI tools shifting where engineers actually spend their time and effort? Because if they are, they&rsquo;re implicitly shifting what skills we practice and, ultimately, the definition of the role itself.</p>
+<p>Over six months, from October 2024 to April 2025, I ran a longitudinal mixed-methods study with professional software engineers across 28 countries - 158 responded to the first round, 101 to the second, with 95 matched across both. This is the first in a series of posts sharing what I found.</p>
+<h2 id="the-missing-time">The Missing Time</h2>
+<p>I asked participants how their time allocation had shifted across six core development tasks: designing, writing code, refactoring, testing, debugging, and reviewing.</p>
+<p>Five of the six tasks showed means below neutral - participants reported spending less time on almost everything. Writing code showed the strongest reduction, with 82% reporting less time by the second questionnaire. Reviewing code was the only task where engineers reported spending <em>more</em> time, and even that was only slightly above neutral.</p>
+<figure class="center"><img src="http://annievella.com/images/task-focus-evolution.png"
+    alt="Task focus shifts across time points"><figcaption>
+      <p>How participants perceived their time allocation shifted across six core development tasks. Writing code showed the largest reduction; reviewing was the only task above neutral at both timepoints.</p>
+    </figcaption>
+</figure>
+
+<p>These are perceptions, not stopwatch measurements, and people generally aren&rsquo;t great at estimating time. But shifts this consistent, measured twice over six months, are still a meaningful signal.</p>
+<p>Ok so engineers are spending less time writing code, no surprise there. But the standard assumption, that freed-up time flows upstream into design and architecture, didn&rsquo;t hold. Time compressed across almost all six tasks, including design. Rather than trading writing time for design time, engineers reported spending less time on nearly everything.</p>
+<p>So where is that time actually going?</p>
+<h2 id="naming-the-new-work">Naming the New Work</h2>
+<p>The quantitative data revealed a <strong>creation-to-verification shift</strong> over the six month study period - the balance between creation-oriented tasks (writing, refactoring, designing) and verification-oriented tasks (reviewing, testing, debugging) tilted toward verification (p = 0.006, moderate effect).</p>
+<p>But traditional categories like &ldquo;reviewing&rdquo; and &ldquo;testing&rdquo; didn&rsquo;t fully capture what engineers were describing. It was the open-ended responses that told us a richer story.</p>
+<p><em>&ldquo;Mostly reading the code and directing AI on the right way&rdquo;</em>, explained one engineer. Another described spending more time asking <em>&quot;&lsquo;is this code correct&rsquo;, &lsquo;is it maintainable&rsquo;, &lsquo;is it secure&rsquo; and &lsquo;is this just probabilistic hallucination&rsquo;&quot;</em>. A third stated it quite simply: <em>&ldquo;I ask AI to make changes first and review them before accepting or rejecting them&rdquo;</em>.</p>
+<p>Some participants did label this change in their workflow as &ldquo;more design thinking&rdquo;, but their descriptions generally told a different story - directing, evaluating, correcting. That&rsquo;s supervision, a qualitatively different form of work that traditional software development lifecycle models don&rsquo;t have a category for.</p>
+<p>In my thesis, I propose a name for it: <strong>supervisory engineering work</strong> - the effort required to direct AI, evaluate its output, and correct it when it&rsquo;s wrong.</p>
+<ul>
+<li><strong>Directing</strong>: specifying intent, crafting prompts, managing context, codifying standards into reusable agent instructions and skills, and iterating when output misses the mark</li>
+<li><strong>Evaluating</strong>: reading AI-generated output and deciding what to accept, modify, or reject</li>
+<li><strong>Correcting</strong>: fixing errors, integrating output into existing code, and maintaining consistency across the codebase</li>
+</ul>
+<p>This work is emerging because someone has to be accountable for what the AI produces, and how much of it an engineer does depends on how much they trust the AI&rsquo;s output and how critical the work is.</p>
+<h2 id="the-three-loop-model">The Three-Loop Model</h2>
+<p>On the long flight to <a href="https://www.thoughtworks.com/about-us/events/the-future-of-software-development">The Future of Software Development</a> retreat in early February, I was turning this over in my head. How do you explain supervisory engineering work to practitioners in a way that maps onto their existing mental models?</p>
+<p>It occurred to me that we often refer to &ldquo;loops&rdquo; in software development - the <a href="https://notes.paulswail.com/public/The+inner+and+outer+loops+of+software+development+workflow">inner loop and the outer loop</a>:</p>
+<ul>
+<li>The <strong>inner loop</strong> is where the craft lives: write code, build, run, test, debug. Tight, fast, local. This is what TDD and better IDEs optimised.</li>
+<li>The <strong>outer loop</strong> is the broader cycle: commit, code review, CI, deploy, monitor, feedback. This is what DevOps and CI/CD optimised.</li>
+</ul>
+<p>What if supervisory engineering work lives in a new loop between these two loops? AI is increasingly automating the inner loop - the code generation, the build-test cycle, the debugging. But someone still has to direct that work, evaluate the output, and correct what&rsquo;s wrong. That feels like a new loop, the <strong>middle loop</strong>, a layer where engineers supervise AI doing what they used to do by hand.</p>
+<figure style="text-align: center;">
+  <img src="http://annievella.com/images/middle-loop-diagram.png" alt="The three-loop model: inner, middle, and outer loops" style="max-width: 85%;">
+  <figcaption>The three-loop model: inner, middle, and outer loops</figcaption>
+</figure>
+<p>This layer is still largely unoptimised. Engineers are assembling it from chat windows, terminal agents, and IDEs that weren&rsquo;t designed for supervisory work. That&rsquo;s the frontier, and people are starting to build for it.</p>
+<p>Birgitta Böckeler, who was also at the retreat, recently described what she calls <a href="https://martinfowler.com/articles/exploring-gen-ai/harness-engineering.html">harness engineering</a> - the tooling, constraints, and control systems teams build to keep AI agents in check. As she notes, OpenAI&rsquo;s own team has said: &ldquo;Our most difficult challenges now center on designing environments, feedback loops, and control systems.&rdquo; Steve Yegge&rsquo;s <a href="https://steve-yegge.medium.com/welcome-to-gas-town-4f25ee16dd04">Gas Town</a> project takes a different angle, building infrastructure for engineers to verify what agents produce.</p>
+<p>Several concepts are circling around this space. Context engineering, which I&rsquo;ve <a href="https://annievella.com/posts/the-heart-of-software-engineering-still-beats/">written about previously</a>, describes the practice of shaping what AI sees and works with. Harness engineering describes the infrastructure you build to constrain and guide it. Supervisory engineering work describes the activity itself - the directing, evaluating, and correcting that engineers do. The middle loop is where all of this <em>lives</em>: the structural layer between the inner and outer loops where that oversight happens.</p>
+<p>I was glad to be able to raise this topic at the retreat, and even more so that it resonated with the other attendees. The <a href="https://www.thoughtworks.com/content/dam/thoughtworks/documents/report/tw_future%20_of_software_development_retreat_%20key_takeaways.pdf">retreat&rsquo;s published findings report</a> adopted the middle loop as what it called &ldquo;the retreat&rsquo;s strongest first-mover concept&rdquo;, noting that &ldquo;nobody in the industry has named this yet&rdquo;. I won&rsquo;t pretend it didn&rsquo;t feel pretty good to see my contribution land so strongly.</p>
+<h2 id="what-it-actually-feels-like">What It Actually Feels Like</h2>
+<p>The experience of working in this layer is uneven. For some engineers, AI coding assistants compress the effort-to-reward loop to seconds - prompt, result, prompt, result - and it feels exhilarating. For others, the same compression is disorienting, the craft they spent years building reduced to reviewing someone else&rsquo;s output. Most are somewhere in between, figuring it out as they go.</p>
+<p>The positive side is real. 84% of the participants in my study reported productivity gains. Engineers described completing in hours what used to take days, feeling more confident tackling unfamiliar tools and languages, and spending less time on the mechanical grind. As one put it: <em>&ldquo;boring mechanical tasks like refactoring files, updating tests, adding translations, creating test fixtures are 10x less effort with AI assistants&rdquo;</em>.</p>
+<p>But software engineering has always offered something beyond productivity - tight feedback loops where you write code, run tests, refactor, and see <em>your own work</em> succeed. Those loops provide constant micro-rewards: the dopamine hit of a test finally passing after an hour of frustration, the pride of &ldquo;I figured this out myself&rdquo;. That&rsquo;s what kept many of us hooked from the very beginning.</p>
+<p>Supervisory work replaces those signals with something more ambiguous. You&rsquo;re reading more than writing. You&rsquo;re evaluating output that&rsquo;s mostly right but sometimes wrong in subtle, dangerous ways. The code works, but you didn&rsquo;t write it. The test passes, but you didn&rsquo;t wrestle with the logic. It feels like work, but it doesn&rsquo;t quite feel like <em>your</em> work.</p>
+<p>And to that end, the data showed that the proportion of participants reporting negative developer experience nearly doubled over six months, rising from 14% to 27%, even as productivity held steady. I call this the <strong>productivity-experience paradox</strong>, but that&rsquo;s the subject of the next post.</p>
+<h2 id="why-this-matters">Why This Matters</h2>
+<p>A lot of software engineers right now are feeling genuine uncertainty about the future of their careers. What they trained to do, what they spent years upskilling in, is shifting - and in many ways, being commoditised. The narratives don&rsquo;t help: either AI is coming for your job, or you should just &ldquo;move upstream&rdquo; into architecture and &ldquo;higher value&rdquo; work. Neither tells you what to actually do on Monday morning.</p>
+<p>That&rsquo;s why this matters. There is still plenty of engineering work in software engineering, even if it looks different from what most of us trained for. Supervisory engineering work and the middle loop are one way of describing what that different looks like, grounded in what engineers are actually reporting.</p>
+<p>Will the middle loop itself get compressed away? Maybe. Things are moving fast, and every abstraction layer in computing&rsquo;s history eventually compressed the one before it. But right now, this is where the work is, and the skills it demands (judgement, verification, accountability) transfer upward regardless of what the work looks like next year.</p>
+<p>If we can describe it, we can start to work out what good looks like. What skills does it require? How do you get better at it? What does a career path look like when the work shifts from creation to verification, from writing to supervision? These are practical questions, and they need practical answers, but they&rsquo;re hard to answer when the work doesn&rsquo;t have a name.</p>
+<p>What you spend your time on is what you practice, and what you practice is what you build skill on. If the work is shifting to supervision, then that&rsquo;s the craft now. We&rsquo;re building the machine that builds the machine. And it deserves the same investment in tooling, practice, and professional development that we gave the inner and outer loops before it.</p>
+<h2 id="what-comes-next">What Comes Next</h2>
+<p>This post is the first in a series drawing on my Masters research and the ideas emerging from it.</p>
+<p>Coming next: the <strong>productivity-experience paradox</strong> - when productivity holds steady but developer experience erodes, and what that means for the people doing the work.</p>
+<p>A paper based on this research has been submitted for review, and I&rsquo;ll be speaking about these ideas at the <a href="https://itrevolution.com/product/enterprise-ai-summit/">IT Revolution Enterprise AI Summit</a> in April and as a keynote at <a href="https://webdirections.org/ai-engineer/">Web Directions AI Engineer</a> in June.</p>
+]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=The Middle Loop">Reply to this post by email</a>]]></description>
+    </item>
     <item>
       <title>Finding Comfort in the Uncertainty</title>
       <link>http://annievella.com/posts/finding-comfort-in-the-uncertainty/</link>
@@ -1732,82 +1802,6 @@
 <p>Reading <em>Wiring the Winning Organisation</em> has reinforced my commitment to leading with a developmental mindset. It’s not just about optimising processes and boosting efficiency; it’s about cultivating an environment where creativity and problem-solving thrive. This approach is now something I deliberately look for in companies I choose to work with, as it aligns perfectly with my own leadership philosophy.</p>
 <p>So, would you say you have a developmental mindset, and are you applying that mindset at work? If not, what would need to be true for you to give it a go?</p>
 ]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=Are You a Transactional or Developmental Leader?">Reply to this post by email</a>]]></description>
-    </item>
-    <item>
-      <title>First Impressions of the Apple Vision Pro</title>
-      <link>http://annievella.com/posts/first-impressions-of-the-apple-vision-pro/</link>
-      <pubDate>Sun, 28 Apr 2024 14:00:00 +1200</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
-      <guid>http://annievella.com/posts/first-impressions-of-the-apple-vision-pro/</guid>
-      <description>
-      
-      
-      <![CDATA[<p>It’s been about a month since I received my much-anticipated Apple Vision Pro. Truth be told, I ordered it as soon as it became available in the US in early February 2024. With the help of some truly wonderful friends, I figured it wouldn’t be too hard to get my hands on one. Unfortunately, that wasn’t the case, but after jumping through various hoops, I finally got my hands on it in late March. I’m endlessly thankful to my friends for everything they had to go through - I hope to be able to repay the favour one day!</p>
-<p>I’ve said it before and I’ll say it again - I’m a self-proclaimed computer nerd. I literally still have the Commodore 64 that caused me to fall in love with computers in the first place. I also still have my old Game Boy, Nintendo Entertainment System, and even Super Nintendo! There was no way I wasn’t going to do whatever it took to get my hands on a first-gen Apple Vision Pro!</p>
-<h3 id="first-impressions">First Impressions</h3>
-<figure class="center"><img src="http://annievella.com/images/apple-vision-pro.jpeg"
-    alt="Apple Vision Pro"><figcaption>
-      <p>Apple Vision Pro</p>
-    </figcaption>
-</figure>
-
-<p>As with every Apple product, the Apple Vision Pro is a beautiful piece of technology and comes meticulously packaged. Even the ordering experience was seamless; since it has to fit your face, the process includes using the front-facing camera of your phone to measure your head and select the right size headband and light seal.</p>
-<p>Setting it up was a cake-walk. After putting it on and starting it up, it guides you through various steps like logging in with your Apple ID and essential things for an AR/VR device like this - eye and hand setup. Before you know it, you’re staring at what looks like a standard Apple home screen, except it’s floating in air. And that’s when you start to understand the potential of this thing.</p>
-<figure class="center"><img src="http://annievella.com/images/apple-vision-pro-screenshot-of-home-screen.jpeg"
-    alt="Apple Vision Pro - Home Screen"><figcaption>
-      <p>Apple Vision Pro - Home Screen</p>
-    </figcaption>
-</figure>
-
-<p>It didn’t take much to get used to using my eyes to navigate around - it really does feel quite natural and ridiculously cool. Just look at an icon and it highlights. Then tap your thumb and forefinger together and voilà, that app now opens.</p>
-<p>Interestingly, when my father (who’s well into his 70s) tried it out, it took a while for him to get through the eye setup (we wondered if it’s due to his imperfect eyesight), but once he was done with that, he was able to use it quite naturally. Conversely, when the daughter of a good friend gave it a go, she took to it like a duck to water and was navigating her way around it like a pro in a matter of seconds.</p>
-<p>In order to download any apps, I had to set up a secondary Apple ID with the region set to the USA. That’s because theoretically, the Apple Vision Pro is only available in the US at this stage. Thankfully there’s an option to only use this secondary Apple ID for the App Store, that way you can keep using your usual Apple ID for everything else.</p>
-<p>There aren’t that many (free) apps built with native VisionOS support yet, but there are a few fun ones:</p>
-<ul>
-<li><strong>Encounter Dinosaurs</strong>: Showcases the incredible possibilities of this technology. The butterfly can land on your hand and the dinosaurs appear to come out of the screen and try to sniff you—it is so realistic that it makes you take a step back!</li>
-</ul>
-<figure class="center"><img src="http://annievella.com/images/apple-vision-pro-screenshot-of-encounter-dinosaurs.jpeg"
-    alt="Apple Vision Pro - Encounter Dinosaurs"><figcaption>
-      <p>Apple Vision Pro - Encounter Dinosaurs</p>
-    </figcaption>
-</figure>
-
-<ul>
-<li><strong>Insight Heart</strong>: Renders a realistic human heart beating in thin air. It allows you to turn it around, zoom in and out, and look at what the heart is doing under different circumstances. This gives us a small taste of how the Apple Vision Pro could be used for educational purposes.</li>
-</ul>
-<figure class="center"><img src="http://annievella.com/images/apple-vision-pro-screenshot-of-insight-heart.jpeg"
-    alt="Apple Vision Pro - Insight Heart"><figcaption>
-      <p>Apple Vision Pro - Insight Heart</p>
-    </figcaption>
-</figure>
-
-<ul>
-<li><strong>Mindfulness</strong>: A simple app that guides you through a short meditation. I like to use it together with one of the immersive environments. It’s a nice way to take a break and relax.</li>
-</ul>
-<figure class="center"><img src="http://annievella.com/images/apple-vision-pro-screenshot-of-mindfulness.jpeg"
-    alt="Apple Vision Pro - Mindfulness"><figcaption>
-      <p>Apple Vision Pro - Mindfulness</p>
-    </figcaption>
-</figure>
-
-<ul>
-<li><strong>Air Draw</strong>: Allows you to draw in the air using your fingers. A bit of lighthearted fun.</li>
-</ul>
-<figure class="center"><img src="http://annievella.com/images/apple-vision-pro-screenshot-of-air-draw.jpeg"
-    alt="Apple Vision Pro - Air Draw"><figcaption>
-      <p>Apple Vision Pro - Air Draw</p>
-    </figcaption>
-</figure>
-
-<p>I haven’t been able to download the native Netflix or YouTube apps, but I can watch videos on both of these in Safari and that works quite well. There are small speakers on the side arms that the head bands clip on to and they work really well.</p>
-<p>All of the usual apps are available, like messages, email, notes, etc. You can even use Excel and Word!</p>
-<p>There are probably many others that aren’t free but I’d have to jump through even more hoops to purchase those so I might just wait until I can download them through my standard Apple ID!</p>
-<h3 id="what-i-dislike-about-it">What I dislike about it</h3>
-<p>My major complaint is that the Apple Vision Pro is quite heavy and somewhat uncomfortable to wear. I don’t know if it’s because I’m quite a small person with a small face, but I find that I can’t wear it for more than maybe an hour before my face starts to get quite sore. I might not have it positioned right, or perhaps I need to keep trying different light seals and headbands, but I find it hard to believe that any combination of those will ever make this a comfortable thing to wear.</p>
-<h3 id="am-i-happy-with-it">Am I happy with it?</h3>
-<p>Hell yeah. Even though it’s quite uncomfortable to wear for long periods of time, there&rsquo;s no denying it - this technology is incredible. Navigating using your eyes and selecting things with tiny hand gestures is a whole new way of interacting with a computer. Windows floating in the air, pinned to their physical location such that you can walk around (or through) them, even casting shadows behind them, turns all your surroundings into a giant screen. The AR/VR experiences that interact with you and the adjustable immersion controls are fascinating.</p>
-<h3 id="in-summary">In summary</h3>
-<p>The Apple Vision Pro is a whole new paradigm of computing. This is the first version and the worst it’ll ever be - I’m sure it’ll get lighter and more comfortable to wear as future versions are released. For me, it’s a bit more of a toy than a ‘computer’ at this stage, but I’m super happy to have one to play with. The amount of technology packed into this device is hugely impressive, and VisionOS makes interacting with it feel like a dream. Perhaps if I find some spare time, I’ll have a go at writing an app for it!</p>
-]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=First Impressions of the Apple Vision Pro">Reply to this post by email</a>]]></description>
     </item>
   </channel>
 </rss>
