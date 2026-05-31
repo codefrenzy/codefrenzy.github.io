@@ -1,38 +1,92 @@
+/* Dark theme — comfortable, high-contrast reading on a near-black background.
+   Colours are set explicitly per element rather than relying on inheritance,
+   so headings, meta and body copy stay legible regardless of the base theme. */
+
 body {
-  color: #e0e0e0;
-  background-color: #202020;
+  color: #e6e6e6;
+  background-color: #1a1a1a;
 }
+
+/* Headings and titles: brighter than body copy for clear hierarchy */
+.site-title,
+.article-title,
+.article-subtitle,
+.article-title-series,
+.list .article-titles {
+  color: #f6f6f6;
+}
+
+/* Body copy */
+.article,
+.main,
+.list .article-content {
+  color: #e6e6e6;
+}
+
+/* Navigation */
+.site-navi a {
+  color: #cfcfcf;
+}
+.site-navi a:hover, .site-navi a:active {
+  color: #ffffff;
+}
+
+/* Meta, dates and footer: muted, but still clearly legible */
+.article-meta,
+.list .article-meta,
+.site-footer,
+.site-footer .copyright,
+.site-footer .powerdby {
+  color: #9aa0a6;
+}
+
+/* Links */
 a {
-  color: #5090ff;
+  color: #6aa8ff;
   text-decoration: none;
 }
 a:hover, a:active {
-  color: #80d0ff;
+  color: #9ccbff;
 }
+
+/* Dividers: the light theme uses lightgray, which glares on dark */
+hr {
+  border-top-color: #3a3a3a;
+}
+.list .article {
+  border-bottom-color: #3a3a3a;
+}
+
+/* Code: the light theme uses a near-white block; give it a dark panel */
 pre, code {
-  background-color: inherit;
+  background-color: #2a2a2a;
 }
-.site-navi a:hover, .site-navi a:active {
-  color: white;
+
+/* Blockquotes */
+blockquote {
+  border-left-color: #4a5a6a;
+  color: #b4bccc;
 }
+
+/* Hover / state colours carried over from the original dark theme */
 .list .article-titles:hover, .list .article-titles:active {
-  color: white;
+  color: #ffffff;
 }
 .article-title-series a:hover, .article-title-series a:active {
-  color: white;
+  color: #ffffff;
 }
 .article-meta a:hover, .article-meta a:active {
-  color: white;
+  color: #ffffff;
 }
 .article-series .series-title a:hover, .article-series .series-title a:active {
-  color: white;
+  color: #ffffff;
 }
 .archives .archives-item > a:visited {
-  color: #707070;
+  color: #808080;
 }
 .archives ul.taxonomies li a:hover, .archives ul.taxonomies li a:active {
-  color: white;
+  color: #ffffff;
 }
 .pagination li.active a:hover, .pagination li.active a:active {
-  color: white;
+  color: #ffffff;
 }
