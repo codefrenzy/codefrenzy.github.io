@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>The Productivity-Experience Paradox - Annie Vella</title>
+  <meta property="og:title" content="The Productivity-Experience Paradox - Annie Vella" />
+  <meta name="twitter:title" content="The Productivity-Experience Paradox - Annie Vella" />
+  <meta name="description" content="I&rsquo;ve been meaning to write this post for a while, ever since I wrote The Middle Loop back in March, actually. Somehow this year got very busy - it&rsquo;s only July and I&rsquo;ve already given half a dozen talks, sat on a couple of panels, attended research gatherings in the US and Europe, and contributed a chapter to a book. Saying it out loud answers any questions I might&rsquo;ve had about why it&rsquo;s been so hard to find a time to sit down and blog again.">
+  <meta property="og:description" content="I&rsquo;ve been meaning to write this post for a while, ever since I wrote The Middle Loop back in March, actually. Somehow this year got very busy - it&rsquo;s only July and I&rsquo;ve already given half a dozen talks, sat on a couple of panels, attended research gatherings in the US and Europe, and contributed a chapter to a book. Saying it out loud answers any questions I might&rsquo;ve had about why it&rsquo;s been so hard to find a time to sit down and blog again.">
+  <meta name="twitter:description" content="I&rsquo;ve been meaning to write this post for a while, ever since I wrote The Middle Loop back in March, actually. Somehow this year got very busy - it&rsquo;s only July and I&rsquo;ve already given …">
+  <meta name="author" content="Annie Vella"/>
+  <meta property="og:site_name" content="Annie Vella" />
+  <meta property="og:url" content="http://annievella.com/posts/the-productivity-experience-paradox/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.140.1">
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/style-dark.css" media="all and (prefers-color-scheme: dark)" />
+
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+
+  <script src="/js/script.js"></script>
+  <script src="/js/custom.js"></script>
+  <script defer src="/fontawesome/all.min.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="/">Annie Vella</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-speaking"><a href="/speaking/" title="Speaking">Speaking</a></li>
+      <li class="site-navi-item-publications"><a href="/publications/" title="Publications">Publications</a></li>
+      <li class="site-navi-item-resources"><a href="/resources/" title="Resources">Resources</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      
+      
+      <h1 class="article-title">The Productivity-Experience Paradox</h1>
+      
+      <hr class="article-title-bottom">
+      <ul class="article-meta">
+        
+        <li class="article-meta-date"><time>July 18, 2026</time></li>
+        
+      </ul>
+      
+      <p>I&rsquo;ve been meaning to write this post for a while, ever since I wrote <a href="https://annievella.com/posts/the-middle-loop/">The Middle Loop</a> back in March, actually. Somehow this year got very busy - it&rsquo;s only July and I&rsquo;ve already given half a dozen talks, sat on a couple of panels, attended research gatherings in the US and Europe, and contributed a chapter to a book. Saying it out loud answers any questions I might&rsquo;ve had about why it&rsquo;s been so hard to find a time to sit down and blog again.</p>
+<p>My last post answered the first of two research questions I set out to explore in my Masters research at the University of Auckland: <em>where</em> do engineers spend their time and focus when they use AI to build software? The short answer is less time on most core development tasks, especially writing code, and slightly more time reviewing. The longer answer includes evidence of a new category of work, supervisory engineering work, sitting neatly between the inner and outer loops of software development.</p>
+<p>This post is about the second question, how it <em>feels</em> to build software with AI. More specifically, how does the use of AI coding assistants impact software engineers&rsquo; perceptions of their developer experience and productivity?</p>
+<p>It&rsquo;s all part of the same study that I&rsquo;ve written about before, so I&rsquo;ll keep the setup brief: a longitudinal, mixed-methods study focusing on professional software engineers who use AI, with two questionnaires run six months apart, in October 2024 and April 2025. 158 participants in the first round, 101 in the second, 95 matched across both, spanning 28 countries.</p>
+<h2 id="measuring-the-feeling">Measuring the feeling</h2>
+<p>Measuring productivity is tricky. For starters, as an industry, we can&rsquo;t really agree on what it even <em>means</em>, let alone how to measure it well. DORA defined it as <em>&ldquo;the extent to which an individual feels effective and efficient in their work, creating value and achieving tasks.&rdquo;</em> in their <a href="https://dora.dev/research/2024/dora-report/">2024 Accelerate State of DevOps report</a>, and that sounds about right to me.</p>
+<p>Notice how they used the word <em>feels</em>? In that definition, productivity is already a perception, so I did the straightforward thing and asked participants to rate how their productivity had changed since using an AI coding assistant. Open-ended questions let them describe their experiences in their own words, which is where the participant quotes in this post come from.</p>
+<p>For developer experience I needed more structure, so I used the <a href="https://queue.acm.org/detail.cfm?id=3595878">DevEx framework</a> created by <a href="https://www.linkedin.com/in/abinoda">Abi Noda</a>, <a href="https://margaretstorey.com/">Margaret-Anne Storey</a>, <a href="https://nicolefv.com/">Nicole Forsgren</a> and <a href="https://www.michaelagreiler.com/">Michaela Greiler</a>. It takes the fuzzy notion of how development work feels and splits it into three dimensions we can better reason about:</p>
+<ul>
+<li><strong>Feedback loops</strong>: how fast, and how useful, the responses to your work are, whether from a compiler, a test, code review, or a colleague.</li>
+<li><strong>Cognitive load</strong>: the mental effort it takes to get something done.</li>
+<li><strong>Flow state</strong>: how seamlessly you can work and hold your concentration, free from interruptions.</li>
+</ul>
+<p>I chose it for a few reasons. It&rsquo;s the framework the industry has actually adopted (with entire DevEx teams built on the concept) largely because those three dimensions are concrete enough to operationalise where more comprehensive taxonomies aren&rsquo;t. And there hadn&rsquo;t been much research tracking how professional developers&rsquo; sense of these three dimensions shifted with sustained use of AI, which felt worth examining more closely.</p>
+<h2 id="productivity-went-up---and-stayed-up">Productivity went up - and stayed up</h2>
+<p>Productivity was the good news, and it stayed good news over the six-month study period. It was remarkably stable - 84% of participants reported AI improving their productivity at both timepoints. More than three-quarters of matched participants gave the exact same positive rating both times. Whatever else was going on, people felt like they were getting more done.</p>
+<figure class="center"><img src="/images/productivity-evolution-q1-q2.png"
+    alt="Stacked bar chart of perceived impact on productivity at Q1 and Q2: at both timepoints around 84% reported productivity somewhat or much better, roughly 15% about the same, and 1% worse (only at Q1)."><figcaption>
+      <p>Perceived productivity impact, Q1 to Q2 (all respondents at each timepoint). 84% reported an improvement both times.</p>
+    </figcaption>
+</figure>
+
+<h2 id="developer-experience-drifted-the-other-way">Developer experience drifted the other way</h2>
+<p>Developer experience is the more complicated half of the story. Most engineers were still doing fine but a growing minority weren&rsquo;t, and the positive group appeared to be thinning out over time. To see how it was playing out, I sorted the matched participants into three groups based on how they felt AI had affected those three DevEx dimensions: a <em>positive</em> cohort who felt it had improved all three, a <em>negative</em> cohort who felt it had worsened at least one, and a <em>mixed</em> group in between - nothing worse, but not everything better either. Then I tracked how people moved between them over the six months.</p>
+<p>The negative cohort nearly doubled, from <strong>14% to 27%</strong>, and the positive cohort barely held. Only 37% of those who started there were still fully positive by the end. Engineers are feeling like they&rsquo;re getting more done but are feeling worse doing it.</p>
+<p>The negative cohort was quite sticky, too. Not one person who started in it climbed all the way back to fully positive; the best any of them managed was to claw back to neutral. But basically, once the experience soured, it tended to stay that way.</p>
+<figure class="center"><img src="/images/developer-experience-evolution-q1-q2.png"
+    alt="Stacked bar chart of perceived impact on the three developer experience dimensions at Q1 and Q2. Feedback loops: 4% worse and 62% better at Q1, 1% worse and 69% better at Q2. Cognitive load: 7% worse and 66% better at Q1, 9% worse and 54% better at Q2. Flow state: 10% worse and 53% better at Q1, 21% worse and 46% better at Q2."><figcaption>
+      <p>Perceived impact on each developer experience dimension, Q1 to Q2 (all respondents at each timepoint). Feedback loops even improved; flow state slid the hardest (10% to 21% worse).</p>
+    </figcaption>
+</figure>
+
+<p>When viewed next to the chart above, you can see how productivity and developer experience appear to be diverging. Output is holding high and steady while the experience underneath begins to erode.</p>
+<h2 id="the-coupling-we-took-for-granted">The coupling we took for granted</h2>
+<p>For a long time, research has told us that developer experience and productivity are related - that they travel together. That&rsquo;s the core premise behind the DevEx framework, and the reason leaders have been told to focus on improving developer experience: improve that, and productivity will follow.</p>
+<p>There&rsquo;s something quite humane in that premise. It meant caring about engineers&rsquo; day-to-day lives wasn&rsquo;t a trade-off against output. It <em>was</em> the output strategy. You didn&rsquo;t have to choose between treating people well and getting results. The incentives lined up. It&rsquo;s <a href="https://deming.org/explore/fourteen-points/">Deming&rsquo;s 12th point</a> made real, a call to <em>&ldquo;remove barriers that rob people in management and in engineering of their right to pride of workmanship.&rdquo;</em></p>
+<p>Unfortunately, this is exactly the coupling my data suggests may be breaking once AI enters the picture.</p>
+<p>Interestingly, whether they move together depends on how you look at it. Compare engineers at a single point in time and they do. The ones with better developer experience also feel more productive. But follow the same engineer over the six months, and a dip in their experience wasn&rsquo;t matched by a dip in their productivity. The correlation between change in flow state and change in productivity came out at 0.02, about as close to zero as it gets. And that&rsquo;s the paradox: over time, with AI, developer experience and productivity appear to stop moving together.</p>
+<p><a href="https://www.linkedin.com/in/brianhouck/">Brian Houck</a>, a Distinguished Scientist at <a href="https://getdx.com">DX</a> who researches developer experience and co-authored the <a href="https://queue.acm.org/detail.cfm?id=3454124">SPACE framework</a>, thought the decoupling interesting enough to <a href="https://newsletter.getdx.com/p/five-studies-that-are-changing-how">write about it</a> and talk about it on the <a href="https://youtu.be/lJTmtKb36vo">DX podcast</a>. Having someone of his calibre take my finding that seriously is something I&rsquo;m super excited about.</p>
+<h2 id="what-this-means-for-engineers">What this means for engineers</h2>
+<p>If experience and productivity really are decoupling with AI, will leaders still be able to justify caring about developer experience? I really hope so, but the case for investing in it was always that it paid off in output, and that&rsquo;s exactly what&rsquo;s now up for debate. In fact, we&rsquo;re already seeing attention (and investment) shift toward <em>agent</em> experience: engineering better context and harnesses so the models themselves work more effectively. And if the returns now come from improving how the agents work rather than how the engineers feel, what happens to the human engineers?</p>
+<p>Well, when their experience keeps eroding but their output doesn&rsquo;t, nothing forces the problem to the surface. The dashboards look fine, but the people aren&rsquo;t. But that hidden strain doesn&rsquo;t just vanish. Where does it go, you might ask. You know where. Burnout and turnover, that&rsquo;s where. It&rsquo;s why Steve Yegge calls it the <a href="https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163">AI vampire</a> - the tool that makes you far more productive while draining you dry.</p>
+<h2 id="three-dimensions-pulling-in-different-directions">Three dimensions, pulling in different directions</h2>
+<p>So what&rsquo;s actually driving the decline? Developer experience didn&rsquo;t deteriorate evenly across the three dimensions - one of them took the brunt of the hit while another actually improved.</p>
+<figure class="center"><img src="/images/developer-experience-dimensions-q1-q2.png"
+    alt="Grouped bar chart showing, for each developer experience dimension separately, the percentage of matched participants who rated it worse at Q1 versus Q2: flow state 7% to 20%, cognitive load 6% to 9%, feedback loops 3% to 1%."><figcaption>
+      <p>Share rating each dimension worse, Q1 to Q2 (matched cohort, the same engineers at both timepoints). Flow state is the clear outlier.</p>
+    </figcaption>
+</figure>
+
+<p><strong>Flow state took the steepest fall.</strong> The share rating it worse nearly tripled over the six months, from 7% to 20%, by far the biggest move of the three. One participant named it exactly: <em>&ldquo;less &lsquo;in the zone&rsquo; time, because while code is being produced, I now find myself switching context more often.&rdquo;</em></p>
+<p><strong>Cognitive load got worse</strong> too, though far more gently. Those rating it worse crept up from 6% to 9%. This is the part the demos don&rsquo;t show you: the constant evaluation, the &ldquo;almost right but not quite&rdquo; suggestion that costs more to check and fix than it would have to just write yourself.</p>
+<p><strong>Feedback loops got better.</strong> This was the only dimension that improved over the study period. Makes sense too - now you can ask your AI coding assistant for help and have a working solution back in seconds. Gone are the days of hunting around on Stack Overflow for hours. One participant described work that would have taken three days getting done in three hours.</p>
+<p>I do wonder if there might be a connection between feedback loops improving and flow state deteriorating. Think about it. AI now hands you a response every few seconds, but every response is a whole bunch of text and a little decision: read it, judge it, accept it or fix it, then prompt again. It&rsquo;s a context switch, over and over, and it&rsquo;s hard to stay in the zone when you&rsquo;re switching gears that often. One participant put it quite succinctly: <em>&ldquo;This does break the flow, but still speeds up the overall process.&rdquo;</em> You feel faster, but more interrupted, both true at once.</p>
+<p>Something else moved over those six months too. At the first timepoint, the dimension that lined up most closely with feeling productive was flow state. By the second timepoint, it was the speed of the feedback loop, and flow state had almost dropped out of the picture. In other words, as AI took over more of the writing, what made engineers feel productive seems to have changed: at the start it went with being absorbed in a hard problem, and by the end it went with how fast the code came back.</p>
+<h2 id="counterfeit-flow">Counterfeit flow</h2>
+<p>Since flow state took the hardest hit, it&rsquo;s worth asking why. Orchestrating agents, or supervisory engineering work, can feel <em>great</em>: you&rsquo;re moving faster, reaching further and achieving more with less. There&rsquo;s almost a nice rhythm to it; the problem is that that feeling and real flow aren&rsquo;t necessarily the same thing.</p>
+<p>In his <a href="https://youtu.be/SUZwYV5JYBM">keynote</a> at <a href="https://webdirections.org/ai-engineer/">AI Engineer</a> in Melbourne, right before mine, <a href="https://jeremy.fast.ai/">Jeremy Howard</a> described what that feeling might really be. He pointed out that <a href="https://en.wikipedia.org/wiki/Mihaly_Csikszentmihalyi">Mihály Csikszentmihalyi</a>, the psychologist who gave us the idea of flow, also described a counterfeit cousin of it: <a href="https://alearningaday.blog/2014/04/21/prof-mihaly-csikszentmihalyi-on-flow-intrinsic-motivation-and-happiness/">junk flow</a>, or dark flow. It can look a lot like the real thing, but it&rsquo;s the opposite of good for you: you get hooked on a superficial version that feels like flow at first, then slowly turns into something you&rsquo;re addicted to rather than something that helps you grow. And it&rsquo;s no accident - casinos are designed to manufacture exactly this, hooking people through what&rsquo;s called an <em>illusion of control</em>.</p>
+<p>So what separates the two? Real flow is when a genuine challenge stretches your skills and you grow from it. Junk flow just keeps you pulling the lever. Prompting an AI can feel a lot like pulling that lever - sometimes it nails it, sometimes it hands you nonsense - but you keep going, chasing the next good result, even when you know you should probably just stop and do it by hand. The dopamine&rsquo;s more in the anticipation than the payoff. We&rsquo;ve all been there.</p>
+<h2 id="output-is-one-thing-the-craft-is-another">Output is one thing, the craft is another</h2>
+<p>At AI Engineer, I happened to meet <a href="https://en.wikipedia.org/wiki/Nicholas_Gruen">Nicholas Gruen</a>, who spoke to me about a philosopher called <a href="https://en.wikipedia.org/wiki/Alasdair_MacIntyre">Alasdair MacIntyre</a>. In particular, what Nicholas thought I might find interesting was MacIntyre&rsquo;s framing of the <em>internal goods</em> of a practice - the skill, the mastery, the satisfaction you can only get by doing the thing itself - and <em>external goods</em> - money, status, output. MacIntyre warned that the external goods, the ones institutions trade in, have a habit of crowding out the internal ones. I&rsquo;m really grateful to Nicholas for the introduction to his work - it gave me a much richer way to think about what I&rsquo;d been seeing.</p>
+<p>I think that concept also fits my data quite nicely. With AI, the external good, productivity, holds steady or climbs. The internal goods - flow, mastery, the joy of the craft - erode. AI is <em>brilliant</em> for the external goods and potentially <em>corrosive</em> for the internal ones.</p>
+<p>How you feel about AI has a lot to do with which of these goods you&rsquo;re chasing. If it&rsquo;s the external goods you&rsquo;re after, this technology is close to a superpower - more productivity, more output. But if you&rsquo;re more interested in the internal goods - the figuring-out, the hours inside a hard problem - then it can really feel like a loss: it takes the part you loved and hands it to a machine, and what&rsquo;s left is supervision and accountability. Yes, the output still arrives, faster than ever, but the bit that made it <em>yours</em> has been delegated away, and the pride and satisfaction of having done it yourself are gone. It&rsquo;s this loss I was afraid of when I wrote about the <a href="https://annievella.com/posts/the-software-engineering-identity-crisis/">software engineering identity crisis</a> last year, and now it&rsquo;s starting to show up in the data.</p>
+<h2 id="designing-what-comes-next">Designing what comes next</h2>
+<p>So what do we do with a finding like this? The instinct is to fix it, to stop the bleeding with better tooling that supports developer experience in this new world.</p>
+<p>But if the craft is genuinely relocating - if the making is moving into orchestration - then the job is to define the new role and design it to be worth doing. That&rsquo;s the argument behind a keynote I gave last month at that same AI Engineer conference, <a href="https://annievella.com/files/web-directions-ai-engineer-melbourne-june-2026-craft-in-the-time-of-agents.pdf">Craft in the Time of Agents</a>: craft isn&rsquo;t dying, it&rsquo;s moving. And if the system is producing more output while eroding the joy and lived experience of being a software engineer, that&rsquo;s a <em>system-design</em> problem, not a personal failing, and it&rsquo;s ours to solve, deliberately, by building the roles people actually want to grow into.</p>
+<p>Which leads me to a bigger question. Do the frameworks we&rsquo;ve used to talk about developer experience in the before-times still hold with AI in the mix? Maybe they need rethinking, or maybe they need replacing altogether. They were built for a world where a developer&rsquo;s work revolved around the production of working code. Flow meant being deep in the problem-solving, and often that meant building it yourself. Cognitive load meant holding a mental model of the solution in your own head, and feedback loops meant how quickly you could unblock yourself and get on to the next piece.</p>
+<p>When code production is increasingly a machine&rsquo;s job, and the human work is more about specification, judgement and verification, those constructs are measuring a job that&rsquo;s materially different. Some of what I found - the supervisory engineering work, the productivity-experience paradox, the way &ldquo;feeling productive&rdquo; detached from flow - doesn&rsquo;t sit neatly inside the frameworks we have.</p>
+<p>Others are starting to wonder the same thing. Thoughtworks&rsquo; <a href="https://www.thoughtworks.com/profiles/k/ken-mugrage">Ken Mugrage</a> recently asked whether <a href="https://www.thoughtworks.com/en-gb/insights/blog/continuous-delivery/is-developer-experience-dead">developer experience is dead</a>, and landed where I have: not dead, but overdue for a rethink.</p>
+<p>I think developer experience is starting to mean something different, and the ways we frame and measure it need to catch up.</p>
+<p>In November I&rsquo;m heading to another <a href="https://shonan.nii.ac.jp/seminars/257/">Shonan meeting in Japan</a> built around exactly this, an academic gathering with the working title &ldquo;Crafting the Future of Developer Experience&rdquo;, and some of the people in that room helped build the frameworks we&rsquo;re now questioning. I know I don&rsquo;t have all the answers, but those are definitely the conversations I want to be in.</p>
+<hr>
+<p><em>This post draws on my Masters research at the University of Auckland, supervised by <a href="https://profiles.auckland.ac.nz/k-blincoe">Kelly Blincoe</a>. A <a href="https://arxiv.org/abs/2605.23135">preprint paper</a> (Vella &amp; Blincoe, 2026) covers the first two of the study&rsquo;s research questions: how does AI shift software engineers&rsquo; perceived focus across development tasks, which I wrote about in <a href="https://annievella.com/posts/the-middle-loop/">The Middle Loop</a>, and how does AI impact software engineers&rsquo; perceptions of their developer experience and productivity, which is this post. There&rsquo;s more to come on the study&rsquo;s other two questions - what AI is doing to how engineers grow their skills and confidence, and whether prompt engineering is (or was) becoming a core skill in its own right.</em></p>
+
+    </article>
+
+    
+
+
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer pager-noitem">&lt; Newer</li>
+      <li class="pager-older">
+        <a href="/posts/the-middle-loop/" data-toggle="tooltip" data-placement="top" title="The Middle Loop">Older &gt;</a>
+      </li>
+    </ul>
+    
+  </div>
+
+
+<div class="site-footer">
+  <div class="copyright">© 2023-2026 Annie Vella</div>
+  <ul class="site-footer-items">
+    <li class="site-footer-item-about"><a href="/about/" title="About">About</a></li>
+  </ul>
+  <div class="powerdby">
+    Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-STYW83D479"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-STYW83D479');
+        }
+      </script>
+
+</body>
+</html>
