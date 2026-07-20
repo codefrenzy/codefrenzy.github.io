@@ -9,8 +9,90 @@
     <managingEditor>annie.luxton@gmail.com (Annie Vella)</managingEditor>
     <webMaster>annie.luxton@gmail.com (Annie Vella)</webMaster>
     <copyright>© 2023-2026 Annie Vella</copyright>
-    <lastBuildDate>Fri, 13 Mar 2026 00:00:00 +1300</lastBuildDate>
+    <lastBuildDate>Tue, 21 Jul 2026 00:00:00 +1200</lastBuildDate>
     <atom:link href="http://annievella.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Productivity-Experience Paradox</title>
+      <link>http://annievella.com/posts/the-productivity-experience-paradox/</link>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +1200</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
+      <guid>http://annievella.com/posts/the-productivity-experience-paradox/</guid>
+      <description>
+      
+      
+      <![CDATA[<p>This is the second post in a series I&rsquo;m writing about the most interesting findings from my Masters research on the impact of AI on software engineering, as well as some of the thoughts I&rsquo;ve had since. This one is about how AI made engineers feel more productive, and why that productivity might be masking something we should care about.</p>
+<p>The first post, <a href="https://annievella.com/posts/the-middle-loop/">The Middle Loop</a>, focused on my first research question - <em>where</em> engineers spend their time and focus when they use AI to build software. The short answer is less time on most core development tasks, especially writing code, and slightly more time reviewing. The longer answer includes evidence of a new category of work, supervisory engineering work, sitting neatly between the inner and outer loops of software development.</p>
+<p>This post is more about how that shift <em>feels</em>, which was the focus of my second research question - how does the use of AI coding assistants impact software engineers&rsquo; perceptions of their developer experience and productivity?</p>
+<p>I described the study in that last post so I won&rsquo;t repeat it all here. It&rsquo;s worth noting that my study ran between <strong>October 2024 and April 2025</strong>, which in AI terms is already quite a long time ago. The landscape has shifted a lot since then, so it&rsquo;s best read as a snapshot of that window. If you&rsquo;re interested in a more detailed write-up of the methodology and results of these first two research questions, there&rsquo;s a <a href="https://arxiv.org/abs/2605.23135">preprint paper</a> available.</p>
+<h2 id="measuring-the-feeling">Measuring the feeling</h2>
+<p>Measuring productivity is tricky. For starters, as an industry, we can&rsquo;t really agree on what it even <em>means</em>, let alone how to measure it well. DORA defined it as <em>&ldquo;the extent to which an individual feels effective and efficient in their work, creating value and achieving tasks.&rdquo;</em> in their <a href="https://dora.dev/research/2024/dora-report/">2024 Accelerate State of DevOps report</a>, and that sounds about right to me.</p>
+<p>Notice how they used the word <em>feels</em>? In that definition, productivity is already a perception, so I did the straightforward thing and asked participants to rate how their productivity had changed since using an AI coding assistant. Open-ended questions let them describe their experiences in their own words, which is where the participant quotes in this post come from.</p>
+<p>For developer experience I needed more structure, so I used the <a href="https://queue.acm.org/detail.cfm?id=3595878">DevEx framework</a> created by <a href="https://www.linkedin.com/in/abinoda">Abi Noda</a>, <a href="https://margaretstorey.com/">Margaret-Anne Storey</a>, <a href="https://nicolefv.com/">Nicole Forsgren</a> and <a href="https://www.michaelagreiler.com/">Michaela Greiler</a>. It takes the fuzzy notion of how development work feels and splits it into three dimensions we can better reason about:</p>
+<ul>
+<li><strong>Feedback loops</strong>: how fast, and how useful, the responses to your work are, whether from a compiler, a test, code review, or a colleague.</li>
+<li><strong>Cognitive load</strong>: the mental effort it takes to get something done.</li>
+<li><strong>Flow state</strong>: how seamlessly you can work and hold your concentration, free from interruptions.</li>
+</ul>
+<p>I chose it for a few reasons. It&rsquo;s the framework the industry has actually adopted (with entire DevEx teams built on the concept) largely because those three dimensions are concrete enough to operationalise where more comprehensive taxonomies aren&rsquo;t. And there hadn&rsquo;t been much research tracking how professional developers&rsquo; sense of these three dimensions shifted with sustained use of AI, which felt worth examining more closely.</p>
+<h2 id="productivity-went-up---and-stayed-up">Productivity went up - and stayed up</h2>
+<p>Productivity was the good news, and it stayed good news over the six-month study period. It was remarkably stable - 84% of participants reported AI improving their productivity at both timepoints. More than three-quarters of matched participants gave the exact same positive rating both times. Whatever else was going on, people felt like they were getting more done.</p>
+<figure class="center"><img src="http://annievella.com/images/productivity-evolution-q1-q2.png"
+    alt="Stacked bar chart of perceived impact on productivity at Q1 and Q2: at both timepoints around 84% reported productivity somewhat or much better, roughly 15% about the same, and 1% worse (only at Q1)."><figcaption>
+      <p>Perceived productivity impact, Q1 to Q2 (all respondents at each timepoint). 84% reported an improvement both times.</p>
+    </figcaption>
+</figure>
+
+<h2 id="developer-experience-drifted-the-other-way">Developer experience drifted the other way</h2>
+<p>Developer experience is the more complicated half of the story. Most engineers were still doing fine but a growing minority weren&rsquo;t, and the positive group appeared to be thinning out over time. To see how it was playing out, I sorted the matched participants into three groups based on how they felt AI had affected those three DevEx dimensions: a <em>positive</em> cohort who felt it had improved all three, a <em>negative</em> cohort who felt it had worsened at least one, and a <em>mixed</em> group in between - nothing worse, but not everything better either. Then I tracked how people moved between them over the six months.</p>
+<p>The negative cohort nearly doubled, from <strong>14% to 27%</strong>, and the positive cohort barely held. Only 37% of those who started there were still fully positive by the end. Engineers are feeling like they&rsquo;re getting more done but are feeling worse doing it.</p>
+<p>The negative cohort was quite sticky, too. Not one person who started in it climbed all the way back to fully positive; the best any of them managed was to claw back to neutral. But basically, once the experience soured, it tended to stay that way.</p>
+<figure class="center"><img src="http://annievella.com/images/developer-experience-evolution-q1-q2.png"
+    alt="Stacked bar chart of perceived impact on the three developer experience dimensions at Q1 and Q2. Feedback loops: 4% worse and 62% better at Q1, 1% worse and 69% better at Q2. Cognitive load: 7% worse and 66% better at Q1, 9% worse and 54% better at Q2. Flow state: 10% worse and 53% better at Q1, 21% worse and 46% better at Q2."><figcaption>
+      <p>Perceived impact on each developer experience dimension, Q1 to Q2 (all respondents at each timepoint). Feedback loops even improved; flow state slid the hardest (10% to 21% worse).</p>
+    </figcaption>
+</figure>
+
+<p>When viewed next to the chart above, you can see how productivity and developer experience appear to be diverging. Output is holding high and steady while the experience underneath begins to erode.</p>
+<h2 id="the-coupling-we-took-for-granted">The coupling we took for granted</h2>
+<p>For a long time, research has told us that developer experience and productivity are related - that they travel together. That&rsquo;s the core premise behind the DevEx framework, and the reason leaders have been told to focus on improving developer experience: improve that, and productivity will follow.</p>
+<p>There&rsquo;s something quite humane in that premise. It meant caring about engineers&rsquo; day-to-day lives wasn&rsquo;t a trade-off against output. It <em>was</em> the output strategy. You didn&rsquo;t have to choose between treating people well and getting results. The incentives lined up. It&rsquo;s <a href="https://deming.org/explore/fourteen-points/">Deming&rsquo;s 12th point</a> made real, a call to <em>&ldquo;remove barriers that rob people in management and in engineering of their right to pride of workmanship.&rdquo;</em></p>
+<p>Unfortunately, this is exactly the coupling my data suggests may be breaking once AI enters the picture.</p>
+<p>Interestingly, whether they move together depends on how you look at it. Compare engineers at a single point in time and they do. The ones with better developer experience also feel more productive. But follow the same engineer over the six months, and a dip in their experience wasn&rsquo;t matched by a dip in their productivity. The correlation between change in flow state and change in productivity came out at 0.02, about as close to zero as it gets. And that&rsquo;s the paradox: over time, with AI, developer experience and productivity appear to stop moving together.</p>
+<p><a href="https://www.linkedin.com/in/brianhouck/">Brian Houck</a>, a Distinguished Scientist at <a href="https://getdx.com">DX</a> who researches developer experience and co-authored the <a href="https://queue.acm.org/detail.cfm?id=3454124">SPACE framework</a>, thought the decoupling interesting enough to <a href="https://newsletter.getdx.com/p/five-studies-that-are-changing-how">write about it</a> and talk about it on the <a href="https://youtu.be/lJTmtKb36vo">DX podcast</a>. Having someone of his calibre take my finding that seriously is something I&rsquo;m super excited about.</p>
+<h2 id="what-this-means-for-engineers">What this means for engineers</h2>
+<p>If experience and productivity really are decoupling with AI, will leaders still be able to justify caring about developer experience? I really hope so, but the case for investing in it was always that it paid off in output, and that&rsquo;s exactly what&rsquo;s now up for debate. In fact, we&rsquo;re already seeing attention (and investment) shift toward <em>agent</em> experience: engineering better context and harnesses so the models themselves work more effectively. And if the returns now come from improving how the agents work rather than how the engineers feel, what happens to the human engineers?</p>
+<p>Well, when their experience keeps eroding but their output doesn&rsquo;t, nothing forces the problem to the surface. The dashboards look fine, but the people aren&rsquo;t. But that hidden strain doesn&rsquo;t just vanish. Where does it go, you might ask. You know where. Burnout and turnover, that&rsquo;s where. It&rsquo;s why Steve Yegge calls it the <a href="https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163">AI vampire</a> - the tool that makes you far more productive while draining you dry.</p>
+<h2 id="three-dimensions-pulling-in-different-directions">Three dimensions, pulling in different directions</h2>
+<p>So what&rsquo;s actually driving the decline? Developer experience didn&rsquo;t deteriorate evenly across the three dimensions - one of them took the brunt of the hit while another actually improved.</p>
+<figure class="center"><img src="http://annievella.com/images/developer-experience-dimensions-q1-q2.png"
+    alt="Grouped bar chart showing, for each developer experience dimension separately, the percentage of matched participants who rated it worse at Q1 versus Q2: flow state 7% to 20%, cognitive load 6% to 9%, feedback loops 3% to 1%."><figcaption>
+      <p>Share rating each dimension worse, Q1 to Q2 (matched cohort, the same engineers at both timepoints). Flow state is the clear outlier.</p>
+    </figcaption>
+</figure>
+
+<p><strong>Flow state took the steepest fall.</strong> The share rating it worse nearly tripled over the six months, from 7% to 20%, by far the biggest move of the three. One participant named it exactly: <em>&ldquo;less &lsquo;in the zone&rsquo; time, because while code is being produced, I now find myself switching context more often.&rdquo;</em></p>
+<p><strong>Cognitive load got worse</strong> too, though far more gently. Those rating it worse crept up from 6% to 9%. This is the part the demos don&rsquo;t show you: the constant evaluation, the &ldquo;almost right but not quite&rdquo; suggestion that costs more to check and fix than it would have to just write yourself.</p>
+<p><strong>Feedback loops got better.</strong> This was the only dimension that improved over the study period. Makes sense too - now you can ask your AI coding assistant for help and have a working solution back in seconds. Gone are the days of hunting around on Stack Overflow for hours. One participant described work that would have taken three days getting done in three hours.</p>
+<p>I do wonder if there might be a connection between feedback loops improving and flow state deteriorating. Think about it. AI now hands you a response every few seconds, but every response is a whole bunch of text and a little decision: read it, judge it, accept it or fix it, then prompt again. It&rsquo;s a context switch, over and over, and it&rsquo;s hard to stay in the zone when you&rsquo;re switching gears that often. One participant put it quite succinctly: <em>&ldquo;This does break the flow, but still speeds up the overall process.&rdquo;</em> You feel faster, but more interrupted, both true at once.</p>
+<p>Something else moved over those six months too. At the first timepoint, the dimension that lined up most closely with feeling productive was flow state. By the second timepoint, it was the speed of the feedback loop, and flow state had almost dropped out of the picture. In other words, as AI took over more of the writing, what made engineers feel productive seems to have changed: at the start it went with being absorbed in a hard problem, and by the end it went with how fast the code came back.</p>
+<h2 id="counterfeit-flow">Counterfeit flow</h2>
+<p>Since flow state took the hardest hit, it&rsquo;s worth asking why. Orchestrating agents, or supervisory engineering work, can feel <em>great</em>: you&rsquo;re moving faster, reaching further and achieving more with less. There&rsquo;s almost a nice rhythm to it; the problem is that that feeling and real flow aren&rsquo;t necessarily the same thing.</p>
+<p>In his <a href="https://youtu.be/SUZwYV5JYBM">keynote</a> at <a href="https://webdirections.org/ai-engineer/">AI Engineer</a> in Melbourne, right before mine, <a href="https://jeremy.fast.ai/">Jeremy Howard</a> described what that feeling might really be. He pointed out that <a href="https://en.wikipedia.org/wiki/Mihaly_Csikszentmihalyi">Mihály Csikszentmihalyi</a>, the psychologist who gave us the idea of flow, also described a counterfeit cousin of it: <a href="https://alearningaday.blog/2014/04/21/prof-mihaly-csikszentmihalyi-on-flow-intrinsic-motivation-and-happiness/">junk flow</a>, or dark flow. It can look a lot like the real thing, but it&rsquo;s the opposite of good for you: you get hooked on a superficial version that feels like flow at first, then slowly turns into something you&rsquo;re addicted to rather than something that helps you grow. And it&rsquo;s no accident - casinos are designed to manufacture exactly this, hooking people through what&rsquo;s called an <em>illusion of control</em>.</p>
+<p>So what separates the two? Real flow is when a genuine challenge stretches your skills and you grow from it. Junk flow just keeps you pulling the lever. Prompting an AI can feel a lot like pulling that lever - sometimes it nails it, sometimes it hands you nonsense - but you keep going, chasing the next good result, even when you know you should probably just stop and do it by hand. The dopamine&rsquo;s more in the anticipation than the payoff. We&rsquo;ve all been there.</p>
+<h2 id="output-is-one-thing-the-craft-is-another">Output is one thing, the craft is another</h2>
+<p>At AI Engineer, I happened to meet <a href="https://en.wikipedia.org/wiki/Nicholas_Gruen">Nicholas Gruen</a>, who spoke to me about a philosopher called <a href="https://en.wikipedia.org/wiki/Alasdair_MacIntyre">Alasdair MacIntyre</a>. In particular, what Nicholas thought I might find interesting was MacIntyre&rsquo;s framing of the <em>internal goods</em> of a practice - the skill, the mastery, the satisfaction you can only get by doing the thing itself - and <em>external goods</em> - money, status, output. MacIntyre warned that the external goods, the ones institutions trade in, have a habit of crowding out the internal ones. I&rsquo;m really grateful to Nicholas for the introduction to his work - it gave me a much richer way to think about what I&rsquo;d been seeing.</p>
+<p>I think that concept also fits my data quite nicely. With AI, the external good, productivity, holds steady or climbs. The internal goods - flow, mastery, the joy of the craft - erode. AI is <em>brilliant</em> for the external goods and potentially <em>corrosive</em> for the internal ones.</p>
+<p>How you feel about AI has a lot to do with which of these goods you&rsquo;re chasing. If it&rsquo;s the external goods you&rsquo;re after, this technology is close to a superpower - more productivity, more output. But if you&rsquo;re more interested in the internal goods - the figuring-out, the hours inside a hard problem - then it can really feel like a loss: it takes the part you loved and hands it to a machine, and what&rsquo;s left is supervision and accountability. Yes, the output still arrives, faster than ever, but the bit that made it <em>yours</em> has been delegated away, and the pride and satisfaction of having done it yourself are gone. It&rsquo;s this loss I was afraid of when I wrote about the <a href="https://annievella.com/posts/the-software-engineering-identity-crisis/">software engineering identity crisis</a> last year, and now it&rsquo;s starting to show up in the data.</p>
+<h2 id="designing-what-comes-next">Designing what comes next</h2>
+<p>So what do we do with a finding like this? The instinct is to fix it, to stop the bleeding with better tooling that supports developer experience in this new world.</p>
+<p>But if the craft is genuinely relocating - if the making is moving into orchestration - then the job is to define the new role and design it to be worth doing. That&rsquo;s the argument behind a keynote I gave last month at that same AI Engineer conference, <a href="https://annievella.com/files/web-directions-ai-engineer-melbourne-june-2026-craft-in-the-time-of-agents.pdf">Craft in the Time of Agents</a>: craft isn&rsquo;t dying, it&rsquo;s moving. And if the system is producing more output while eroding the joy and lived experience of being a software engineer, that&rsquo;s a <em>system-design</em> problem, not a personal failing, and it&rsquo;s ours to solve, deliberately, by building the roles people actually want to grow into.</p>
+<p>Which leads me to a bigger question. Do the frameworks we&rsquo;ve used to talk about developer experience in the before-times still hold with AI in the mix? Maybe they need rethinking, or maybe they need replacing altogether. They were built for a world where a developer&rsquo;s work revolved around the production of working code. Flow meant being deep in the problem-solving, and often that meant building it yourself. Cognitive load meant holding a mental model of the solution in your own head, and feedback loops meant how quickly you could unblock yourself and get on to the next piece.</p>
+<p>When code production is increasingly a machine&rsquo;s job, and the human work is more about specification, judgement and verification, those constructs are measuring a job that&rsquo;s materially different. Some of what I found - the supervisory engineering work, the productivity-experience paradox, the way &ldquo;feeling productive&rdquo; detached from flow - doesn&rsquo;t sit neatly inside the frameworks we have.</p>
+<p>Others are starting to wonder the same thing. Thoughtworks&rsquo; <a href="https://www.thoughtworks.com/profiles/k/ken-mugrage">Ken Mugrage</a> recently asked whether <a href="https://www.thoughtworks.com/en-gb/insights/blog/continuous-delivery/is-developer-experience-dead">developer experience is dead</a>, and landed where I have: not dead, but overdue for a rethink.</p>
+<p>I think developer experience is starting to mean something different, and the ways we frame and measure it need to catch up.</p>
+<p>In November I&rsquo;m heading to another <a href="https://shonan.nii.ac.jp/seminars/257/">Shonan meeting in Japan</a> built around exactly this, an academic gathering with the working title &ldquo;Crafting the Future of Developer Experience&rdquo;, and some of the people in that room helped build the frameworks we&rsquo;re now questioning. I know I don&rsquo;t have all the answers, but those are definitely the conversations I want to be in.</p>
+<hr>
+<p><em>This post draws on my Masters research at the University of Auckland, supervised by <a href="https://profiles.auckland.ac.nz/k-blincoe">Kelly Blincoe</a>. A <a href="https://arxiv.org/abs/2605.23135">preprint paper</a> covers the first two of the study&rsquo;s research questions: how does AI shift software engineers&rsquo; perceived focus across development tasks, which I wrote about in <a href="https://annievella.com/posts/the-middle-loop/">The Middle Loop</a>, and how does AI impact software engineers&rsquo; perceptions of their developer experience and productivity, which is this post. There&rsquo;s more to come on the study&rsquo;s other two questions - what AI is doing to how engineers grow their skills and confidence, and whether prompt engineering is (or was) becoming a core skill in its own right.</em></p>]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=The Productivity-Experience Paradox">Reply to this post by email</a>]]></description>
+    </item>
     <item>
       <title>The Middle Loop</title>
       <link>http://annievella.com/posts/the-middle-loop/</link>
@@ -1778,196 +1860,6 @@
 <li><a href="https://annievella.com/quantum-computing">Quantum Computing</a></li>
 </ul>
 ]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=Resources">Reply to this post by email</a>]]></description>
-    </item>
-    <item>
-      <title>Speaking</title>
-      <link>http://annievella.com/speaking/</link>
-      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
-      <guid>http://annievella.com/speaking/</guid>
-      <description>
-      
-      
-      <![CDATA[<p>I&rsquo;ve always loved sharing my knowledge and experiences with others, but I didn&rsquo;t always have the courage to step onto a stage. In 2023, I decided to face my fear of public speaking head-on, embracing the mantra &ldquo;practice makes better&rdquo;. Since then, I&rsquo;ve jumped at every opportunity to talk about topics I&rsquo;m passionate about, and it&rsquo;s been an incredibly rewarding journey. Engaging with diverse minds at conferences and meetups has been especially fulfilling.</p>
-<p>Below is a list of the talks, panels, and podcasts I&rsquo;ve participated in, along with the invitation-only research gatherings I&rsquo;ve taken part in.</p>
-<p>If you&rsquo;d like me to speak at your event, please feel free to <a href="mailto:annie.luxton@gmail.com">get in touch</a>. I&rsquo;d love to connect!</p>
-<h2 id="upcoming">Upcoming</h2>
-<ul>
-<li>
-<p>Keynote at <a href="https://www.agenticbuild.day/">Agentic Build Day</a> in Auckland, NZ, on October 22, 2026</p>
-</li>
-<li>
-<p>Invited participant: <a href="https://shonan.nii.ac.jp/seminars/257/">Shonan Meeting 257 - Crafting the Future of Developer Experience</a> hosted by NII at the Shonan Village Center in Shonan, Japan, on November 9-12, 2026</p>
-</li>
-<li>
-<p>Speaking at <a href="https://yowcon.com">YOW!</a> in Melbourne (December 2-4) and Brisbane (December 7-9), Australia, in 2026</p>
-</li>
-</ul>
-<h2 id="2026">2026</h2>
-<h3 id="talks">Talks</h3>
-<ul>
-<li>
-<p>Guest speaker: <a href="https://annievella.com/files/google-devex-hcp-july-2026-leaving-the-inner-loop.pdf">Leaving the Inner Loop</a> for Google&rsquo;s Human-Centered Programming (HCP) DevEx meeting, remotely, on July 18</p>
-</li>
-<li>
-<p><a href="https://annievella.com/files/tech-leading-ladies-june-2026-ai-adoption-is-a-deeply-personal-journey.pdf">AI Adoption is a Deeply Personal Journey</a> for <a href="https://techleadingladies.com">Tech Leading Ladies</a>, remotely, on June 23</p>
-</li>
-<li>
-<p>Keynote: <a href="https://annievella.com/files/web-directions-ai-engineer-melbourne-june-2026-craft-in-the-time-of-agents.pdf">Craft in the Time of Agents</a> at <a href="https://webdirections.org/ai-engineer/">Web Directions AI Engineer</a> in Melbourne, Australia, on June 3-4</p>
-</li>
-<li>
-<p>Guest speaker: <a href="https://annievella.com/files/air-new-zealand-auckland-april-2026-welcome-to-explore-a-stan.pdf">Welcome to Explore-a-stan!</a> for the engineering community at Air New Zealand in Auckland, NZ, on April 17</p>
-</li>
-<li>
-<p><a href="https://annievella.com/files/it-revolution-enterprise-ai-summit-san-jose-april-2026-the-specialisation-trap.pdf">The Specialisation Trap</a> - <a href="https://www.youtube.com/watch?v=OoumpAZN6YY">Recording</a> - at <a href="https://itrevolution.com/product/enterprise-ai-summit/">IT Revolution Enterprise AI Summit</a> in San Jose, California, USA, on April 10</p>
-</li>
-<li>
-<p><a href="https://annievella.com/files/prompt-poets-society-auckland-february-2026-the-reshaping-of-software-engineering-in-the-age-of-ai.pdf">The Reshaping of Software Engineering in the Age of AI</a> at <a href="https://www.meetup.com/prompt-poets-society-ai-vibe-coding-auckland/">Prompt Poets Society</a> in Auckland, NZ, on February 17</p>
-</li>
-</ul>
-<h3 id="panels">Panels</h3>
-<ul>
-<li>
-<p>Industry Panel on how AI is shaping the industry and how universities can reshape their teaching for better industry preparedness, organised by <a href="https://softwareinnovation.nz">Software Innovation New Zealand</a> at the <a href="https://www.canterbury.ac.nz/">University of Canterbury</a> in Christchurch, NZ (joining remotely), on June 22</p>
-</li>
-<li>
-<p>From Code to Capability: The New Role of Engineers, hosted by Deloitte at <a href="https://www.techweek.co.nz">Techweek</a> in <a href="https://events.humanitix.com/from-code-to-capability-the-new-role-of-engineers">Auckland</a> (May 21) and <a href="https://events.humanitix.com/from-code-to-capability-the-new-role-of-engineers-wellington">Wellington</a> (May 22), NZ</p>
-</li>
-</ul>
-<h3 id="gatherings">Gatherings</h3>
-<ul>
-<li>
-<p>Invited participant: Copenhagen Symposium on Human-Centered AI Adoption in Software Engineering, convened by <a href="https://www.danielrusso.org/">Daniel Russo</a> at Aalborg University Copenhagen in Copenhagen, Denmark, on May 6-8 - see the <a href="https://www.danielrusso.org/copenhagen-manifesto/">Copenhagen Manifesto</a></p>
-</li>
-<li>
-<p>Invited participant: <a href="https://www.thoughtworks.com/about-us/events/the-future-of-software-development">The Future of Software Development Retreat</a> hosted by <a href="https://martinfowler.com/">Martin Fowler</a> and Thoughtworks in Deer Valley, Utah, USA, on February 1-3 - reflections in <a href="https://annievella.com/posts/finding-comfort-in-the-uncertainty/">Finding Comfort in the Uncertainty</a></p>
-</li>
-</ul>
-<h2 id="2025">2025</h2>
-<h3 id="talks-1">Talks</h3>
-<ul>
-<li>
-<p>Joint talk with <a href="https://www.linkedin.com/in/jvella/">Jason Vella</a>: <a href="https://annievella.com/files/junior-dev-auckland-meet-august-2025-software-engineering-the-ai-reboot.pdf">Software Engineering: The AI Reboot</a> at <a href="https://www.meetup.com/juniordev-auckland/events/310074767/">JuniorDev Auckland Meet</a> in Auckland, NZ, on August 6</p>
-</li>
-<li>
-<p>Opening keynote: <a href="https://annievella.com/files/yow-tech-leaders-summit-australia-june-2025-duality-of-ai-in-software-engineering.pdf">The Duality of AI in Software Engineering</a> at <a href="https://yowcon.com/tech-leaders-melbourne-2025/sessions/3662/the-duality-of-ai-in-software-engineering">YOW! Tech Leaders Summit</a> in Brisbane (June 17), Sydney (June 18), and Melbourne (June 19), Australia</p>
-</li>
-<li>
-<p><a href="https://annievella.com/files/ai-native-devcon-webinar-may-2025-am-i-still-a-software-engineer-if-i-don't-write-the-code.pdf">Am I Still a Software Engineer If I Don&rsquo;t Write the Code?</a> - <a href="https://youtu.be/53yziql9h-U?si=2RJpT5Ve05fhHVdt">Recording</a> - at <a href="https://ainativedev.io/devcon">AI Native DevCon</a> remotely on May 13</p>
-</li>
-<li>
-<p>Closing keynote: <a href="https://annievella.com/files/devops-summit-melbourne-march-2025-the-future-engineer.pdf">The Future Engineer: Redefining Software Engineering in the Age of AI</a> at <a href="https://forefrontevents.co/event/devops-summit-vic/">DevOps Summit Victoria</a> in Melbourne, Australia, on March 13</p>
-</li>
-</ul>
-<h3 id="podcasts">Podcasts</h3>
-<ul>
-<li>
-<p><a href="https://www.aviator.co/podcast/from-software-engineers-to-agent-managers">From Software Engineers to Agent Managers</a> recorded with <a href="https://www.linkedin.com/in/ankitjaindce/">Ankit Jain</a> for <a href="https://www.aviator.co/podcast">The Hangar DX Podcast from Aviator</a> remotely, on November 13</p>
-</li>
-<li>
-<p><a href="https://techleadjournal.dev/episodes/223/">#223 - The Software Engineer Identity Crisis in the AI-Driven Future - Annie Vella</a> recorded with <a href="https://www.linkedin.com/in/henry-suryawirawan/">Henry Suryawirawan</a> for <a href="https://techleadjournal.dev">The Tech Lead Journal</a> remotely, on July 7</p>
-</li>
-<li>
-<p><a href="https://youtu.be/GI2ywMl2gQk?si=pJEvUAQhxU-Bq20E">From Builder to Orchestrator - Confronting the Software Engineer&rsquo;s Identity Crisis</a> recorded with <a href="https://www.linkedin.com/in/simonmaple/">Simon Maple</a> for <a href="https://ainativedev.io/podcast">AI Native Dev Podcast</a> remotely, on April 22</p>
-</li>
-</ul>
-<h3 id="panels-1">Panels</h3>
-<ul>
-<li>
-<p>Microsoft Executive Breakfast Panel on The Impact of AI on Work in Auckland, NZ, on November 24</p>
-</li>
-<li>
-<p><a href="https://www.meetup.com/ba-career-meetup-group/events/310627929/">Auckland Panel Event: Tech Hiring, Behind-the-Scenes Insights</a> in Auckland, NZ, on September 11</p>
-</li>
-</ul>
-<h3 id="roundtables">Roundtables</h3>
-<ul>
-<li>Co-hosting: <a href="https://annievella.com/files/lead-dev-march-2025-assessing-the-impact-of-ai-coding-assistants-roundtable.pdf">Assessing the Impact of AI Coding Assistants</a> with <a href="https://leaddev.com/community/scott-carey">Scott Carey</a> at <a href="https://www.leaddev.com">LeadDev</a> remotely, on March 5</li>
-</ul>
-<h3 id="gatherings-1">Gatherings</h3>
-<ul>
-<li>Invited participant: <a href="https://shonan.nii.ac.jp/seminars/222/">Shonan Meeting 222 - The Future of Development Environments with AI Foundation Models</a> hosted by NII at the Shonan Village Center in Shonan, Japan, on October 6-9</li>
-</ul>
-<h2 id="2024">2024</h2>
-<h3 id="talks-2">Talks</h3>
-<ul>
-<li>
-<p><a href="https://annievella.com/files/ada-lovelace-day-auckland-october-2024-quantum-computing-101.pdf">Quantum Computing 101: An Easy Introduction to a Hard Topic</a> at <a href="https://stemwana.nz/stem-wana-x-ndy-ada-lovelace-day-2024/">Ada Lovelace Day</a> in Auckland, NZ, on October 9</p>
-</li>
-<li>
-<p>The Biggest Lessons I’ve Learned as an Engineering Leader at <a href="https://lu.ma/cpr2xlfy">The Movac Engineering Jam</a> in Auckland, NZ, on September 17</p>
-</li>
-<li>
-<p><a href="https://annievella.com/files/staffplus-london-june-2024-deming%E2%80%99s-wisdom-for-staff-plus-engineers.pdf">Deming’s Wisdom for Staff+ Engineers: A Modern Take on Timeless Principles</a> - <a href="https://leaddev.com/culture/demings-wisdom-for-staff-engineers-a-modern-take-on-timeless-principles">Information</a> &amp; <a href="https://youtu.be/-QTI5U5TRbQ?si=xNP8Csk5TRp1qS9k">Recording</a> - at <a href="https://leaddev.com/events/staffplus-london-2024">StaffPlus London</a> in London, UK, on June 11</p>
-</li>
-<li>
-<p><a href="https://annievella.com/files/code-camp-wellington-april-2024-lessons-in-technical-leadership.pdf">Staff Engineering: A Technical Alternative to Management</a> at <a href="https://www.codecampwellington.nz">Code Camp Wellington</a> in Wellington, NZ, on April 13</p>
-</li>
-</ul>
-<h3 id="podcasts-1">Podcasts</h3>
-<ul>
-<li>
-<p><a href="https://open.spotify.com/episode/45J4XmqB9pj60H79nThgqC?si=b5c069df8e9a4823">Systems Thinking, AI, and Innovation with Annie Vella</a> recorded with <a href="https://www.linkedin.com/in/jakubjurkiewicz/">Jakub Jurkiewicz</a> for <a href="https://open.spotify.com/show/1vfos26hvJkCuhDZwl5MRv?si=f1bb69a3b43c47bd">Tech Waka Podcast</a> in Auckland, NZ, on November 26</p>
-</li>
-<li>
-<p><a href="https://youtu.be/ZIQu5OKvN30?si=uF9JrNhFlD4X9ho9">S1E3 - Distinguished Engineer Annie Vella’s wild career journey and finding joy as a reluctant manager</a> recorded with <a href="https://www.linkedin.com/in/scott-carey-262b0225/">Scott Carey</a> for <a href="https://www.youtube.com/playlist?list=PLBzScQzZ83I-s27CEsc9c1hbTy9fbdmEH">LeadDev PriorityZero Podcast</a> in London, UK, on June 11</p>
-</li>
-</ul>
-<h3 id="panels-2">Panels</h3>
-<ul>
-<li>
-<p>DevFest AI Panel in Auckland, NZ, on November 10</p>
-</li>
-<li>
-<p><a href="https://techwomen.nz/event/ada-lovelace-day-2024-celebrating-female-tech-leaders/">Ada Lovelace Day 2024 – Celebrating Female Tech Leaders Panel</a> in Auckland, NZ, on October 8</p>
-</li>
-</ul>
-<h2 id="2023">2023</h2>
-<h3 id="talks-3">Talks</h3>
-<ul>
-<li>
-<p><a href="https://annievella.com/files/devfest-auckland-november-2023-staff-engineering.pdf">Staff Engineering: A Technical Alternative to Management</a> at <a href="https://devfest-auckland.web.app">DevFest Auckland</a> in Auckland, NZ, on November 12</p>
-</li>
-<li>
-<p><a href="https://annievella.com/files/code-camp-wellington-april-2023-staff-engineering.pdf">Staff Engineering: A Technical Alternative to Management</a> at <a href="https://www.codecampwellington.nz/2023/">Code Camp Wellington</a> in Wellington, NZ, on April 15</p>
-</li>
-</ul>
-<h3 id="panels-3">Panels</h3>
-<ul>
-<li>
-<p>TechWomen NZ and CyberCX Celebration Panel in Auckland, NZ, on December 5</p>
-</li>
-<li>
-<p>DevFest Career Panel in Auckland, NZ, on November 12</p>
-</li>
-<li>
-<p>Shadowtech Panel on a Day in the Life of an Engineer at Westpac, in Auckland, NZ, on September 14</p>
-</li>
-<li>
-<p>Movac Panel on Building Diverse and High-Performance Engineering Cultures in Auckland, NZ, on June 21</p>
-</li>
-<li>
-<p>DevOps Summit Panel on Discussing the Capabilities of a World Class DevOps Strategy in Auckland, NZ, on June 14</p>
-</li>
-<li>
-<p>Infosys International Women’s Day Panel in Auckland, NZ, on March 8</p>
-</li>
-</ul>
-<h2 id="2022">2022</h2>
-<h3 id="panels-4">Panels</h3>
-<ul>
-<li><a href="https://stemwana.nz/real-stories-from-real-people-techweek-2022/">Real Stories from Real People</a> organised by <a href="https://stemwana.nz">STEM Wana Trust</a> at <a href="https://www.techweek.co.nz">Techweek</a> in Tauranga, NZ, on May 20</li>
-</ul>
-<h2 id="2021">2021</h2>
-<h3 id="podcasts-2">Podcasts</h3>
-<ul>
-<li>
-<p><a href="https://youtu.be/fwYD9bqG9lE?si=7RaLQMgGv3wbFcAr">From Software Engineer to Engineering Manager with Annie Vella</a> recorded with <a href="https://www.linkedin.com/in/gergelyorosz/">Gergely Orosz</a> for <a href="https://www.pragmaticengineer.com">The Pragmatic Engineer</a> remotely, on January 21</p>
-</li>
-<li>
-<p><a href="https://techleadjournal.dev/episodes/30/">#30 - The Engineering Career Dilemma &amp; Growing Through Self-Reflection - Annie Vella</a> recorded with <a href="https://www.linkedin.com/in/henry-suryawirawan/">Henry Suryawirawan</a> for <a href="https://techleadjournal.dev">The Tech Lead Journal</a> remotely, on February 11</p>
-</li>
-</ul>
-]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=Speaking">Reply to this post by email</a>]]></description>
     </item>
   </channel>
 </rss>
