@@ -402,89 +402,6 @@
 ]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=2025 In Review: A Year of Immersion">Reply to this post by email</a>]]></description>
     </item>
     <item>
-      <title>Publications</title>
-      <link>http://annievella.com/publications/</link>
-      <pubDate>Mon, 29 Dec 2025 00:00:00 +0000</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
-      <guid>http://annievella.com/publications/</guid>
-      <description>
-      
-      
-      <![CDATA[<p>Writing has never come naturally to me - I was always a science and maths kid through and through. But many moons ago, my dad convinced me to take English in my final year of high school with words that have stuck with me ever since: <em>&ldquo;There&rsquo;s no point having all that knowledge if you can&rsquo;t communicate it&rdquo;</em>. Through blogging and speaking, I&rsquo;ve been working on that, and slowly but surely, I&rsquo;m being asked to contribute to publications beyond my own site.</p>
-<p>Below is a list of publications I&rsquo;ve contributed to, along with places where my work has been quoted, cited, or featured.</p>
-<p>If you&rsquo;d like me to write for or collaborate on your publication, please feel free to <a href="mailto:annie.luxton@gmail.com">get in touch</a>. I&rsquo;d love to connect!</p>
-<h2 id="2026">2026</h2>
-<h3 id="papers">Papers</h3>
-<ul>
-<li><a href="https://arxiv.org/abs/2605.23135">The Impact of AI Coding Assistants on Software Engineering: A Longitudinal Study</a> (<a href="https://arxiv.org/pdf/2605.23135">PDF</a>) co-authored with <a href="https://orcid.org/0000-0003-4092-9706">Kelly Blincoe</a>, on <a href="https://arxiv.org">arXiv</a> on May 22</li>
-</ul>
-<h3 id="articles">Articles</h3>
-<ul>
-<li><a href="https://leaddev.com/career-development/the-reality-of-being-a-distinguished-engineer">The Reality of Being a Distinguished Engineer</a> published on <a href="https://leaddev.com">LeadDev</a> on March 31</li>
-</ul>
-<h3 id="featured-in">Featured In</h3>
-<ul>
-<li>
-<p><a href="https://margaretstorey.com/blog/2026/06/23/three-threats-to-meaning/">Three Debts, Three Threats to Meaning</a> by Margaret-Anne Storey, linking to my work on <a href="https://annievella.com/posts/the-middle-loop/">supervisory engineering</a>, on <a href="https://margaretstorey.com">margaretstorey.com</a> on June 23</p>
-</li>
-<li>
-<p><a href="https://www.thoughtworks.com/insights/blog/agile-engineering-practices/supervisory-engineering-orchestrating-software-middle-loop">Supervisory engineering: Orchestrating software&rsquo;s &lsquo;middle loop&rsquo;</a> by Richard Gall, citing my <a href="https://arxiv.org/abs/2605.23135">longitudinal study</a> and its finding on supervisory engineering, on <a href="https://www.thoughtworks.com">Thoughtworks</a> on June 3</p>
-</li>
-<li>
-<p><a href="https://businessdesk.co.nz/article/technology/ai-capability-leap-80-of-software-developers-now-using-it">AI &lsquo;capability leap&rsquo;: 80% of software developers now using it</a> by Rob O&rsquo;Neill, quoting my research on AI&rsquo;s impact on software engineering, in <a href="https://businessdesk.co.nz">BusinessDesk</a> on May 26</p>
-</li>
-<li>
-<p><a href="https://curlewis.co.nz/posts/calibrating-on-capability-not-activity/">Calibrating on Capability, Not Activity</a> by David Curlewis, citing my <a href="https://annievella.com/posts/the-middle-loop/">Middle Loop</a> framing and my longitudinal study of software engineers, on <a href="https://curlewis.co.nz">curlewis.co.nz</a> on May 7</p>
-</li>
-<li>
-<p><a href="https://leaddev.com/ai/managing-the-ai-driven-developer-identity-crisis">Managing the AI-driven developer identity crisis</a> by Kari McMahon, quoting me on the <a href="https://annievella.com/posts/the-software-engineering-identity-crisis/">software engineering identity crisis</a>, on <a href="https://leaddev.com">LeadDev</a> on March 23</p>
-</li>
-<li>
-<p><a href="https://www.honeycomb.io/blog/production-is-where-the-rigor-goes">Production Is Where the Rigor Goes</a> by Charity Majors, quoting my <a href="https://annievella.com/posts/finding-comfort-in-the-uncertainty/">reflections</a> from the Thoughtworks summit, on <a href="https://www.honeycomb.io">Honeycomb</a> on March 18</p>
-</li>
-<li>
-<p><a href="https://martinfowler.com/fragments/2026-03-16.html">Fragments: March 16</a> by Martin Fowler, citing my <a href="https://annievella.com/posts/the-middle-loop/">Middle Loop</a> framing and supervisory engineering work, on <a href="https://martinfowler.com">martinfowler.com</a> on March 16</p>
-</li>
-<li>
-<p><a href="https://www.businessinsider.com/ai-creating-identity-crisis-for-software-engineers-coders-2026-3">AI Is Creating an Identity Crisis for Software Engineers</a> by Tim Paradis, interviewing me on the <a href="https://annievella.com/posts/the-software-engineering-identity-crisis/">software engineering identity crisis</a>, in <a href="https://www.businessinsider.com">Business Insider</a> on March 6</p>
-</li>
-<li>
-<p><a href="https://martinfowler.com/fragments/2026-02-18.html">Fragments: February 18</a> by Martin Fowler, quoting my <a href="https://annievella.com/posts/finding-comfort-in-the-uncertainty/">takeaways</a> from the Thoughtworks summit, on <a href="https://martinfowler.com">martinfowler.com</a> on February 18</p>
-</li>
-</ul>
-<h3 id="endorsements">Endorsements</h3>
-<ul>
-<li>
-<p><a href="https://www.honeycomb.io/observability-engineering-oreilly-book">Observability Engineering, 2nd Edition</a> by Charity Majors, Liz Fong-Jones, George Miranda and Austin Parker</p>
-</li>
-<li>
-<p><a href="https://lawsofsoftwareengineering.com/book/">Laws of Software Engineering</a> by Dr. Milan Milanović</p>
-</li>
-</ul>
-<h2 id="2025">2025</h2>
-<h3 id="papers-1">Papers</h3>
-<ul>
-<li><a href="https://dl.acm.org/doi/10.1145/3715003">The Future of AI-Driven Software Engineering</a> (<a href="https://annievella.com/files/acm-transactions-on-software-engineering-and-methodology-2025-the-future-of-ai-driven-software-engineering.pdf">PDF</a>) co-authored with <a href="https://orcid.org/0000-0001-5885-9297">Valerio Terragni</a>, <a href="https://orcid.org/0000-0001-9654-5678">Partha Roop</a> and <a href="https://orcid.org/0000-0003-4092-9706">Kelly Blincoe</a>, published in <a href="https://dl.acm.org/toc/tosem/2025/34/5">ACM Transactions on Software Engineering and Methodology</a> on May 26</li>
-</ul>
-<h3 id="articles-1">Articles</h3>
-<ul>
-<li><a href="https://techwomen.nz/2025/11/10/ai-and-the-new-boundaries-of-technical-work/">AI and the New Boundaries of Technical Work</a> published on <a href="https://techwomen.nz">TechWomen NZ</a> on November 10</li>
-</ul>
-<h3 id="contributions">Contributions</h3>
-<ul>
-<li><a href="https://arxiv.org/abs/2511.16092v1">The Future of Development Environments with AI Foundation Models: NII Shonan Meeting 222 Report</a> (<a href="https://annievella.com/files/nii-shonan-meeting-222-2025-the-future-of-development-environments-with-ai-foundation-models.pdf">PDF</a>) - participated as one of 33 experts in this Shonan Meeting discussion in Shonan, Japan, on October 6-9</li>
-</ul>
-<h3 id="featured-in-1">Featured In</h3>
-<ul>
-<li><a href="https://github.blog/news-insights/octoverse/the-new-identity-of-a-developer-what-changes-and-what-doesnt-in-the-ai-era/">The new identity of a developer: What changes and what doesn&rsquo;t in the AI era</a> by Eirini Kalliamvakou, referencing my writing on how the software engineer role is changing with AI, on the <a href="https://github.blog">GitHub Blog</a> on December 8</li>
-</ul>
-<h2 id="2003">2003</h2>
-<h3 id="papers-2">Papers</h3>
-<ul>
-<li><a href="https://ieeexplore.ieee.org/abstract/document/1260249">Ubiquitous Web-based Programming</a> (<a href="https://annievella.com/files/ieee-symposium-on-hcc-languages-and-environments-2003-ubiquitous-web-based-programming.pdf">PDF</a>) presented at the <a href="https://ieeexplore.ieee.org/servlet/opac?punumber=8908">IEEE Symposium on Human Centric Computing Languages and Environments</a> in Auckland, NZ, on October 31</li>
-</ul>
-]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=Publications">Reply to this post by email</a>]]></description>
-    </item>
-    <item>
       <title>A Whole New World</title>
       <link>http://annievella.com/posts/a-whole-new-world/</link>
       <pubDate>Sun, 30 Nov 2025 00:00:00 +1300</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
@@ -1891,30 +1808,90 @@
 ]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=The Power of Defining the Problem">Reply to this post by email</a>]]></description>
     </item>
     <item>
-      <title>Quantum Computing</title>
-      <link>http://annievella.com/quantum-computing/</link>
-      <pubDate>Fri, 20 Sep 2024 00:00:00 +0000</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
-      <guid>http://annievella.com/quantum-computing/</guid>
+      <title>Is Agentic AI the Key to Automating Human Work?</title>
+      <link>http://annievella.com/posts/is-agentic-ai-the-key-to-automating-human-work/</link>
+      <pubDate>Sat, 31 Aug 2024 09:00:00 +1200</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
+      <guid>http://annievella.com/posts/is-agentic-ai-the-key-to-automating-human-work/</guid>
       <description>
       
       
-      <![CDATA[<p>Learning:</p>
-<ul>
-<li><a href="https://learning.quantum.ibm.com/">IBM Quantum Learning</a></li>
-<li><a href="https://pennylane.ai/qml/">Learn quantum programming with PennyLane</a></li>
-</ul>
-<p>Programming:</p>
-<ul>
-<li><a href="https://www.ibm.com/quantum/qiskit">IBM Qiskit</a></li>
-<li><a href="https://quantumai.google/cirq">Google Cirq</a></li>
-<li><a href="https://learn.microsoft.com/en-us/azure/quantum/">Microsoft Q#</a></li>
-</ul>
-<p>YouTube:</p>
-<ul>
-<li><a href="https://youtu.be/F_Riqjdh2oM?si=XJWZtpvujF5qlWmD">Quantum Computing for Computer Scientists</a></li>
-<li><a href="https://youtube.com/playlist?list=PLOFEBzvs-VvqKKMXX4vbi4EB1uaErFMSO&amp;si=uiMvezeeswCaSerF">Understanding Quantum Information &amp; Computation</a></li>
-</ul>
-]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=Quantum Computing">Reply to this post by email</a>]]></description>
+      <![CDATA[<p>I&rsquo;ve been contemplating the concept of <em>agentic AI</em> for a while now. The idea that we can create specialised AI agents, each mastering a specific task, and have them work together iteratively struck me as a powerful way to really harness the power of AI to tackle complex problems. After all, that&rsquo;s how teams of humans working together accomplish amazing outcomes, right?</p>
+<p>I first encountered <em><a href="https://news.agpt.co">Auto-GPT</a></em> over a year ago and was intrigued enough to join their Discord community. At that time, the concept of autonomous AI agents was still in its early stages, and Auto-GPT was pioneering an approach that allowed AI systems to autonomously generate and execute their own goals. This innovative idea resonated with me, reinforcing my belief in the transformative potential of specialised AI agents across various industries.</p>
+<p>As I continued to explore this concept, <a href="https://www.andrewng.org">Andrew Ng</a>&rsquo;s discussions on agentic AI further deepened my understanding, highlighting how these specialised agents could revolutionise the way we approach complex problems.</p>
+<p>While the broad potential of agentic AI to automate and optimise a wide range of jobs is exciting, my focus naturally sharpens when I consider its application to software engineering. This focus ties back to my ongoing Master&rsquo;s research, where I’m exploring the broader impact of AI on software engineering practices. In this context, agentic AI stands out as particularly powerful, offering the possibility to fundamentally change how we develop, test, and maintain software.</p>
+<h3 id="what-is-agentic-ai">What is Agentic AI?</h3>
+<p>Agentic AI involves multiple specialised AI agents working collaboratively to achieve complex goals. Imagine a team of experts, each with a specific focus - one agent excels at writing code, another at testing, and yet another at conducting security reviews. These agents don&rsquo;t operate in silos; instead, they communicate, iterate, and refine their outputs together, much like a well-coordinated human team.</p>
+<p>Andrew Ng, a prominent AI thought leader, emphasizes in his talks, <em><a href="https://youtu.be/sal78ACtGTc?si=ePI6MMzAIPLpG6OX">&ldquo;What&rsquo;s Next for AI Agentic Workflows&rdquo;</a></em> and <em><a href="https://youtu.be/q1XFm21I-VQ?si=uq5e8Z_ZarzdlDrJ">&ldquo;Andrew Ng on AI Agentic Workflows and Their Potential for Driving AI Progress&rdquo;</a></em>, that agentic workflows are inherently more iterative than current LLM-based agents, which typically operate on a zero-shot basis. This iterative nature allows agentic AI to achieve significantly better outcomes. For instance, while zero-shot GPT-3.5 achieved a 48% success rate on the HumanEval coding benchmark, and zero-shot GPT-4 improved to 67.6%, multi-agent AI systems like AutoDev and AgentCoder achieved significantly higher success rates, reaching 91.5% and 96.3%, respectively. This stark contrast highlights the potential of agentic AI to surpass the capabilities of traditional models.</p>
+<h3 id="vision-agent-an-open-source-agentic-ai-from-landing-ai">Vision Agent: An Open Source Agentic AI from Landing AI</h3>
+<p>One of the practical implementations of agentic AI is the <em><a href="https://github.com/landing-ai/vision-agent">Vision Agent</a></em>, an open-source project developed by Andrew Ng and his team at <a href="https://landing.ai">Landing AI</a>. This agentic AI system is designed to specialise in computer vision tasks, enabling different AI agents to collaborate on complex visual processing tasks, such as object detection, image classification, and anomaly detection.</p>
+<p>The Vision Agent framework allows for the modular combination of AI agents, each focusing on a specific aspect of the task. For example, one agent might specialise in edge detection, while another focuses on object classification. By allowing these agents to work together, Vision Agent can deliver more accurate and robust results than a single AI model working alone. The framework&rsquo;s open-source nature also makes it accessible for developers and researchers, encouraging collaboration and further innovation in the field of agentic AI.</p>
+<h3 id="metagpt-a-multi-agent-framework">MetaGPT: A Multi-Agent Framework</h3>
+<p><em><a href="https://www.deepwisdom.ai">MetaGPT</a></em> is discussed in the paper <em><a href="https://arxiv.org/abs/2402.18679">&ldquo;Data Interpreter: An LLM Agent For Data Science&rdquo;</a></em> by Hong et al. This multi-agent collaborative framework is designed for software development, simulating the software development lifecycle by leveraging multiple AI agents, each specialising in a particular role, such as project management, code writing, and testing. This approach emulates a human software development team, where various specialists collaborate to complete a project effectively.</p>
+<p>However, like many multi-agent systems, MetaGPT encounters challenges related to coordinating multiple agents and managing communication overhead. Despite these challenges, MetaGPT illustrates the potential of agentic AI to mirror and enhance human-like collaboration in software development.</p>
+<h3 id="agentcoder-multi-agent-code-generation">AgentCoder: Multi-Agent Code Generation</h3>
+<p><em><a href="https://github.com/huangd1999/AgentCoder">AgentCoder</a></em>, presented in the paper <em><a href="https://arxiv.org/abs/2312.13010">&ldquo;AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation&rdquo;</a></em> by Huang et al., represents another significant advancement in agentic AI. This system is designed specifically for multi-agent code generation, incorporating effective testing and self-optimisation mechanisms. AgentCoder uses a team of AI agents to not only generate code but also to iteratively test and optimize it, ensuring higher quality and efficiency in the code produced.</p>
+<p>In evaluations, AgentCoder demonstrated exceptional performance, achieving 95% success on the HumanEval benchmark by leveraging the strengths of multiple specialised agents working together. This success underscores the promise of agentic AI in enhancing the software development process, from code generation to testing and optimisation.</p>
+<h3 id="autodev-automated-ai-driven-development">AutoDev: Automated AI-Driven Development</h3>
+<p>Microsoft&rsquo;s <em>AutoDev</em> is another cutting-edge framework that exemplifies the potential of agentic AI. As described in the paper <em><a href="https://arxiv.org/abs/2403.08299">&ldquo;AutoDev: Automated AI-Driven Development&rdquo;</a></em> by Tufano et al., AutoDev is designed to fully automate software engineering tasks. It enables AI agents to autonomously perform a wide range of operations within a codebase, including file editing, building, testing, and git operations, all within a secure, user-controlled environment. The framework&rsquo;s effectiveness was demonstrated on the HumanEval dataset, where it achieved a Pass@1 score of 91.5% for code generation and 87.8% for test generation.</p>
+<p>AutoDev goes beyond simple code suggestions, integrating deeply with the development environment to manage tasks that typically require significant human intervention. Its ability to handle complex, multi-step tasks autonomously marks a significant leap forward in the capabilities of AI-driven development tools.</p>
+<h3 id="why-agentic-ai-matters">Why Agentic AI Matters</h3>
+<p>The implications of agentic AI are profound, extending far beyond a single industry. If we can truly harness the potential of agentic AI, the automation of many jobs may be closer than we realise. These AI systems, capable of handling interconnected tasks across various domains, could lead to significant shifts in how work is structured and executed. By distributing tasks among specialised agents, entire workflows could be automated, potentially reducing the need for human intervention in areas that were once considered too complex for AI to manage.</p>
+<p>In software engineering, this evolution shifts the focus from human-led coding to human-led prompting. As agentic AI systems take on more of the actual coding, testing, and reviewing, the role of engineers may pivot toward describing requirements in precise, effective ways to guide these AI agents. This change underscores the importance of developing strong skills in articulating and refining prompts - prompt engineering - as the ability to communicate effectively with AI will become increasingly critical in this new paradigm.</p>
+<h3 id="looking-ahead">Looking Ahead</h3>
+<p>The journey toward fully realising the potential of agentic AI is just beginning. The advancement of frameworks like Auto-GPT, AutoDev, AgentCoder and MetaGPT represents a significant step forward in this direction. As we continue to develop and refine these technologies, we&rsquo;re likely to see even more transformative impacts on the way we approach software engineering.</p>
+]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=Is Agentic AI the Key to Automating Human Work?">Reply to this post by email</a>]]></description>
+    </item>
+    <item>
+      <title>Deming’s Wisdom for Staff&#43; Engineers: A Recap of My Talk at StaffPlus London 2024</title>
+      <link>http://annievella.com/posts/demings-wisdom-for-staff-plus-engineers/</link>
+      <pubDate>Sun, 25 Aug 2024 09:00:00 +1200</pubDate><author>annie.luxton@gmail.com (Annie Vella)</author>
+      <guid>http://annievella.com/posts/demings-wisdom-for-staff-plus-engineers/</guid>
+      <description>
+      
+      
+      <![CDATA[<p>In June 2024, I had the privilege of travelling from Auckland, New Zealand, to speak at <strong>StaffPlus London</strong> - an unforgettable experience. Speaking at such a high-profile event, surrounded by so many talented Staff+ Engineers, was truly special. What made this event particularly memorable wasn&rsquo;t just the prominence of the event but the opportunity to share something that has become deeply important to me: how the timeless teachings of <strong>W. Edwards Deming</strong> remain as relevant today as ever in the constantly evolving world of technology.</p>
+<p>Stepping into a Distinguished Engineer role last year pushed me to explore leadership in new ways. It was during this time that I discovered Deming’s work, which provided me with clarity and direction. His insights have shaped how I think about creating environments where engineers can thrive and continually improve.</p>
+<figure class="center"><img src="http://annievella.com/images/staffplus-london-2024-deming.jpeg"
+    alt="StaffPlus London 2024 - Deming&#39;s Wisdom for Staff&#43; Engineers"><figcaption>
+      <p>StaffPlus London 2024 - Deming&rsquo;s Wisdom for Staff+ Engineers</p>
+    </figcaption>
+</figure>
+
+<p>For those interested, my <a href="https://annievella.com/files/staffplus-london-june-2024-deming's-wisdom-for-staff-plus-engineers.pdf">slides from the talk are available here</a>, and you can find the <a href="https://leaddev.com/staffplus-london-2024/video/demings-wisdom-staff-engineers-modern-take-timeless-principles">video of the talk here</a>. It may still be paywalled, although I hope it will be accessible soon. In the meantime, below is a summary of the key points I covered during the talk.</p>
+<h3 id="why-deming">Why Deming?</h3>
+<p>W. Edwards Deming, known as the father of Total Quality Management, is best known for his work in post-war Japan, where his teachings on quality and systems thinking transformed industries. Deming wasn’t merely concerned with improving processes; his focus was on changing how we think and lead.</p>
+<p>For me, discovering Deming’s work felt like finding a key piece of the leadership puzzle. His emphasis on continuous improvement and pride in workmanship deeply resonates with my own values. But what really struck me was how much Deming’s views on leadership aligned with what I had already believed. One of his quotes that I agree with wholeheartedly is, <em>“To manage one must lead. To lead, one must understand the work that he and his people are responsible for.”</em> This idea is central to effective leadership – ensuring there is a deep understanding of the work happening across the organisation and the challenges engineers face. Curiosity plays a vital role here too. By staying curious, continuously asking questions, and exploring how things work, one is better equipped to provide the right guidance and support. Deming’s philosophy reinforced this, showing that leadership is about more than oversight; it’s about being in tune with the system, the people involved, and the processes that drive improvement.</p>
+<h3 id="deming-to-devops">Deming to DevOps</h3>
+<p>Deming’s influence can be traced through modern methodologies such as <strong>Toyota’s Production System (TPS)</strong>, <strong>Lean Manufacturing</strong>, <strong>Agile</strong>, and <strong>DevOps</strong>. His teachings laid the foundation for continuous improvement, reducing waste, and optimising processes, all of which are central tenets of Lean and Agile. In the software world, these principles evolved further into DevOps, where collaboration and system optimisation are critical for improving quality and speed.</p>
+<h3 id="demings-system-of-profound-knowledge">Deming’s System of Profound Knowledge</h3>
+<p>At the heart of Deming’s philosophy is his <em>System of Profound Knowledge</em>, which consists of four key areas:</p>
+<ol>
+<li><strong>Appreciation for a system</strong> – Recognising that organisations are socio-technical systems, where nothing happens in isolation. Changing one part can have unintended consequences elsewhere, so we must optimise systems holistically.</li>
+<li><strong>Knowledge about variation</strong> – Distinguishing between common cause (inherent in the process) and special cause (due to external factors) variations is key. Common cause issues require systemic changes, which fall under management’s responsibility.</li>
+<li><strong>Theory of knowledge</strong> – Questioning why we know what we know, grounding actions in facts and context. Operational definitions ensure clarity and consistency in our understanding.</li>
+<li><strong>Psychology</strong> – Refers to the human aspects of work. Intrinsic motivators and purpose are essential for creating productive and enjoyable work environments.</li>
+</ol>
+<p>For Staff+ Engineers, these concepts are invaluable when tackling complex systems. Whether we are improving processes, enhancing collaboration, or driving innovation, Deming’s principles guide us toward a more holistic understanding of the challenges we face.</p>
+<h3 id="demings-14-points-for-management">Deming’s 14 Points for Management</h3>
+<p>Deming’s <em>14 Points for Management</em> serve as a practical guide for leaders striving to create better systems and environments. While all the points are valuable, a few stood out to me as especially relevant for Staff+ Engineers:</p>
+<ol>
+<li><strong>Remove barriers to pride in workmanship</strong> – Empower engineers to take pride in their work by eliminating obstacles that hinder creativity and innovation. When people enjoy their work, it drives both personal satisfaction and organisational success.</li>
+<li><strong>Drive out fear</strong> – Build a culture where open communication is encouraged, and people feel safe raising issues without fear of blame. This is closely related to the modern concept of psychological safety, which is crucial for fostering innovation and a supportive work environment.</li>
+<li><strong>Break down silos</strong> – Promote collaboration across teams to ensure smoother workflows and better outcomes. When silos are broken down, organisations become more agile and effective.</li>
+<li><strong>Institute training and self-improvement</strong> – Continuous learning is essential, not just for individual growth but for the long-term success of teams. Investing in self-improvement helps teams adapt and thrive in an ever-changing landscape.</li>
+</ol>
+<h3 id="practical-applications-in-modern-software-engineering">Practical Applications in Modern Software Engineering</h3>
+<p>Deming’s teachings are directly applicable to modern software engineering practices. In my talk, I explored three key areas where these principles can be applied today: <strong>Shift Left</strong>, <strong>Site Reliability Engineering (SRE)</strong>, and <strong>Developer Productivity</strong>.</p>
+<h4 id="shift-left">Shift Left</h4>
+<p>Shift Left involves moving security and quality testing earlier in the software development lifecycle to detect issues sooner and reduce costs. Deming’s <strong>appreciation for a system</strong> fits perfectly with this approach—by integrating quality into the development process from the start, we reduce the need for inspection and rework later on. As Deming said, <em>“Quality does not just happen: it is built in.”</em> <strong>Adopting the new philosophy</strong> is also critical for embracing this shift, as it requires a mindset shift across the organisation. Everyone must be on board with the idea that quality is a shared responsibility, not something that can be <em>inspected</em> into a product, especially not at the end of the process. This mindset change helps ensure that quality is built in from the beginning rather than flung over the fence to dedicated test teams.</p>
+<h4 id="site-reliability-engineering-sre">Site Reliability Engineering (SRE)</h4>
+<p>SRE applies software engineering principles to IT operations, aiming to create scalable and reliable systems. Deming’s belief that <em>“A bad system will beat a good person every time”</em> is particularly relevant to SRE. When incidents occur, it’s not about individual failures but about systems allowing those failures to happen. <strong>Knowledge about variation</strong> is key here—understanding the different types of variation (such as common cause vs. special cause) allows us to address system issues effectively and improve reliability. <strong>Theory of knowledge</strong> also plays a crucial role. In SRE, SLOs are operational definitions that help us to measure system performance through automated monitoring and alerting, allowing for data-driven insights. This approach ensures that we’re continuously learning and improving based on real data rather than assumptions.</p>
+<h4 id="developer-productivity">Developer Productivity</h4>
+<p>Improving developer productivity has become a major focus in modern engineering teams. As Deming said, <em>“It isn’t enough to do your best; you have to know what to do, and then do your best.”</em> This aligns with his <strong>theory of knowledge</strong>, which emphasises the need for data-driven decisions. To improve productivity, we need to measure the right things and understand them within the context of our systems. Additionally, <strong>psychology</strong> plays a critical role—factors like job satisfaction, motivation, and psychological safety all directly impact productivity. By creating environments where developers feel valued and supported, we can significantly boost both productivity and morale.</p>
+<h3 id="final-thoughts">Final Thoughts</h3>
+<p>Speaking at StaffPlus London 2024 was one of the highlights of my year. Travelling from New Zealand to such a renowned event and sharing my insights alongside experienced technical leaders was an incredibly rewarding experience. I am so grateful for the opportunity to explore how Deming’s timeless teachings continue to resonate in our modern world and how they can help us lead more effectively as Staff+ Engineers.</p>
+<p>Reflecting on my relatively recent journey with Deming’s work, I’m reminded of his unwavering belief in continuous improvement and the pursuit of knowledge. For those of you in Staff+ roles, I encourage you to embrace systems thinking, foster collaboration, and always keep learning. As Deming famously said, <em>“Learning is not compulsory; it’s voluntary. Improvement is not compulsory; it’s voluntary. But to survive, we must learn.”</em></p>
+]]><![CDATA[<hr><p>Thanks for reading this post via RSS! 👋</p>]]><![CDATA[<a href="mailto:annie.luxton@gmail.com?subject=Deming’s Wisdom for Staff+ Engineers: A Recap of My Talk at StaffPlus London 2024">Reply to this post by email</a>]]></description>
     </item>
   </channel>
 </rss>
