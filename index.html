@@ -13,7 +13,10 @@
   <meta name="twitter:card" content="summary" />
   <meta name="generator" content="Hugo 0.140.1">
   <link href="/index.xml" rel="alternate" type="application/rss+xml" title="Annie Vella" />
-  <link href="/index.xml" rel="feed" type="application/rss+xml" title="Annie Vella" />
+  <link href="/index.xml" rel="feed" type="application/rss+xml" title="Annie Vella" />  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
   <link rel="stylesheet" href="/css/style.css" media="all" />
   <link rel="stylesheet" href="/css/style-dark.css" media="all and (prefers-color-scheme: dark)" />
 
@@ -31,6 +34,7 @@
   <nav class="site-navi">
     <h1 class="site-title"><a href="/">Annie Vella</a></h1>
     <ul class="site-navi-items">
+      <li class="site-navi-item-blog"><a href="/posts/" title="Blog">Blog</a></li>
       <li class="site-navi-item-speaking"><a href="/speaking/" title="Speaking">Speaking</a></li>
       <li class="site-navi-item-publications"><a href="/publications/" title="Publications">Publications</a></li>
       <li class="site-navi-item-resources"><a href="/resources/" title="Resources">Resources</a></li>
@@ -40,181 +44,128 @@
 </header>
 <hr class="site-header-bottom">
 
-  <div class="main" role="main">
-    <section class="list home-list">
-      
-      <article class="article">
-        <a href="/posts/verification-without-inspection/" class="article-titles">
-          <h2 class="article-title">Verification Without Inspection</h2>
-          
-        </a>
-        <ul class="article-meta">
-          <li class="article-meta-date"><time>July 31, 2026</time></li>
-        </ul>
-        <div class="article-content">
-          <p>A week ago I finished up at Westpac NZ. I was fortunate to spend the last few years there as a <a href="https://leaddev.com/career-development/the-reality-of-being-a-distinguished-engineer">Distinguished Engineer</a>, a role with an unusually wide and undefined remit. It was the perfect playground for a curious mind, giving me the freedom to think deeply about all sorts of interesting questions. The trouble is that there are only so many hours in the day, and it&rsquo;s never enough for all the curiosities tugging at my mind. So I made the difficult decision to leave so I could create more time, at least for a while, to scratch a few of those itches. This post focuses on the one that I&rsquo;m most passionate about.</p>
+<link rel="stylesheet" href="/css/home.css" media="all" />
+<div class="home" role="main">
+
+  <section class="home-hero">
+    <div class="home-hero-text">
+      <p class="home-kicker">Engineering leader, researcher and advisor</p>
+      <h1>AI has changed the work. Now the system around it has to change.</h1>
+      <p class="home-sub">I work with leaders to understand what AI really changes for their organisation, and help them redesign the system around it - from how engineers work to keeping agentic systems safe and under control.</p>
+      <p class="home-actions">
+        <a class="home-button" href="mailto:annie@inferencelabs.co.nz?subject=Working%20together">Work with me</a>
+        <a class="home-link" href="https://arxiv.org/abs/2605.23135">Read the research &rarr;</a>
+      </p>
+    </div>
+    <img class="home-photo" src="/images/annie-vella.jpg" alt="Annie Vella" width="200" height="200" />
+  </section>
+
+  <section class="home-proof">
+    <div><strong>Research</strong> on the impact of AI on software engineering, cited by <a href="https://martinfowler.com/fragments/2026-03-16.html">Martin Fowler</a> and <a href="https://youtu.be/lJTmtKb36vo">DX</a>. Invited to the Thoughtworks <a href="/posts/finding-comfort-in-the-uncertainty/">Future of Software Development Retreat</a> in Utah.</div>
+    <div><strong>Speaking</strong> including keynotes at <a href="https://www.agenticengineering.day/speakers/annie-vella">Agentic Engineering Day</a>, <a href="https://webdirections.org/ai-engineer-melbourne-26/speakers/annie-vella.php">AI Engineer Melbourne</a> and <a href="https://yowcon.com/tech-leaders-melbourne-2025/sessions/3662/the-duality-of-ai-in-software-engineering">YOW! Tech Leaders Summit</a>, and guest talks at Google and Air New Zealand.</div>
+    <div><strong>Writing</strong> for <a href="https://leaddev.com/community/annie-vella">LeadDev</a>, and co-author of IT Revolution's <a href="https://itrevolution.com/product/sociotechnical-architecture-of-ai-enabled-enterprises/">Sociotechnical Architecture of AI-Enabled Enterprises</a>. Interviewed by <a href="https://www.businessinsider.com/ai-creating-identity-crisis-for-software-engineers-coders-2026-3">Business Insider</a> on the engineering identity crisis.</div>
+    <div><strong>Advisory</strong> board member for Electrical, Computer and Software Engineering at the <a href="https://www.auckland.ac.nz/en/engineering/about-the-faculty/engineering/electrical-computer-and-software-engineering.html">University of Auckland</a>.</div>
+  </section>
+
+  <section class="home-section">
+    <h2>How I can help</h2>
+    <p class="home-lead">I work as a consultant on a focused piece of work, as an advisor on retainer, as a fractional CTO, or as a speaker and workshop facilitator at your leadership and engineering events.</p>
+    <div class="home-cards">
+      <div class="home-card">
+        <h3>Find out what's really in the way</h3>
+        <p>We start with your goals and the obstacles you see. Then I talk to your leaders, engineers and the business to find the root causes, not the symptoms, and we build a plan around your unique context.</p>
+      </div>
+      <div class="home-card">
+        <h3>Make better decisions about AI</h3>
+        <p>A thinking partner for the people who decide. Working sessions on what AI can do for you, how work needs to change, and how to design control into agentic systems.</p>
+      </div>
+      <div class="home-card">
+        <h3>Help your teams make the change</h3>
+        <p>Workshops team by team, on your own tickets and repos, with your engineers driving. We capture the tacit knowledge in people's heads so your AI tools have the context to do good work.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-section">
+    <h2>Research partnerships</h2>
+    <div class="home-card home-wide">
+      <h3>Let's study it together</h3>
+      <p>I'm always looking to collaborate on research - with universities, research teams, and organisations that have data, a question, or a team willing to try something new.</p>
+      <p class="home-question">The question behind all of my work: <strong>how do we redesign the software development lifecycle, and the engineer's role within it, for the agentic era?</strong></p>
+      <div class="home-areas">
+        <div>
+          <p class="home-col">The people</p>
+          <ul>
+            <li><strong>Supervisory engineering work</strong>how the job shifts from writing code to directing AI, evaluating its output and correcting it when it's wrong</li>
+            <li><strong>Human factors and supervisory control</strong>decades of automation research, applied to working with AI agents</li>
+            <li><strong>Developer experience</strong>the productivity-experience paradox, and what to measure when engineers supervise rather than author</li>
+          </ul>
         </div>
-        <div class="article-readmore"><a href="/posts/verification-without-inspection/">Read more...</a></div>
-        <div class="article-floatclear"></div>
-      </article>
-      
-      <article class="article">
-        <a href="/posts/the-productivity-experience-paradox/" class="article-titles">
-          <h2 class="article-title">The Productivity-Experience Paradox</h2>
-          
-        </a>
-        <ul class="article-meta">
-          <li class="article-meta-date"><time>July 21, 2026</time></li>
-        </ul>
-        <div class="article-content">
-          <p>This is the second post in a series I&rsquo;m writing about the most interesting findings from my Masters research on the impact of AI on software engineering, as well as some of the thoughts I&rsquo;ve had since. This one is about how AI made engineers feel more productive, and why that productivity might be masking something we should care about.</p>
+        <div>
+          <p class="home-col">The system</p>
+          <ul>
+            <li><strong>Control theory and cybernetics</strong>reimagining the software development lifecycle as a control system</li>
+            <li><strong>Agent enablement</strong>the context, skills and guardrails agents need to make good decisions, and who curates them</li>
+            <li><strong>Formal verification</strong>proving what AI builds, so trust doesn't depend on reading every line</li>
+          </ul>
         </div>
-        <div class="article-readmore"><a href="/posts/the-productivity-experience-paradox/">Read more...</a></div>
-        <div class="article-floatclear"></div>
-      </article>
-      
-      <article class="article">
-        <a href="/posts/the-middle-loop/" class="article-titles">
-          <h2 class="article-title">The Middle Loop</h2>
-          
-        </a>
-        <ul class="article-meta">
-          <li class="article-meta-date"><time>March 13, 2026</time></li>
-        </ul>
-        <div class="article-content">
-          <p>Early in my career, I took a job as a software developer at a large consultancy. Turns out the work mostly involved fixing other people&rsquo;s Access databases by right-clicking and hitting &ldquo;repair&rdquo;. I lasted about a month before I thanked them for the opportunity, handed in my resignation, and moved on.</p>
-<p>The point is: what you spend your time on defines what you think about. What you think about is what you practice. And what you practice is what you build skill on. The title said &ldquo;software developer&rdquo; but the daily work said something else entirely.</p>
-        </div>
-        <div class="article-readmore"><a href="/posts/the-middle-loop/">Read more...</a></div>
-        <div class="article-floatclear"></div>
-      </article>
-      
-      <article class="article">
-        <a href="/posts/finding-comfort-in-the-uncertainty/" class="article-titles">
-          <h2 class="article-title">Finding Comfort in the Uncertainty</h2>
-          
-        </a>
-        <ul class="article-meta">
-          <li class="article-meta-date"><time>February 6, 2026</time></li>
-        </ul>
-        <div class="article-content">
-          <p>I&rsquo;m writing this having just landed back in New Zealand after a very long journey home from Utah. On the final leg from Houston to Auckland, I found myself wedged between a retired industrial chemist and a theoretical physicist who was reading a C++ book. I couldn&rsquo;t not say anything.</p>
-<p>We ended up in a brief conversation about the future of software engineers. He was learning memory management for a trading firm. He thought AI-generated code was &ldquo;pretty crap&rdquo;. He&rsquo;d also noticed, though, that engineers around him were losing their jobs.</p>
-        </div>
-        <div class="article-readmore"><a href="/posts/finding-comfort-in-the-uncertainty/">Read more...</a></div>
-        <div class="article-floatclear"></div>
-      </article>
-      
-      <article class="article">
-        <a href="/posts/2025-in-review/" class="article-titles">
-          <h2 class="article-title">2025 In Review: A Year of Immersion</h2>
-          
-        </a>
-        <ul class="article-meta">
-          <li class="article-meta-date"><time>January 2, 2026</time></li>
-        </ul>
-        <div class="article-content">
-          <p>Last year I wrote that 2024 was a &ldquo;massive year&rdquo; and that &ldquo;even that feels like an understatement&rdquo;. I had no idea what was coming.</p>
-<p>2025 was bigger. It challenged me in ways I hadn&rsquo;t expected, opened doors I didn&rsquo;t know existed, and at times left me wondering how I was going to fit it all in. I felt constantly busy, rushing from one thought to another, building on momentum, but at a pace that sometimes caught me off guard.</p>
-        </div>
-        <div class="article-readmore"><a href="/posts/2025-in-review/">Read more...</a></div>
-        <div class="article-floatclear"></div>
-      </article>
-      
-      
-      <article class="article">
-        <a href="/posts/a-whole-new-world/" class="article-titles">
-          <h2 class="article-title">A Whole New World</h2>
-          
-        </a>
-        <ul class="article-meta">
-          <li class="article-meta-date"><time>November 30, 2025</time></li>
-        </ul>
-        <div class="article-content">
-          <p>In the years I&rsquo;ve been building software, I&rsquo;ve lived through more than a few waves. My first taste of code was in the mid‑80s, typing BASIC into a Commodore 64 where you couldn&rsquo;t even save your work to a hard drive. In the mid‑90s, scripting in mIRC and hand‑rolling simple HTML sites felt cutting edge. The early 2000s were all about desktop apps, then web apps that suddenly got a lot more dynamic - yet for a while, Flash was still the only way to refresh part of a page without the user hammering the browser&rsquo;s refresh button. Then AJAX arrived and changed that.</p>
-        </div>
-        <div class="article-readmore"><a href="/posts/a-whole-new-world/">Read more...</a></div>
-        <div class="article-floatclear"></div>
-      </article>
-      
-      <article class="article">
-        <a href="/posts/the-extra-load-we-carry/" class="article-titles">
-          <h2 class="article-title">The Extra Load We Carry</h2>
-          
-        </a>
-        <ul class="article-meta">
-          <li class="article-meta-date"><time>August 12, 2025</time></li>
-        </ul>
-        <div class="article-content">
-          <p>When I came across a recent Harvard Business Review <a href="https://hbr.org/2025/08/research-the-hidden-penalty-of-using-ai-at-work">article</a> on the hidden penalty of using AI at work, it wasn&rsquo;t the AI part that stood out to me, even though I&rsquo;m studying this very topic as part of my Master&rsquo;s of Engineering. Yes, the AI findings were interesting, but what stopped me in my tracks was something else: the &ldquo;competence penalty&rdquo; women pay.</p>
-<p>The research put numbers to it:</p>
-<blockquote class="large-quote" style="font-size: 1.5em; margin: 30px 40px 30px 40px">The competence penalty was more than twice as severe for female engineers, who faced a 13% reduction compared to 6% for male engineers.</blockquote>
-<p>The experiment was simple: engineers reviewed the exact same piece of Python code, with the only difference being whether they were told it had been written with the assistance of AI. Turns out women are essentially carrying a heavier burden of doubt for the same contributions.</p>
-        </div>
-        <div class="article-readmore"><a href="/posts/the-extra-load-we-carry/">Read more...</a></div>
-        <div class="article-floatclear"></div>
-      </article>
-      
-      <article class="article">
-        <a href="/posts/the-heart-of-software-engineering-still-beats/" class="article-titles">
-          <h2 class="article-title">The Heart of Software Engineering Still Beats</h2>
-          
-        </a>
-        <ul class="article-meta">
-          <li class="article-meta-date"><time>June 27, 2025</time></li>
-        </ul>
-        <div class="article-content">
-          <p>A few weeks ago, I had a conversation that&rsquo;s stayed with me. A colleague from another department said: <em>&ldquo;I&rsquo;ve always been able to read and understand code, even debug it, but I could never write it.&rdquo;</em></p>
-<p>Something about this revelation stayed with me. Most people I&rsquo;ve met outside the software engineering world tend to describe code as unintelligible - like hieroglyphics. I guess that&rsquo;s why I&rsquo;ve always assumed: if someone couldn&rsquo;t write code, they probably couldn&rsquo;t read it either.</p>
-        </div>
-        <div class="article-readmore"><a href="/posts/the-heart-of-software-engineering-still-beats/">Read more...</a></div>
-        <div class="article-floatclear"></div>
-      </article>
-      
-      <article class="article">
-        <a href="/posts/the-next-evolutionary-step/" class="article-titles">
-          <h2 class="article-title">The Next Evolutionary Step</h2>
-          
-        </a>
-        <ul class="article-meta">
-          <li class="article-meta-date"><time>May 9, 2025</time></li>
-        </ul>
-        <div class="article-content">
-          <p>The recent releases of Claude Code and OpenAI Codex caught my attention, but not for the reasons you might expect. I was puzzled by the enthusiasm they&rsquo;ve generated. These are, after all, terminal tools. In an era where graphical IDEs dominate, with tools like Cursor, Windsurf, and VSCode evolving toward ever-more seamless integrations, like &lsquo;<a href="https://www.linkedin.com/posts/tomkrcha_introducing-design-mode-for-cursor-activity-7325527044459524096-tqy7">Design Mode</a>&rsquo;, why are we getting excited about terminal-based AI coding tools that feel like a step backwards?</p>
-        </div>
-        <div class="article-readmore"><a href="/posts/the-next-evolutionary-step/">Read more...</a></div>
-        <div class="article-floatclear"></div>
-      </article>
-    </section>
-    
-    <ul class="pagination pagination-default">
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="First" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;&laquo;</span></a>
+      </div>
+      <p class="home-more"><a href="mailto:annie@inferencelabs.co.nz?subject=Research%20collaboration">Propose a collaboration &rarr;</a></p>
+    </div>
+  </section>
+
+  <section class="home-section">
+    <h2>Latest writing</h2>
+    <div class="home-cards">
+      <a class="home-card home-post" href="/posts/verification-without-inspection/">
+        <span class="home-date">31 July 2026</span>
+        <h3>Verification Without Inspection</h3>
+        <p>A week ago I finished up at Westpac NZ. I was fortunate to spend the last few years there as a Distinguished Engineer, a role with an unusually wide …</p>
+      </a>
+      <a class="home-card home-post" href="/posts/the-productivity-experience-paradox/">
+        <span class="home-date">21 July 2026</span>
+        <h3>The Productivity-Experience Paradox</h3>
+        <p>This is the second post in a series I&rsquo;m writing about the most interesting findings from my Masters research on the impact of AI on software …</p>
+      </a>
+      <a class="home-card home-post" href="/posts/the-middle-loop/">
+        <span class="home-date">13 March 2026</span>
+        <h3>The Middle Loop</h3>
+        <p>Early in my career, I took a job as a software developer at a large consultancy. Turns out the work mostly involved fixing other people&rsquo;s Access …</p>
+      </a>
+    </div>
+    <p class="home-more"><a href="/posts/">All posts &rarr;</a></p>
+  </section>
+
+  <section class="home-section">
+    <h2>Coming up</h2>
+    <ul class="home-list">
+      <li>
+        <span class="home-when">22 October</span>
+        <span>Agentic Engineering Day, Auckland, New Zealand - opening keynote
+          <a class="home-talk" href="https://www.agenticengineering.day/speakers/annie-vella">The Accidental Rise of the Supervisory Engineer</a></span>
       </li>
-      <li class="page-item disabled">
-        <a aria-disabled="true" aria-label="Previous" class="page-link" role="button" tabindex="-1"><span aria-hidden="true">&laquo;</span></a>
+      <li>
+        <span class="home-when">9-12 November</span>
+        <span><a href="https://shonan.nii.ac.jp/seminars/257/">NII Shonan Meeting on the Future of Developer Experience</a>, Shonan, Japan</span>
       </li>
-      <li class="page-item active">
-        <a aria-current="page" aria-label="Page 1" class="page-link" role="button">1</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/2/" aria-label="Page 2" class="page-link" role="button">2</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/3/" aria-label="Page 3" class="page-link" role="button">3</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/4/" aria-label="Page 4" class="page-link" role="button">4</a>
-      </li>
-      <li class="page-item">
-        <a href="/page/2/" aria-label="Next" class="page-link" role="button"><span aria-hidden="true">&raquo;</span></a>
-      </li>
-      <li class="page-item">
-        <a href="/page/4/" aria-label="Last" class="page-link" role="button"><span aria-hidden="true">&raquo;&raquo;</span></a>
+      <li>
+        <span class="home-when">2-9 December</span>
+        <span>YOW! Melbourne and Brisbane, Australia
+          <a class="home-talk" href="https://yowcon.com/melbourne-2026/sessions/4211/the-wrong-side-of-the-equation-cybernetics-for-the-agentic-era">The Wrong Side of the Equation: Cybernetics for the Agentic Era</a></span>
       </li>
     </ul>
-  </div>
+    <p class="home-more"><a href="/speaking/">All talks and podcasts &rarr;</a></p>
+  </section>
 
+  <section class="home-contact" id="contact">
+    <h2>Let's talk</h2>
+    <p>Tell me what you're trying to achieve and what's getting in the way, and I'll give you an honest view of where I can help.</p>
+    <p><a class="home-button" href="mailto:annie@inferencelabs.co.nz?subject=Working%20together">Get in touch</a>
+      <a class="home-link home-book" href="https://cal.com/codefrenzy/intro">or book a 30-minute call &rarr;</a></p>
+    <p class="home-small">I work through my company, Inference Labs.</p>
+  </section>
+
+</div>
 
 
 <div class="site-footer">

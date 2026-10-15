@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <style>
+    .l { fill: none; stroke: #2060d0; stroke-width: 6; stroke-linecap: round; stroke-linejoin: round; }
+    .d { fill: #2060d0; }
+    .w { fill: #ffffff; }
+    @media (prefers-color-scheme: dark) { .l { stroke: #6aa8ff; } .d { fill: #6aa8ff; } }
+  </style>
+  <!-- squat head with ears, one continuous outline -->
+  <path class="l" d="M50 86 C24 86 8 76 8 61 C8 53 11 47 15 43 L17 17 L37 32 C41 31 46 30.5 50 30.5 C54 30.5 59 31 63 32 L83 17 L85 43 C89 47 92 53 92 61 C92 76 76 86 50 86 Z"/>
+  <!-- big anime eyes with sparkles -->
+  <ellipse class="d" cx="33" cy="59" rx="7.5" ry="9"/>
+  <ellipse class="d" cx="67" cy="59" rx="7.5" ry="9"/>
+  <circle class="w" cx="35.5" cy="55" r="3"/>
+  <circle class="w" cx="69.5" cy="55" r="3"/>
+  <circle class="w" cx="30.5" cy="63" r="1.4"/>
+  <circle class="w" cx="64.5" cy="63" r="1.4"/>
+  <!-- nose and mouth -->
+  <path class="d" d="M46.5 66 L53.5 66 L50 70 Z"/>
+  <path class="l" style="stroke-width:3.5" d="M50 70.5 Q46.5 75.5 42.5 73 M50 70.5 Q53.5 75.5 57.5 73"/>
+</svg>
