@@ -17,7 +17,7 @@
   display: flex;
   align-items: center;
   gap: 48px;
-  padding: 56px 0 40px;
+  padding: 12px 0 40px;
 }
 .home-hero-text { flex: 1; }
 .home-kicker {
@@ -106,7 +106,7 @@ a.home-post:hover { color: var(--text); box-shadow: inset 0 0 0 2px var(--accent
 
 /* phones */
 @media screen and (max-width: 768px) {
-  .home-hero { flex-direction: column-reverse; align-items: flex-start; gap: 24px; padding-top: 32px; }
+  .home-hero { flex-direction: column-reverse; align-items: flex-start; gap: 24px; padding-top: 12px; }
   .home-photo { width: 120px; height: 120px; }
   .home h1 { font-size: 1.8em; }
   .home-proof { grid-template-columns: 1fr 1fr; }
