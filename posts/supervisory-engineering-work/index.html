@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Supervisory Engineering Work - Annie Vella</title>
+  <meta property="og:title" content="Supervisory Engineering Work - Annie Vella" />
+  <meta name="twitter:title" content="Supervisory Engineering Work - Annie Vella" />
+  <meta name="description" content="Automation is not new in software development. We&rsquo;ve been automating parts of our process for decades - build pipelines, testing, deployments. With AI, we&rsquo;re now able to automate work that previously required humans with specialised skills to do by hand - specifically, the writing of the code. In other words, AI is enabling us to automate a larger portion of the job that software engineers used to do themselves.">
+  <meta property="og:description" content="Automation is not new in software development. We&rsquo;ve been automating parts of our process for decades - build pipelines, testing, deployments. With AI, we&rsquo;re now able to automate work that previously required humans with specialised skills to do by hand - specifically, the writing of the code. In other words, AI is enabling us to automate a larger portion of the job that software engineers used to do themselves.">
+  <meta name="twitter:description" content="Automation is not new in software development. We&rsquo;ve been automating parts of our process for decades - build pipelines, testing, deployments. With AI, we&rsquo;re now able to automate work that …">
+  <meta name="author" content="Annie Vella"/>
+  <meta property="og:site_name" content="Annie Vella" />
+  <meta property="og:url" content="http://annievella.com/posts/supervisory-engineering-work/" />
+  <meta property="og:type" content="article" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="generator" content="Hugo 0.140.1">  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+
+  <link rel="stylesheet" href="/css/style.css" media="all" />
+  <link rel="stylesheet" href="/css/style-dark.css" media="all and (prefers-color-scheme: dark)" />
+
+  <link rel="stylesheet" href="/css/syntax.css" media="all" />
+  <link rel="stylesheet" href="/css/custom.css" media="all" />
+
+  <script src="/js/script.js"></script>
+  <script src="/js/custom.js"></script>
+  <script defer src="/fontawesome/all.min.js"></script>
+</head>
+
+<body>
+
+<header class="site-header">
+  <nav class="site-navi">
+    <h1 class="site-title"><a href="/">Annie Vella</a></h1>
+    <ul class="site-navi-items">
+      <li class="site-navi-item-blog"><a href="/posts/" title="Blog">Blog</a></li>
+      <li class="site-navi-item-speaking"><a href="/speaking/" title="Speaking">Speaking</a></li>
+      <li class="site-navi-item-publications"><a href="/publications/" title="Publications">Publications</a></li>
+      <li class="site-navi-item-resources"><a href="/resources/" title="Resources">Resources</a></li>
+      <li class="site-navi-item-about"><a href="/about/" title="About">About</a></li>
+    </ul>
+  </nav>
+</header>
+<hr class="site-header-bottom">
+
+  <div class="main" role="main">
+    <article class="article">
+      
+      
+      <h1 class="article-title">Supervisory Engineering Work</h1>
+      
+      <hr class="article-title-bottom">
+      <ul class="article-meta">
+        
+        <li class="article-meta-date"><time>October 23, 2026</time></li>
+        
+      </ul>
+      
+      <p>Automation is not new in software development. We&rsquo;ve been automating parts of our process for decades - build pipelines, testing, deployments. With AI, we&rsquo;re now able to automate work that previously required humans with specialised skills to do by hand - specifically, the writing of the code. In other words, AI is enabling us to automate a larger portion of the job that software engineers used to do themselves.</p>
+<p><em>This post is a companion to my opening keynote at <a href="https://www.agenticengineering.day/">Agentic Engineering Day</a> in Auckland on 22 October 2026, <a href="https://annievella.com/files/agentic-engineering-day-auckland-october-2026-the-accidental-rise-of-the-supervisory-engineer.pdf">The Accidental Rise of the Supervisory Engineer</a> (slides). I&rsquo;ll share the recording once it&rsquo;s available.</em></p>
+<p>As part of my <a href="https://arxiv.org/abs/2605.23135">Masters research</a> on the impact of AI on software engineering, I wanted to understand how AI might shift engineers&rsquo; focus across the common tasks that developers generally spend their time on when building software. What I found was a <em>creation-to-verification shift</em>, with engineers shifting their focus towards verification-based tasks such as testing and reviewing. I also saw evidence of a new kind of work emerging - <em>supervisory engineering work</em> - that I defined as directing AI, evaluating its output, and correcting it when it&rsquo;s wrong. I won&rsquo;t go into too much detail about that here as I&rsquo;ve already written about it in a <a href="https://annievella.com/posts/the-middle-loop/">previous blog post</a>, but the concept did seem to resonate with others, including <a href="https://martinfowler.com/fragments/2026-03-16.html">Martin Fowler</a> and <a href="https://www.thoughtworks.com/insights/blog/agile-engineering-practices/supervisory-engineering-orchestrating-software-middle-loop">Thoughtworks</a>.</p>
+<p>In this post, I&rsquo;ll make the case that supervisory engineering work is a new form of a much older concept - supervisory control - one that&rsquo;s been studied for decades and can tell us a lot about what this kind of job means for the people doing it.</p>
+<h2 id="its-not-the-same-job">It&rsquo;s not the same job</h2>
+<p>I often see <a href="https://www.oreilly.com/radar/the-world-needs-more-software-engineers/">people arguing</a> that AI has done the reverse of &ldquo;killing software engineering&rdquo; - that it has instead meant we need more software than ever before, which in turn means there&rsquo;s more demand for software engineers too. As they say, <a href="https://addyosmani.com/blog/the-efficiency-paradox/">Jevons Paradox</a> appears to be playing out exactly as predicted.</p>
+<p>That may well be true, but I think it misses an important point: with so much of it now automated, <strong>it isn&rsquo;t the same job any more</strong>. We may still call it &ldquo;software engineering&rdquo;, but the activities it&rsquo;s composed of, and how we spend our time on them, are materially different to what they were even just a couple of years ago. New activities require new skills, new training, new definitions of what good looks like, and new ways of hiring and growing people - to name a few. There&rsquo;s a lot to work through.</p>
+<p>This may help explain why this moment feels so disorienting for the software engineering community. For many, supervising AI is not the job they trained for, expected to do, or enjoy doing - and for some, it challenges the very <a href="https://annievella.com/posts/the-software-engineering-identity-crisis/">identity</a> they&rsquo;ve built their careers around. Yet, if they hope to remain employed as software engineers, they&rsquo;re being left little choice but to adapt.</p>
+<p>I believe it&rsquo;s time for our industry to recognise that the role of a software engineer has changed. We need to agree on what the job actually involves now and what it takes to do it well, and then adjust our expectations to match. For example, what does it really mean to hold engineers accountable for code they&rsquo;re less and less likely to have written, or even read?</p>
+<p>Fortunately for us, this isn&rsquo;t the first time that automation has changed a field. Many other jobs have been through the same in the past - just think of pilots, train drivers and factory operators. And researchers have been studying this for a long time.</p>
+<h2 id="supervisory-control-the-job-automation-leaves-behind">Supervisory control: the job automation leaves behind</h2>
+<p>That research falls under a field called <em>human factors</em> (or ergonomics), dedicated to exploring how humans and systems work together. The <a href="https://iea.cc/about/what-is-ergonomics/">International Ergonomics Association</a> formally defines it as:</p>
+<blockquote class="large-quote" style="font-size: 1.5em; margin: 30px 40px 0 40px">The scientific discipline concerned with the understanding of interactions among humans and other elements of a system, and the profession that applies theory, principles, data and methods to design in order to optimize human well-being and overall system performance.</blockquote>
+<p style="margin: 10px 40px 30px 40px; font-size: 0.8em;"><em>— International Ergonomics Association, 2000</em></p>
+<p>Human factors emerged during the Second World War, when airplanes were becoming faster and more complex than pilots could handle, which unfortunately resulted in planes crashing. Initially this was chalked up to &ldquo;pilot error&rdquo; but <a href="https://cognitivesciencesociety.org/building-better-cockpits/">later research</a> found &ldquo;design error&rdquo; to be an important factor. This in turn caused a change in the thinking: instead of training people to fit the machine, why not fit the machine to the person?</p>
+<p>The concept of <em>supervisory control</em> followed a couple of decades later, when computers were put to use between the human operator and the machine. Thomas Sheridan and his colleagues at MIT started working on it in the late 1960s and continued for several decades. In 1992, Sheridan <a href="https://mitpress.mit.edu/9780262515474/telerobotics-automation-and-human-supervisory-control/">defined it</a> as:</p>
+<blockquote class="large-quote" style="font-size: 1.5em; margin: 30px 40px 0 40px">In the strictest sense, supervisory control means that one or more human operators are intermittently programming and continually receiving information from a computer that itself closes an autonomous control loop through artificial effectors to the controlled process or task environment.</blockquote>
+<p style="margin: 10px 40px 30px 40px; font-size: 0.8em;"><em>— Thomas B. Sheridan, Telerobotics, Automation, and Human Supervisory Control, MIT Press, 1992</em></p>
+<p>In 1978, Sheridan and Verplank published a <a href="https://apps.dtic.mil/sti/citations/tr/ADA057655">long report</a> on undersea teleoperators (remotely controlled undersea robots) in which they explored supervisory control in depth, including the role of supervisors and different levels of automation - and this is where it starts to get really interesting. This report is nearly fifty years old, and yet it feels like it could have been written about what we&rsquo;re experiencing with the adoption of AI in software engineering. For example:</p>
+<figure style="text-align: center;">
+  <img src="/images/sheridan-1978-teleoperator-control.png" alt="Teleoperator Control - Sheridan & Verplank - Human and Computer Control of Undersea Teleoperators (1978)" style="max-width: 85%;">
+  <figcaption>Teleoperator Control - Sheridan & Verplank - Human and Computer Control of Undersea Teleoperators (1978)</figcaption>
+</figure>
+<p>The main difference between direct and supervisory control is that in the latter, there&rsquo;s a computer that closes the loop instead of a human operator. Before AI, writing software was much more like direct control - we closed the loop ourselves. We interpreted requirements, made changes to the code, received feedback and acted on it, over and over. Now, coding agents can increasingly close that loop themselves - writing code, running tests and fixing their own mistakes - while we move towards supervisory control: telling the agent what we want, keeping an eye on how it&rsquo;s going and taking over when we need to.</p>
+<p>They went on to describe the different roles a computer can play:</p>
+<figure style="text-align: center;">
+  <img src="/images/sheridan-1978-roles-of-computer.png" alt="Roles of Computer - Sheridan & Verplank - Human and Computer Control of Undersea Teleoperators (1978)" style="max-width: 85%;">
+  <figcaption>Roles of Computer - Sheridan & Verplank - Human and Computer Control of Undersea Teleoperators (1978)</figcaption>
+</figure>
+<p>What I really like about this figure is how it contrasts two different ways that humans and machines can split the load: <em>sharing</em> it and <em>trading</em> it. I&rsquo;d say our initial use of AI as a &ldquo;copilot&rdquo; was very much about sharing - working on the same task together, with the AI extending our reach or providing some relief, especially for toilsome tasks. AI agents, on the other hand, are much more about trading - we hand whole tasks over, and sometimes we don&rsquo;t take them back.</p>
+<p>So what does the supervisor actually do? Sheridan and Verplank described five roles - plan, command, monitor, intervene and trust - and when I put them alongside the components of supervisory engineering work from my research, they line up surprisingly well:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Supervisor role</th>
+          <th>What it involves</th>
+          <th>Supervisory engineering work</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Plan and command</strong></td>
+          <td>Weighing up possible next steps, then instructing the computer to carry them out</td>
+          <td><strong>Directing</strong> AI</td>
+      </tr>
+      <tr>
+          <td><strong>Monitor</strong></td>
+          <td>Observing its performance to detect problems</td>
+          <td><strong>Evaluating</strong> its output</td>
+      </tr>
+      <tr>
+          <td><strong>Intervene</strong></td>
+          <td>Anything from switching to a more manual mode to stopping or taking over altogether</td>
+          <td><strong>Correcting</strong> it when it&rsquo;s wrong</td>
+      </tr>
+      <tr>
+          <td><strong>Trust</strong></td>
+          <td>Having a basis for believing it will behave as intended</td>
+          <td><strong>Calibrating trust</strong>, which shapes how much we direct, evaluate and correct</td>
+      </tr>
+  </tbody>
+</table>
+<p>I&rsquo;d argue that supervisory engineering work is supervisory control applied to software development. And if I&rsquo;m right, there&rsquo;s a goldmine of research we can draw on.</p>
+<h2 id="levels-of-automation">Levels of automation</h2>
+<p>In the same report, Sheridan and Verplank described ten levels of automation in <em>&ldquo;man-computer decision-making&rdquo;</em>.</p>
+<figure style="text-align: center;">
+  <a href="/images/sheridan-1978-levels-of-automation.pdf" target="_blank" rel="noopener"><img src="/images/sheridan-1978-levels-of-automation.png" alt="Levels of Automation in Man-Computer Decision-Making - Sheridan & Verplank - Human and Computer Control of Undersea Teleoperators (1978)" style="max-width: 90%;"></a>
+  <figcaption>Levels of Automation in Man-Computer Decision-Making - Sheridan & Verplank - Human and Computer Control of Undersea Teleoperators (1978). Click to see the full table.</figcaption>
+</figure>
+<p>In it, they laid out the many ways humans and machines can share decisions, noting that there are more. Today&rsquo;s AI tools let us choose how much autonomy to give them, but I suspect that in most organisations, that choice is left to individuals - and tends to default to whatever the latest tool makes possible.</p>
+<p>By 1995, this list had been narrowed down to five distinct levels of automation in a <a href="https://journals.sagepub.com/doi/10.1518/001872095779064555">paper</a> by Mica Endsley and Esin Kiris, who used them to design experiments on how human performance is affected the further out of the loop people are. They used a simulated AI system - known as an &ldquo;expert system&rdquo; - which is why two of the levels mention AI. These five levels are easier to map to what we&rsquo;ve experienced over the last four years:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Level</th>
+          <th>Human</th>
+          <th>System</th>
+          <th>In AI-assisted software development</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>1. None</strong></td>
+          <td>Decide, act</td>
+          <td>-</td>
+          <td>No AI assistance</td>
+      </tr>
+      <tr>
+          <td><strong>2. Decision support</strong></td>
+          <td>Decide, act</td>
+          <td>Suggest</td>
+          <td>The early days of AI coding assistants&rsquo; autocomplete</td>
+      </tr>
+      <tr>
+          <td><strong>3. Consensual AI</strong></td>
+          <td>Concur</td>
+          <td>Decide, act</td>
+          <td>AI coding agents where you must approve the actions they take</td>
+      </tr>
+      <tr>
+          <td><strong>4. Monitored AI</strong></td>
+          <td>Veto</td>
+          <td>Decide, act</td>
+          <td>Auto-mode, with the ability to veto the coding agent&rsquo;s actions</td>
+      </tr>
+      <tr>
+          <td><strong>5. Full automation</strong></td>
+          <td>-</td>
+          <td>Decide, act</td>
+          <td>Full auto-mode, such as might be used in a dark software factory</td>
+      </tr>
+  </tbody>
+</table>
+<p style="text-align: center; font-size: 0.8em; margin-top: -15px; margin-bottom: 40px;"><em>Adapted from Endsley & Kiris - The Out-of-the-Loop Performance Problem and Level of Control in Automation (1995)</em></p>
+<p>There is one notable difference between the automation described by this prior research and the type of automation that AI agents give us. Both sets of levels assume that the computer&rsquo;s account of what it did is accurate and honest. As we all know by now, what an AI agent says it did and what it actually did may not be the same thing. Still, it&rsquo;s automation, and it still requires supervision - arguably more, since we can&rsquo;t simply take its word for it.</p>
+<p>Thinking about levels of automation like this allows us to more carefully define the role we expect software engineers to play. It also helps us understand the likely effects of increasing the level of automation on the people doing the work.</p>
+<h2 id="the-out-of-the-loop-performance-problem">The out-of-the-loop performance problem</h2>
+<p>In the same paper, Endsley and Kiris explored what they called the &ldquo;out-of-the-loop performance problem&rdquo; - what happens when automation fails and the human has to take over. They hypothesised that automation could erode both manual skills and situation awareness, making it harder for people to spot when something has gone wrong, or to do the task themselves should they need to. In this context, situation awareness - a concept Endsley developed herself - is defined as:</p>
+<blockquote class="large-quote" style="font-size: 1.5em; margin: 30px 40px 0 40px">The perception of elements in the environment within a volume of time and space, the comprehension of their meaning, and the projection of their status in the near future.</blockquote>
+<p style="margin: 10px 40px 30px 40px; font-size: 0.8em;"><em>— Mica R. Endsley, Design and Evaluation for Situation Awareness Enhancement, Proceedings of the Human Factors Society 32nd Annual Meeting, 1988</em></p>
+<p>Their experiments revealed several interesting findings. They found evidence of what they expected to see: situation awareness dropped as the level of automation increased. More specifically, while their perception of the system held steady, comprehension of the system dropped - in other words, operators could see what had changed but not what it meant.</p>
+<p>A potential explanation they had for this was the shift from active to passive information processing. When you actively work on something yourself, you build up and retain a deeper understanding of it than when you&rsquo;re simply reading about it. I remember experiencing this as a high school student many moons ago - when I studied for exams, I would rewrite the most important notes by hand because that was the best way for me to properly learn and remember it. Re-reading the material just didn&rsquo;t seem to stick.</p>
+<p>It&rsquo;s easy to see the parallels with software development here. When you write the code yourself, you build up a detailed mental model of the system because you had to actively create it. Conversely, when all you do is read code, it&rsquo;s much harder to reach that same level of understanding because reading is a far more passive mode of learning. Worse still, when you&rsquo;re only reviewing diffs, you&rsquo;re essentially attempting to reverse engineer a whole system from some change sets. Margaret-Anne Storey has written plenty about <a href="https://margaretstorey.com/blog/2026/02/09/cognitive-debt/">cognitive debt</a> (also in <a href="https://queue.acm.org/doi/10.1145/3807966">ACM Queue</a>), as has Addy Osmani, although he calls it <a href="https://addyosmani.com/blog/comprehension-debt/">comprehension debt</a>.</p>
+<p>Endsley and Kiris also found that human operators were slower at performing the task manually after a system breakdown, especially those who had been operating under full automation - though they still tended to make the right decisions. Surprisingly, workload did not appear to reduce, even at full automation, potentially due to an increase in monitoring load (sound familiar?). And, contrary to what they expected, operators who&rsquo;d had help from the expert system were more confident in their own problem-solving ability than those who&rsquo;d been working manually all along. Interestingly, I saw something similar around confidence in my own research, but I&rsquo;ll leave that for another post.</p>
+<h2 id="a-different-job-requires-a-different-system-around-it">A different job requires a different system around it</h2>
+<p>The biggest takeaway is that supervisory control - or supervisory engineering work, in our context - is a <em>different job</em>, and a different job requires a <em>different system around it</em>. We&rsquo;re shifting from a form of direct control to supervisory control, from cutting code ourselves to running agents to do it for us, but the way we build software is still largely designed around humans writing the code.</p>
+<p>Back in 1997, Raja Parasuraman and Victor Riley <a href="https://journals.sagepub.com/doi/10.1518/001872097778543886">warned</a> that when we automate without considering the impact on people, the operator&rsquo;s role becomes a <em>&ldquo;by-product of the automation&rdquo;</em>, and argued it should instead be <em>&ldquo;defined based on the operator&rsquo;s responsibilities and capabilities&rdquo;</em>.</p>
+<p><a href="https://www.complexcognition.co.uk/">Lisanne Bainbridge</a> saw this coming even earlier, in her seminal 1983 paper, <a href="https://www.complexcognition.co.uk/2021/06/ironies-of-automation.html">Ironies of Automation</a>, in which she described a job reduced to monitoring as <em>&ldquo;very boring but very responsible&rdquo;</em>, and <em>&ldquo;difficult for the individuals involved to come to terms with&rdquo;</em>.</p>
+<p>She also made a point about training that&rsquo;s easy to miss: <em>&ldquo;perhaps the final irony is that it is the most successful automated systems, with rare need for manual intervention, which may need the greatest investment in human operator training&rdquo;</em>. In other words, the better the automation gets, the less often we need to step in, and the less practice we get at the very skills we need when we do - taking over, working out what&rsquo;s gone wrong, and dealing with the unexpected.</p>
+<h2 id="redesigning-the-job-and-the-system">Redesigning the job and the system</h2>
+<p>So folks, we&rsquo;ve been here before, and if you&rsquo;re feeling disoriented, you&rsquo;re not alone and it isn&rsquo;t a personal failing. But thankfully, we have decades of human factors, supervisory control and automation research - far more than I&rsquo;ve been able to cover here - to help guide us through this rather unsettling time.</p>
+<p>As an industry, our next step must be to start <em>redesigning the job and the system</em>, in tandem. By this, I mean we should:</p>
+<ul>
+<li>Deliberately choose the level of automation to operate at, and for which types of work - deciding this helps us understand what we expect the human to do.</li>
+<li>Design system signals to support situation awareness - build our harnesses and software factories to surface just the right signals, at the right time, in the right way and at the right level of fidelity to support our comprehension of the state of the system without needing to &ldquo;review harder&rdquo;.</li>
+<li>Describe intervention requirements and mechanisms - explicitly set expectations about when and how humans should step in (from small adjustments to taking over) and what they&rsquo;re accountable for, then ensure the system is designed to support that.</li>
+<li>Prepare people for the job - invest in the skills and training that supervision demands, especially for the rare moments when they need to step in.</li>
+</ul>
+<p>In my next post, I&rsquo;ll explore how we can take this further. What if we stopped thinking of the SDLC as a process we follow, and instead started thinking of it as a control system we build and supervise?</p>
+    </article>
+
+    
+
+
+    
+    <ul class="pager article-pager">
+      <li class="pager-newer pager-noitem">&lt; Newer</li>
+      <li class="pager-older">
+        <a href="/posts/verification-without-inspection/" data-toggle="tooltip" data-placement="top" title="Verification Without Inspection">Older &gt;</a>
+      </li>
+    </ul>
+    
+  </div>
+
+
+<div class="site-footer">
+  <div class="copyright">© 2023-2026 Annie Vella</div>
+  <ul class="site-footer-items">
+    <li class="site-footer-item-about"><a href="/about/" title="About">About</a></li>
+  </ul>
+  <div class="powerdby">
+    Powered by <a href="https://gohugo.io/">Hugo</a> and <a href="https://github.com/taikii/whiteplain">Whiteplain</a>
+  </div>
+</div>
+
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-STYW83D479"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-STYW83D479');
+        }
+      </script>
+
+</body>
+</html>

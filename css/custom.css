@@ -36,3 +36,28 @@ figcaption {
         padding-left: 0 !important;
     }
 }
+
+.article > table {
+    margin: 30px auto;
+}
+
+.article > table th, .article > table td {
+    padding: 8px 12px;
+}
+
+/* Keep row labels on one line where there's room; let them wrap on phones */
+@media screen and (min-width: 769px) {
+    .article > table th:first-child, .article > table td:first-child {
+        white-space: nowrap;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .article > table {
+        width: 100%;
+        font-size: 0.85em;
+    }
+    .article > table th, .article > table td {
+        padding: 6px 8px;
+    }
+}
